@@ -10,7 +10,8 @@ appId: com.daifallah.itil5foundation
 - tapOn:
     id: "tab-exam"
 - tapOn: "Start exam \\(60 minutes\\)"
-- assertVisible: "⏱ (1:00:00|59:5\\d)"
+# The timer is exposed to VoiceOver/Maestro via its accessibility label "Time remaining m:ss"
+- assertVisible: "Time remaining (1:00:00|59:[0-5]\\d)"
 - assertVisible: "Q 1 / 40"
 - assertVisible: "0 answered · 0 flagged"
 - takeScreenshot: 02-exam-start

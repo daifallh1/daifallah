@@ -31,7 +31,9 @@ export function HomeScreen() {
   return (
     <Screen>
       <H1>ITIL Foundation (Version 5)</H1>
-      <Ui k="translate.hint" />
+      <TrText ar="اضغط على النص الإنجليزي (أو زر «ع») لعرض الترجمة العربية. لا يتم اختيار الإجابة إلا بالضغط على منطقة الاختيار A/B/C/D على اليسار.">
+        Tap the English text (or the ع button) to see the Arabic translation. Answers are selected only with the A/B/C/D control on the left.
+      </TrText>
       {activeSession && <Card><P>An exam is in progress.</P><Button kind="primary" title="Resume" onPress={() => nav.navigate("Tabs", { screen: "Exam" })} /></Card>}
       <Card><Text style={{ fontWeight: "700", fontSize: 17 }} onPress={() => nav.navigate("Tabs", { screen: "Exam" })}>Full Exam</Text><P muted>40 questions · 60 minutes · pass 26/40</P></Card>
       <Card><Text style={{ fontWeight: "700", fontSize: 17 }} onPress={() => nav.navigate("Mistakes")}>Mistakes-Only Practice</Text><P muted>Only questions you previously missed.</P></Card>
