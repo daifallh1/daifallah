@@ -13,6 +13,37 @@ The iPhone app (`apps/ios`, Expo SDK 52 / React Native 0.76.9, Hermes, New Archi
 | Offline | Question bank, Arabic overlay, explanations and audit data are compiled into `main.jsbundle`. Progress is stored on the device in AsyncStorage |
 | Signing | None (`CODE_SIGNING_ALLOWED=NO`). `_CodeSignature` is removed before packaging |
 
+## Verified build (2026-11-22)
+
+| Item | Value |
+|---|---|
+| File | `ITILv5Practice-1.0.0-1-unsigned.ipa` (4,638,803 bytes) |
+| **SHA-256** | **`1511649bdf58b5af28cbffeeea8ffcd9b119f6dbafe766823548875036e844e1`** |
+| Built by | GitHub Actions run #4 (`45069728972`), job "Build unsigned IPA", macOS 15 runner, **Xcode 16.4 (16F6), iphoneos18.5 SDK** |
+| Source commit | `bc7d6c6637da3a5de2e48a377b63529e7110f847` |
+| Artifact | `ITILv5Practice-unsigned-ipa` (id 14773591357; GitHub zip digest `sha256:35ae7deb…a5f5ad`), expires 2026-12-22 |
+| Bank | `1.0.0+32721183c4e52e10` |
+
+Verification by `build-ipa.sh` on the runner: **17/17 PASS**. That covers the bundle ID; the Hermes `main.jsbundle` and `hermes.framework` being embedded; an arm64 Mach-O; the question bank, Arabic, explanations and review UI being present in the bundle; quarantined Q195 excluded; assets bundled; no dev client; unsigned; minimum iOS 15.1; the IPA layout.
+
+Independent re-inspection after downloading the artifact (Linux, Python):
+- The checksum matches.
+- Info.plist: `com.daifallah.itil5foundation`, 1.0.0 (1), minimum iOS 15.1, iPhone and iPad.
+- No `_CodeSignature`, no `embedded.mobileprovision`.
+- **276/276** exam-eligible questions have their verbatim stem and all 4 options in the shipped bundle.
+- **266/266** source explanations are present.
+- **276/276** have Arabic for the stem, all options and the explanation.
+
+### Native Simulator evidence
+
+Recorded on run #3 (commit `8677097`). That commit is functionally identical to the final build; run #4 only added a "Back" header label and two extra test steps. The same Release configuration was built for the iOS Simulator and run on an **iPhone 17 Pro Simulator** with no Metro or dev server:
+- **Launch smoke test passed**: the app was still running after 30 s with no fatal JS or native errors in the device log.
+- **Maestro native UI flow** passed: home screen, Exam tab, start exam, timer, Q 1/40, tap option text shows Arabic while "0 answered" stays unchanged, the select zone answers ("1 answered"), flag, next, navigator, submit confirmation ("39 question(s) unanswered."), result `N / 40` with PASS/FAIL, open the wrong-answer review.
+- It stopped at the last assertion only because the explanation was below the fold. The flow now scrolls to it.
+- The run #4 simulator job, which would have rerun the full flow, was **cancelled externally during compilation** and did not complete.
+
+Screenshots: `docs/screenshots/ios-simulator/`.
+
 ## Option A: cloud build (GitHub Actions, macOS runner)
 
 Workflow: `.github/workflows/ios-ipa.yml`. It runs on pushes to `claude/new-session-10ztde` that touch the app or shared packages, or manually (`workflow_dispatch`).
