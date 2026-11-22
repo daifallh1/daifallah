@@ -42,5 +42,12 @@ appId: com.daifallah.itil5foundation
 - takeScreenshot: 05-result
 - tapOn: "Review wrong answers.*"
 - assertVisible: ".*incorrect or unanswered item.*"
-- assertVisible: "Source explanation"
+- scrollUntilVisible:
+    element: "Source explanation"
+    direction: DOWN
+    timeout: 20000
 - takeScreenshot: 06-review
+# Arabic on demand inside wrong-answer review
+- tapOn: "Source explanation"
+- assertVisible: "الشرح من المصدر"
+- takeScreenshot: 07-review-arabic

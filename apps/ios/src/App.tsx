@@ -32,7 +32,7 @@ export default function App() {
       <StoreProvider>
         <NavigationContainer theme={scheme === "dark" ? DarkTheme : DefaultTheme}>
           <Stack.Navigator>
-            <Stack.Screen name="Tabs" component={TabsNav} options={{ headerShown: false }} />
+            <Stack.Screen name="Tabs" component={TabsNav} options={{ headerShown: false, title: "Back" }} />
             <Stack.Screen name="Results" component={ResultsScreen} options={{ title: "Result" }} />
             <Stack.Screen name="Mistakes" component={MistakesScreen} options={{ title: "Mistakes-Only Practice" }} />
             <Stack.Screen name="Audit" component={AuditScreen} options={{ title: "Import Audit" }} />
