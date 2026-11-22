@@ -1,0 +1,106 @@
+name: iOS unsigned IPA + simulator smoke
+
+# Builds the real React Native iOS app on a macOS runner with Xcode, packages an UNSIGNED .ipa for
+# re-signing by the owner's third-party signing service, and runs a native Simulator smoke/UI test.
+# No Apple certificates, keys, provisioning profiles or other secrets are used.
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/new-session-10ztde]
+    paths:
+      - "apps/ios/**"
+      - "packages/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/ios-ipa.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-ipa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ipa:
+    name: Build unsigned IPA (Release, arm64)
+    runs-on: macos-15
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Select Xcode
+        run: bash apps/ios/scripts/select-xcode.sh
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Pre-build checks (shared logic tests, iOS typecheck)
+        run: |
+          npm test -w @itil5/core
+          npm run typecheck -w @itil5/ios
+      - name: Build, verify and package unsigned IPA
+        run: bash apps/ios/scripts/build-ipa.sh "$RUNNER_TEMP/ipa"
+      - name: Show verification
+        if: always()
+        run: cat "$RUNNER_TEMP/ipa/verification.txt" || true
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: ITILv5Practice-unsigned-ipa
+          path: |
+            ${{ runner.temp }}/ipa/*.ipa
+            ${{ runner.temp }}/ipa/*.sha256
+            ${{ runner.temp }}/ipa/build-info.json
+            ${{ runner.temp }}/ipa/verification.txt
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Upload build logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ipa-build-logs
+          path: ${{ runner.temp }}/ipa/*.log
+          retention-days: 14
+          if-no-files-found: ignore
+
+  simulator:
+    name: Simulator launch + Maestro UI flow (Release build)
+    runs-on: macos-15
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Select Xcode
+        run: bash apps/ios/scripts/select-xcode.sh
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Install Maestro CLI
+        run: |
+          curl -fsSL "https://get.maestro.mobile.dev" | bash
+          echo "$HOME/.maestro/bin" >> "$GITHUB_PATH"
+      - name: Build for simulator, launch, smoke test, UI flow
+        run: bash apps/ios/scripts/simulator-smoke.sh "$RUNNER_TEMP/sim"
+      - name: Upload simulator evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: simulator-smoke-evidence
+          path: |
+            ${{ runner.temp }}/sim/*.png
+            ${{ runner.temp }}/sim/*.txt
+            ${{ runner.temp }}/sim/*.log
+            ${{ runner.temp }}/sim/*.xml
+            ${{ runner.temp }}/sim/maestro/**
+            ${{ runner.temp }}/sim/*.zip
+          retention-days: 14
+          if-no-files-found: ignore

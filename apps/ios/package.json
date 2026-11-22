@@ -5,13 +5,15 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "ios": "expo start --ios",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit",
     "test": "echo 'shared logic is tested in @itil5/core; run npm run export:ios to compile the iOS bundle'",
     "export:ios": "expo export --platform ios --output-dir dist/ios",
-    "export:web": "expo export --platform web --output-dir dist/web"
+    "export:web": "expo export --platform web --output-dir dist/web",
+    "build:ipa": "bash scripts/build-ipa.sh",
+    "smoke:simulator": "bash scripts/simulator-smoke.sh"
   },
   "dependencies": {
     "@expo/metro-runtime": "4.0.1",

@@ -1,0 +1,45 @@
+# Native UI flow on the iOS Simulator (Release build, embedded bundle, no dev server).
+appId: com.daifallah.itil5foundation
+---
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible: "ITIL Foundation \\(Version 5\\)"
+    timeout: 30000
+- takeScreenshot: 01-home
+- tapOn:
+    id: "tab-exam"
+- tapOn: "Start exam \\(60 minutes\\)"
+- assertVisible: "⏱ (1:00:00|59:5\\d)"
+- assertVisible: "Q 1 / 40"
+- assertVisible: "0 answered · 0 flagged"
+- takeScreenshot: 02-exam-start
+# Tap the English option text: Arabic appears and NO answer is selected
+- tapOn:
+    id: "option-text-A"
+- assertVisible:
+    id: "option-text-A-ar"
+- assertVisible: "0 answered · 0 flagged"
+- takeScreenshot: 03-arabic-tap
+# Tap the separate select zone: the answer is selected
+- tapOn:
+    id: "select-A"
+- assertVisible: "1 answered · 0 flagged"
+- tapOn: "⚐ Flag"
+- assertVisible: "1 answered · 1 flagged"
+- tapOn: "Next ›"
+- assertVisible: "Q 2 / 40"
+- tapOn: "☰ All"
+- assertVisible: "Question navigator"
+- takeScreenshot: 04-navigator
+- tapOn: "Submit exam…"
+- assertVisible: "Submit exam\\?"
+- assertVisible: "39 question\\(s\\) unanswered\\."
+- tapOn: "Submit now"
+- assertVisible: "\\d+ / 40"
+- assertVisible: "(PASS|FAIL)"
+- takeScreenshot: 05-result
+- tapOn: "Review wrong answers.*"
+- assertVisible: ".*incorrect or unanswered item.*"
+- assertVisible: "Source explanation"
+- takeScreenshot: 06-review

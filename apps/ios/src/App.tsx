@@ -16,11 +16,11 @@ const icon = (g: string) => ({ color }: { color: string }) => <Text style={{ col
 function TabsNav() {
   return (
     <Tabs.Navigator screenOptions={{ tabBarLabelStyle: { fontSize: 12 } }}>
-      <Tabs.Screen name="Home" component={HomeScreen} options={{ title: "Home", tabBarIcon: icon("⌂") }} />
-      <Tabs.Screen name="Exam" component={ExamScreen} options={{ title: "Exam", tabBarIcon: icon("⏱") }} />
-      <Tabs.Screen name="Study" component={StudyScreen} options={{ title: "Study", tabBarIcon: icon("✎") }} />
-      <Tabs.Screen name="Review" component={ReviewScreen} options={{ title: "Review", tabBarIcon: icon("✗") }} />
-      <Tabs.Screen name="Progress" component={ProgressScreen} options={{ title: "Progress", tabBarIcon: icon("▤") }} />
+      <Tabs.Screen name="Home" component={HomeScreen} options={{ title: "Home", tabBarButtonTestID: "tab-home", tabBarIcon: icon("⌂") }} />
+      <Tabs.Screen name="Exam" component={ExamScreen} options={{ title: "Exam", tabBarButtonTestID: "tab-exam", tabBarIcon: icon("⏱") }} />
+      <Tabs.Screen name="Study" component={StudyScreen} options={{ title: "Study", tabBarButtonTestID: "tab-study", tabBarIcon: icon("✎") }} />
+      <Tabs.Screen name="Review" component={ReviewScreen} options={{ title: "Review", tabBarButtonTestID: "tab-review", tabBarIcon: icon("✗") }} />
+      <Tabs.Screen name="Progress" component={ProgressScreen} options={{ title: "Progress", tabBarButtonTestID: "tab-progress", tabBarIcon: icon("▤") }} />
     </Tabs.Navigator>
   );
 }

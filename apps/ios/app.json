@@ -7,14 +7,28 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "platforms": ["ios", "web"],
-    "splash": { "backgroundColor": "#1f5fbf" },
+    "platforms": [
+      "ios",
+      "web"
+    ],
+    "splash": {
+      "backgroundColor": "#1f5fbf",
+      "image": "./assets/icon.png",
+      "resizeMode": "contain"
+    },
     "ios": {
-      "bundleIdentifier": "com.example.itil5practice",
+      "bundleIdentifier": "com.daifallah.itil5foundation",
       "supportsTablet": true,
       "buildNumber": "1",
-      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDevelopmentRegion": "en",
+        "CFBundleAllowMixedLocalizations": true
+      }
     },
-    "web": { "bundler": "metro", "output": "single" }
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
   }
 }
