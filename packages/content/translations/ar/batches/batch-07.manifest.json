@@ -1,0 +1,1025 @@
+{
+ "batch": 7,
+ "items": {
+  "001": {
+   "key": "t39786940421a8ddbbf77",
+   "en": "Ignore all customer opinions until the very end.",
+   "kind": "B",
+   "ordinal": 236
+  },
+  "002": {
+   "key": "t15e5eb10b800e17e3b9b",
+   "en": "Detect and respond to failures earlier",
+   "kind": "C",
+   "ordinal": 236
+  },
+  "003": {
+   "key": "tfdf68b27b05731a49ffd",
+   "en": "Ensure that the project plan never changes.",
+   "kind": "D",
+   "ordinal": 236
+  },
+  "004": {
+   "key": "t3b6a1f87b934d8d923b8",
+   "en": "Working in small chunks with feedback loops makes the organization more flexible and higher quality.",
+   "kind": "E",
+   "ordinal": 236
+  },
+  "005": {
+   "key": "t90fa81d1b2e094e68f25",
+   "en": "Which statement BEST describes a recommendation of the \"Keep it simple and practical\" principle?",
+   "kind": "Q",
+   "ordinal": 237
+  },
+  "006": {
+   "key": "tb5f5b9463369bfbfa97a",
+   "en": "Design a unique solution for every possible exception to ensure complete coverage.",
+   "kind": "A",
+   "ordinal": 237
+  },
+  "007": {
+   "key": "t744332d190d0fe7ac713",
+   "en": "If a process, product, or metric fails to increase value or produce a useful outcome, eliminate it.",
+   "kind": "B",
+   "ordinal": 237
+  },
+  "008": {
+   "key": "ted5a85f847a2d2adb77a",
+   "en": "Prioritize complex technical features over outcome-based thinking to ensure sophistication.",
+   "kind": "C",
+   "ordinal": 237
+  },
+  "009": {
+   "key": "t45a645f5f2fb9582382e",
+   "en": "Focus only on the needs of technical staff when designing rules to handle exceptions.",
+   "kind": "D",
+   "ordinal": 237
+  },
+  "010": {
+   "key": "t829ed5139c585476c199",
+   "en": "The \"Keep it simple and practical\" principle emphasizes outcome-based thinking. If a component (process, product, service, action, or metric) does not contribute to value or a useful outcome, it should be eliminated rather than maintained. It also warns that trying to provide a solution for every exception leads to over-complication.",
+   "kind": "E",
+   "ordinal": 237
+  },
+  "011": {
+   "key": "t741913a66a10d3349c34",
+   "en": "What is the MAIN purpose of the \"discover\" activity?",
+   "kind": "Q",
+   "ordinal": 238
+  },
+  "012": {
+   "key": "t43a3e76e2d4337942865",
+   "en": "To secure and allocate resources efficiently",
+   "kind": "B",
+   "ordinal": 238
+  },
+  "013": {
+   "key": "te755a582ddbe8be1e47a",
+   "en": "The main purpose of the \"discover\" activity \"is to ensure continual alignment of the product roadmaps and related service offerings with the needs of service consumers and with the organizational strategy.\" Ref 4.2.1",
+   "kind": "E",
+   "ordinal": 238
+  },
+  "014": {
+   "key": "t1dffdaf2e3d1991a2fe5",
+   "en": "Which of the following is NOT a success metric of ‘Discover’ activity?",
+   "kind": "Q",
+   "ordinal": 239
+  },
+  "015": {
+   "key": "tf4e136fecbb1a420c490",
+   "en": "“Service performance and user feedback records and reports” is part of the ‘Deliver’ activity. The key metrics of success of the ‘Discover’ activity are: Strategic fit of the organization’s products and service offerings; market relevance of the products and service offerings; stakeholder satisfaction with products and service offerings; commercial success of the products (if applicable). Ref 4.8.2, Table 4.7, 4.2.2, Table 4.1",
+   "kind": "E",
+   "ordinal": 239
+  },
+  "016": {
+   "key": "t1669d58854fa7c91c69d",
+   "en": "\"The purpose of the ‘support’ activity is to identify and resolve incidents, fulfill disaster recovery procedures, and capture consumer’s feedback.\" Ref 4.9.1",
+   "kind": "E",
+   "ordinal": 240
+  },
+  "017": {
+   "key": "t51fc6969c0da2b8938c3",
+   "en": "What is an \"Operating Model\"?",
+   "kind": "Q",
+   "ordinal": 241
+  },
+  "018": {
+   "key": "tefd0f53f63aacb062972",
+   "en": "A physical prototype of a machine.",
+   "kind": "A",
+   "ordinal": 241
+  },
+  "019": {
+   "key": "t98a27da7354232d9b6b4",
+   "en": "A visual representation of how an organization co-creates value and runs itself",
+   "kind": "B",
+   "ordinal": 241
+  },
+  "020": {
+   "key": "tb3fd2c610d39f521be7e",
+   "en": "A list of all software licenses owned by the company.",
+   "kind": "C",
+   "ordinal": 241
+  },
+  "021": {
+   "key": "t4ea4685a01dbb68b80f5",
+   "en": "The legal document that incorporates a business.",
+   "kind": "D",
+   "ordinal": 241
+  },
+  "022": {
+   "key": "ta504250b5b710d9598cf",
+   "en": "It shows the \"big picture\" of how people, processes, and technology work together to deliver value.",
+   "kind": "E",
+   "ordinal": 241
+  },
+  "023": {
+   "key": "tf45da916234355907ed6",
+   "en": "What is a \"Product Prototype\"?",
+   "kind": "Q",
+   "ordinal": 242
+  },
+  "024": {
+   "key": "t6601a22f2f330d7e0cd5",
+   "en": "A finished product ready for mass market.",
+   "kind": "A",
+   "ordinal": 242
+  },
+  "025": {
+   "key": "t3ef004f4fef37cf6776f",
+   "en": "A technical manual for an old system.",
+   "kind": "B",
+   "ordinal": 242
+  },
+  "026": {
+   "key": "t2b19495c5b2d02b70d22",
+   "en": "An initial version used to test design, functionality, and hypotheses",
+   "kind": "C",
+   "ordinal": 242
+  },
+  "027": {
+   "key": "t8738434af916f1666a50",
+   "en": "A legal contract with a supplier.",
+   "kind": "D",
+   "ordinal": 242
+  },
+  "028": {
+   "key": "t3b94e860109344a43975",
+   "en": "Prototypes are used during the \"Design\" activity to refine ideas before full building starts.",
+   "kind": "E",
+   "ordinal": 242
+  },
+  "029": {
+   "key": "t07b7bc8d0b294598b0a4",
+   "en": "Which activity transforms solution designs into functional digital products?",
+   "kind": "Q",
+   "ordinal": 243
+  },
+  "030": {
+   "key": "t0ca0260248174401e49b",
+   "en": "\"Build\" is the development and integration phase of the lifecycle.",
+   "kind": "E",
+   "ordinal": 243
+  },
+  "031": {
+   "key": "tc529b86b65f0294656b7",
+   "en": "Which value chain activity moves built products into the live environment?",
+   "kind": "Q",
+   "ordinal": 244
+  },
+  "032": {
+   "key": "t5d4e019b4ad84f1448fa",
+   "en": "Transition ensures products are ready for operation and service delivery.",
+   "kind": "E",
+   "ordinal": 244
+  },
+  "033": {
+   "key": "t637e7a78c9b4f59c0acf",
+   "en": "What is an \"Incident\"?",
+   "kind": "Q",
+   "ordinal": 245
+  },
+  "034": {
+   "key": "t526ef01476e7e13b0f1b",
+   "en": "A planned maintenance window.",
+   "kind": "A",
+   "ordinal": 245
+  },
+  "035": {
+   "key": "t47449918cc622b645056",
+   "en": "A user asking for a new password.",
+   "kind": "B",
+   "ordinal": 245
+  },
+  "036": {
+   "key": "t1d52f2ffa6ac6b1193ab",
+   "en": "An unplanned interruption to or reduction in the quality of a service",
+   "kind": "C",
+   "ordinal": 245
+  },
+  "037": {
+   "key": "t65c3888b7f727acff670",
+   "en": "A change in the company's CEO.",
+   "kind": "D",
+   "ordinal": 245
+  },
+  "038": {
+   "key": "t8990b11df85083b6690b",
+   "en": "Incidents are failures that need to be resolved by the \"Support\" activity.",
+   "kind": "E",
+   "ordinal": 245
+  },
+  "039": {
+   "key": "taf94580133fbc3277040",
+   "en": "Which activity focuses on fulfilling service requests and managing user onboarding?",
+   "kind": "Q",
+   "ordinal": 246
+  },
+  "040": {
+   "key": "t66aa87b5e4e066245352",
+   "en": "\"Deliver\" is the user-facing activity that ensures services are provided according to SLAs.",
+   "kind": "E",
+   "ordinal": 246
+  },
+  "041": {
+   "key": "t7ed1c3c3d92681f036f8",
+   "en": "What is \"Observability\" in the context of the \"Operate\" activity?",
+   "kind": "Q",
+   "ordinal": 247
+  },
+  "042": {
+   "key": "t85a4154bf7a3f49b48ab",
+   "en": "Watching employees to make sure they are working.",
+   "kind": "A",
+   "ordinal": 247
+  },
+  "043": {
+   "key": "t0b1c3172f1b0a367b236",
+   "en": "Understanding a system's internal state by analyzing external outputs (logs, traces)",
+   "kind": "B",
+   "ordinal": 247
+  },
+  "044": {
+   "key": "tdb70b42a9a278dfb6e10",
+   "en": "Reading the newspaper to see what competitors are doing.",
+   "kind": "C",
+   "ordinal": 247
+  },
+  "045": {
+   "key": "t7f8de9cadcc24feebc0f",
+   "en": "Checking the physical temperature of the server room.",
+   "kind": "D",
+   "ordinal": 247
+  },
+  "046": {
+   "key": "t8190cc2d21a937efecb4",
+   "en": "It allows operations teams to understand complex systems without needing to take them apart.",
+   "kind": "E",
+   "ordinal": 247
+  },
+  "047": {
+   "key": "t545799b44153320a6e88",
+   "en": "What is a \"Problem\" in ITIL?",
+   "kind": "Q",
+   "ordinal": 248
+  },
+  "048": {
+   "key": "te16385a9d9b5770281ed",
+   "en": "A customer who refuses to pay their bill.",
+   "kind": "B",
+   "ordinal": 248
+  },
+  "049": {
+   "key": "t5d08124bedec98c7cebf",
+   "en": "A software update that adds new features.",
+   "kind": "C",
+   "ordinal": 248
+  },
+  "050": {
+   "key": "t4e88a17424df505bf643",
+   "en": "A project that is behind schedule.",
+   "kind": "D",
+   "ordinal": 248
+  },
+  "051": {
+   "key": "t96e650f181bb1379d4ec",
+   "en": "Support teams investigate incidents to find the underlying \"problem\" (cause) to prevent future failures.",
+   "kind": "E",
+   "ordinal": 248
+  },
+  "052": {
+   "key": "t78682fb0fa8702c24f87",
+   "en": "What is the definition of a \"Known Error\" in ITIL?",
+   "kind": "Q",
+   "ordinal": 249
+  },
+  "053": {
+   "key": "tb4d6d2ca3a5d92c566e9",
+   "en": "A flaw or vulnerability that may cause incidents",
+   "kind": "A",
+   "ordinal": 249
+  },
+  "054": {
+   "key": "t367abea4f81b073a6e43",
+   "en": "A problem that has been analysed but has not been resolved",
+   "kind": "B",
+   "ordinal": 249
+  },
+  "055": {
+   "key": "t123abe2d7ed1d7b80c43",
+   "en": "A sudden unplanned event that causes serious loss to an organization",
+   "kind": "C",
+   "ordinal": 249
+  },
+  "056": {
+   "key": "t4c92aafe8f49d9901129",
+   "en": "The cause, or potential cause, of one or more incidents.",
+   "kind": "D",
+   "ordinal": 249
+  },
+  "057": {
+   "key": "tcd6749fe9d3d2713305e",
+   "en": "A Known Error is specifically defined as a problem that has undergone analysis but remains unresolved. This distinguishes it from a generic Problem (the cause of incidents) or an Error (a flaw that may cause incidents).",
+   "kind": "E",
+   "ordinal": 249
+  },
+  "058": {
+   "key": "tb76674270d6289c6282f",
+   "en": "Which term describes ‘what an organization does for its consumers and other stakeholders and why’?",
+   "kind": "Q",
+   "ordinal": 250
+  },
+  "059": {
+   "key": "tb2e3ae35d07ae5083377",
+   "en": "Option A is incorrect. ‘Value stream’ is a term for “a series of steps that an organization uses to create and deliver products and services to a service consumer.” Ref 6.1\nOption B is incorrect. The ‘Value chain’ enables and supports the value streams, in addition, “continual improvement of value streams is achieved indirectly by improving the value chain and the management practices.” Ref 6.4\nOption C is incorrect. The operating model is a “conceptual and/or visual representation of how an organization co-creates value with its customers and other stakeholders, as well as how the organization runs itself.” Ref Glossary\nOption D is correct. An organization’s purpose is “what an organization does for its consumers and other stakeholders and why.” Ref 5.4.1",
+   "kind": "E",
+   "ordinal": 250
+  },
+  "060": {
+   "key": "t16c920b8506b0e344b28",
+   "en": "“Value stream mapping includes the following steps: value stream identification; mapping of the ‘as-is’ value stream; analysing the value stream; mapping a ‘to-be’ value stream; planning and implementing improvements.” Ref 6.3, Glossary",
+   "kind": "E",
+   "ordinal": 251
+  },
+  "061": {
+   "key": "tf1e39d08e74072cbc22f",
+   "en": "Value stream mapping \"allows organizations to identify, map, and analyse their value streams, as well as identify and prioritize improvement opportunities.\" Ref 6.4",
+   "kind": "E",
+   "ordinal": 252
+  },
+  "062": {
+   "key": "te889a59556c11c754aff",
+   "en": "What is a \"Value Stream\"?",
+   "kind": "Q",
+   "ordinal": 253
+  },
+  "063": {
+   "key": "t3caddce7378af88cb8eb",
+   "en": "A fast-moving river used for power generation.",
+   "kind": "A",
+   "ordinal": 253
+  },
+  "064": {
+   "key": "t6ed486f539d25a7ed191",
+   "en": "A series of steps an organization uses to create and deliver products/services",
+   "kind": "B",
+   "ordinal": 253
+  },
+  "065": {
+   "key": "t947d6de7f3ccde140634",
+   "en": "A list of high-value customers.",
+   "kind": "C",
+   "ordinal": 253
+  },
+  "066": {
+   "key": "td5fea8d89aa9591fcb8f",
+   "en": "The total revenue generated in one month.",
+   "kind": "D",
+   "ordinal": 253
+  },
+  "067": {
+   "key": "tf5aa0a6141be8b3adea0",
+   "en": "It represents the actual end-to-end workflow used to deliver value.",
+   "kind": "E",
+   "ordinal": 253
+  },
+  "068": {
+   "key": "ta4e6202efeb8d0d7d718",
+   "en": "What is the purpose of \"Value Stream Mapping\"?",
+   "kind": "Q",
+   "ordinal": 254
+  },
+  "069": {
+   "key": "tf2bb08ed58d9d9015c1b",
+   "en": "To visualize and analyze the flow of work and information to improve quality",
+   "kind": "A",
+   "ordinal": 254
+  },
+  "070": {
+   "key": "tda0e3679152c4ecee436",
+   "en": "To create a map of the office building.",
+   "kind": "B",
+   "ordinal": 254
+  },
+  "071": {
+   "key": "ta38c80a037bf68a9e230",
+   "en": "To track the GPS location of delivery trucks.",
+   "kind": "C",
+   "ordinal": 254
+  },
+  "072": {
+   "key": "te32633972097b2ac3ab9",
+   "en": "To draw a diagram of the computer network.",
+   "kind": "D",
+   "ordinal": 254
+  },
+  "073": {
+   "key": "t8c336544e796c03c3a3b",
+   "en": "Mapping helps clarify how value is created and identifies waste in the process.",
+   "kind": "E",
+   "ordinal": 254
+  },
+  "074": {
+   "key": "t2cc0168c4464cba7b704",
+   "en": "Which of these is a \"Core Value Stream\"?",
+   "kind": "Q",
+   "ordinal": 255
+  },
+  "075": {
+   "key": "td8eb8859095c7665f314",
+   "en": "A process for internal employee payroll.",
+   "kind": "A",
+   "ordinal": 255
+  },
+  "076": {
+   "key": "tbd53d664fc166cc563b5",
+   "en": "A stream that enables value for consumers as intended by the operating model",
+   "kind": "B",
+   "ordinal": 255
+  },
+  "077": {
+   "key": "t71968f4897540e8fd7c2",
+   "en": "The procedure for cleaning the office.",
+   "kind": "C",
+   "ordinal": 255
+  },
+  "078": {
+   "key": "tfbabb2f7bf688b067862",
+   "en": "A training program for internal staff.",
+   "kind": "D",
+   "ordinal": 255
+  },
+  "079": {
+   "key": "t4c61346b1f1b6c1a341b",
+   "en": "Core streams are the ones directly delivering the organization's primary products/services to external customers.",
+   "kind": "E",
+   "ordinal": 255
+  },
+  "080": {
+   "key": "tc5b024ab1e5ab87c3281",
+   "en": "What is an \"Enabling Value Stream\"?",
+   "kind": "Q",
+   "ordinal": 256
+  },
+  "081": {
+   "key": "t6ea681fb4c25977f86dd",
+   "en": "A stream that generates the most profit.",
+   "kind": "A",
+   "ordinal": 256
+  },
+  "082": {
+   "key": "tb220a1a12fd9cd9463e7",
+   "en": "A stream that is only used once a year.",
+   "kind": "B",
+   "ordinal": 256
+  },
+  "083": {
+   "key": "t508a7515faea62289178",
+   "en": "A stream that requires no technology.",
+   "kind": "C",
+   "ordinal": 256
+  },
+  "084": {
+   "key": "tdbb3792f1d610a5986ad",
+   "en": "A stream that enables value for internal customers to support core streams",
+   "kind": "D",
+   "ordinal": 256
+  },
+  "085": {
+   "key": "t11fbd5b3848728c4b8a5",
+   "en": "These are supporting workflows, like internal IT support, that allow the core business to function.",
+   "kind": "E",
+   "ordinal": 256
+  },
+  "086": {
+   "key": "t0a1adadfbf37062eb3ca",
+   "en": "In value stream mapping, what is \"as-is\" mapping?",
+   "kind": "Q",
+   "ordinal": 257
+  },
+  "087": {
+   "key": "t8a24d26949535437bbb7",
+   "en": "Designing a perfect future process.",
+   "kind": "A",
+   "ordinal": 257
+  },
+  "088": {
+   "key": "taefcb3a420381d9c5c08",
+   "en": "Documenting the current state of the workflow as it actually exists",
+   "kind": "B",
+   "ordinal": 257
+  },
+  "089": {
+   "key": "t3521024b212d468ca308",
+   "en": "Guessing how the process worked ten years ago.",
+   "kind": "C",
+   "ordinal": 257
+  },
+  "090": {
+   "key": "t4837968d0790a0cee6da",
+   "en": "Writing a marketing brochure for the process.",
+   "kind": "D",
+   "ordinal": 257
+  },
+  "091": {
+   "key": "t0d04e25ddb88ec2c4d8f",
+   "en": "You must understand the current reality before you can plan improvements.",
+   "kind": "E",
+   "ordinal": 257
+  },
+  "092": {
+   "key": "t9966dbd27bd608d06986",
+   "en": "What is \"Value Stream Management\"?",
+   "kind": "Q",
+   "ordinal": 258
+  },
+  "093": {
+   "key": "te84af34e460f0e5bd587",
+   "en": "A one-time exercise to draw a diagram.",
+   "kind": "A",
+   "ordinal": 258
+  },
+  "094": {
+   "key": "tb9221ac8f0dba24f0731",
+   "en": "A software tool for managing bank accounts.",
+   "kind": "B",
+   "ordinal": 258
+  },
+  "095": {
+   "key": "t5f6ca6c014f515daf812",
+   "en": "An ongoing focus on analyzing and improving how work is done",
+   "kind": "C",
+   "ordinal": 258
+  },
+  "096": {
+   "key": "t418b60c3875d0517c1d8",
+   "en": "Hiring a consultant to manage all employees.",
+   "kind": "D",
+   "ordinal": 258
+  },
+  "097": {
+   "key": "tcd88e0a03a813f384a10",
+   "en": "While mapping is a technique, management is the continuous practice of optimizing those streams.",
+   "kind": "E",
+   "ordinal": 258
+  },
+  "098": {
+   "key": "t28e9f69b63d2fb6e9b8a",
+   "en": "What is \"waste\" in a value stream?",
+   "kind": "Q",
+   "ordinal": 259
+  },
+  "099": {
+   "key": "t6d80525f4ed528a00c56",
+   "en": "Physical trash in the office.",
+   "kind": "A",
+   "ordinal": 259
+  },
+  "100": {
+   "key": "t2d92afbee7875327c939",
+   "en": "Money spent on marketing.",
+   "kind": "B",
+   "ordinal": 259
+  },
+  "101": {
+   "key": "tc5fd87dcd19d127dcc90",
+   "en": "Customers who don't buy anything.",
+   "kind": "C",
+   "ordinal": 259
+  },
+  "102": {
+   "key": "t576e859db556358ae39b",
+   "en": "Non-value-adding activities",
+   "kind": "D",
+   "ordinal": 259
+  },
+  "103": {
+   "key": "td62f7938b463a93c16a3",
+   "en": "In a value stream, waste refers to: Any activity that does not add value to the customer Things that consume time, effort, or resources without improving the outcome Examples include delays, rework, unnecessary approvals, and excessive handoffs.",
+   "kind": "E",
+   "ordinal": 259
+  },
+  "104": {
+   "key": "tcca0e2a79fb8c2594c21",
+   "en": "What is the final step in the value stream mapping process?",
+   "kind": "Q",
+   "ordinal": 260
+  },
+  "105": {
+   "key": "t4c47893a6e65c143dba8",
+   "en": "Identify the stream.",
+   "kind": "A",
+   "ordinal": 260
+  },
+  "106": {
+   "key": "t54a083548198e58aa05a",
+   "en": "Map the \"as-is\" stream.",
+   "kind": "B",
+   "ordinal": 260
+  },
+  "107": {
+   "key": "t555b9ee9aa03a62d9c47",
+   "en": "Plan and implement improvements",
+   "kind": "C",
+   "ordinal": 260
+  },
+  "108": {
+   "key": "t630a31d6d0b09ad2af2a",
+   "en": "Analyze the stream.",
+   "kind": "D",
+   "ordinal": 260
+  },
+  "109": {
+   "key": "t08c8e7c8454d6a5d6119",
+   "en": "Value stream mapping is a technique used to visualize and analyze the flow of work and information. The process follows a structured sequence of five steps:\n1. Identify the value stream: Determine which stream needs to be analyzed.\n2. Map the ‘as-is’ stream: Document the current state of the workflow as it exists.\n3. Analyse the stream: Look for waste (non-value-adding activities) and opportunities for optimization.\n4. Map the ‘to-be’ stream: Design the desired future state of the workflow.\n5. Plan and implement improvements: This is the final step, where the organization actually executes changes to achieve the target state.",
+   "kind": "E",
+   "ordinal": 260
+  },
+  "110": {
+   "key": "tbc51e8066b717f4d7bbf",
+   "en": "How does automation support value stream management?",
+   "kind": "Q",
+   "ordinal": 261
+  },
+  "111": {
+   "key": "t1f5169e0cee52fc3f650",
+   "en": "By replacing all human managers.",
+   "kind": "A",
+   "ordinal": 261
+  },
+  "112": {
+   "key": "t390cfed787f80b278ce3",
+   "en": "By ensuring the process never has to be mapped.",
+   "kind": "B",
+   "ordinal": 261
+  },
+  "113": {
+   "key": "t74da243086bd0b1c0749",
+   "en": "By providing measurement and data to analyze performance",
+   "kind": "C",
+   "ordinal": 261
+  },
+  "114": {
+   "key": "t229a231095e039debe8d",
+   "en": "By automatically firing employees who are slow.",
+   "kind": "D",
+   "ordinal": 261
+  },
+  "115": {
+   "key": "tf4601c7aadfddfc81082",
+   "en": "Automation can provide real-time metrics that help managers see where a stream is failing or succeeding.",
+   "kind": "E",
+   "ordinal": 261
+  },
+  "116": {
+   "key": "t6c8174c2e4c3559cf6d0",
+   "en": "In the \"Where are we now?\" step, what should be assessed?",
+   "kind": "Q",
+   "ordinal": 263
+  },
+  "117": {
+   "key": "t4e2ac88191b3bc28a91c",
+   "en": "Existing products, services, processes, and culture",
+   "kind": "A",
+   "ordinal": 263
+  },
+  "118": {
+   "key": "t632cdb5eedf00a560cba",
+   "en": "Only the salaries of the IT team.",
+   "kind": "B",
+   "ordinal": 263
+  },
+  "119": {
+   "key": "t87a77e34816e115f92c1",
+   "en": "The color of the office walls.",
+   "kind": "C",
+   "ordinal": 263
+  },
+  "120": {
+   "key": "t73ab22bef78ab01791e3",
+   "en": "The CEO's personal social media account.",
+   "kind": "D",
+   "ordinal": 263
+  },
+  "121": {
+   "key": "tfd11696ec525f2ad971c",
+   "en": "You must have a clear baseline of the current state before you can measure progress.",
+   "kind": "E",
+   "ordinal": 263
+  },
+  "122": {
+   "key": "t61fdc9e97c28f6080389",
+   "en": "What is the goal of the \"Where do we want to be?\" step?",
+   "kind": "Q",
+   "ordinal": 264
+  },
+  "123": {
+   "key": "te26dd3fd0ae37ef20d90",
+   "en": "To complain about the current situation.",
+   "kind": "A",
+   "ordinal": 264
+  },
+  "124": {
+   "key": "t01a4c69a258abc7d32cd",
+   "en": "To define the desired future state with measurable objectives (KPIs)",
+   "kind": "B",
+   "ordinal": 264
+  },
+  "125": {
+   "key": "t38353e18b9540f2140e1",
+   "en": "To pick a random date for a party.",
+   "kind": "C",
+   "ordinal": 264
+  },
+  "126": {
+   "key": "t53c408bf4297387bea8f",
+   "en": "To buy a new software tool without a plan.",
+   "kind": "D",
+   "ordinal": 264
+  },
+  "127": {
+   "key": "td69f7e827026c31e5db0",
+   "en": "This step defines \"Point B\" so the organization knows exactly what success looks like.",
+   "kind": "E",
+   "ordinal": 264
+  },
+  "128": {
+   "key": "tce06dbf3b1616907dcd6",
+   "en": "What does \"How do we get there?\" involve?",
+   "kind": "Q",
+   "ordinal": 265
+  },
+  "129": {
+   "key": "t8973869427bde610e341",
+   "en": "Waiting for someone else to fix the problem.",
+   "kind": "A",
+   "ordinal": 265
+  },
+  "130": {
+   "key": "t47fbb8cb52c201c1b36a",
+   "en": "Planning the route and identifying iterations or experiments",
+   "kind": "B",
+   "ordinal": 265
+  },
+  "131": {
+   "key": "tf5de4db24c473fc8caec",
+   "en": "Spending the entire budget on a single day.",
+   "kind": "C",
+   "ordinal": 265
+  },
+  "132": {
+   "key": "t7bb255331b78d3f51526",
+   "en": "Only doing work if it can be finished in one day.",
+   "kind": "D",
+   "ordinal": 265
+  },
+  "133": {
+   "key": "t16d7c8b3b48c0a95fb9f",
+   "en": "This is the planning phase where expertise is used to map out the improvement journey.",
+   "kind": "E",
+   "ordinal": 265
+  },
+  "134": {
+   "key": "t8a577fbb1515f9e11607",
+   "en": "Which statement about the \"Take action\" step is CORRECT?",
+   "kind": "Q",
+   "ordinal": 266
+  },
+  "135": {
+   "key": "t59f34db9aa968291e7ed",
+   "en": "Plans must never be changed once they start.",
+   "kind": "A",
+   "ordinal": 266
+  },
+  "136": {
+   "key": "t3fa2d2d3089f48846bee",
+   "en": "Results should only be measured at the very end.",
+   "kind": "B",
+   "ordinal": 266
+  },
+  "137": {
+   "key": "tc9f64c73cb1227f3668c",
+   "en": "Action should only be taken by senior managers.",
+   "kind": "C",
+   "ordinal": 266
+  },
+  "138": {
+   "key": "tcc98de9fb921e537aef8",
+   "en": "Work should be done iteratively, adapting and changing direction if needed",
+   "kind": "D",
+   "ordinal": 266
+  },
+  "139": {
+   "key": "t21fab002e42dd99ed53d",
+   "en": "Improvement work is often complex and requires constant adjustment based on reality.",
+   "kind": "E",
+   "ordinal": 266
+  },
+  "140": {
+   "key": "t9a23622f69ed2b9b5052",
+   "en": "What happens in the \"Are we getting there?\" step?",
+   "kind": "Q",
+   "ordinal": 267
+  },
+  "141": {
+   "key": "t9c354e5f25ecaba61781",
+   "en": "Assessing progress against objectives and value",
+   "kind": "A",
+   "ordinal": 267
+  },
+  "142": {
+   "key": "ta28206ce5e29d086d4fa",
+   "en": "Starting a completely new and unrelated project.",
+   "kind": "B",
+   "ordinal": 267
+  },
+  "143": {
+   "key": "t4a02a36a60d544c128d9",
+   "en": "Forgetting about the vision and doing something else.",
+   "kind": "C",
+   "ordinal": 267
+  },
+  "144": {
+   "key": "t33f7a7b37b17b511edfb",
+   "en": "Only celebrating even if results were bad.",
+   "kind": "D",
+   "ordinal": 267
+  },
+  "145": {
+   "key": "tf3dc720a359225271ea0",
+   "en": "This is the validation step to see if the actions taken actually moved the organization closer to the vision.",
+   "kind": "E",
+   "ordinal": 267
+  },
+  "146": {
+   "key": "tfb35eb7189263830d283",
+   "en": "How do organizations \"keep the improvements relevant\"?",
+   "kind": "Q",
+   "ordinal": 268
+  },
+  "147": {
+   "key": "te95cbd36fcacde7e6acb",
+   "en": "By firing the people who worked on the improvement.",
+   "kind": "A",
+   "ordinal": 268
+  },
+  "148": {
+   "key": "t3bc77b714f78b8ddee6c",
+   "en": "By using change and knowledge management to embed the new ways of working",
+   "kind": "B",
+   "ordinal": 268
+  },
+  "149": {
+   "key": "t993503c83660f9e13299",
+   "en": "By immediately going back to the old way of doing things.",
+   "kind": "C",
+   "ordinal": 268
+  },
+  "150": {
+   "key": "t2daa8deed558bd217a31",
+   "en": "By keeping the success a secret from other teams.",
+   "kind": "D",
+   "ordinal": 268
+  },
+  "151": {
+   "key": "t83fbb98b7bbd1450cf0e",
+   "en": "\"How do we keep the improvements relevant?\" When targets are met:\n• Use change and knowledge management to embed improvements.\n• Leaders/managers help teams adopt new ways of working. When targets are not met:\n• Inform stakeholders of reasons for failure.\n• Analyse, document, and share lessons learned.\n• Suggest improvements for next iteration.\n• Treat deviations as learning opportunities, not blame.",
+   "kind": "E",
+   "ordinal": 268
+  },
+  "152": {
+   "key": "t16b285f73c7e3bb10949",
+   "en": "Which step of the Continual Improvement Model focuses on the organization's vision?",
+   "kind": "Q",
+   "ordinal": 269
+  },
+  "153": {
+   "key": "t4ac350d90dc5091de574",
+   "en": "How do we get there?",
+   "kind": "C",
+   "ordinal": 269
+  },
+  "154": {
+   "key": "t2f9e2e258d559905ff87",
+   "en": "This first step ensures that any improvement initiative is aligned with the high-level goals of the business.",
+   "kind": "E",
+   "ordinal": 269
+  },
+  "155": {
+   "key": "t09fcadac059b3524179d",
+   "en": "If an improvement target is NOT met, what should the organization do?",
+   "kind": "Q",
+   "ordinal": 270
+  },
+  "156": {
+   "key": "t5087456b4298071ceabf",
+   "en": "Blame and punish the employees involved.",
+   "kind": "A",
+   "ordinal": 270
+  },
+  "157": {
+   "key": "t3094ef340c875187b78b",
+   "en": "Hide the failure from stakeholders.",
+   "kind": "B",
+   "ordinal": 270
+  },
+  "158": {
+   "key": "t21649c14aa0a41488dcb",
+   "en": "Never try to improve anything ever again.",
+   "kind": "C",
+   "ordinal": 270
+  },
+  "159": {
+   "key": "t8a67993782456321d314",
+   "en": "Analyze and share lessons learned as an opportunity for the next iteration",
+   "kind": "D",
+   "ordinal": 270
+  },
+  "160": {
+   "key": "t95493f364f735dad758e",
+   "en": "Continual improvement applies to which parts of the ITIL Value System?",
+   "kind": "Q",
+   "ordinal": 271
+  },
+  "161": {
+   "key": "tbba1ec5de759a9be0e82",
+   "en": "Only the software code",
+   "kind": "A",
+   "ordinal": 271
+  },
+  "162": {
+   "key": "t1d0549e9201b8e60e61e",
+   "en": "Only the external suppliers",
+   "kind": "B",
+   "ordinal": 271
+  },
+  "163": {
+   "key": "ta7185310b40916ce7022",
+   "en": "Everything: products, services, practices, and relationships",
+   "kind": "C",
+   "ordinal": 271
+  },
+  "164": {
+   "key": "t2dd9f3b30cb01f657a1c",
+   "en": "Only the help desk",
+   "kind": "D",
+   "ordinal": 271
+  },
+  "165": {
+   "key": "t393662d9afb6d58eb237",
+   "en": "No part of the organization is exempt from the need to get better over time.",
+   "kind": "E",
+   "ordinal": 271
+  },
+  "166": {
+   "key": "t19962182317703f6525a",
+   "en": "Which step of the ITIL continual improvement model involves defining the desired future state using measurable objectives and progress criteria?",
+   "kind": "Q",
+   "ordinal": 272
+  },
+  "167": {
+   "key": "t30bd76ca3eeb7e27656a",
+   "en": "The \"Where do we want to be?\" step is focused on defining the desired future state (Point B) by setting clear improvement objectives with Critical Success Factors (CSFs) and Key Performance Indicators (KPIs).",
+   "kind": "E",
+   "ordinal": 272
+  },
+  "168": {
+   "key": "t0ad7133926eb50ce872f",
+   "en": "What should an organization do if an improvement initiative reaches the \"Are we getting there?\" step and finds that results have fallen short of the objectives?",
+   "kind": "Q",
+   "ordinal": 273
+  },
+  "169": {
+   "key": "ta89daffa37322793f6d7",
+   "en": "Immediately ignore the vision and start an unrelated project.",
+   "kind": "A",
+   "ordinal": 273
+  },
+  "170": {
+   "key": "t946ee02ad28eb1a6d7f3",
+   "en": "Plan additional actions or start a new iteration.",
+   "kind": "B",
+   "ordinal": 273
+  }
+ }
+}

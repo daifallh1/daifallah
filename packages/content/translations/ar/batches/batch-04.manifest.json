@@ -1,0 +1,1025 @@
+{
+ "batch": 4,
+ "items": {
+  "001": {
+   "key": "t134c6d7fb25e20984078",
+   "en": "Value streams continue to evolve over time",
+   "kind": "C",
+   "ordinal": 96
+  },
+  "002": {
+   "key": "t9313ec43c1d4e13285e6",
+   "en": "Value streams can involve multiple practices",
+   "kind": "D",
+   "ordinal": 96
+  },
+  "003": {
+   "key": "tcad744174b05ad611f8f",
+   "en": "(Value streams should exclude suppliers) is incorrect because value streams are end-to-end and frequently involve external partners and suppliers.",
+   "kind": "E",
+   "ordinal": 96
+  },
+  "004": {
+   "key": "t5c24bb649e3bcd0b2692",
+   "en": "Which term BEST describes a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives?",
+   "kind": "Q",
+   "ordinal": 97
+  },
+  "005": {
+   "key": "tb61dd8f40159a9b85934",
+   "en": "Partnership",
+   "kind": "B",
+   "ordinal": 97
+  },
+  "006": {
+   "key": "t51d7a2ae4335df1210bc",
+   "en": "Culture",
+   "kind": "C",
+   "ordinal": 97
+  },
+  "007": {
+   "key": "t77979939b838bf8e91e4",
+   "en": "Service journey",
+   "kind": "D",
+   "ordinal": 97
+  },
+  "008": {
+   "key": "t7055b6100896b2981be9",
+   "en": "This is the standard ITIL definition for an organization.",
+   "kind": "E",
+   "ordinal": 97
+  },
+  "009": {
+   "key": "tcc0ef798d9a78e7cfbd7",
+   "en": "Which dimension of digital product and service management ensures whoever is working in an organization has suficient skills to support anticipated needs?",
+   "kind": "Q",
+   "ordinal": 98
+  },
+  "010": {
+   "key": "t72b339542ce1b88ffd0c",
+   "en": "This dimension focuses on the roles, responsibilities, competencies, and skills required by the workforce.",
+   "kind": "E",
+   "ordinal": 98
+  },
+  "011": {
+   "key": "t5c307e589c616604d59d",
+   "en": "The board of directors approves a new digital strategy and instructs management to prioritize investment in cloud infrastructure to support future growth. Which governance activity does this represent?",
+   "kind": "Q",
+   "ordinal": 99
+  },
+  "012": {
+   "key": "t18c2bbf2727658dc4a3e",
+   "en": "Engage stakeholders",
+   "kind": "D",
+   "ordinal": 99
+  },
+  "013": {
+   "key": "tb71e29e64ac499365fd9",
+   "en": "Directing involves the governing body assigning responsibility and prioritizing organizational strategies and policies to ensure alignment with business objectives.",
+   "kind": "E",
+   "ordinal": 99
+  },
+  "014": {
+   "key": "t267a6c00cf91b2d19c30",
+   "en": "Which statement regarding a partnership relationship is TRUE?",
+   "kind": "Q",
+   "ordinal": 100
+  },
+  "015": {
+   "key": "t1292e1722d7f843265d4",
+   "en": "It focuses mainly on operational eficiency and uses standardized contracts",
+   "kind": "A",
+   "ordinal": 100
+  },
+  "016": {
+   "key": "tfd3d9e27df30d76406e4",
+   "en": "It focuses on operational and tactical level not on strategic level",
+   "kind": "B",
+   "ordinal": 100
+  },
+  "017": {
+   "key": "tf32aca8d404d86cdc838",
+   "en": "It provides commercial off-the-shelf services for a wide range of consumers",
+   "kind": "C",
+   "ordinal": 100
+  },
+  "018": {
+   "key": "td7d93dedc9f4e8205a34",
+   "en": "It involves bespoke services with a focus on innovation and growth",
+   "kind": "D",
+   "ordinal": 100
+  },
+  "019": {
+   "key": "tfa1a2780175c6085c465",
+   "en": "Unlike “Basic” or “Cooperative” relationships that use standardized services, a Partnership is a deep relationship involving shared goals, bespoke (customized) services, and a mutual focus on strategic innovation and long-term growth.",
+   "kind": "E",
+   "ordinal": 100
+  },
+  "020": {
+   "key": "tfddce30a1612f339f05c",
+   "en": "How should the seven guiding principles be combined when an organization is making a decision?",
+   "kind": "Q",
+   "ordinal": 101
+  },
+  "021": {
+   "key": "tcd2a948da7720ddbbadf",
+   "en": "By using all the guiding principles equally when making any decision",
+   "kind": "A",
+   "ordinal": 101
+  },
+  "022": {
+   "key": "t006ea3eb7a7d6fc21c15",
+   "en": "By selecting one guiding principle to follow as the main basis for every decision",
+   "kind": "B",
+   "ordinal": 101
+  },
+  "023": {
+   "key": "t3b5cd85e365d80963933",
+   "en": "By considering each guiding principle to understand its relevance before applying it",
+   "kind": "C",
+   "ordinal": 101
+  },
+  "024": {
+   "key": "t9afbd7e4650c10ef44ab",
+   "en": "By using the “keep it simple and practical” principle and one or two others that are relevant to the specific decision",
+   "kind": "D",
+   "ordinal": 101
+  },
+  "025": {
+   "key": "tb71d5b7a6d17825948bf",
+   "en": "The ITIL Guiding Principles are not meant to be used in isolation or followed blindly. Instead, organizations should review all of them to see which ones are most applicable to a specific situation, as they are all “interconnected and complementary.”",
+   "kind": "E",
+   "ordinal": 101
+  },
+  "026": {
+   "key": "tce8b96a1b3f2db530f20",
+   "en": "Which is the purpose of the ‘transition’ activity?",
+   "kind": "Q",
+   "ordinal": 102
+  },
+  "027": {
+   "key": "t97ebd2d4f9df2297f4b4",
+   "en": "To seamlessly introduce new products into operational environment",
+   "kind": "A",
+   "ordinal": 102
+  },
+  "028": {
+   "key": "t0b6db471ce8f6fceccb2",
+   "en": "To ensure continual alignment of product roadmap with needs of service consumers",
+   "kind": "B",
+   "ordinal": 102
+  },
+  "029": {
+   "key": "tb8f9142076f0921a214b",
+   "en": "To create prototypes and specifications for products and services",
+   "kind": "C",
+   "ordinal": 102
+  },
+  "030": {
+   "key": "t2038e21a80b808cb3d90",
+   "en": "To develop, integrate and test digital products",
+   "kind": "D",
+   "ordinal": 102
+  },
+  "031": {
+   "key": "tb2cd4401c756789bae64",
+   "en": "The Transition stage of the product lifecycle ensures that products and services (including those that have been “Built”) are moved smoothly and effectively into the live environment where they can be used by customers.",
+   "kind": "E",
+   "ordinal": 102
+  },
+  "032": {
+   "key": "t56d3a3034d6a30bb5c50",
+   "en": "Performing routine tasks such as backups, monitoring, and capturing and processing events is part of which of the following activities?",
+   "kind": "Q",
+   "ordinal": 103
+  },
+  "033": {
+   "key": "t2b9ee4d292ac10546012",
+   "en": "The Operate activity focuses on the day-to-day management of digital products. This includes routine maintenance, monitoring systems, and handling background tasks like backups to ensure the service remains available.",
+   "kind": "E",
+   "ordinal": 103
+  },
+  "034": {
+   "key": "t0ea90e2f2082f4da8519",
+   "en": "Which of the following is a key success metric for ‘Transition’ activity?",
+   "kind": "Q",
+   "ordinal": 104
+  },
+  "035": {
+   "key": "td4eb56cae1b1c26e359b",
+   "en": "Speed of normal service restoration",
+   "kind": "A",
+   "ordinal": 104
+  },
+  "036": {
+   "key": "t6ad55a94947284daddb5",
+   "en": "Number and impact of deployment errors",
+   "kind": "D",
+   "ordinal": 104
+  },
+  "037": {
+   "key": "t05b4d74024c1af28bff6",
+   "en": "Since the goal of Transition is to introduce changes seamlessly, a primary measure of its success is how few errors or incidents are caused during the deployment process.",
+   "kind": "E",
+   "ordinal": 104
+  },
+  "038": {
+   "key": "t24f3d9993510c79b13a4",
+   "en": "What is a product prototype?",
+   "kind": "Q",
+   "ordinal": 105
+  },
+  "039": {
+   "key": "t12298352095babb47b0e",
+   "en": "A request that triggers an agreed service action",
+   "kind": "A",
+   "ordinal": 105
+  },
+  "040": {
+   "key": "t2f82016e0b1459391f6b",
+   "en": "The process of releasing new or updated products to users",
+   "kind": "B",
+   "ordinal": 105
+  },
+  "041": {
+   "key": "tc0773a2c1f563a7b09e7",
+   "en": "An initial version of a product demonstrating its basic form and functionality",
+   "kind": "C",
+   "ordinal": 105
+  },
+  "042": {
+   "key": "tb5afd78066ccb4a9faaa",
+   "en": "A finalized product specification approved for development",
+   "kind": "D",
+   "ordinal": 105
+  },
+  "043": {
+   "key": "tcf7f1c4e7969ad6c7350",
+   "en": "A prototype is used during the “Design” and “Build” phases to test ideas and show stakeholders what the product will look like and how it will work before full-scale development.",
+   "kind": "E",
+   "ordinal": 105
+  },
+  "044": {
+   "key": "tc36b3a01154da383af3c",
+   "en": "An organization is planning to improve the existing service and wants to understand its current performance before making any changes. According to the principle ‘Start where you are’, what could an organization consider when observing current performance of the service?",
+   "kind": "Q",
+   "ordinal": 106
+  },
+  "045": {
+   "key": "tc52c80199412def424b7",
+   "en": "Involve people who have little or no prior knowledge of the service",
+   "kind": "A",
+   "ordinal": 106
+  },
+  "046": {
+   "key": "t154b1011ed96dceec77f",
+   "en": "Select the right message and method to communicate with stakeholders",
+   "kind": "B",
+   "ordinal": 106
+  },
+  "047": {
+   "key": "t73a1b5ff3886e2ef0dd3",
+   "en": "Identify who the consumer is and why they use the service",
+   "kind": "C",
+   "ordinal": 106
+  },
+  "048": {
+   "key": "t142fc1ece45f06fac1ef",
+   "en": "Avoid applying risk management when reusing existing processes",
+   "kind": "D",
+   "ordinal": 106
+  },
+  "049": {
+   "key": "taa8cd709bd6254576af7",
+   "en": "The principle “Start where you are” emphasizes objective observation. Involving people with “fresh eyes” (no prior knowledge) helps avoid bias and ensures the organization sees the actual current state rather than what they think the state is.",
+   "kind": "E",
+   "ordinal": 106
+  },
+  "050": {
+   "key": "t144aa3fa79751d8845ee",
+   "en": "Why is it important to seek feedback before, during, and after each iteration?",
+   "kind": "Q",
+   "ordinal": 107
+  },
+  "051": {
+   "key": "t79d9d958dabe92177ef3",
+   "en": "To document all activities in detail before starting the next iteration",
+   "kind": "A",
+   "ordinal": 107
+  },
+  "052": {
+   "key": "t6bfd0d2a54f0957a8b70",
+   "en": "To ensure the project plan remains fixed and unchanged throughout development",
+   "kind": "B",
+   "ordinal": 107
+  },
+  "053": {
+   "key": "t5cda63b830e742a1a606",
+   "en": "To allow the team to follow the original design without interruption",
+   "kind": "C",
+   "ordinal": 107
+  },
+  "054": {
+   "key": "t3b630fd9659e56548823",
+   "en": "To ensure that each iteration is aligned with changing circumstances",
+   "kind": "D",
+   "ordinal": 107
+  },
+  "055": {
+   "key": "t39502a31b6d09610cdc7",
+   "en": "Under the principle “Progress iteratively with feedback,” constant feedback ensures the work remains relevant. If circumstances change or the initial direction was wrong, the organization can “pivot” or adjust before wasting more resources.",
+   "kind": "E",
+   "ordinal": 107
+  },
+  "056": {
+   "key": "td41713c70d64b9276074",
+   "en": "What is a value stream?",
+   "kind": "Q",
+   "ordinal": 108
+  },
+  "057": {
+   "key": "t0d8c631c5d396bed3d25",
+   "en": "A set of organizational resources and capabilities to achieve an objective",
+   "kind": "A",
+   "ordinal": 108
+  },
+  "058": {
+   "key": "t4905fff1dce142b73335",
+   "en": "A series of steps an organization undertakes to enable value for consumers through management of products and services",
+   "kind": "B",
+   "ordinal": 108
+  },
+  "059": {
+   "key": "t85b42b97f8cc6eb04867",
+   "en": "A tangible or intangible deliverable of an activity",
+   "kind": "C",
+   "ordinal": 108
+  },
+  "060": {
+   "key": "tece26cbc2f505dbee3a8",
+   "en": "A configuration of an organization’s resources designed to offer value for a consumer",
+   "kind": "D",
+   "ordinal": 108
+  },
+  "061": {
+   "key": "t00a6bd5f900cbba93534",
+   "en": "A Value Stream is a specific journey or set of steps that maps how work flows from the initial demand/opportunity to the final creation of value for the consumer.",
+   "kind": "E",
+   "ordinal": 108
+  },
+  "062": {
+   "key": "tbbf201cb745efddbc2fb",
+   "en": "Which of the following activities BEST represents transfer of goods in a service offering?",
+   "kind": "Q",
+   "ordinal": 109
+  },
+  "063": {
+   "key": "t0599d07f0b9040d662e8",
+   "en": "A cloud user accesses shared online storage",
+   "kind": "A",
+   "ordinal": 109
+  },
+  "064": {
+   "key": "t3a04476ecccf9b5ab99b",
+   "en": "A service provider supplies new laptops to the customer",
+   "kind": "B",
+   "ordinal": 109
+  },
+  "065": {
+   "key": "t5e723cfafea416fcdd7d",
+   "en": "A customer receives advice from a helpdesk agent",
+   "kind": "C",
+   "ordinal": 109
+  },
+  "066": {
+   "key": "tcdb1fe6a8012a5bab037",
+   "en": "A team attends a virtual training session",
+   "kind": "D",
+   "ordinal": 109
+  },
+  "067": {
+   "key": "taf5a4cf69ee2ecff6fd9",
+   "en": "Transfer of Goods: This activity involves items being transferred from the service provider to the service consumer. Ownership typically changes, and examples include the transfer of equipment (such as laptops) or consumables.",
+   "kind": "E",
+   "ordinal": 109
+  },
+  "068": {
+   "key": "te66683227dc65a82c0ad",
+   "en": "Which activity focuses on securing and allocating necessary resources eficiently?",
+   "kind": "Q",
+   "ordinal": 110
+  },
+  "069": {
+   "key": "t910e23d51e0858f3fa8b",
+   "en": "Acquire",
+   "kind": "A",
+   "ordinal": 110
+  },
+  "070": {
+   "key": "t8d067102d544c77e5aa0",
+   "en": "Acquire: The purpose of this activity is to secure and allocate necessary resources.",
+   "kind": "E",
+   "ordinal": 110
+  },
+  "071": {
+   "key": "t7f5af3ae01cb16f6818f",
+   "en": "Which of the following terms BEST describes a change?",
+   "kind": "Q",
+   "ordinal": 111
+  },
+  "072": {
+   "key": "t933e282b2743d24e77a5",
+   "en": "The addition, modification or removal of anything that could have an effect on product and service",
+   "kind": "B",
+   "ordinal": 111
+  },
+  "073": {
+   "key": "t450112bfdcd3c6cfd8a3",
+   "en": "Any component that needs to be managed in order to deliver an IT service",
+   "kind": "C",
+   "ordinal": 111
+  },
+  "074": {
+   "key": "ta6eacb20c457dea1173f",
+   "en": "An underlying cause of one or more incidents",
+   "kind": "D",
+   "ordinal": 111
+  },
+  "075": {
+   "key": "td771505402ec61645787",
+   "en": "Change: Is specifically defined as the addition, modification, or removal of anything that could have a direct or indirect effect on products and services.",
+   "kind": "E",
+   "ordinal": 111
+  },
+  "076": {
+   "key": "t2ae98a79831af0bb1b86",
+   "en": "Which is an approach to software development in which software can be released to production at any time after a decision is made by the team?",
+   "kind": "Q",
+   "ordinal": 112
+  },
+  "077": {
+   "key": "t0c96b749d50dabbdd1b9",
+   "en": "Continuous Deployment",
+   "kind": "A",
+   "ordinal": 112
+  },
+  "078": {
+   "key": "t77c8665803d553f0fe58",
+   "en": "Continuous Integration",
+   "kind": "B",
+   "ordinal": 112
+  },
+  "079": {
+   "key": "t2e006d40b16ebe037bb0",
+   "en": "Continuous Delivery",
+   "kind": "C",
+   "ordinal": 112
+  },
+  "080": {
+   "key": "te491b4631422f56f7385",
+   "en": "DevOps",
+   "kind": "D",
+   "ordinal": 112
+  },
+  "081": {
+   "key": "t9b57c0d9a3fa90717ca1",
+   "en": "Continuous Delivery: This is an approach to software development where software is maintained in a state where it can be released to production at any time. While frequent deployments are possible, the specific deployment decisions are made on a case-by-case basis.",
+   "kind": "E",
+   "ordinal": 112
+  },
+  "082": {
+   "key": "tbf84a3c3920b6ea3ef83",
+   "en": "Which of the following is NOT an activity of digital product and service lifecycle?",
+   "kind": "Q",
+   "ordinal": 113
+  },
+  "083": {
+   "key": "tda288642c92f72d03736",
+   "en": "Agree",
+   "kind": "B",
+   "ordinal": 113
+  },
+  "084": {
+   "key": "t9bd41396ead03d281976",
+   "en": "The ITIL Product and Service Lifecycle Model consists of eight specific lifecycle management activities. These activities are: Discover, Design, Acquire, Build, Transition, Operate, Deliver, and Support",
+   "kind": "E",
+   "ordinal": 113
+  },
+  "085": {
+   "key": "t8834beef6d12181aca4f",
+   "en": "Which of the following BEST describes an outcome in a service relationship?",
+   "kind": "Q",
+   "ordinal": 114
+  },
+  "086": {
+   "key": "t8166d4404035bcf49975",
+   "en": "A result achieved by a stakeholder through the use of at least one output",
+   "kind": "A",
+   "ordinal": 114
+  },
+  "087": {
+   "key": "t975bb60007285d6ffd94",
+   "en": "A tangible or intangible deliverable created during a service activity",
+   "kind": "B",
+   "ordinal": 114
+  },
+  "088": {
+   "key": "tf42e2b0f9e51d0790c72",
+   "en": "A specific task completed by the service provider",
+   "kind": "C",
+   "ordinal": 114
+  },
+  "089": {
+   "key": "t4646ba6f4829a8afdad4",
+   "en": "A software product provided to the consumer",
+   "kind": "D",
+   "ordinal": 114
+  },
+  "090": {
+   "key": "tc27042f8fc872db9069f",
+   "en": "Outcome: Defined as a result for a stakeholder that is enabled by one or more outputs. It represents “what we achieve” and the actual impact or results produced. Service providers produce the necessary outputs to help consumers reach these specific outcomes.",
+   "kind": "E",
+   "ordinal": 114
+  },
+  "091": {
+   "key": "tb64f92395603af3968d8",
+   "en": "When considering relationships with other organizations involved in service design and delivery, which dimension is used?",
+   "kind": "Q",
+   "ordinal": 115
+  },
+  "092": {
+   "key": "t89756b8b10f5a644e62f",
+   "en": "Partners and Suppliers: This dimension addresses the organization’s relationships with third parties (other organizations) that contribute to value creation activities. It recognizes that every organization depends to some extent on services provided by others. These relationships vary in scope and formality, ranging from strict contracts to flexible partnerships",
+   "kind": "E",
+   "ordinal": 115
+  },
+  "093": {
+   "key": "t7007bd25c3c5035a9e7b",
+   "en": "Identify the missing word(s): A(n) [ ? ] is the cause, or potential cause, of one or more incidents.",
+   "kind": "Q",
+   "ordinal": 116
+  },
+  "094": {
+   "key": "td6fafdb136a2d7f8e406",
+   "en": "Known error",
+   "kind": "A",
+   "ordinal": 116
+  },
+  "095": {
+   "key": "tc0bf75bd78bf95725967",
+   "en": "Change",
+   "kind": "B",
+   "ordinal": 116
+  },
+  "096": {
+   "key": "t4e1f49a9c8ae8a158434",
+   "en": "Event",
+   "kind": "C",
+   "ordinal": 116
+  },
+  "097": {
+   "key": "ta1c5ae7bcb34bbf48104",
+   "en": "Problem",
+   "kind": "D",
+   "ordinal": 116
+  },
+  "098": {
+   "key": "t0a1008468c4f3e74a42d",
+   "en": "A Problem is a cause, or potential cause, of one or more incidents.",
+   "kind": "E",
+   "ordinal": 116
+  },
+  "099": {
+   "key": "t0e5c1281a5e06caf23cc",
+   "en": "Which of the following is a significant risk associated with poor visibility of workload and progress?",
+   "kind": "Q",
+   "ordinal": 117
+  },
+  "100": {
+   "key": "t73c7e1b22ef336337b61",
+   "en": "Rapid adoption of new working methods",
+   "kind": "A",
+   "ordinal": 117
+  },
+  "101": {
+   "key": "t216e71c7b9b936372d0c",
+   "en": "An increase in excessive capacity",
+   "kind": "B",
+   "ordinal": 117
+  },
+  "102": {
+   "key": "t8390d3e1f7654ade4103",
+   "en": "The work being perceived as a low priority",
+   "kind": "C",
+   "ordinal": 117
+  },
+  "103": {
+   "key": "t6c6cd83d5eede2bb28db",
+   "en": "Automated decision-making becoming too fast",
+   "kind": "D",
+   "ordinal": 117
+  },
+  "104": {
+   "key": "t418b203fc9772a2bf931",
+   "en": "Based on the “Collaborate and promote visibility” principle, poor visibility of workload and progress carries the risk of the work being perceived as a low priority. Lack of visibility is also noted to cause poor decisions, disengagement, and low adoption",
+   "kind": "E",
+   "ordinal": 117
+  },
+  "105": {
+   "key": "tf31fd99de55468b7962b",
+   "en": "In the ‘How do we keep the improvements relevant?’ step of the continual improvement model, what should an organization do if targets are NOT met?",
+   "kind": "Q",
+   "ordinal": 118
+  },
+  "106": {
+   "key": "t84e9cc20d99d8479891c",
+   "en": "Immediately restart the initiative from the “What is the vision?” step",
+   "kind": "A",
+   "ordinal": 118
+  },
+  "107": {
+   "key": "tc23d8140fa0cd2316ba5",
+   "en": "Revert to previous methods without documenting the failure",
+   "kind": "B",
+   "ordinal": 118
+  },
+  "108": {
+   "key": "t4b820f6af06dc8146f11",
+   "en": "Treat deviations as learning opportunities rather than instances for blame",
+   "kind": "C",
+   "ordinal": 118
+  },
+  "109": {
+   "key": "ta720e502fc74b0612fca",
+   "en": "Restructure the governing body to ensure better compliance",
+   "kind": "D",
+   "ordinal": 118
+  },
+  "110": {
+   "key": "t83417db96e3e981dce60",
+   "en": "In the final step of the model, if targets are not met, the organization should inform stakeholders of the reasons, analyze and share lessons learned, and suggest improvements for the next iteration. Critically, the material emphasizes that deviations should be treated as learning opportunities rather than a cause for blame.",
+   "kind": "E",
+   "ordinal": 118
+  },
+  "111": {
+   "key": "t5ce756eda02d16e6ca1d",
+   "en": "Gathering customer feedback and measuring current service response times is assessing the current state of performance, which corresponds to determining where the organization is now in the continual improvement model.",
+   "kind": "E",
+   "ordinal": 119
+  },
+  "112": {
+   "key": "t800e1c3af996562a48bc",
+   "en": "Which BEST explains why an organization might choose to engage external suppliers?",
+   "kind": "Q",
+   "ordinal": 120
+  },
+  "113": {
+   "key": "t30b251ca904deb913c14",
+   "en": "To maintain greater control and visibility over service delivery",
+   "kind": "A",
+   "ordinal": 120
+  },
+  "114": {
+   "key": "t8f203c4c24b1888dc068",
+   "en": "To remove the need for oversight, governance, and internal management",
+   "kind": "B",
+   "ordinal": 120
+  },
+  "115": {
+   "key": "t772812507edec911fc1f",
+   "en": "To minimize reliance on third-party providers",
+   "kind": "C",
+   "ordinal": 120
+  },
+  "116": {
+   "key": "t2c70fd616f41f6095023",
+   "en": "To obtain capabilities that are dificult to develop internally",
+   "kind": "D",
+   "ordinal": 120
+  },
+  "117": {
+   "key": "te7c51dbd409e2864776e",
+   "en": "When considering the type of relationship required with other organizations involved in the design and delivery of services, which dimension of service management are you utilizing?",
+   "kind": "Q",
+   "ordinal": 121
+  },
+  "118": {
+   "key": "tf202456252ddc5609e2b",
+   "en": "The guiding principle \"Think and work holistically\" emphasizes understanding how all parts of an organization function together as an integrated system, recognizing that services and value are created through the interaction of interconnected components rather than isolated activities.",
+   "kind": "E",
+   "ordinal": 122
+  },
+  "119": {
+   "key": "tc3cfe646dac74a57c931",
+   "en": "All four dimensions are critical to the effective and eficient facilitation of value because they provide a balanced and holistic view of product and service management, ensuring that no important aspect is overlooked when creating and delivering value.",
+   "kind": "E",
+   "ordinal": 123
+  },
+  "120": {
+   "key": "tf9515ff2109a610fb700",
+   "en": "Transfer of goods involves the provision of ownership of physical items from the service provider to the consumer. Supplying new laptops represents the transfer of tangible goods as part of the service offering.",
+   "kind": "E",
+   "ordinal": 124
+  },
+  "121": {
+   "key": "t48935b188bd9ba0aea64",
+   "en": "The acquire activity focuses on securing and allocating the necessary resources, including products and services from suppliers, ensuring they are obtained eficiently to support value creation.",
+   "kind": "E",
+   "ordinal": 125
+  },
+  "122": {
+   "key": "tba3b11a896a19eef6890",
+   "en": "A change is defined as the addition, modification, or removal of anything that could have an effect on products and services, reflecting its potential impact on how services are delivered or supported.",
+   "kind": "E",
+   "ordinal": 126
+  },
+  "123": {
+   "key": "tb077f3ef2fc6e0a209b3",
+   "en": "Continuous delivery is an approach in which software is built and tested in a way that ensures it is always in a deployable state, allowing it to be released to production at any time once the team makes the decision to do so.",
+   "kind": "E",
+   "ordinal": 127
+  },
+  "124": {
+   "key": "t716af43259fdcfb2bb46",
+   "en": "The digital product and service lifecycle includes activities such as discover, design, build, transition, operate, support, deliver, and acquire. “Agree” is not one of the defined lifecycle activities.",
+   "kind": "E",
+   "ordinal": 128
+  },
+  "125": {
+   "key": "tf22b61e3e28393c23552",
+   "en": "A specific task completed by the service provider as part of service delivery",
+   "kind": "C",
+   "ordinal": 129
+  },
+  "126": {
+   "key": "t190709d339cdb35083c9",
+   "en": "A software product provided to the consumer by the service provider",
+   "kind": "D",
+   "ordinal": 129
+  },
+  "127": {
+   "key": "t2ee46a0d7d95dde89a89",
+   "en": "An outcome in a service relationship is a result achieved by a stakeholder through the use of one or more outputs, representing the value realized from the service rather than the deliverables themselves.",
+   "kind": "E",
+   "ordinal": 129
+  },
+  "128": {
+   "key": "t1b64c3ad955d88379540",
+   "en": "The operating model element that refers to third parties contributing to value creation activities is partners and suppliers, as it describes how external organizations support the service provider through goods, services, and expertise to help create and deliver value.",
+   "kind": "E",
+   "ordinal": 130
+  },
+  "129": {
+   "key": "tafccf86c677d375ac3f6",
+   "en": "Sustainability assures that a service or product continually meets requirements for environmental responsibility, ensuring that its design, delivery, and operation minimize negative environmental impact over time.",
+   "kind": "E",
+   "ordinal": 131
+  },
+  "130": {
+   "key": "t189a4e167763a16f1118",
+   "en": "A sponsor within a consumer organization is the role that authorizes the budget for service consumption, ensuring that funding is approved to obtain and use the service.",
+   "kind": "E",
+   "ordinal": 132
+  },
+  "131": {
+   "key": "t93a62bbd79fdd24e5ab8",
+   "en": "A recommendation that guides an organization's actions and decisions in all circumstances",
+   "kind": "B",
+   "ordinal": 133
+  },
+  "132": {
+   "key": "t9479607c28f60257942c",
+   "en": "An operating model is a conceptual and visual representation of how an organization works to co-create value with its customers, showing how its components and activities integrate and interact to deliver products and services.",
+   "kind": "E",
+   "ordinal": 133
+  },
+  "133": {
+   "key": "t1c5712225440990e925b",
+   "en": "They replace consumers' responsibilities with their own services",
+   "kind": "C",
+   "ordinal": 134
+  },
+  "134": {
+   "key": "t7b196a36a44c9d839418",
+   "en": "Service providers contribute to service value by reducing risks and providing specialized resources and capabilities that consumers may not possess, enabling consumers to achieve desired outcomes more effectively.",
+   "kind": "E",
+   "ordinal": 134
+  },
+  "135": {
+   "key": "t6222ef29fb043bea8f67",
+   "en": "The main form of service interaction between service consumers and digital services is access to resources, as consumers typically use digital capabilities, applications, or infrastructure provided by the service provider without transferring ownership.",
+   "kind": "E",
+   "ordinal": 135
+  },
+  "136": {
+   "key": "ta183b1a66ea4f1345586",
+   "en": "Many digital service providers aim to reduce or eliminate service actions to streamline operations and increase consistency by relying more on automation, enabling faster, more reliable, and scalable service delivery with less manual intervention.",
+   "kind": "E",
+   "ordinal": 136
+  },
+  "137": {
+   "key": "t9aed7ec7fe41ae199fc7",
+   "en": "The information and technology chapter of a practice guide provides recommendations for the successful automation of the practice, as it addresses the tools, systems, and technological considerations that enable and support automation.",
+   "kind": "E",
+   "ordinal": 137
+  },
+  "138": {
+   "key": "t4139da9c1e40ae29889a",
+   "en": "Service quality is the totality of characteristics of a service that determine its ability to satisfy stated needs, reflecting how well the service meets expectations and requirements from the consumer's perspective.",
+   "kind": "E",
+   "ordinal": 138
+  },
+  "139": {
+   "key": "t9cd173cb943f848901ac",
+   "en": "Management practices enable the digital product and service management activities of an organization by providing the structured capabilities, resources, and expertise required to plan, develop, deliver, and improve products and services.",
+   "kind": "E",
+   "ordinal": 139
+  },
+  "140": {
+   "key": "t877e6495801d4fe880ad",
+   "en": "Which service value chain activity relates with buying new products?",
+   "kind": "Q",
+   "ordinal": 140
+  },
+  "141": {
+   "key": "t3e78dfab958097aa3935",
+   "en": "Engage",
+   "kind": "A",
+   "ordinal": 140
+  },
+  "142": {
+   "key": "t19a40a3f5101913d9cfd",
+   "en": "Obtain/build",
+   "kind": "B",
+   "ordinal": 140
+  },
+  "143": {
+   "key": "tfa8ed0bdabdd6bcb1c07",
+   "en": "Plan",
+   "kind": "C",
+   "ordinal": 140
+  },
+  "144": {
+   "key": "td217751edc5d96cf5022",
+   "en": "Improve",
+   "kind": "D",
+   "ordinal": 140
+  },
+  "145": {
+   "key": "tcce8222945f9110b4a28",
+   "en": "This activity focuses on acquiring or creating the products and services needed to deliver value to customers.",
+   "kind": "E",
+   "ordinal": 140
+  },
+  "146": {
+   "key": "t6a45099fabe6118677bb",
+   "en": "A good way to apply the ITIL guiding principle ‘keep it simple and practical’ is to:",
+   "kind": "Q",
+   "ordinal": 141
+  },
+  "147": {
+   "key": "ted7c71f17266bf54dd9d",
+   "en": "Communicate so that the audience will hear",
+   "kind": "A",
+   "ordinal": 141
+  },
+  "148": {
+   "key": "td27d76a8fa5e31fc50be",
+   "en": "Re-use nothing from the current state",
+   "kind": "B",
+   "ordinal": 141
+  },
+  "149": {
+   "key": "t92be91032a4eadc61791",
+   "en": "Adopt a practice which is easy to follow",
+   "kind": "C",
+   "ordinal": 141
+  },
+  "150": {
+   "key": "tfdf8e608b14bcfdd2315",
+   "en": "Understand that fast does not mean incomplete",
+   "kind": "D",
+   "ordinal": 141
+  },
+  "151": {
+   "key": "ta839c0a5017446746de4",
+   "en": "This principle emphasizes the importance of simplicity in processes and practices, ensuring they are practical and easy to implement.",
+   "kind": "E",
+   "ordinal": 141
+  },
+  "152": {
+   "key": "tf8dd080e3d923cec3dc2",
+   "en": "Identify the missing word(s) in the following sentence. A(n) [ ? ] is the cause, or potential cause, of one or more incidents.",
+   "kind": "Q",
+   "ordinal": 142
+  },
+  "153": {
+   "key": "t3bd21469c1c310c143a9",
+   "en": "The cause of one or more incidents. It represents a deeper issue that needs to be identified and resolved to prevent future incidents. For example, the root cause of a system outage might be a software bug or a hardware failure.",
+   "kind": "E",
+   "ordinal": 142
+  },
+  "154": {
+   "key": "tea9b83a003a95e482e8e",
+   "en": "The build activity is responsible for developing, integrating, and testing digital products, transforming designs and requirements into functional solutions that are ready for deployment and use.",
+   "kind": "E",
+   "ordinal": 143
+  },
+  "155": {
+   "key": "tcdce4e732ba35f2c5705",
+   "en": "What is the role of governance within the ITIL Service Value System?",
+   "kind": "Q",
+   "ordinal": 144
+  },
+  "156": {
+   "key": "t6b4fae60c00729288381",
+   "en": "Governance within the ITIL Service Value System ensures that organizational activities are directed and controlled, aligning them with strategic objectives and ensuring accountability, performance, and compliance.",
+   "kind": "E",
+   "ordinal": 144
+  },
+  "157": {
+   "key": "t2e914663efb19d6169b0",
+   "en": "Value streams include all activities and stakeholders required to create and deliver value, which can involve suppliers and partners as part of the overall flow of work. Therefore, excluding suppliers is incorrect.",
+   "kind": "E",
+   "ordinal": 145
+  },
+  "158": {
+   "key": "t8d77a142d04e27ab10fd",
+   "en": "Service Journey",
+   "kind": "D",
+   "ordinal": 146
+  },
+  "159": {
+   "key": "t8274ddfc77fdda226d31",
+   "en": "An organization is defined as a group of people with its own functions, responsibilities, authorities, and relationships established to achieve specific objectives.",
+   "kind": "E",
+   "ordinal": 146
+  },
+  "160": {
+   "key": "t2873cc94a5c20abe42cf",
+   "en": "The organizations and people dimension ensures that individuals within the organization have the appropriate skills, competencies, roles, and structure to meet current and anticipated needs in delivering products and services.",
+   "kind": "E",
+   "ordinal": 147
+  },
+  "161": {
+   "key": "tb28f9ba703dd224e0a64",
+   "en": "Which term is used to describe removing something that could have an effect on a service?",
+   "kind": "Q",
+   "ordinal": 148
+  },
+  "162": {
+   "key": "t207f6b5c5456017a549e",
+   "en": "A change",
+   "kind": "A",
+   "ordinal": 148
+  },
+  "163": {
+   "key": "tbed5b99fe58988a81d7c",
+   "en": "An incident",
+   "kind": "B",
+   "ordinal": 148
+  },
+  "164": {
+   "key": "t905d11e8fecd9794a550",
+   "en": "A problem",
+   "kind": "C",
+   "ordinal": 148
+  },
+  "165": {
+   "key": "t23a912588da9efe703bf",
+   "en": "An IT asset",
+   "kind": "D",
+   "ordinal": 148
+  },
+  "166": {
+   "key": "tf0506f6317d763bbb52a",
+   "en": "In IT service management, a change refers to any alteration to the IT environment that can affect services, including removing components that could lead to potential issues.",
+   "kind": "E",
+   "ordinal": 148
+  },
+  "167": {
+   "key": "t925a6a2261318b069971",
+   "en": "Which of the following statements about ‘outcomes’ is TRUE?",
+   "kind": "Q",
+   "ordinal": 149
+  },
+  "168": {
+   "key": "tc78093c100f757f2bd51",
+   "en": "The delivery of products to a stakeholder is enabled by outcomes",
+   "kind": "A",
+   "ordinal": 149
+  },
+  "169": {
+   "key": "tf8726f79502d2f2bfc7d",
+   "en": "The level of expenses regarding a technology for a service is defined by an outcome",
+   "kind": "B",
+   "ordinal": 149
+  },
+  "170": {
+   "key": "t5decee3334cc81b104f5",
+   "en": "An outcome depends on at least one output to deliver a result",
+   "kind": "C",
+   "ordinal": 149
+  }
+ }
+}

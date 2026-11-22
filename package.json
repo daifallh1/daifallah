@@ -1,0 +1,27 @@
+{
+  "name": "itil5-foundation-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Private ITIL Foundation (Version 5) practice system: shared audited bank, Next.js PWA and Expo iOS app.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "content:extract": "python3 -I tools/extract/extract_bank.py",
+    "content:translations": "python3 -I tools/translate/compile_translations.py",
+    "content:build": "python3 -I tools/audit/build_bank.py",
+    "content:all": "npm run content:extract && npm run content:translations && npm run content:build",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "@react-navigation/native": "7.0.14",
+    "@react-navigation/elements": "2.2.5",
+    "@react-navigation/core": "7.3.1"
+  }
+}

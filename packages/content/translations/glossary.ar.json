@@ -1,0 +1,32 @@
+{
+ "_meta": {"status": "ai_draft_unreviewed", "note": "Glossary used to keep Arabic ITIL terminology consistent across all translations. English term is kept visible beside Arabic for short option labels. Requires review by a bilingual ITIL practitioner before being treated as authoritative."},
+ "terms": [
+  ["service", "خدمة"], ["product", "منتج"], ["digital product", "منتج رقمي"], ["digital service", "خدمة رقمية"],
+  ["value", "قيمة"], ["value co-creation", "الإنشاء المشترك للقيمة"], ["outcome", "نتيجة / حصيلة"], ["output", "مُخرَج"],
+  ["cost", "تكلفة"], ["risk", "مخاطرة"], ["utility", "المنفعة (Utility)"], ["warranty", "الضمان (Warranty)"],
+  ["user experience", "تجربة المستخدم"], ["sustainability", "الاستدامة"], ["goods", "السلع"],
+  ["service offering", "عرض الخدمة"], ["service action", "إجراء الخدمة"], ["transfer of goods", "نقل السلع"], ["access to resources", "الوصول إلى الموارد"],
+  ["service provider", "مزوّد الخدمة"], ["service consumer", "مستهلك الخدمة"], ["sponsor", "الراعي"], ["customer", "العميل"], ["user", "المستخدم"],
+  ["organization", "المنظمة"], ["digital product vendor", "بائع المنتجات الرقمية"],
+  ["basic relationship", "العلاقة الأساسية"], ["cooperative relationship", "العلاقة التعاونية"], ["collaborative (partnership) relationship", "العلاقة التشاركية (الشراكة)"],
+  ["service journey", "رحلة الخدمة"], ["band of visibility", "نطاق الرؤية"], ["service quality", "جودة الخدمة"], ["service level", "مستوى الخدمة"],
+  ["service level agreement (SLA)", "اتفاقية مستوى الخدمة (SLA)"],
+  ["organizations and people", "المنظمات والأفراد"], ["partners and suppliers", "الشركاء والموردون"], ["information and technology", "المعلومات والتكنولوجيا"], ["value streams and processes", "مسارات القيمة والعمليات"],
+  ["value stream", "مسار القيمة"], ["core value stream", "مسار القيمة الأساسي"], ["enabling value stream", "مسار القيمة التمكيني"],
+  ["value stream mapping", "رسم خريطة مسار القيمة"], ["value stream management", "إدارة مسار القيمة"],
+  ["value chain", "سلسلة القيمة"], ["lifecycle", "دورة الحياة"],
+  ["discover", "الاكتشاف"], ["design", "التصميم"], ["acquire", "الاقتناء"], ["build", "البناء"], ["transition", "الانتقال"], ["operate", "التشغيل"], ["deliver", "التقديم"], ["support", "الدعم"],
+  ["guiding principles", "المبادئ التوجيهية"], ["focus on value", "التركيز على القيمة"], ["start where you are", "ابدأ من حيث أنت"],
+  ["progress iteratively with feedback", "التقدم بشكل تكراري مع التغذية الراجعة"], ["collaborate and promote visibility", "التعاون وتعزيز الشفافية"],
+  ["think and work holistically", "التفكير والعمل بشكل شمولي"], ["keep it simple and practical", "اجعله بسيطًا وعمليًا"], ["optimize and automate", "التحسين والأتمتة"],
+  ["governance", "الحوكمة"], ["governing body", "الهيئة الحاكمة"], ["evaluate", "التقييم"], ["direct", "التوجيه"], ["monitor", "المراقبة"], ["engage stakeholders", "إشراك أصحاب المصلحة"],
+  ["management practice", "ممارسة إدارية"], ["practice guide", "دليل الممارسة"], ["continual improvement", "التحسين المستمر"], ["ITIL Value System", "نظام قيمة ITIL"],
+  ["incident", "حادث"], ["event", "حدث"], ["problem", "مشكلة"], ["known error", "خطأ معروف"], ["error", "خطأ"], ["change", "تغيير"], ["release", "إصدار"],
+  ["service request", "طلب خدمة"], ["workaround", "حل بديل"], ["disaster", "كارثة"],
+  ["continuous integration", "التكامل المستمر"], ["continuous delivery", "التسليم المستمر"], ["continuous deployment", "النشر المستمر"],
+  ["observability", "قابلية الملاحظة"], ["reliability", "الموثوقية"], ["Site Reliability Engineering (SRE)", "هندسة موثوقية المواقع (SRE)"],
+  ["product specification", "مواصفات المنتج"], ["product prototype", "النموذج الأولي للمنتج"], ["operating model", "النموذج التشغيلي"], ["organization's purpose", "غرض المنظمة"],
+  ["stakeholder", "صاحب المصلحة"], ["feedback", "التغذية الراجعة"], ["metric", "مقياس"], ["critical success factor (CSF)", "عامل النجاح الحاسم (CSF)"],
+  ["DevOps", "DevOps"], ["PRINCE2", "PRINCE2"], ["artificial intelligence (AI)", "الذكاء الاصطناعي (AI)"]
+ ]
+}

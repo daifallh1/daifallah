@@ -1,0 +1,1043 @@
+{
+ "sourceDocument": "ITIL Foundation 11-05-26.pdf",
+ "sourceDocumentSha256": "1d11798cd8d91fe100ed32690a95388a5cafe588b1aea495c76b4cbaaadce9bf",
+ "pageCount": 76,
+ "extractor": "pdfplumber 0.11.10",
+ "droppedLayoutLines": [
+  {
+   "page": 1,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 1,
+   "i": 45,
+   "text": "1",
+   "bbox": [
+    518.0,
+    780.8,
+    523.6,
+    791.9
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 2,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 2,
+   "i": 48,
+   "text": "2",
+   "bbox": [
+    518.0,
+    780.7,
+    523.6,
+    791.7
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 3,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 3,
+   "i": 47,
+   "text": "3",
+   "bbox": [
+    518.0,
+    780.9,
+    523.6,
+    792.0
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 4,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 4,
+   "i": 46,
+   "text": "4",
+   "bbox": [
+    518.0,
+    780.6,
+    523.6,
+    791.6
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 5,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 5,
+   "i": 46,
+   "text": "5",
+   "bbox": [
+    518.0,
+    781.1,
+    523.6,
+    792.1
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 6,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 6,
+   "i": 45,
+   "text": "6",
+   "bbox": [
+    518.0,
+    780.8,
+    523.6,
+    791.9
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 7,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 7,
+   "i": 42,
+   "text": "7",
+   "bbox": [
+    518.0,
+    781.3,
+    523.6,
+    792.3
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 8,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 8,
+   "i": 41,
+   "text": "8",
+   "bbox": [
+    518.0,
+    781.3,
+    523.6,
+    792.3
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 9,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 9,
+   "i": 42,
+   "text": "9",
+   "bbox": [
+    518.0,
+    781.3,
+    523.6,
+    792.3
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 10,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 10,
+   "i": 44,
+   "text": "10",
+   "bbox": [
+    512.4,
+    780.9,
+    523.6,
+    792.0
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 11,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 11,
+   "i": 44,
+   "text": "11",
+   "bbox": [
+    512.4,
+    780.9,
+    523.6,
+    792.0
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 12,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 12,
+   "i": 44,
+   "text": "12",
+   "bbox": [
+    512.4,
+    781.1,
+    523.6,
+    792.1
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 13,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 13,
+   "i": 45,
+   "text": "13",
+   "bbox": [
+    512.4,
+    781.1,
+    523.6,
+    792.1
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 14,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 14,
+   "i": 43,
+   "text": "14",
+   "bbox": [
+    512.4,
+    781.2,
+    523.6,
+    792.2
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 15,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 15,
+   "i": 44,
+   "text": "15",
+   "bbox": [
+    512.4,
+    780.7,
+    523.6,
+    791.7
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 16,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 16,
+   "i": 44,
+   "text": "16",
+   "bbox": [
+    512.4,
+    781.1,
+    523.6,
+    792.1
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 17,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 17,
+   "i": 42,
+   "text": "17",
+   "bbox": [
+    512.4,
+    781.2,
+    523.6,
+    792.2
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 18,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 18,
+   "i": 42,
+   "text": "18",
+   "bbox": [
+    512.4,
+    781.2,
+    523.6,
+    792.2
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 19,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 19,
+   "i": 44,
+   "text": "19",
+   "bbox": [
+    512.4,
+    781.4,
+    523.6,
+    792.5
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 20,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 20,
+   "i": 43,
+   "text": "20",
+   "bbox": [
+    512.4,
+    781.3,
+    523.6,
+    792.3
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 21,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 21,
+   "i": 43,
+   "text": "21",
+   "bbox": [
+    512.4,
+    781.3,
+    523.6,
+    792.3
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 22,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 22,
+   "i": 42,
+   "text": "22",
+   "bbox": [
+    512.4,
+    781.2,
+    523.6,
+    792.2
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 23,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 23,
+   "i": 42,
+   "text": "23",
+   "bbox": [
+    512.4,
+    781.2,
+    523.6,
+    792.2
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 24,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 24,
+   "i": 43,
+   "text": "24",
+   "bbox": [
+    512.4,
+    781.1,
+    523.6,
+    792.1
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 25,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 25,
+   "i": 44,
+   "text": "25",
+   "bbox": [
+    512.4,
+    781.2,
+    523.6,
+    792.2
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 26,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 26,
+   "i": 44,
+   "text": "26",
+   "bbox": [
+    512.4,
+    781.2,
+    523.6,
+    792.2
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 27,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 27,
+   "i": 43,
+   "text": "27",
+   "bbox": [
+    512.4,
+    781.2,
+    523.6,
+    792.2
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 28,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 28,
+   "i": 43,
+   "text": "28",
+   "bbox": [
+    512.4,
+    781.3,
+    523.6,
+    792.3
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 29,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 29,
+   "i": 44,
+   "text": "29",
+   "bbox": [
+    512.4,
+    780.8,
+    523.6,
+    791.9
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 30,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 30,
+   "i": 47,
+   "text": "30",
+   "bbox": [
+    512.4,
+    780.8,
+    523.6,
+    791.9
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 31,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 31,
+   "i": 48,
+   "text": "31",
+   "bbox": [
+    512.4,
+    780.6,
+    523.6,
+    791.6
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 32,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 32,
+   "i": 46,
+   "text": "32",
+   "bbox": [
+    512.4,
+    780.8,
+    523.6,
+    791.9
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 33,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 33,
+   "i": 47,
+   "text": "33",
+   "bbox": [
+    512.4,
+    780.6,
+    523.6,
+    791.6
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 34,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 34,
+   "i": 47,
+   "text": "34",
+   "bbox": [
+    512.4,
+    781.1,
+    523.6,
+    792.1
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 35,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 35,
+   "i": 46,
+   "text": "35",
+   "bbox": [
+    512.4,
+    780.7,
+    523.6,
+    791.7
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 36,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 36,
+   "i": 47,
+   "text": "36",
+   "bbox": [
+    512.4,
+    780.9,
+    523.6,
+    792.0
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 37,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 37,
+   "i": 47,
+   "text": "37",
+   "bbox": [
+    512.4,
+    780.7,
+    523.6,
+    791.7
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 38,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 38,
+   "i": 46,
+   "text": "38",
+   "bbox": [
+    512.4,
+    780.9,
+    523.6,
+    792.0
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 39,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 39,
+   "i": 47,
+   "text": "39",
+   "bbox": [
+    512.4,
+    780.9,
+    523.6,
+    792.0
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 40,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 40,
+   "i": 44,
+   "text": "40",
+   "bbox": [
+    512.4,
+    780.9,
+    523.6,
+    792.0
+   ],
+   "reason": "page_number_footer"
+  },
+  {
+   "page": 41,
+   "i": 0,
+   "text": "QUESTIONS",
+   "bbox": [
+    72.0,
+    37.3,
+    124.4,
+    48.4
+   ],
+   "reason": "running_header"
+  },
+  {
+   "page": 76,
+   "i": 0,
+   "text": "41",
+   "bbox": [
+    512.4,
+    37.3,
+    523.6,
+    48.4
+   ],
+   "reason": "stray_page_number_on_otherwise_blank_page"
+  }
+ ],
+ "anomalies": [],
+ "unassignedLines": [],
+ "answerKeyLineCount": 302,
+ "printedNumbers": {
+  "reused": {
+   "103": [
+    103,
+    104
+   ],
+   "178": [
+    178,
+    179
+   ]
+  },
+  "missing": [
+   171,
+   300
+  ],
+  "nonSequentialTransitions": [
+   {
+    "afterOrdinal": 103,
+    "from": 103,
+    "to": 103,
+    "page": 25
+   },
+   {
+    "afterOrdinal": 171,
+    "from": 170,
+    "to": 172,
+    "page": 40
+   },
+   {
+    "afterOrdinal": 178,
+    "from": 178,
+    "to": 178,
+    "page": 41
+   },
+   {
+    "afterOrdinal": 300,
+    "from": 299,
+    "to": 301,
+    "page": 71
+   }
+  ]
+ },
+ "pdftotextVersion": "pdftotext version 24.02.0",
+ "crossExtractorCheck": {
+  "method": "Per-page character sequence equality between pdfplumber and pdftotext -raw, ignoring whitespace and hyphens.",
+  "pagesCompared": 76,
+  "pagesDiffering": []
+ }
+}

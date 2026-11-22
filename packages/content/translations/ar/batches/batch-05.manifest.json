@@ -1,0 +1,1025 @@
+{
+ "batch": 5,
+ "items": {
+  "001": {
+   "key": "tcdac7179e324e6b88d7c",
+   "en": "Outcomes provide assurance to stakeholders regarding the performance of a service",
+   "kind": "D",
+   "ordinal": 149
+  },
+  "002": {
+   "key": "tfa290baf2b2ffcd68a1d",
+   "en": "Outcomes are the end results that depend on specific outputs to achieve desired effects or benefits.",
+   "kind": "E",
+   "ordinal": 149
+  },
+  "003": {
+   "key": "t19aa6dbf94def1d0c96e",
+   "en": "Identify the missing word in the following sentence The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of [?], and the CIs that support them, is available when and where it is needed",
+   "kind": "Q",
+   "ordinal": 150
+  },
+  "004": {
+   "key": "tf8a665a97769f1d2df5c",
+   "en": "organizations",
+   "kind": "A",
+   "ordinal": 150
+  },
+  "005": {
+   "key": "tb8b142fa994e87946b97",
+   "en": "outcomes",
+   "kind": "B",
+   "ordinal": 150
+  },
+  "006": {
+   "key": "t8346862a9c870a539075",
+   "en": "relationships",
+   "kind": "C",
+   "ordinal": 150
+  },
+  "007": {
+   "key": "tef1c4b45f2ed763283f8",
+   "en": "services",
+   "kind": "D",
+   "ordinal": 150
+  },
+  "008": {
+   "key": "t5cea989a2467ec6160d0",
+   "en": "The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of services, and the CIs that support them, is available when and where it is needed. This includes information on how CIs are configured and the relationships between them.",
+   "kind": "E",
+   "ordinal": 150
+  },
+  "009": {
+   "key": "tff26a3618c5529dfc770",
+   "en": "What ensures that a service provider and a service consumer continually co-create value?",
+   "kind": "Q",
+   "ordinal": 151
+  },
+  "010": {
+   "key": "t5b71176327f0bd982735",
+   "en": "Service consumption",
+   "kind": "A",
+   "ordinal": 151
+  },
+  "011": {
+   "key": "t7b3dbe39b457ba414a04",
+   "en": "Service offerings",
+   "kind": "B",
+   "ordinal": 151
+  },
+  "012": {
+   "key": "tac20f913d55c07bc8f58",
+   "en": "Change enablement",
+   "kind": "C",
+   "ordinal": 151
+  },
+  "013": {
+   "key": "t30568d2c54728d18edee",
+   "en": "Service relationship management",
+   "kind": "D",
+   "ordinal": 151
+  },
+  "014": {
+   "key": "t33ca423e42b48d8e6516",
+   "en": "A service relationship is defined as the cooperation between a service provider and service consumer. Service relationships are established between two or more organizations to co-create value. An organization can play the role of provider or consumer interchangeably, depending on the situation.",
+   "kind": "E",
+   "ordinal": 151
+  },
+  "015": {
+   "key": "tc28786bd75a25e41129a",
+   "en": "Which is a key requirement for successful service level agreements (SLAs)?",
+   "kind": "Q",
+   "ordinal": 152
+  },
+  "016": {
+   "key": "t488946fe07a2e217cd1c",
+   "en": "They should be written using language and terms which all parties will understand",
+   "kind": "A",
+   "ordinal": 152
+  },
+  "017": {
+   "key": "t686cea90337d41a07ad6",
+   "en": "They should be based on system-based metrics which are useful to the service provider",
+   "kind": "B",
+   "ordinal": 152
+  },
+  "018": {
+   "key": "ta4a0f7a0c1b8a62a4be2",
+   "en": "They should be carried forward, unchanged, from one year to the next to enable unisilen service",
+   "kind": "C",
+   "ordinal": 152
+  },
+  "019": {
+   "key": "te4d95c1b1102c81e6611",
+   "en": "They should avoid ambiguous targets such as those relating to user experience",
+   "kind": "D",
+   "ordinal": 152
+  },
+  "020": {
+   "key": "ta60d0c73c3c016dacee1",
+   "en": "An SLA is defined as a documented agreement between a service provider and a customer that identifies both services required and the expected level of service. SLAs are used to measure the performance of services from the customer's point of view, and it is important that they are agreed in the wider business context. Some of the key requirements for successful SLAs include: They must be related to a defined service in the service catalogue. Individual metrics without a specified service context are unhelpful. They should relate to defined outcomes and not simply operational metrics. This can be achieved with balanced bundles of metrics, such as customer satisfaction and key business outcomes. They should reflect an ‘agreement’: an engagement and discussion between the service provider and the service consumer. It is important to involve all stakeholders, including partners, sponsors, users, and customers. They must be simply written and easy to understand and use for all parties.",
+   "kind": "E",
+   "ordinal": 152
+  },
+  "021": {
+   "key": "t5c8802d611058d508ba4",
+   "en": "A release is a version of a product, service, or other configuration item that is made available for use, representing a controlled deployment of new or changed components into the live environment.",
+   "kind": "E",
+   "ordinal": 153
+  },
+  "022": {
+   "key": "t050cf662be6057356191",
+   "en": "The organizations and people dimension promotes conducting safe-to-fail experiments in complex situations by fostering a culture that encourages learning, collaboration, adaptability, and informed decision-making within teams and across the organization.",
+   "kind": "E",
+   "ordinal": 154
+  },
+  "023": {
+   "key": "tbb8328ddb76120bf35cd",
+   "en": "Direct represents the governance activity where the governing body sets direction, priorities, and policies, such as approving a strategy and instructing management to focus investment on specific initiatives.",
+   "kind": "E",
+   "ordinal": 155
+  },
+  "024": {
+   "key": "t7501f67d94012921e722",
+   "en": "A partnership relationship involves close collaboration between organizations, often delivering bespoke services with a strong focus on innovation, shared goals, and long-term growth rather than standardized, transactional arrangements.",
+   "kind": "E",
+   "ordinal": 156
+  },
+  "025": {
+   "key": "t57380941d0f4cbe1cb9b",
+   "en": "By using the ‘keep it simple and practical’ principle and one or two others that are relevant to the specific decision",
+   "kind": "D",
+   "ordinal": 157
+  },
+  "026": {
+   "key": "t1a9ede89b3983d4a095c",
+   "en": "The guiding principles should each be considered to determine their relevance to the specific context and decision, as they are universal recommendations that may apply differently depending on the situation.",
+   "kind": "E",
+   "ordinal": 157
+  },
+  "027": {
+   "key": "t26435117709d5e264551",
+   "en": "Which practice has a purpose that includes managing risks to confidentiality, integrity and availability?",
+   "kind": "Q",
+   "ordinal": 158
+  },
+  "028": {
+   "key": "tfcfafac1dcb2a97fbb6c",
+   "en": "Information security management",
+   "kind": "A",
+   "ordinal": 158
+  },
+  "029": {
+   "key": "t37f56bab0225fc753b32",
+   "en": "Continual improvement",
+   "kind": "B",
+   "ordinal": 158
+  },
+  "030": {
+   "key": "tff021b130d246f556c78",
+   "en": "Monitoring and event management",
+   "kind": "C",
+   "ordinal": 158
+  },
+  "031": {
+   "key": "t70fd47b8c5463a4aed41",
+   "en": "Service level management",
+   "kind": "D",
+   "ordinal": 158
+  },
+  "032": {
+   "key": "td1744d5fdfe7847a0784",
+   "en": "Which will help solve incidents more quickly?",
+   "kind": "Q",
+   "ordinal": 159
+  },
+  "033": {
+   "key": "t60a0a4ece68ace0dc967",
+   "en": "Target resolution times",
+   "kind": "A",
+   "ordinal": 159
+  },
+  "034": {
+   "key": "tb53336e89c726802bdfc",
+   "en": "Escalating all incidents to support teams",
+   "kind": "B",
+   "ordinal": 159
+  },
+  "035": {
+   "key": "t97dbb5e75aa09f5d1463",
+   "en": "Collaboration between teams",
+   "kind": "C",
+   "ordinal": 159
+  },
+  "036": {
+   "key": "t71cdf16dce76647e0297",
+   "en": "Detailed procedural steps for incident investigation",
+   "kind": "D",
+   "ordinal": 159
+  },
+  "037": {
+   "key": "t03e3ee998372bd8004cc",
+   "en": "When is the earliest that a workaround can be documented in ‘problem management’?",
+   "kind": "Q",
+   "ordinal": 160
+  },
+  "038": {
+   "key": "tac93bbc4353887ef939c",
+   "en": "After the problem has been logged",
+   "kind": "A",
+   "ordinal": 160
+  },
+  "039": {
+   "key": "t9476e619d6548562c31b",
+   "en": "After the problem has been prioritized",
+   "kind": "B",
+   "ordinal": 160
+  },
+  "040": {
+   "key": "t2024a81224fa35a3ea44",
+   "en": "After the problem has been analyzed",
+   "kind": "C",
+   "ordinal": 160
+  },
+  "041": {
+   "key": "t88c6a572d7eaba7e6d7d",
+   "en": "After the problem has been resolved",
+   "kind": "D",
+   "ordinal": 160
+  },
+  "042": {
+   "key": "td87bf9af8806aca8a362",
+   "en": "Which is an activity of the ‘problem management’ practice?",
+   "kind": "Q",
+   "ordinal": 161
+  },
+  "043": {
+   "key": "t7b8acf0b064b34be4d86",
+   "en": "Restoration of normal service operation as quickly as possible",
+   "kind": "A",
+   "ordinal": 161
+  },
+  "044": {
+   "key": "t03ed2d3bdddec1daa30d",
+   "en": "Prioritization of problems based on the risk that they pose",
+   "kind": "B",
+   "ordinal": 161
+  },
+  "045": {
+   "key": "tf6becfea1bec72ceb63c",
+   "en": "Authorization of changes to resolve the cause of problems",
+   "kind": "C",
+   "ordinal": 161
+  },
+  "046": {
+   "key": "t6f2a05a901dea5f2bbdc",
+   "en": "Resolution of incidents in a time that meets customer expectations",
+   "kind": "D",
+   "ordinal": 161
+  },
+  "047": {
+   "key": "tda39468456d21a321939",
+   "en": "Which practice is MOST likely to benefit from the use of chatbots?",
+   "kind": "Q",
+   "ordinal": 162
+  },
+  "048": {
+   "key": "tf18daddf144548475892",
+   "en": "Service desk",
+   "kind": "D",
+   "ordinal": 162
+  },
+  "049": {
+   "key": "t27680d29e7df672ff3f4",
+   "en": "A key success metric for the transition activity is the number and impact of deployment errors, as transition focuses on introducing new or changed services into the live environment in a controlled way while minimizing risk and disruption.",
+   "kind": "E",
+   "ordinal": 163
+  },
+  "050": {
+   "key": "t81f3c556fdb8a9285daf",
+   "en": "A product prototype is an initial version of a product that demonstrates its basic form and functionality, allowing stakeholders to explore, validate, and refine ideas before full development and release.",
+   "kind": "E",
+   "ordinal": 164
+  },
+  "051": {
+   "key": "taa0cb4cce15e7b552eaf",
+   "en": "An organization is planning to improve the existing service and wants to understand its current performance before making any changes. According to the principle ‘Start where you are,’ what could an organization consider when observing current performance of the service?",
+   "kind": "Q",
+   "ordinal": 165
+  },
+  "052": {
+   "key": "t92d9a77567c476f77a91",
+   "en": "The principle ‘Start where you are’ emphasizes assessing the current state before making changes. Identifying who the consumer is and why they use the service helps the organization understand existing value, performance, and context, enabling informed decisions based on real conditions rather than assumptions.",
+   "kind": "E",
+   "ordinal": 165
+  },
+  "053": {
+   "key": "t55fdd542cc2e20b5dd99",
+   "en": "Seeking feedback before, during, and after each iteration ensures that the work remains aligned with evolving needs, priorities, and environmental changes, enabling timely adjustments and continuous improvement.",
+   "kind": "E",
+   "ordinal": 166
+  },
+  "054": {
+   "key": "t479abd13e297e5dafdeb",
+   "en": "A value stream is a series of steps an organization undertakes to create and deliver products and services, enabling value for consumers through coordinated activities and the use of management practices.",
+   "kind": "E",
+   "ordinal": 167
+  },
+  "055": {
+   "key": "t254a693aaf9fd3e877b5",
+   "en": "Where are the details of the required performance outcomes of a service defined?",
+   "kind": "Q",
+   "ordinal": 168
+  },
+  "056": {
+   "key": "t97972558e2f94f5c7649",
+   "en": "Service level agreements",
+   "kind": "A",
+   "ordinal": 168
+  },
+  "057": {
+   "key": "tf97efc02c5d26f51d9f7",
+   "en": "Service requests",
+   "kind": "B",
+   "ordinal": 168
+  },
+  "058": {
+   "key": "t8bd0d5e1005095bc26aa",
+   "en": "Service components",
+   "kind": "C",
+   "ordinal": 168
+  },
+  "059": {
+   "key": "t67a7b2be3c96bd6b5f5a",
+   "en": "Which value chain activity ensures a shared understanding of the current status and required direction for all products and services?",
+   "kind": "Q",
+   "ordinal": 169
+  },
+  "060": {
+   "key": "t471f48e6646541fc9542",
+   "en": "Design and transition",
+   "kind": "C",
+   "ordinal": 169
+  },
+  "061": {
+   "key": "t10c13dfe1e00d4367477",
+   "en": "Deliver and support",
+   "kind": "D",
+   "ordinal": 169
+  },
+  "062": {
+   "key": "t5e0f97cf77da6c29ea58",
+   "en": "Which practice has the purpose of ensuring that the organization's suppliers and their performance are managed appropriately to support the provision of seamless, quality products and services?",
+   "kind": "Q",
+   "ordinal": 170
+  },
+  "063": {
+   "key": "t311a948de17635fd1e3f",
+   "en": "Release management",
+   "kind": "A",
+   "ordinal": 170
+  },
+  "064": {
+   "key": "td20885a0910921d7b224",
+   "en": "Supplier management",
+   "kind": "B",
+   "ordinal": 170
+  },
+  "065": {
+   "key": "tc63d0d9217f30b2e6be9",
+   "en": "Service management",
+   "kind": "C",
+   "ordinal": 170
+  },
+  "066": {
+   "key": "t378c1613a67f058620dd",
+   "en": "Relationship management",
+   "kind": "D",
+   "ordinal": 170
+  },
+  "067": {
+   "key": "t6d796f5ca1512dc2b034",
+   "en": "Which two practices interact the MOST with the service desk practice?",
+   "kind": "Q",
+   "ordinal": 171
+  },
+  "068": {
+   "key": "t4ff1544498632b237521",
+   "en": "Incident management and service request management",
+   "kind": "A",
+   "ordinal": 171
+  },
+  "069": {
+   "key": "t5f2f4cf32c1d4784ec0e",
+   "en": "Service request management and deployment management",
+   "kind": "B",
+   "ordinal": 171
+  },
+  "070": {
+   "key": "t24cd5cacd852dae87b36",
+   "en": "Deployment management and change enablement",
+   "kind": "C",
+   "ordinal": 171
+  },
+  "071": {
+   "key": "tb149727085665f275bc4",
+   "en": "Change enablement and incident management",
+   "kind": "D",
+   "ordinal": 171
+  },
+  "072": {
+   "key": "tc26a27c1b800308e2cb0",
+   "en": "Which is an activity of the ‘incident management’ practice?",
+   "kind": "Q",
+   "ordinal": 172
+  },
+  "073": {
+   "key": "t3422a5616e35311f447e",
+   "en": "Assessing and prioritizing improvement opportunities",
+   "kind": "A",
+   "ordinal": 172
+  },
+  "074": {
+   "key": "t5beb46a0b770ea3ea948",
+   "en": "Performing service reviews with customers",
+   "kind": "B",
+   "ordinal": 172
+  },
+  "075": {
+   "key": "t674a9c63b07f9e3fd9c7",
+   "en": "Providing good-quality updates when expected",
+   "kind": "C",
+   "ordinal": 172
+  },
+  "076": {
+   "key": "t2b6d489a66c9bd31b198",
+   "en": "Automating service requests to the greatest degree possible",
+   "kind": "D",
+   "ordinal": 172
+  },
+  "077": {
+   "key": "t639a70b09668b03b86b2",
+   "en": "Which value chain activity is assessed by evaluating the quality of the resources and services sourced from a third party?",
+   "kind": "Q",
+   "ordinal": 175
+  },
+  "078": {
+   "key": "t82335731c6545d431347",
+   "en": "A telecom provider designs an enterprise package that combines internet, VoIP, network security and technical support. Which concept does this illustrate?",
+   "kind": "Q",
+   "ordinal": 176
+  },
+  "079": {
+   "key": "t690f7158ee646d37a484",
+   "en": "Service action",
+   "kind": "B",
+   "ordinal": 176
+  },
+  "080": {
+   "key": "t43f1157ad45b55778a2e",
+   "en": "Service offering",
+   "kind": "D",
+   "ordinal": 176
+  },
+  "081": {
+   "key": "t8ff3ad27f08017add3a6",
+   "en": "A healthcare IT provider is planning to launch a new digital appointment system. According to ‘Focus on value’, what should the organization do first?",
+   "kind": "Q",
+   "ordinal": 178
+  },
+  "082": {
+   "key": "t83a9b085576e359357a7",
+   "en": "Understand why patients use the appointment service",
+   "kind": "A",
+   "ordinal": 178
+  },
+  "083": {
+   "key": "tf58dd77c760247a5d411",
+   "en": "Identify who the service consumers and key stakeholders are",
+   "kind": "B",
+   "ordinal": 178
+  },
+  "084": {
+   "key": "t259c075f2386543fc033",
+   "en": "Analyze how the system will help patients achieve their goals",
+   "kind": "C",
+   "ordinal": 178
+  },
+  "085": {
+   "key": "t2fb12318fe9bf73549f1",
+   "en": "Evaluate the risks and financial consequences for the consumers",
+   "kind": "D",
+   "ordinal": 178
+  },
+  "086": {
+   "key": "tf678014be2777ffc0231",
+   "en": "The principle ‘Focus on value’ begins with identifying who the service consumers and key stakeholders are, as understanding who is involved is essential before determining what value means and how it can be created for them.",
+   "kind": "E",
+   "ordinal": 178
+  },
+  "087": {
+   "key": "tfca8da1eca126037eba3",
+   "en": "A digital service is a service that fully or largely relies on digital products.",
+   "kind": "E",
+   "ordinal": 179
+  },
+  "088": {
+   "key": "td0ff37ebbda58ec772a7",
+   "en": "Value is defined as the perceived benefits, usefulness, and importance of something. From the consumer perspective, value is determined by balancing:\n• Benefits (what they gain)\n• Costs (what they pay or invest)\n• Risks (potential negative outcomes) A service is perceived as valuable when benefits and positive outcomes outweigh costs and risks.",
+   "kind": "E",
+   "ordinal": 180
+  },
+  "089": {
+   "key": "t6be3b812937e02321425",
+   "en": "A means of enabling value for consumers through digital products without transferring ownership",
+   "kind": "B",
+   "ordinal": 181
+  },
+  "090": {
+   "key": "t253a02e3b2090509884b",
+   "en": "A digital product is a combination of an organization’s resources based on digital technology and designed to offer value to consumers.",
+   "kind": "E",
+   "ordinal": 181
+  },
+  "091": {
+   "key": "t247a1b8f38a0a20cfd6b",
+   "en": "Which of these is a result for a stakeholder enabled by one or more outputs?",
+   "kind": "Q",
+   "ordinal": 182
+  },
+  "092": {
+   "key": "tfb9ef894175c327470f7",
+   "en": "Product",
+   "kind": "A",
+   "ordinal": 182
+  },
+  "093": {
+   "key": "t4e80abb5b14656d4eed8",
+   "en": "Outcome",
+   "kind": "C",
+   "ordinal": 182
+  },
+  "094": {
+   "key": "t0711a8d636e4c068ae59",
+   "en": "Risk",
+   "kind": "D",
+   "ordinal": 182
+  },
+  "095": {
+   "key": "tf727c0c121d6002c6ffe",
+   "en": "While an output is a deliverable, an outcome is the actual result achieved for the stakeholder.",
+   "kind": "E",
+   "ordinal": 182
+  },
+  "096": {
+   "key": "tf8c998bb7c85c004b084",
+   "en": "How does a digital service differ from a standard service?",
+   "kind": "Q",
+   "ordinal": 183
+  },
+  "097": {
+   "key": "t86d57a5ddcc99e4b826a",
+   "en": "It does not require any resources.",
+   "kind": "A",
+   "ordinal": 183
+  },
+  "098": {
+   "key": "tb897dca986d5e9ede5f7",
+   "en": "It is always provided for free.",
+   "kind": "B",
+   "ordinal": 183
+  },
+  "099": {
+   "key": "tfe3de94f3370f500820b",
+   "en": "It fully or largely relies on digital products.",
+   "kind": "C",
+   "ordinal": 183
+  },
+  "100": {
+   "key": "te6a4ed95b332267e435e",
+   "en": "It has no risks associated with it.",
+   "kind": "D",
+   "ordinal": 183
+  },
+  "101": {
+   "key": "t500af44b67099bd27cb3",
+   "en": "A digital service is defined by its reliance on digital products.",
+   "kind": "E",
+   "ordinal": 183
+  },
+  "102": {
+   "key": "t2f308b4805e38485054d",
+   "en": "Which is an example of \"Access to resources\" in a service offering?",
+   "kind": "Q",
+   "ordinal": 184
+  },
+  "103": {
+   "key": "tc701e796b0e69d580df4",
+   "en": "A user gaining access to a cloud-based application",
+   "kind": "A",
+   "ordinal": 184
+  },
+  "104": {
+   "key": "t987334ad0ad9acf97ebc",
+   "en": "The transfer of a laptop to an employee.",
+   "kind": "B",
+   "ordinal": 184
+  },
+  "105": {
+   "key": "t851b1d0639595c68e725",
+   "en": "A consultant providing a training session.",
+   "kind": "C",
+   "ordinal": 184
+  },
+  "106": {
+   "key": "tc1962025dc3b4beedefb",
+   "en": "The delivery of office supplies.",
+   "kind": "D",
+   "ordinal": 184
+  },
+  "107": {
+   "key": "ta3f1afc00312f859023b",
+   "en": "Access to resources involves the consumer using provider-owned assets like cloud services or networks.",
+   "kind": "E",
+   "ordinal": 184
+  },
+  "108": {
+   "key": "t13436de641b8e100538f",
+   "en": "In the context of value, what are \"Costs removed\"?",
+   "kind": "Q",
+   "ordinal": 185
+  },
+  "109": {
+   "key": "tb78a95300ffbd7cd74c1",
+   "en": "Costs imposed by the service consumption.",
+   "kind": "A",
+   "ordinal": 185
+  },
+  "110": {
+   "key": "t2bd7fd77e6e9bb448b0b",
+   "en": "Costs reduced or removed from the consumer by the service.",
+   "kind": "B",
+   "ordinal": 185
+  },
+  "111": {
+   "key": "td77821b3de37fc02ac0a",
+   "en": "The total price of the service subscription.",
+   "kind": "C",
+   "ordinal": 185
+  },
+  "112": {
+   "key": "ta2ca9a2607fe077ec76d",
+   "en": "Costs associated with training staff.",
+   "kind": "D",
+   "ordinal": 185
+  },
+  "113": {
+   "key": "t8628f9164fe9d976a436",
+   "en": "Part of a service's value proposition is removing or reducing costs the consumer would otherwise have to bear.",
+   "kind": "E",
+   "ordinal": 185
+  },
+  "114": {
+   "key": "t4fdf35dc7c9da1afd4cc",
+   "en": "What is \"Value\"?",
+   "kind": "Q",
+   "ordinal": 186
+  },
+  "115": {
+   "key": "tf9b2fb84a02893df0068",
+   "en": "The price paid for a service.",
+   "kind": "A",
+   "ordinal": 186
+  },
+  "116": {
+   "key": "td7c0e9abe96bf97f1567",
+   "en": "The perceived benefits, usefulness, and importance of something",
+   "kind": "B",
+   "ordinal": 186
+  },
+  "117": {
+   "key": "tbbb043266cadca143615",
+   "en": "A document defining service levels.",
+   "kind": "C",
+   "ordinal": 186
+  },
+  "118": {
+   "key": "t29962b5e22fcd07f44ba",
+   "en": "The total number of outputs produced.",
+   "kind": "D",
+   "ordinal": 186
+  },
+  "119": {
+   "key": "t603883e34714143b2fec",
+   "en": "Value is subjective and based on the perception of benefits and importance.",
+   "kind": "E",
+   "ordinal": 186
+  },
+  "120": {
+   "key": "t15b0825865cab7bac779",
+   "en": "Which statement about the relationship between digital products and services is CORRECT?",
+   "kind": "Q",
+   "ordinal": 187
+  },
+  "121": {
+   "key": "t2385781c326ff1b3ad81",
+   "en": "One product can only ever enable one service.",
+   "kind": "A",
+   "ordinal": 187
+  },
+  "122": {
+   "key": "t8ea17e1d72ec0d0c8edd",
+   "en": "One product may enable many services",
+   "kind": "B",
+   "ordinal": 187
+  },
+  "123": {
+   "key": "te02a6b632cd28db3a320",
+   "en": "Digital services are never based on digital products.",
+   "kind": "C",
+   "ordinal": 187
+  },
+  "124": {
+   "key": "t100d97b74330149b6ed6",
+   "en": "Services describe technology; products describe value.",
+   "kind": "D",
+   "ordinal": 187
+  },
+  "125": {
+   "key": "t36de103230127d72fa8d",
+   "en": "A single digital product can be the foundation for multiple different services.",
+   "kind": "E",
+   "ordinal": 187
+  },
+  "126": {
+   "key": "t44b794b7220a6c239180",
+   "en": "What is a \"Service Action\"?",
+   "kind": "Q",
+   "ordinal": 188
+  },
+  "127": {
+   "key": "t226cdcb7628ca19714b2",
+   "en": "The ownership transfer of a physical good.",
+   "kind": "A",
+   "ordinal": 188
+  },
+  "128": {
+   "key": "ta315f624c2c4b5ab2625",
+   "en": "An activity performed by the provider to address a consumer need",
+   "kind": "B",
+   "ordinal": 188
+  },
+  "129": {
+   "key": "ta7255deeae936962358d",
+   "en": "A metric used to measure downtime.",
+   "kind": "C",
+   "ordinal": 188
+  },
+  "130": {
+   "key": "t657c3ef98a0bcf3638c2",
+   "en": "A strategic goal for the organization.",
+   "kind": "D",
+   "ordinal": 188
+  },
+  "131": {
+   "key": "teeacc4a2c2fbc8753b72",
+   "en": "Service actions are tasks (like request fulfillment) performed by the provider or jointly with the consumer.",
+   "kind": "E",
+   "ordinal": 188
+  },
+  "132": {
+   "key": "t69d468b8a304411deb1a",
+   "en": "When is a service perceived as valuable?",
+   "kind": "Q",
+   "ordinal": 189
+  },
+  "133": {
+   "key": "t59412024db5452245bdc",
+   "en": "When it has the lowest possible cost.",
+   "kind": "A",
+   "ordinal": 189
+  },
+  "134": {
+   "key": "t76ad13b40e126aaf0de5",
+   "en": "When it produces the highest quantity of outputs.",
+   "kind": "B",
+   "ordinal": 189
+  },
+  "135": {
+   "key": "t086c2360086c23cd3f31",
+   "en": "When its positive effects outweigh its negative ones",
+   "kind": "C",
+   "ordinal": 189
+  },
+  "136": {
+   "key": "t4125eb96141c9953a681",
+   "en": "When it uses the newest technology available.",
+   "kind": "D",
+   "ordinal": 189
+  },
+  "137": {
+   "key": "t66dc9d9f5819a1b281e4",
+   "en": "Value is achieved when positive outcomes and removed costs/risks outweigh negative outcomes and introduced costs/risks.",
+   "kind": "E",
+   "ordinal": 189
+  },
+  "138": {
+   "key": "td33f4686c418957cfb9e",
+   "en": "Which statement about the relationship between \"outputs\" and \"outcomes\" is CORRECT?",
+   "kind": "Q",
+   "ordinal": 190
+  },
+  "139": {
+   "key": "t9af36d5a2199f889286e",
+   "en": "Outputs are the results achieved for stakeholders, while outcomes are the tangible deliverables.",
+   "kind": "A",
+   "ordinal": 190
+  },
+  "140": {
+   "key": "t6f6c70dc70dcdc9f63fc",
+   "en": "Service providers produce outputs that help consumers achieve certain outcomes.",
+   "kind": "B",
+   "ordinal": 190
+  },
+  "141": {
+   "key": "td4103c12074eecd5e101",
+   "en": "Outcomes are always tangible, whereas outputs are always intangible.",
+   "kind": "C",
+   "ordinal": 190
+  },
+  "142": {
+   "key": "t6f5a67e75b96e179517d",
+   "en": "There is no relationship between an output and an outcome.",
+   "kind": "D",
+   "ordinal": 190
+  },
+  "143": {
+   "key": "t98049eb9dfbd06be0487",
+   "en": "An output is a deliverable of an activity, while an outcome is the actual result for a stakeholder enabled by those outputs. Providers create the outputs to facilitate the desired results (outcomes).",
+   "kind": "E",
+   "ordinal": 190
+  },
+  "144": {
+   "key": "td2e8c3b485b3b54fdea4",
+   "en": "Sustainability is the assurance that a product or service meets and will continue to meet the requirements for environmental stewardship, social progress, and economic growth.",
+   "kind": "E",
+   "ordinal": 191
+  },
+  "145": {
+   "key": "t5d43388ab68c9bc57d8b",
+   "en": "Which type of service relationship typically focuses on support and efficiency through standardized services?",
+   "kind": "Q",
+   "ordinal": 192
+  },
+  "146": {
+   "key": "t3759f5bfb45189219c22",
+   "en": "Basic relationship → Typical focus: Support and efficiency. It uses standardized, highly standardized, commercial off-the-shelf services. It is focused on operational level and efficiency.",
+   "kind": "E",
+   "ordinal": 192
+  },
+  "147": {
+   "key": "t834ee5745c05e8c5c2bb",
+   "en": "Customer is the role that defines the requirements for products and services and takes responsibility for the outcomes of service consumption.",
+   "kind": "E",
+   "ordinal": 193
+  },
+  "148": {
+   "key": "t7b5e82d560333a97e929",
+   "en": "What is an organization?",
+   "kind": "Q",
+   "ordinal": 194
+  },
+  "149": {
+   "key": "tfe8e5cd5ea9e168d1797",
+   "en": "Only a large multinational corporation.",
+   "kind": "A",
+   "ordinal": 194
+  },
+  "150": {
+   "key": "tc27c3996aa01e549523d",
+   "en": "Only a legally registered company.",
+   "kind": "B",
+   "ordinal": 194
+  },
+  "151": {
+   "key": "t567e79361de5a6266707",
+   "en": "A person or group with functions, responsibilities, and authorities to achieve objectives",
+   "kind": "C",
+   "ordinal": 194
+  },
+  "152": {
+   "key": "t684039058460fc153c98",
+   "en": "A set of technology resources.",
+   "kind": "D",
+   "ordinal": 194
+  },
+  "153": {
+   "key": "tbe3c884434ea85afcfcd",
+   "en": "ITIL defines organization broadly, ranging from individuals to multinational corporations or even teams within them.",
+   "kind": "E",
+   "ordinal": 194
+  },
+  "154": {
+   "key": "tc94fc873ae3e424f85b2",
+   "en": "Which role is responsible for the procurement and use of services?",
+   "kind": "Q",
+   "ordinal": 195
+  },
+  "155": {
+   "key": "t1fdbbfbed7250b4a0aec",
+   "en": "Service Provider",
+   "kind": "A",
+   "ordinal": 195
+  },
+  "156": {
+   "key": "tbeb3abf974d910d813a1",
+   "en": "Service Consumer",
+   "kind": "B",
+   "ordinal": 195
+  },
+  "157": {
+   "key": "t6bebd04306eb5c12e197",
+   "en": "Product Vend",
+   "kind": "C",
+   "ordinal": 195
+  },
+  "158": {
+   "key": "td6184c9fbbde6b898f95",
+   "en": "Governing Body",
+   "kind": "D",
+   "ordinal": 195
+  },
+  "159": {
+   "key": "t3b71ed5fd9271210778e",
+   "en": "The consumer organization is the one that procures and utilizes the service.",
+   "kind": "E",
+   "ordinal": 195
+  },
+  "160": {
+   "key": "td161d433846d2dded3f2",
+   "en": "In a service relationship, who is the \"Sponsor\"?",
+   "kind": "Q",
+   "ordinal": 196
+  },
+  "161": {
+   "key": "t32a282a0db15e836cb77",
+   "en": "The person who uses the service daily.",
+   "kind": "A",
+   "ordinal": 196
+  },
+  "162": {
+   "key": "t4ce3e25a24c1b821d95f",
+   "en": "The person who defines the technical requirements.",
+   "kind": "B",
+   "ordinal": 196
+  },
+  "163": {
+   "key": "tee3b8730b885a578947e",
+   "en": "The external partner providing technology.",
+   "kind": "D",
+   "ordinal": 196
+  },
+  "164": {
+   "key": "t11ddfdb348e428524a54",
+   "en": "The sponsor is specifically the role that provides financial authorization.",
+   "kind": "E",
+   "ordinal": 196
+  },
+  "165": {
+   "key": "tbd18a3e75b722d0869c8",
+   "en": "Which step of the service journey involves understanding markets and stakeholders?",
+   "kind": "Q",
+   "ordinal": 197
+  },
+  "166": {
+   "key": "t3b73900b8d29f963dece",
+   "en": "Explore",
+   "kind": "A",
+   "ordinal": 197
+  },
+  "167": {
+   "key": "tb97d4ee01b8aba0c8ca9",
+   "en": "Onboard",
+   "kind": "C",
+   "ordinal": 197
+  },
+  "168": {
+   "key": "t9bd75a3fb14a6e1d9870",
+   "en": "Reflect",
+   "kind": "D",
+   "ordinal": 197
+  },
+  "169": {
+   "key": "te0c4ac561d0c404825d8",
+   "en": "\"Explore\" is the initial phase where organizations research market needs and potential partners.",
+   "kind": "E",
+   "ordinal": 197
+  },
+  "170": {
+   "key": "t0ad39e32afc6184051c7",
+   "en": "What is the \"Band of Visibility\"?",
+   "kind": "Q",
+   "ordinal": 198
+  }
+ }
+}

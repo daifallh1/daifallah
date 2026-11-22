@@ -1,0 +1,2134 @@
+{
+ "reportType": "ImportAuditReport",
+ "bankVersion": "1.0.0+32721183c4e52e10",
+ "sourceDocument": "ITIL Foundation 11-05-26.pdf",
+ "sourceDocumentSha256": "1d11798cd8d91fe100ed32690a95388a5cafe588b1aea495c76b4cbaaadce9bf",
+ "syllabus": {
+  "version": "5.0",
+  "published": "February 2026",
+  "sha256": "eecb65e0e03f92b2786e54141b1db535d4a20d7f51385be519143ef8a04eec37"
+ },
+ "extractor": "pdfplumber 0.11.10",
+ "confirmedCounts": {
+  "pdfPages": 76,
+  "pagesWithQuestionContent": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   65,
+   66,
+   67,
+   68,
+   69,
+   70,
+   71
+  ],
+  "answerKeyLines": 302,
+  "questionOccurrences": 302,
+  "occurrencesWithFourOptions": 302,
+  "occurrencesWithSourceExplanation": 282,
+  "occurrencesWithoutSourceExplanation": 20,
+  "occurrencesWithRefCitation": 82,
+  "distinctNormalizedStems": 242,
+  "duplicateStemGroups": 58,
+  "occurrencesInDuplicateGroups": 118,
+  "exclusionGroups": 236,
+  "nearDuplicatePairs": 7
+ },
+ "statusCounts": {
+  "approved": 276,
+  "needs_review": 12,
+  "out_of_scope": 14
+ },
+ "examEligibleOccurrences": 276,
+ "reviewReasonCounts": {
+  "source_spelling_preserved": 20,
+  "no_source_explanation": 20,
+  "legacy_itil4_terminology": 9,
+  "legacy_itil4_terminology_in_distractor": 5,
+  "duplicate_key_conflict": 4,
+  "no_matching_v5_criterion": 3,
+  "legacy_itil4_value_chain": 2,
+  "legacy_itil4_practice_detail": 9,
+  "possible_legacy_itil4_content": 1,
+  "duplicate_option_text": 2,
+  "truncated_option_text": 1,
+  "editorial_artifact": 2,
+  "possible_content_accuracy_dispute": 1,
+  "option_shaped_line_in_explanation": 1
+ },
+ "printedNumberAnomalies": {
+  "reusedLabels": {
+   "103": [
+    103,
+    104
+   ],
+   "178": [
+    178,
+    179
+   ]
+  },
+  "missingNumbers": [
+   171,
+   300
+  ],
+  "nonSequentialTransitions": [
+   {
+    "afterOrdinal": 103,
+    "from": 103,
+    "to": 103,
+    "page": 25
+   },
+   {
+    "afterOrdinal": 171,
+    "from": 170,
+    "to": 172,
+    "page": 40
+   },
+   {
+    "afterOrdinal": 178,
+    "from": 178,
+    "to": 178,
+    "page": 41
+   },
+   {
+    "afterOrdinal": 300,
+    "from": 299,
+    "to": 301,
+    "page": 71
+   }
+  ]
+ },
+ "trailingPages": "Pages 72-76 contain no question text (page 76 shows only the number '41').",
+ "crossExtractorCheck": {
+  "method": "Per-page character sequence equality between pdfplumber and pdftotext -raw, ignoring whitespace and hyphens.",
+  "pagesCompared": 76,
+  "pagesDiffering": []
+ },
+ "duplicateGroups": [
+  {
+   "duplicateGroupId": "dg-363ef2617f7dfc83",
+   "normalizedStem": "what is a product prototype",
+   "size": 3,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o105",
+     "sourceOrdinal": 105,
+     "page": 25,
+     "printedQuestionNumber": 104,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o164",
+     "sourceOrdinal": 164,
+     "page": 39,
+     "printedQuestionNumber": 163,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o242",
+     "sourceOrdinal": 242,
+     "page": 57,
+     "printedQuestionNumber": 241,
+     "sourceAnswerKey": "C",
+     "relationToReference": "different_options_different_correct_text"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-161600b177d8c14a",
+   "normalizedStem": "what is a value stream",
+   "size": 3,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o108",
+     "sourceOrdinal": 108,
+     "page": 26,
+     "printedQuestionNumber": 107,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o167",
+     "sourceOrdinal": 167,
+     "page": 39,
+     "printedQuestionNumber": 166,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o253",
+     "sourceOrdinal": 253,
+     "page": 59,
+     "printedQuestionNumber": 252,
+     "sourceAnswerKey": "B",
+     "relationToReference": "different_options_different_correct_text"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-ad10159618082472",
+   "normalizedStem": "what influences whether a service is perceived as valuable by a consumer",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o003",
+     "sourceOrdinal": 3,
+     "page": 1,
+     "printedQuestionNumber": 3,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o180",
+     "sourceOrdinal": 180,
+     "page": 42,
+     "printedQuestionNumber": 179,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-2efc87ed73c7eca5",
+   "normalizedStem": "a service provider commits to using recyclable components reducing carbon emissions and maintaining transparent supply chains which concept does this commitment represent",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o005",
+     "sourceOrdinal": 5,
+     "page": 2,
+     "printedQuestionNumber": 5,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o191",
+     "sourceOrdinal": 191,
+     "page": 44,
+     "printedQuestionNumber": 190,
+     "sourceAnswerKey": "D",
+     "relationToReference": "different_options_same_correct_text"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-7d2e80c183740233",
+   "normalizedStem": "which dimension of product and service management is directly influenced by leadership commitment to psychological safety and continual learning",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o006",
+     "sourceOrdinal": 6,
+     "page": 2,
+     "printedQuestionNumber": 6,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o274",
+     "sourceOrdinal": 274,
+     "page": 64,
+     "printedQuestionNumber": 273,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-31f1f53cb17671c7",
+   "normalizedStem": "which of the following dimension of product and service management addresses organizational and cross organizational workflows",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o007",
+     "sourceOrdinal": 7,
+     "page": 2,
+     "printedQuestionNumber": 7,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o275",
+     "sourceOrdinal": 275,
+     "page": 65,
+     "printedQuestionNumber": 274,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reordered_options_same_semantic_key"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-ff00422defab8b31",
+   "normalizedStem": "which dimension of product and service management addresses data and technologies used in digital product and services",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o008",
+     "sourceOrdinal": 8,
+     "page": 2,
+     "printedQuestionNumber": 8,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o276",
+     "sourceOrdinal": 276,
+     "page": 65,
+     "printedQuestionNumber": 275,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reordered_options_same_semantic_key"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-9dfacb8349d180dc",
+   "normalizedStem": "according to the focus on value itil guiding principle all organizational activities should link back to what",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o010",
+     "sourceOrdinal": 10,
+     "page": 3,
+     "printedQuestionNumber": 10,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o227",
+     "sourceOrdinal": 227,
+     "page": 53,
+     "printedQuestionNumber": 226,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-fc0c7b12e3f5ba97",
+   "normalizedStem": "according to the itil guiding principle start where you are what is the main risk of starting over without considering what is already available when improving a service",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o011",
+     "sourceOrdinal": 11,
+     "page": 3,
+     "printedQuestionNumber": 11,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o228",
+     "sourceOrdinal": 228,
+     "page": 53,
+     "printedQuestionNumber": 227,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-b8b6e8ff3c94226d",
+   "normalizedStem": "why should organizations consider the interaction of itil guiding principles",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o014",
+     "sourceOrdinal": 14,
+     "page": 4,
+     "printedQuestionNumber": 14,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o229",
+     "sourceOrdinal": 229,
+     "page": 53,
+     "printedQuestionNumber": 228,
+     "sourceAnswerKey": "A",
+     "relationToReference": "different_options_same_correct_text"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-f9501f18863501d3",
+   "normalizedStem": "what is the role of a governing body in an organization",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o015",
+     "sourceOrdinal": 15,
+     "page": 4,
+     "printedQuestionNumber": 15,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o216",
+     "sourceOrdinal": 216,
+     "page": 50,
+     "printedQuestionNumber": 215,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-bd32bb148d29dfc2",
+   "normalizedStem": "which of the following is not a success metric of discover activity",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o016",
+     "sourceOrdinal": 16,
+     "page": 4,
+     "printedQuestionNumber": 16,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o239",
+     "sourceOrdinal": 239,
+     "page": 56,
+     "printedQuestionNumber": 238,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-9d7cb2b3d098d0a9",
+   "normalizedStem": "what is a digital service",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o017",
+     "sourceOrdinal": 17,
+     "page": 5,
+     "printedQuestionNumber": 17,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o179",
+     "sourceOrdinal": 179,
+     "page": 41,
+     "printedQuestionNumber": 178,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-293b18b33baf4699",
+   "normalizedStem": "which term describes what an organization does for its consumers and other stakeholders and why",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o018",
+     "sourceOrdinal": 18,
+     "page": 5,
+     "printedQuestionNumber": 18,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o250",
+     "sourceOrdinal": 250,
+     "page": 58,
+     "printedQuestionNumber": 249,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-c8a940d61111de93",
+   "normalizedStem": "a company plans an improvement initiative and ensures it is clearly linked to organizational goals and objectives which continual improvement step is being performed",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o022",
+     "sourceOrdinal": 22,
+     "page": 6,
+     "printedQuestionNumber": 22,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o262",
+     "sourceOrdinal": 262,
+     "page": 61,
+     "printedQuestionNumber": 261,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-6f0d17f547da2441",
+   "normalizedStem": "which of the following is not one of the steps in value stream mapping",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o023",
+     "sourceOrdinal": 23,
+     "page": 6,
+     "printedQuestionNumber": 23,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o251",
+     "sourceOrdinal": 251,
+     "page": 59,
+     "printedQuestionNumber": 250,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-5a20dc83d011d3fb",
+   "normalizedStem": "what is a digital product",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o024",
+     "sourceOrdinal": 24,
+     "page": 6,
+     "printedQuestionNumber": 24,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o181",
+     "sourceOrdinal": 181,
+     "page": 42,
+     "printedQuestionNumber": 180,
+     "sourceAnswerKey": "C",
+     "relationToReference": "different_options_same_correct_text"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-d70ea1a4239ff937",
+   "normalizedStem": "which role takes responsibility for the outcomes of service consumption",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o027",
+     "sourceOrdinal": 27,
+     "page": 7,
+     "printedQuestionNumber": 27,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o193",
+     "sourceOrdinal": 193,
+     "page": 45,
+     "printedQuestionNumber": 192,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-7408335c0178c220",
+   "normalizedStem": "what is the main purpose of the discover activity",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o030",
+     "sourceOrdinal": 30,
+     "page": 8,
+     "printedQuestionNumber": 30,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o238",
+     "sourceOrdinal": 238,
+     "page": 56,
+     "printedQuestionNumber": 237,
+     "sourceAnswerKey": "C",
+     "relationToReference": "different_options_same_correct_text"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-c60330e4a8eaa513",
+   "normalizedStem": "which activity focuses on minimizing the impact of incidents and disasters when they happen",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o033",
+     "sourceOrdinal": 33,
+     "page": 8,
+     "printedQuestionNumber": 33,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o240",
+     "sourceOrdinal": 240,
+     "page": 56,
+     "printedQuestionNumber": 239,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-6518cc5a0b08dbf7",
+   "normalizedStem": "which itil concept includes governance practices and continual improvement",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o039",
+     "sourceOrdinal": 39,
+     "page": 10,
+     "printedQuestionNumber": 39,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o203",
+     "sourceOrdinal": 203,
+     "page": 47,
+     "printedQuestionNumber": 202,
+     "sourceAnswerKey": "A",
+     "relationToReference": "different_options_same_correct_text"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-911ec21a7998cac0",
+   "normalizedStem": "what is the main purpose of value stream mapping in an organization",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o040",
+     "sourceOrdinal": 40,
+     "page": 10,
+     "printedQuestionNumber": 40,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o252",
+     "sourceOrdinal": 252,
+     "page": 59,
+     "printedQuestionNumber": 251,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-39d886b563d0ad2d",
+   "normalizedStem": "which set correctly lists the components of the itil value system vs",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o055",
+     "sourceOrdinal": 55,
+     "page": 14,
+     "printedQuestionNumber": 55,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o204",
+     "sourceOrdinal": 204,
+     "page": 48,
+     "printedQuestionNumber": 203,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-707fa94cda83bdb5",
+   "normalizedStem": "which governance activity is focused on ensuring adherence with policies and strategic direction",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o061",
+     "sourceOrdinal": 61,
+     "page": 15,
+     "printedQuestionNumber": 61,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o215",
+     "sourceOrdinal": 215,
+     "page": 50,
+     "printedQuestionNumber": 214,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-075f497ed9f9708d",
+   "normalizedStem": "which element of the operating model refers to third parties contributing to value creation activities",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o079",
+     "sourceOrdinal": 79,
+     "page": 19,
+     "printedQuestionNumber": 79,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o130",
+     "sourceOrdinal": 130,
+     "page": 31,
+     "printedQuestionNumber": 129,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-045c6e96339f4114",
+   "normalizedStem": "what does sustainability assure in the context of a service or product",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o080",
+     "sourceOrdinal": 80,
+     "page": 20,
+     "printedQuestionNumber": 80,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o131",
+     "sourceOrdinal": 131,
+     "page": 31,
+     "printedQuestionNumber": 130,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-4a96045f422ec7a2",
+   "normalizedStem": "which of the following describes a sponsor within a consumer organization",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o081",
+     "sourceOrdinal": 81,
+     "page": 20,
+     "printedQuestionNumber": 81,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o132",
+     "sourceOrdinal": 132,
+     "page": 32,
+     "printedQuestionNumber": 131,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-04d7c59291332952",
+   "normalizedStem": "which of the following best describes an operating model",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o082",
+     "sourceOrdinal": 82,
+     "page": 20,
+     "printedQuestionNumber": 82,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o133",
+     "sourceOrdinal": 133,
+     "page": 32,
+     "printedQuestionNumber": 132,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-6709503fc8c09bc9",
+   "normalizedStem": "how do service providers contribute to the creation of service value for consumers",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o083",
+     "sourceOrdinal": 83,
+     "page": 20,
+     "printedQuestionNumber": 83,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o134",
+     "sourceOrdinal": 134,
+     "page": 32,
+     "printedQuestionNumber": 133,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-32af7cb27cb73cde",
+   "normalizedStem": "which is the main form of service interaction between service consumers and digital services",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o084",
+     "sourceOrdinal": 84,
+     "page": 21,
+     "printedQuestionNumber": 84,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o135",
+     "sourceOrdinal": 135,
+     "page": 32,
+     "printedQuestionNumber": 134,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-253bc73ef030cdf4",
+   "normalizedStem": "why do many digital service providers aim to reduce or eliminate service actions",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o085",
+     "sourceOrdinal": 85,
+     "page": 21,
+     "printedQuestionNumber": 85,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o136",
+     "sourceOrdinal": 136,
+     "page": 32,
+     "printedQuestionNumber": 135,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-96c77b93f9d7a46d",
+   "normalizedStem": "which chapter of a practice guide provides recommendations for the successful automation of the practice",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o086",
+     "sourceOrdinal": 86,
+     "page": 21,
+     "printedQuestionNumber": 86,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o137",
+     "sourceOrdinal": 137,
+     "page": 33,
+     "printedQuestionNumber": 136,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-0f4bbc46d6a973da",
+   "normalizedStem": "which statement best describes service quality",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o087",
+     "sourceOrdinal": 87,
+     "page": 21,
+     "printedQuestionNumber": 87,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o138",
+     "sourceOrdinal": 138,
+     "page": 33,
+     "printedQuestionNumber": 137,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-252ecfee3306dede",
+   "normalizedStem": "what enables the digital product and service management activities of an organization",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o088",
+     "sourceOrdinal": 88,
+     "page": 21,
+     "printedQuestionNumber": 88,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o139",
+     "sourceOrdinal": 139,
+     "page": 33,
+     "printedQuestionNumber": 138,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-4960769e62a86a3b",
+   "normalizedStem": "a team is gathering customer feedback and measuring current service response times to understand its existing performance which step of the continual improvement model does this activity represent",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o089",
+     "sourceOrdinal": 89,
+     "page": 22,
+     "printedQuestionNumber": 89,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o119",
+     "sourceOrdinal": 119,
+     "page": 29,
+     "printedQuestionNumber": 118,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-61e2ae584ab19191",
+   "normalizedStem": "which guiding principle emphasizes understanding how all parts of an organization function together as an integrated system",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o090",
+     "sourceOrdinal": 90,
+     "page": 22,
+     "printedQuestionNumber": 90,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o122",
+     "sourceOrdinal": 122,
+     "page": 29,
+     "printedQuestionNumber": 121,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-f00e9b11d0edcb64",
+   "normalizedStem": "which of the following statements about the four dimensions of product and service management is correct",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o091",
+     "sourceOrdinal": 91,
+     "page": 22,
+     "printedQuestionNumber": 91,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o123",
+     "sourceOrdinal": 123,
+     "page": 30,
+     "printedQuestionNumber": 122,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-6271bd5bc38497ee",
+   "normalizedStem": "which of the following best describes a release",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o092",
+     "sourceOrdinal": 92,
+     "page": 22,
+     "printedQuestionNumber": 92,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o153",
+     "sourceOrdinal": 153,
+     "page": 36,
+     "printedQuestionNumber": 152,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-7b2810ab40f88085",
+   "normalizedStem": "which dimension of product and service management promotes conducting safe to fail experiments in complex situations",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o093",
+     "sourceOrdinal": 93,
+     "page": 23,
+     "printedQuestionNumber": 93,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o154",
+     "sourceOrdinal": 154,
+     "page": 37,
+     "printedQuestionNumber": 153,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-4107fb589fc66f0d",
+   "normalizedStem": "which activity has the purpose of developing integrating and testing digital products to transform designs into functional solutions",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o094",
+     "sourceOrdinal": 94,
+     "page": 23,
+     "printedQuestionNumber": 94,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o143",
+     "sourceOrdinal": 143,
+     "page": 34,
+     "printedQuestionNumber": 142,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-5a1047db5cb0058d",
+   "normalizedStem": "which of the following statements about value streams is incorrect",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o096",
+     "sourceOrdinal": 96,
+     "page": 23,
+     "printedQuestionNumber": 96,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o145",
+     "sourceOrdinal": 145,
+     "page": 34,
+     "printedQuestionNumber": 144,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-857be5b1521cadfc",
+   "normalizedStem": "which term best describes a group of people that has its own functions with responsibilities authorities and relationships to achieve its objectives",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o097",
+     "sourceOrdinal": 97,
+     "page": 24,
+     "printedQuestionNumber": 97,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o146",
+     "sourceOrdinal": 146,
+     "page": 35,
+     "printedQuestionNumber": 145,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-964ae95ce31ccca4",
+   "normalizedStem": "which dimension of digital product and service management ensures whoever is working in an organization has suficient skills to support anticipated needs",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o098",
+     "sourceOrdinal": 98,
+     "page": 24,
+     "printedQuestionNumber": 98,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o147",
+     "sourceOrdinal": 147,
+     "page": 35,
+     "printedQuestionNumber": 146,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-8fdcf6eff7256767",
+   "normalizedStem": "the board of directors approves a new digital strategy and instructs management to prioritize investment in cloud infrastructure to support future growth which governance activity does this represent",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o099",
+     "sourceOrdinal": 99,
+     "page": 24,
+     "printedQuestionNumber": 99,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o155",
+     "sourceOrdinal": 155,
+     "page": 37,
+     "printedQuestionNumber": 154,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-4941410e27899795",
+   "normalizedStem": "which statement regarding a partnership relationship is true",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o100",
+     "sourceOrdinal": 100,
+     "page": 24,
+     "printedQuestionNumber": 100,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o156",
+     "sourceOrdinal": 156,
+     "page": 37,
+     "printedQuestionNumber": 155,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-fa52b3ffc829c716",
+   "normalizedStem": "how should the seven guiding principles be combined when an organization is making a decision",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o101",
+     "sourceOrdinal": 101,
+     "page": 24,
+     "printedQuestionNumber": 101,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o157",
+     "sourceOrdinal": 157,
+     "page": 37,
+     "printedQuestionNumber": 156,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-882f1dff964d41c1",
+   "normalizedStem": "which is the purpose of the transition activity",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o102",
+     "sourceOrdinal": 102,
+     "page": 25,
+     "printedQuestionNumber": 102,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o173",
+     "sourceOrdinal": 173,
+     "page": 40,
+     "printedQuestionNumber": 173,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-e220d6fb428416cd",
+   "normalizedStem": "performing routine tasks such as backups monitoring and capturing and processing events is part of which of the following activities",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o103",
+     "sourceOrdinal": 103,
+     "page": 25,
+     "printedQuestionNumber": 103,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o174",
+     "sourceOrdinal": 174,
+     "page": 40,
+     "printedQuestionNumber": 174,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-52319324e252c483",
+   "normalizedStem": "which of the following is a key success metric for transition activity",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o104",
+     "sourceOrdinal": 104,
+     "page": 25,
+     "printedQuestionNumber": 103,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o163",
+     "sourceOrdinal": 163,
+     "page": 38,
+     "printedQuestionNumber": 162,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-12bf34bd617e3b76",
+   "normalizedStem": "an organization is planning to improve the existing service and wants to understand its current performance before making any changes according to the principle start where you are what could an organization consider when observing current performance of the service",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o106",
+     "sourceOrdinal": 106,
+     "page": 26,
+     "printedQuestionNumber": 105,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o165",
+     "sourceOrdinal": 165,
+     "page": 39,
+     "printedQuestionNumber": 164,
+     "sourceAnswerKey": "C",
+     "relationToReference": "KEY_CONFLICT"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-511f9456948d142e",
+   "normalizedStem": "why is it important to seek feedback before during and after each iteration",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o107",
+     "sourceOrdinal": 107,
+     "page": 26,
+     "printedQuestionNumber": 106,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o166",
+     "sourceOrdinal": 166,
+     "page": 39,
+     "printedQuestionNumber": 165,
+     "sourceAnswerKey": "D",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-f85799c96a7c11ae",
+   "normalizedStem": "which of the following activities best represents transfer of goods in a service offering",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o109",
+     "sourceOrdinal": 109,
+     "page": 26,
+     "printedQuestionNumber": 108,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o124",
+     "sourceOrdinal": 124,
+     "page": 30,
+     "printedQuestionNumber": 123,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-d76fc160387dd445",
+   "normalizedStem": "which activity focuses on securing and allocating necessary resources eficiently",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o110",
+     "sourceOrdinal": 110,
+     "page": 27,
+     "printedQuestionNumber": 109,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o125",
+     "sourceOrdinal": 125,
+     "page": 30,
+     "printedQuestionNumber": 124,
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-4266a71f009ace4b",
+   "normalizedStem": "which of the following terms best describes a change",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o111",
+     "sourceOrdinal": 111,
+     "page": 27,
+     "printedQuestionNumber": 110,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o126",
+     "sourceOrdinal": 126,
+     "page": 30,
+     "printedQuestionNumber": 125,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-7cd0d020a14d27be",
+   "normalizedStem": "which is an approach to software development in which software can be released to production at any time after a decision is made by the team",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o112",
+     "sourceOrdinal": 112,
+     "page": 27,
+     "printedQuestionNumber": 111,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o127",
+     "sourceOrdinal": 127,
+     "page": 31,
+     "printedQuestionNumber": 126,
+     "sourceAnswerKey": "C",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-e103ec35bdbb9815",
+   "normalizedStem": "which of the following is not an activity of digital product and service lifecycle",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o113",
+     "sourceOrdinal": 113,
+     "page": 27,
+     "printedQuestionNumber": 112,
+     "sourceAnswerKey": "B",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o128",
+     "sourceOrdinal": 128,
+     "page": 31,
+     "printedQuestionNumber": 127,
+     "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-b5c33e730d2b89b8",
+   "normalizedStem": "which of the following best describes an outcome in a service relationship",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o114",
+     "sourceOrdinal": 114,
+     "page": 28,
+     "printedQuestionNumber": 113,
+     "sourceAnswerKey": "A",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o129",
+     "sourceOrdinal": 129,
+     "page": 31,
+     "printedQuestionNumber": 128,
+     "sourceAnswerKey": "A",
+     "relationToReference": "different_options_same_correct_text"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-4ebf4039d7985424",
+   "normalizedStem": "which best explains why an organization might choose to engage external suppliers",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o120",
+     "sourceOrdinal": 120,
+     "page": 29,
+     "printedQuestionNumber": 119,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o177",
+     "sourceOrdinal": 177,
+     "page": 41,
+     "printedQuestionNumber": 177,
+     "sourceAnswerKey": "D",
+     "relationToReference": "reordered_options_same_semantic_key"
+    }
+   ]
+  }
+ ],
+ "nearDuplicatePairs": [
+  {
+   "a": "itilf5-1d11798cd8d9-o028",
+   "b": "itilf5-1d11798cd8d9-o192",
+   "ratio": 0.995,
+   "aPage": 7,
+   "bPage": 45,
+   "aStem": "Which type of service relationship typically focuses on support and eficiency through standardized services?",
+   "bStem": "Which type of service relationship typically focuses on support and efficiency through standardized services?"
+  },
+  {
+   "a": "itilf5-1d11798cd8d9-o095",
+   "b": "itilf5-1d11798cd8d9-o144",
+   "ratio": 0.937,
+   "aPage": 23,
+   "bPage": 34,
+   "aStem": "What is the role of governance within the ITIL Value System?",
+   "bStem": "What is the role of governance within the ITIL Service Value System?"
+  },
+  {
+   "a": "itilf5-1d11798cd8d9-o116",
+   "b": "itilf5-1d11798cd8d9-o142",
+   "ratio": 0.871,
+   "aPage": 28,
+   "bPage": 34,
+   "aStem": "Identify the missing word(s): A(n) [ ? ] is the cause, or potential cause, of one or more incidents.",
+   "bStem": "Identify the missing word(s) in the following sentence. A(n) [ ? ] is the cause, or potential cause, of one or more inci"
+  },
+  {
+   "a": "itilf5-1d11798cd8d9-o120",
+   "b": "itilf5-1d11798cd8d9-o298",
+   "ratio": 0.933,
+   "aPage": 29,
+   "bPage": 70,
+   "aStem": "Which BEST explains why an organization might choose to engage external suppliers?",
+   "bStem": "Which BEST explains why an organization might choose to utilize external suppliers?"
+  },
+  {
+   "a": "itilf5-1d11798cd8d9-o175",
+   "b": "itilf5-1d11798cd8d9-o302",
+   "ratio": 0.979,
+   "aPage": 41,
+   "bPage": 71,
+   "aStem": "Which value chain activity is assessed by evaluating the quality of the resources and services sourced from a third part",
+   "bStem": "Which value chain activity is addressed by evaluating the quality of the resources and services sourced from a third par"
+  },
+  {
+   "a": "itilf5-1d11798cd8d9-o176",
+   "b": "itilf5-1d11798cd8d9-o300",
+   "ratio": 0.98,
+   "aPage": 41,
+   "bPage": 71,
+   "aStem": "A telecom provider designs an enterprise package that combines internet, VoIP, network security and technical support. W",
+   "bStem": "A telecom provider designs an enterprise package that contains internet, VoIP, network security, and technical support. "
+  },
+  {
+   "a": "itilf5-1d11798cd8d9-o177",
+   "b": "itilf5-1d11798cd8d9-o298",
+   "ratio": 0.933,
+   "aPage": 41,
+   "bPage": 70,
+   "aStem": "Which BEST explains why an organization might choose to engage external suppliers?",
+   "bStem": "Which BEST explains why an organization might choose to utilize external suppliers?"
+  }
+ ],
+ "blueprint": {
+  "categoryTargets": {
+   "1": 12,
+   "2": 4,
+   "3": 4,
+   "4": 16,
+   "5": 2,
+   "6": 1,
+   "7": 1
+  },
+  "bloomTargets": {
+   "1": 16,
+   "2": 24
+  },
+  "eligibleUniqueGroupsByCategoryAndBloom": {
+   "1": {
+    "1": 33,
+    "2": 20
+   },
+   "2": {
+    "1": 0,
+    "2": 22
+   },
+   "3": {
+    "1": 16,
+    "2": 0
+   },
+   "4": {
+    "1": 29,
+    "2": 66
+   },
+   "5": {
+    "1": 6,
+    "2": 8
+   },
+   "6": {
+    "1": 0,
+    "2": 1
+   },
+   "7": {
+    "1": 3,
+    "2": 10
+   }
+  },
+  "eligibleUniqueGroupsByCategory": {
+   "1": 53,
+   "2": 22,
+   "3": 16,
+   "4": 95,
+   "5": 14,
+   "6": 1,
+   "7": 13
+  },
+  "bl1AchievableRange": [
+   4,
+   35
+  ],
+  "fullyCompliantExamPossible": true,
+  "categoryShortfalls": [],
+  "notes": [
+   "Counts are exclusion groups (duplicate and near-duplicate stems collapsed) so that no question repeats within an attempt.",
+   "Category 6 (ITIL and AI) and other thin categories are reported so the owner can judge exam variety."
+  ]
+ },
+ "quarantine": [
+  {
+   "questionId": "itilf5-1d11798cd8d9-o058",
+   "page": 14,
+   "printedQuestionNumber": 58,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option)"
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o106",
+   "page": 26,
+   "printedQuestionNumber": 105,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "duplicate_key_conflict",
+     "severity": "blocking",
+     "detail": "Detected automatically by build_bank.py"
+    },
+    {
+     "code": "duplicate_key_conflict",
+     "severity": "blocking",
+     "detail": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o111",
+   "page": 27,
+   "printedQuestionNumber": 110,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "no_matching_v5_criterion",
+     "severity": "out_of_scope",
+     "detail": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o121",
+   "page": 29,
+   "printedQuestionNumber": 120,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "ITIL 4 term 'dimensions of service management' (v5: product and service management) (in stem or keyed option)"
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o126",
+   "page": 30,
+   "printedQuestionNumber": 125,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "no_matching_v5_criterion",
+     "severity": "out_of_scope",
+     "detail": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o140",
+   "page": 33,
+   "printedQuestionNumber": 139,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "ITIL 4 term 'service value chain' (in stem or keyed option)"
+    },
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "ITIL 4 value chain activity 'Obtain/build' (in stem or keyed option)"
+    },
+    {
+     "code": "legacy_itil4_value_chain",
+     "severity": "out_of_scope",
+     "detail": "Options use ITIL 4 service value chain activities (Engage, Obtain/build, Plan, Improve), not the v5 lifecycle activities."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o144",
+   "page": 34,
+   "printedQuestionNumber": 143,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option)"
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o148",
+   "page": 35,
+   "printedQuestionNumber": 147,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "no_matching_v5_criterion",
+     "severity": "out_of_scope",
+     "detail": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o150",
+   "page": 36,
+   "printedQuestionNumber": 149,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Purpose of the service configuration management practice (ITIL 4 practice detail; not a v5 Foundation criterion)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o151",
+   "page": 36,
+   "printedQuestionNumber": 150,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "possible_legacy_itil4_content",
+     "severity": "blocking",
+     "detail": "\"Service relationship management\" practice wording; no direct v5 assessment criterion. Owner to confirm scope."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o158",
+   "page": 38,
+   "printedQuestionNumber": 157,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Purpose of the information security management practice (ITIL 4 practice detail)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o159",
+   "page": 38,
+   "printedQuestionNumber": 158,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Incident management practice detail (ITIL 4)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o160",
+   "page": 38,
+   "printedQuestionNumber": 159,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Problem management practice detail (ITIL 4)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o161",
+   "page": 38,
+   "printedQuestionNumber": 160,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Problem management practice detail (ITIL 4)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o162",
+   "page": 38,
+   "printedQuestionNumber": 161,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Service desk practice detail (ITIL 4)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o165",
+   "page": 39,
+   "printedQuestionNumber": 164,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "duplicate_key_conflict",
+     "severity": "blocking",
+     "detail": "Detected automatically by build_bank.py"
+    },
+    {
+     "code": "duplicate_key_conflict",
+     "severity": "blocking",
+     "detail": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o169",
+   "page": 40,
+   "printedQuestionNumber": 168,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_value_chain",
+     "severity": "out_of_scope",
+     "detail": "Options use ITIL 4 value chain activities (Plan, Improve, Design and transition, Deliver and support)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o170",
+   "page": 40,
+   "printedQuestionNumber": 169,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Purpose of the supplier management practice (ITIL 4 practice detail)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o171",
+   "page": 40,
+   "printedQuestionNumber": 170,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Service desk practice detail (ITIL 4)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o172",
+   "page": 40,
+   "printedQuestionNumber": 172,
+   "status": "out_of_scope",
+   "reasons": [
+    {
+     "code": "legacy_itil4_practice_detail",
+     "severity": "out_of_scope",
+     "detail": "Incident management practice detail (ITIL 4)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o191",
+   "page": 44,
+   "printedQuestionNumber": 190,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "duplicate_option_text",
+     "severity": "blocking",
+     "detail": "Detected automatically by build_bank.py"
+    },
+    {
+     "code": "duplicate_option_text",
+     "severity": "blocking",
+     "detail": "Options B and C are both \"Warranty\" in the source (verified on rendered page 44). Not four distinct options."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o195",
+   "page": 45,
+   "printedQuestionNumber": 194,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "truncated_option_text",
+     "severity": "blocking",
+     "detail": "Option C reads \"Product Vend\" in the source (verified on rendered page 45); appears truncated. Not completed."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o196",
+   "page": 46,
+   "printedQuestionNumber": 195,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "editorial_artifact",
+     "severity": "blocking",
+     "detail": "Add answer: D. The external partner providing technology."
+    },
+    {
+     "code": "editorial_artifact",
+     "severity": "blocking",
+     "detail": "Line \"Add answer: D. The external partner providing technology.\" precedes option A (verified on rendered page 46). Not inserted into the question; owner must decide."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o207",
+   "page": 48,
+   "printedQuestionNumber": 206,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option)"
+    },
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o208",
+   "page": 49,
+   "printedQuestionNumber": 207,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option)"
+    },
+    {
+     "code": "legacy_itil4_terminology",
+     "severity": "blocking",
+     "detail": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value)."
+    }
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o212",
+   "page": 49,
+   "printedQuestionNumber": 211,
+   "status": "needs_review",
+   "reasons": [
+    {
+     "code": "possible_content_accuracy_dispute",
+     "severity": "blocking",
+     "detail": "Stem describes the ITIL VS as a \"series of steps\" (wording usually associated with value streams). Flagged for owner review; key unchanged."
+    }
+   ]
+  }
+ ],
+ "noSourceExplanation": [
+  {
+   "questionId": "itilf5-1d11798cd8d9-o032",
+   "page": 8,
+   "printedQuestionNumber": 32
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o035",
+   "page": 9,
+   "printedQuestionNumber": 35
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o037",
+   "page": 9,
+   "printedQuestionNumber": 37
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o120",
+   "page": 29,
+   "printedQuestionNumber": 119
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o121",
+   "page": 29,
+   "printedQuestionNumber": 120
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o158",
+   "page": 38,
+   "printedQuestionNumber": 157
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o159",
+   "page": 38,
+   "printedQuestionNumber": 158
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o160",
+   "page": 38,
+   "printedQuestionNumber": 159
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o161",
+   "page": 38,
+   "printedQuestionNumber": 160
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o162",
+   "page": 38,
+   "printedQuestionNumber": 161
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o168",
+   "page": 40,
+   "printedQuestionNumber": 167
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o169",
+   "page": 40,
+   "printedQuestionNumber": 168
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o170",
+   "page": 40,
+   "printedQuestionNumber": 169
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o171",
+   "page": 40,
+   "printedQuestionNumber": 170
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o172",
+   "page": 40,
+   "printedQuestionNumber": 172
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o173",
+   "page": 40,
+   "printedQuestionNumber": 173
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o174",
+   "page": 40,
+   "printedQuestionNumber": 174
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o175",
+   "page": 41,
+   "printedQuestionNumber": 175
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o176",
+   "page": 41,
+   "printedQuestionNumber": 176
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o177",
+   "page": 41,
+   "printedQuestionNumber": 177
+  }
+ ],
+ "classificationMethod": "Each occurrence was read by the auditor and mapped to one v5.0 assessment criterion. Bloom level defaults to the criterion's BL column; overrides are listed with a note. Classification is metadata only and never edits source text.",
+ "duplicateMethod": "Stems normalised by NFKC, lower-casing, quote unification and removal of non-alphanumerics; identical normalised stems form a duplicate group. Near-duplicates (difflib ratio >= 0.85 AND correct-option text similarity >= 0.9) are merged into exclusion groups used only to prevent repeats within one exam."
+}

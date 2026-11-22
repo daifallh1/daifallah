@@ -1,0 +1,2418 @@
+{
+ "1": {
+  "criterion": "1.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "2": {
+  "criterion": "1.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "3": {
+  "criterion": "1.3.6",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "4": {
+  "criterion": "1.3.6",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "5": {
+  "criterion": "1.4.11",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Scenario asks to recognise sustainability (explain-level)."
+ },
+ "6": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "7": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "8": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "9": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "10": {
+  "criterion": "4.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "11": {
+  "criterion": "4.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "12": {
+  "criterion": "4.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "13": {
+  "criterion": "4.2.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "14": {
+  "criterion": "4.2.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "15": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "16": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Negative-style source item."
+ },
+ "17": {
+  "criterion": "1.1.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "18": {
+  "criterion": "4.4.12",
+  "confidence": "medium",
+  "bloomOverride": 1,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Definition recall of \"organization's purpose\"."
+ },
+ "19": {
+  "criterion": "4.4.12",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "20": {
+  "criterion": "4.5.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "21": {
+  "criterion": "4.5.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "22": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "23": {
+  "criterion": "5.3.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Negative-style; distinguishes mapping steps from value stream management."
+ },
+ "24": {
+  "criterion": "1.1.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "25": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "26": {
+  "criterion": "1.1.3",
+  "confidence": "medium",
+  "bloomOverride": 2,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Asks for the relationship between digital services and products (understanding)."
+ },
+ "27": {
+  "criterion": "1.4.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "28": {
+  "criterion": "1.4.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "29": {
+  "criterion": "1.4.3",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Band of visibility (service relationship/journey concept)."
+ },
+ "30": {
+  "criterion": "3.2.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "31": {
+  "criterion": "3.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "32": {
+  "criterion": "3.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "33": {
+  "criterion": "3.2.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "34": {
+  "criterion": "4.4.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "35": {
+  "criterion": "4.4.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "36": {
+  "criterion": "4.4.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "37": {
+  "criterion": "4.4.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "38": {
+  "criterion": "1.4.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "39": {
+  "criterion": "4.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "40": {
+  "criterion": "5.3.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "41": {
+  "criterion": "1.1.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "42": {
+  "criterion": "1.1.3",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "43": {
+  "criterion": "1.1.3",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "44": {
+  "criterion": "1.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "45": {
+  "criterion": "1.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "46": {
+  "criterion": "1.3.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "47": {
+  "criterion": "1.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "48": {
+  "criterion": "1.3.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "49": {
+  "criterion": "1.4.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "50": {
+  "criterion": "1.4.6",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "51": {
+  "criterion": "2.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "52": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "53": {
+  "criterion": "2.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "54": {
+  "criterion": "2.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "55": {
+  "criterion": "4.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "56": {
+  "criterion": "4.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "57": {
+  "criterion": "4.2.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "58": {
+  "criterion": "4.2.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "59": {
+  "criterion": "4.2.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "60": {
+  "criterion": "4.2.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "61": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "62": {
+  "criterion": "3.2.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "63": {
+  "criterion": "3.2.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "64": {
+  "criterion": "3.2.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "65": {
+  "criterion": "3.2.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "66": {
+  "criterion": "4.4.5",
+  "confidence": "high",
+  "bloomOverride": 2,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Asks what distinguishes two concepts (understanding)."
+ },
+ "67": {
+  "criterion": "4.4.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "68": {
+  "criterion": "4.4.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "69": {
+  "criterion": "4.4.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "70": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "71": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "72": {
+  "criterion": "4.4.12",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "73": {
+  "criterion": "4.5.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "74": {
+  "criterion": "4.5.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "75": {
+  "criterion": "4.5.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "76": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "77": {
+  "criterion": "5.1.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "78": {
+  "criterion": "5.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "79": {
+  "criterion": "4.4.9",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "80": {
+  "criterion": "1.1.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "81": {
+  "criterion": "1.4.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "82": {
+  "criterion": "4.4.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "83": {
+  "criterion": "1.4.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "84": {
+  "criterion": "1.2.4",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "85": {
+  "criterion": "1.2.4",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "86": {
+  "criterion": "4.5.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "87": {
+  "criterion": "1.4.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "88": {
+  "criterion": "4.5.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "89": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "90": {
+  "criterion": "4.2.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "91": {
+  "criterion": "2.1.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "92": {
+  "criterion": "4.4.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "93": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Safe-to-fail experiments attributed to a dimension."
+ },
+ "94": {
+  "criterion": "3.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "95": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "96": {
+  "criterion": "5.1.1",
+  "confidence": "medium",
+  "bloomOverride": 2,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Negative-style statements about value streams (understanding)."
+ },
+ "97": {
+  "criterion": "1.4.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "98": {
+  "criterion": "2.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "99": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "100": {
+  "criterion": "1.4.10",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "101": {
+  "criterion": "4.2.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "102": {
+  "criterion": "3.2.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "103": {
+  "criterion": "3.2.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "104": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "105": {
+  "criterion": "4.4.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "106": {
+  "criterion": "4.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "duplicate_key_conflict",
+  "note": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically."
+ },
+ "107": {
+  "criterion": "4.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "108": {
+  "criterion": "5.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "109": {
+  "criterion": "1.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "110": {
+  "criterion": "3.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "111": {
+  "criterion": null,
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "no_matching_v5_criterion",
+  "note": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
+ },
+ "112": {
+  "criterion": "4.4.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "113": {
+  "criterion": "3.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Negative-style source item."
+ },
+ "114": {
+  "criterion": "1.3.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "115": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "116": {
+  "criterion": "4.4.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "117": {
+  "criterion": "4.2.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "118": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "119": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "120": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Reasons for using external suppliers (partners and suppliers dimension)."
+ },
+ "121": {
+  "criterion": "2.1.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "122": {
+  "criterion": "4.2.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "123": {
+  "criterion": "2.1.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "124": {
+  "criterion": "1.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "125": {
+  "criterion": "3.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "126": {
+  "criterion": null,
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "no_matching_v5_criterion",
+  "note": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
+ },
+ "127": {
+  "criterion": "4.4.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "128": {
+  "criterion": "3.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Negative-style source item."
+ },
+ "129": {
+  "criterion": "1.3.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "130": {
+  "criterion": "4.4.9",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "131": {
+  "criterion": "1.1.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "132": {
+  "criterion": "1.4.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "133": {
+  "criterion": "4.4.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "134": {
+  "criterion": "1.4.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "135": {
+  "criterion": "1.2.4",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "136": {
+  "criterion": "1.2.4",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "137": {
+  "criterion": "4.5.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "138": {
+  "criterion": "1.4.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "139": {
+  "criterion": "4.5.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "140": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_value_chain",
+  "note": "Options use ITIL 4 service value chain activities (Engage, Obtain/build, Plan, Improve), not the v5 lifecycle activities."
+ },
+ "141": {
+  "criterion": "4.2.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "142": {
+  "criterion": "4.4.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "143": {
+  "criterion": "3.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "144": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "145": {
+  "criterion": "5.1.1",
+  "confidence": "medium",
+  "bloomOverride": 2,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Negative-style statements about value streams (understanding)."
+ },
+ "146": {
+  "criterion": "1.4.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "147": {
+  "criterion": "2.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "148": {
+  "criterion": null,
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "no_matching_v5_criterion",
+  "note": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
+ },
+ "149": {
+  "criterion": "1.3.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "150": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Purpose of the service configuration management practice (ITIL 4 practice detail; not a v5 Foundation criterion)."
+ },
+ "151": {
+  "criterion": null,
+  "confidence": "low",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "possible_legacy_itil4_content",
+  "note": "\"Service relationship management\" practice wording; no direct v5 assessment criterion. Owner to confirm scope."
+ },
+ "152": {
+  "criterion": "1.4.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "153": {
+  "criterion": "4.4.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "154": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Safe-to-fail experiments attributed to a dimension."
+ },
+ "155": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "156": {
+  "criterion": "1.4.10",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "157": {
+  "criterion": "4.2.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "158": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Purpose of the information security management practice (ITIL 4 practice detail)."
+ },
+ "159": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Incident management practice detail (ITIL 4)."
+ },
+ "160": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Problem management practice detail (ITIL 4)."
+ },
+ "161": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Problem management practice detail (ITIL 4)."
+ },
+ "162": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Service desk practice detail (ITIL 4)."
+ },
+ "163": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "164": {
+  "criterion": "4.4.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "165": {
+  "criterion": "4.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "duplicate_key_conflict",
+  "note": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically."
+ },
+ "166": {
+  "criterion": "4.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "167": {
+  "criterion": "5.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "168": {
+  "criterion": "1.4.6",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "169": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_value_chain",
+  "note": "Options use ITIL 4 value chain activities (Plan, Improve, Design and transition, Deliver and support)."
+ },
+ "170": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Purpose of the supplier management practice (ITIL 4 practice detail)."
+ },
+ "171": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Service desk practice detail (ITIL 4)."
+ },
+ "172": {
+  "criterion": null,
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "out_of_scope",
+  "reasonCode": "legacy_itil4_practice_detail",
+  "note": "Incident management practice detail (ITIL 4)."
+ },
+ "173": {
+  "criterion": "3.2.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "174": {
+  "criterion": "3.2.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "175": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "176": {
+  "criterion": "1.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "177": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Reasons for using external suppliers (partners and suppliers dimension)."
+ },
+ "178": {
+  "criterion": "4.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "179": {
+  "criterion": "1.1.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "180": {
+  "criterion": "1.3.6",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "181": {
+  "criterion": "1.1.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "182": {
+  "criterion": "1.3.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "183": {
+  "criterion": "1.1.3",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "184": {
+  "criterion": "1.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "185": {
+  "criterion": "1.3.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "186": {
+  "criterion": "1.3.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "187": {
+  "criterion": "1.1.3",
+  "confidence": "medium",
+  "bloomOverride": 2,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Relationship statement (understanding)."
+ },
+ "188": {
+  "criterion": "1.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "189": {
+  "criterion": "1.3.6",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "190": {
+  "criterion": "1.3.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "191": {
+  "criterion": "1.4.11",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "duplicate_option_text",
+  "note": "Options B and C are both \"Warranty\" in the source (verified on rendered page 44). Not four distinct options."
+ },
+ "192": {
+  "criterion": "1.4.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "193": {
+  "criterion": "1.4.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "194": {
+  "criterion": "1.4.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "195": {
+  "criterion": "1.4.1",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "truncated_option_text",
+  "note": "Option C reads \"Product Vend\" in the source (verified on rendered page 45); appears truncated. Not completed."
+ },
+ "196": {
+  "criterion": "1.4.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "editorial_artifact",
+  "note": "Line \"Add answer: D. The external partner providing technology.\" precedes option A (verified on rendered page 46). Not inserted into the question; owner must decide."
+ },
+ "197": {
+  "criterion": "1.4.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "198": {
+  "criterion": "1.4.3",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Band of visibility (service relationship/journey concept)."
+ },
+ "199": {
+  "criterion": "1.4.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "200": {
+  "criterion": "1.1.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "201": {
+  "criterion": "1.1.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "202": {
+  "criterion": "1.1.7",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "203": {
+  "criterion": "4.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "204": {
+  "criterion": "4.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "205": {
+  "criterion": "4.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "206": {
+  "criterion": "4.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "207": {
+  "criterion": "4.1.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "legacy_itil4_terminology",
+  "note": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value)."
+ },
+ "208": {
+  "criterion": "4.1.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "legacy_itil4_terminology",
+  "note": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value)."
+ },
+ "209": {
+  "criterion": "4.3.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "210": {
+  "criterion": "4.5.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "211": {
+  "criterion": "4.4.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "212": {
+  "criterion": "4.1.2",
+  "confidence": "low",
+  "bloomOverride": null,
+  "statusOverride": "needs_review",
+  "reasonCode": "possible_content_accuracy_dispute",
+  "note": "Stem describes the ITIL VS as a \"series of steps\" (wording usually associated with value streams). Flagged for owner review; key unchanged."
+ },
+ "213": {
+  "criterion": "1.1.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "214": {
+  "criterion": "4.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "215": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "216": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "217": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "218": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "219": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "220": {
+  "criterion": "4.3.1",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "221": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "222": {
+  "criterion": "4.3.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "223": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "224": {
+  "criterion": "4.3.1",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "225": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "226": {
+  "criterion": "4.3.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "227": {
+  "criterion": "4.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "228": {
+  "criterion": "4.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "229": {
+  "criterion": "4.2.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "230": {
+  "criterion": "4.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "231": {
+  "criterion": "4.2.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "232": {
+  "criterion": "4.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "233": {
+  "criterion": "4.2.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "234": {
+  "criterion": "4.2.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "235": {
+  "criterion": "4.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "236": {
+  "criterion": "4.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "237": {
+  "criterion": "4.2.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "238": {
+  "criterion": "3.2.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "239": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Negative-style source item."
+ },
+ "240": {
+  "criterion": "3.2.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "241": {
+  "criterion": "4.4.9",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "242": {
+  "criterion": "4.4.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "243": {
+  "criterion": "3.2.4",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "244": {
+  "criterion": "3.2.5",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "245": {
+  "criterion": "4.4.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "246": {
+  "criterion": "3.2.7",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "247": {
+  "criterion": "4.4.6",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "248": {
+  "criterion": "4.4.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "249": {
+  "criterion": "4.4.8",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "250": {
+  "criterion": "4.4.12",
+  "confidence": "medium",
+  "bloomOverride": 1,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Definition recall of \"organization's purpose\"."
+ },
+ "251": {
+  "criterion": "5.3.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Negative-style; distinguishes mapping steps from value stream management."
+ },
+ "252": {
+  "criterion": "5.3.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "253": {
+  "criterion": "5.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "254": {
+  "criterion": "5.3.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "255": {
+  "criterion": "5.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "256": {
+  "criterion": "5.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "257": {
+  "criterion": "5.3.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "258": {
+  "criterion": "5.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "259": {
+  "criterion": "5.3.3",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "260": {
+  "criterion": "5.3.3",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "261": {
+  "criterion": "5.3.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "262": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "263": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "264": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "265": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "266": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "267": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "268": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "269": {
+  "criterion": "4.6.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "270": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "271": {
+  "criterion": "4.6.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "272": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "273": {
+  "criterion": "4.6.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "274": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "275": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "276": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "277": {
+  "criterion": "2.1.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "278": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "279": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "280": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "281": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "282": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "283": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "284": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "285": {
+  "criterion": "2.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "286": {
+  "criterion": "7.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "287": {
+  "criterion": "7.2.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "288": {
+  "criterion": "7.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "289": {
+  "criterion": "7.1.1",
+  "confidence": "medium",
+  "bloomOverride": 1,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Definition recall (\"What is DevOps?\")."
+ },
+ "290": {
+  "criterion": "7.2.2",
+  "confidence": "medium",
+  "bloomOverride": 1,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Definition recall (\"What is PRINCE2?\")."
+ },
+ "291": {
+  "criterion": "7.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "292": {
+  "criterion": "7.1.1",
+  "confidence": "medium",
+  "bloomOverride": 1,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Recall of which framework offers a capability."
+ },
+ "293": {
+  "criterion": "7.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "294": {
+  "criterion": "7.2.1",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "295": {
+  "criterion": "7.1.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "296": {
+  "criterion": "7.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "297": {
+  "criterion": "7.1.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "298": {
+  "criterion": "2.2.2",
+  "confidence": "medium",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Reasons for using external suppliers (partners and suppliers dimension)."
+ },
+ "299": {
+  "criterion": "7.2.1",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "300": {
+  "criterion": "1.2.3",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "301": {
+  "criterion": "6.2.2",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ },
+ "302": {
+  "criterion": "4.4.11",
+  "confidence": "high",
+  "bloomOverride": null,
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": ""
+ }
+}

@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+dist/
+.expo/
+apps/ios/web-build/
+apps/ios/dist/
+*.tsbuildinfo
+.DS_Store
+coverage/
+playwright-report/
+test-results/
+apps/web/public/sw.js.map
+# local-only audit page renders (contain the source PDF's watermark)
+packages/content/reports/pages/

@@ -1,0 +1,845 @@
+{
+ "batch": 8,
+ "items": {
+  "001": {
+   "key": "t50a43d35fe8b51797dae",
+   "en": "Punish the teams involved in the deviation.",
+   "kind": "C",
+   "ordinal": 273
+  },
+  "002": {
+   "key": "t9cbc466f9ffb54435aed",
+   "en": "Hide the results from stakeholders to maintain momentum.",
+   "kind": "D",
+   "ordinal": 273
+  },
+  "003": {
+   "key": "t61651bd922b320a6c3bc",
+   "en": "During the \"Are we getting there?\" step, if results fall short of the established objectives, the organization should plan additional actions or a new iteration to address the gap.",
+   "kind": "E",
+   "ordinal": 273
+  },
+  "004": {
+   "key": "ta93e7d7f8f64effcc088",
+   "en": "The ‘Organization and people’ dimension is most concerned with establishing a culture of trust. “Digitally enabled organizations are under pressure to continually improve their performance under changing market conditions. [...]. The challenge for these organizations is to foster an effective set of shared beliefs, perceptions, and values in relation to risks. This, in turn, should create a safety culture, and result in behaviour that is beneficial for all stakeholders, including the members of the organization.” Ref 2.2.1",
+   "kind": "E",
+   "ordinal": 274
+  },
+  "005": {
+   "key": "tae11b72589105d4ab019",
+   "en": "“The ‘Value streams and processes’ dimension address organizational and cross-organizational workflows, focusing on what activities the organization undertakes and how they are organized to enable value for stakeholders effectively and efficiently.” Ref 2.3",
+   "kind": "E",
+   "ordinal": 275
+  },
+  "006": {
+   "key": "t83f5da4b6d4b290c4f66",
+   "en": "What is the purpose of the \"Four Dimensions\"?",
+   "kind": "Q",
+   "ordinal": 277
+  },
+  "007": {
+   "key": "t1a6fca61340d2182adc7",
+   "en": "To support a holistic approach to service management",
+   "kind": "A",
+   "ordinal": 277
+  },
+  "008": {
+   "key": "tf5a1fae65a6f0d570987",
+   "en": "To divide the IT department into four separate buildings.",
+   "kind": "B",
+   "ordinal": 277
+  },
+  "009": {
+   "key": "t48b2fec1bb5600179ebb",
+   "en": "To create four different versions of every software product.",
+   "kind": "C",
+   "ordinal": 277
+  },
+  "010": {
+   "key": "td29148167c52f26121a8",
+   "en": "To ensure every project has exactly four managers.",
+   "kind": "D",
+   "ordinal": 277
+  },
+  "011": {
+   "key": "t4342f25556f0c16e58e3",
+   "en": "Focusing on all four dimensions ensures that no critical aspect (like people or suppliers) is ignored.",
+   "kind": "E",
+   "ordinal": 277
+  },
+  "012": {
+   "key": "tb4b5e018c5b34b851abd",
+   "en": "What is \"Organizational Culture\"?",
+   "kind": "Q",
+   "ordinal": 278
+  },
+  "013": {
+   "key": "t347200fae00927009bdb",
+   "en": "The dress code of the company.",
+   "kind": "A",
+   "ordinal": 278
+  },
+  "014": {
+   "key": "t3fc245915e8341513ea8",
+   "en": "The physical location of the headquarters.",
+   "kind": "B",
+   "ordinal": 278
+  },
+  "015": {
+   "key": "t626d229fc52ecfb3aaf1",
+   "en": "A set of shared values, beliefs, and practices expressed through behavior",
+   "kind": "C",
+   "ordinal": 278
+  },
+  "016": {
+   "key": "t9973a472620ec1f89a40",
+   "en": "The total number of employees.",
+   "kind": "D",
+   "ordinal": 278
+  },
+  "017": {
+   "key": "t57966c28c0f8b4d98e48",
+   "en": "Culture is \"how we do things around here\" and is shaped by values and leadership.",
+   "kind": "E",
+   "ordinal": 278
+  },
+  "018": {
+   "key": "tc8ca72f99e1198b02c6f",
+   "en": "Which dimension covers data, analytics, and cloud computing?",
+   "kind": "Q",
+   "ordinal": 279
+  },
+  "019": {
+   "key": "t313b71d2bea8e7c558e4",
+   "en": "Organizations and People",
+   "kind": "A",
+   "ordinal": 279
+  },
+  "020": {
+   "key": "ta917f258b6244fcce6e2",
+   "en": "Information and Technology",
+   "kind": "B",
+   "ordinal": 279
+  },
+  "021": {
+   "key": "t44948bec31788179fae1",
+   "en": "Partners and Suppliers",
+   "kind": "C",
+   "ordinal": 279
+  },
+  "022": {
+   "key": "t45c39634f58f81409c5c",
+   "en": "Value Streams and Processes",
+   "kind": "D",
+   "ordinal": 279
+  },
+  "023": {
+   "key": "t387bc8458286c37cfb44",
+   "en": "This dimension focuses on the tools and information used to create value.",
+   "kind": "E",
+   "ordinal": 279
+  },
+  "024": {
+   "key": "tb13541f3cc47f4512d21",
+   "en": "What is \"Conway's Law\"?",
+   "kind": "Q",
+   "ordinal": 280
+  },
+  "025": {
+   "key": "t9c06cadba190f18eea4c",
+   "en": "A law about the speed of computer processors.",
+   "kind": "A",
+   "ordinal": 280
+  },
+  "026": {
+   "key": "td0f7487db6dd019017b5",
+   "en": "The idea that system designs mirror the communication structure of the organization",
+   "kind": "B",
+   "ordinal": 280
+  },
+  "027": {
+   "key": "tc17c6733fe0c3ba2b102",
+   "en": "A regulation about data privacy in Europe.",
+   "kind": "C",
+   "ordinal": 280
+  },
+  "028": {
+   "key": "tf1a56b007b280aacaa80",
+   "en": "A rule stating that every team must have an AI assistant.",
+   "kind": "D",
+   "ordinal": 280
+  },
+  "029": {
+   "key": "tdda28ef016f4cc3d1d21",
+   "en": "Conway’s Law: Systems mirror the communication structure of the organizations that build them.",
+   "kind": "E",
+   "ordinal": 280
+  },
+  "030": {
+   "key": "te8a32acdd76d652f60b5",
+   "en": "What does \"Data Governance\" ensure?",
+   "kind": "Q",
+   "ordinal": 281
+  },
+  "031": {
+   "key": "t283fe159f9c403dd00db",
+   "en": "That data remains secure, usable, and reliable throughout its lifecycle",
+   "kind": "A",
+   "ordinal": 281
+  },
+  "032": {
+   "key": "tc01214243c7af4b93dc9",
+   "en": "That all data is deleted after 24 hours.",
+   "kind": "B",
+   "ordinal": 281
+  },
+  "033": {
+   "key": "t30eeea7d765fe9d7bf32",
+   "en": "That only the CEO can see the company's data.",
+   "kind": "C",
+   "ordinal": 281
+  },
+  "034": {
+   "key": "tcfc9486c118034a6c691",
+   "en": "That data is stored on physical paper only.",
+   "kind": "D",
+   "ordinal": 281
+  },
+  "035": {
+   "key": "ta12842183e8d662b65cc",
+   "en": "Data governance: A system of rules, policies, standards, processes, and controls organizations implement to manage their data assets effectively.",
+   "kind": "E",
+   "ordinal": 281
+  },
+  "036": {
+   "key": "te04ace5c289df2d3b421",
+   "en": "Which dimension deals with third-party relationships and contracts?",
+   "kind": "Q",
+   "ordinal": 282
+  },
+  "037": {
+   "key": "tc13bdde31cf4d5c46ac3",
+   "en": "The Partners and Suppliers dimension in ITIL focuses on: Third-party relationships Suppliers and vendors Contracts and agreements It ensures that external parties effectively support service delivery and value creation.",
+   "kind": "E",
+   "ordinal": 282
+  },
+  "038": {
+   "key": "t68a22af53d459ead90fd",
+   "en": "Which factor might influence an organization's \"Supplier Strategy\"?",
+   "kind": "Q",
+   "ordinal": 283
+  },
+  "039": {
+   "key": "t91f628f2668be22f32c0",
+   "en": "Resource scarcity, cost concerns, and corporate culture",
+   "kind": "A",
+   "ordinal": 283
+  },
+  "040": {
+   "key": "teeab45d64d5880e731fd",
+   "en": "The personal hobbies of the junior staff.",
+   "kind": "B",
+   "ordinal": 283
+  },
+  "041": {
+   "key": "td3b26aed1dd4241d2aa4",
+   "en": "The color of the supplier's logo.",
+   "kind": "C",
+   "ordinal": 283
+  },
+  "042": {
+   "key": "t4faa103948e88880fc7f",
+   "en": "The type of coffee served in the cafeteria.",
+   "kind": "D",
+   "ordinal": 283
+  },
+  "043": {
+   "key": "teb82e79b189e45ab3517",
+   "en": "The supplier strategy is shaped by practical concerns like budget, expertise, and external regulations.",
+   "kind": "E",
+   "ordinal": 283
+  },
+  "044": {
+   "key": "tf801787d3d1a6128589f",
+   "en": "The \"Value Streams and Processes\" dimension focuses on:",
+   "kind": "Q",
+   "ordinal": 284
+  },
+  "045": {
+   "key": "t13ad7944eea5d60abf0f",
+   "en": "Buying new computers.",
+   "kind": "A",
+   "ordinal": 284
+  },
+  "046": {
+   "key": "ta1898abd4a5a88879e34",
+   "en": "What activities the organization undertakes and how they are organized",
+   "kind": "B",
+   "ordinal": 284
+  },
+  "047": {
+   "key": "t2fac3c5acd460fae5348",
+   "en": "Hiring more people to do the same work.",
+   "kind": "C",
+   "ordinal": 284
+  },
+  "048": {
+   "key": "t223ac91d578130b03475",
+   "en": "Writing more internal emails.",
+   "kind": "D",
+   "ordinal": 284
+  },
+  "049": {
+   "key": "t3e5a1be7f4e327e7a3bd",
+   "en": "The ‘value streams and processes’ dimension addresses organizational and cross-organizational workflows, focusing on what activities the organization undertakes and how they are organized to enable value for stakeholders effectively and efficiently.",
+   "kind": "E",
+   "ordinal": 284
+  },
+  "050": {
+   "key": "t9ced5cc77e344328b2e8",
+   "en": "Which dimension addresses culture, competencies, and leadership?",
+   "kind": "Q",
+   "ordinal": 285
+  },
+  "051": {
+   "key": "t59482ff505ee46a8a4d6",
+   "en": "(Organizations and People) dimension focuses on the human side of service management.",
+   "kind": "E",
+   "ordinal": 285
+  },
+  "052": {
+   "key": "t5ce2e8f2d52bf4410d0e",
+   "en": "How does ITIL collaborate with DevOps practices to support digital product and service management?",
+   "kind": "Q",
+   "ordinal": 286
+  },
+  "053": {
+   "key": "t511239a7ba267a9d1443",
+   "en": "By providing the framework while DevOps supplies practices and techniques",
+   "kind": "A",
+   "ordinal": 286
+  },
+  "054": {
+   "key": "t59e6099023ba13f00768",
+   "en": "By replacing DevOps practices with standardized service management processes",
+   "kind": "B",
+   "ordinal": 286
+  },
+  "055": {
+   "key": "tb8aedce09a1cb86def92",
+   "en": "By limiting DevOps usage to software development activities",
+   "kind": "C",
+   "ordinal": 286
+  },
+  "056": {
+   "key": "t99028b57003310c23479",
+   "en": "By positioning DevOps as a governance framework over ITIL",
+   "kind": "D",
+   "ordinal": 286
+  },
+  "057": {
+   "key": "td0ac1384df7d4129ae11",
+   "en": "“DevOps is a valuable complementary approach which should be used as a source of detailed practical advice enabling such activities of the ITIL Product and Service Lifecycle” explaining that ITIL provides the framework while DevOps supplies practices and techniques. Ref 7.3.1",
+   "kind": "E",
+   "ordinal": 286
+  },
+  "058": {
+   "key": "t0ec60b85277508ae59cd",
+   "en": "Why is project management important within the ITIL framework?",
+   "kind": "Q",
+   "ordinal": 287
+  },
+  "059": {
+   "key": "tef796c45a07d4a17a642",
+   "en": "It governs daily service operations",
+   "kind": "A",
+   "ordinal": 287
+  },
+  "060": {
+   "key": "t1938336178cd6aa8d593",
+   "en": "It replaces product and service management practices",
+   "kind": "B",
+   "ordinal": 287
+  },
+  "061": {
+   "key": "t0a9b8297af76f0dab8f9",
+   "en": "It supports the implementation and transformation of products and services",
+   "kind": "C",
+   "ordinal": 287
+  },
+  "062": {
+   "key": "t1561e0f27cd76e7c65b6",
+   "en": "It defines service level targets and metrics",
+   "kind": "D",
+   "ordinal": 287
+  },
+  "063": {
+   "key": "t3859f3e3470a096a0a5c",
+   "en": "“PRINCE2 equips professionals with the tools to manage projects that implement or transform those products and services” explains the importance of project management for delivery and change. Ref 7.3.2 D. Incorrect. “Service level management” is a distinct ITIL practice, not the purpose of project management. Ref 7.3.2",
+   "kind": "E",
+   "ordinal": 287
+  },
+  "064": {
+   "key": "t81d38edb3da00fd9ecd9",
+   "en": "How can ITIL and PRINCE2 Agile be used together to deliver products and services?",
+   "kind": "Q",
+   "ordinal": 288
+  },
+  "065": {
+   "key": "t9f68b675716ac90e6c4a",
+   "en": "ITIL replaces PRINCE2 governance structures",
+   "kind": "A",
+   "ordinal": 288
+  },
+  "066": {
+   "key": "t357cef2752e5365c91d7",
+   "en": "PRINCE2 Agile defines service management practices",
+   "kind": "B",
+   "ordinal": 288
+  },
+  "067": {
+   "key": "t8b13701755bba829ccec",
+   "en": "ITIL manages projects while PRINCE2 Agile manages the daily and overall delivery of services",
+   "kind": "C",
+   "ordinal": 288
+  },
+  "068": {
+   "key": "td2933eb033d8df8d05b1",
+   "en": "ITIL provides service management guidance while PRINCE2 Agile manages project delivery",
+   "kind": "D",
+   "ordinal": 288
+  },
+  "069": {
+   "key": "t2d6c75df9e6585c9b7d5",
+   "en": "“While ITIL focuses on the digital product and services management, PRINCE2 equips professionals with the tools to manage projects” explains their complementary use in delivery. Ref 7.3.2",
+   "kind": "E",
+   "ordinal": 288
+  },
+  "070": {
+   "key": "t0f1766dd6a87a963605c",
+   "en": "What is \"DevOps\"?",
+   "kind": "Q",
+   "ordinal": 289
+  },
+  "071": {
+   "key": "ta59618d9ca3776ce3c4f",
+   "en": "A specific type of computer hardware.",
+   "kind": "A",
+   "ordinal": 289
+  },
+  "072": {
+   "key": "td15814fb7cc6603b94e0",
+   "en": "Practical techniques for rapid, continuous delivery and operational practices",
+   "kind": "B",
+   "ordinal": 289
+  },
+  "073": {
+   "key": "t07a2d1ff6ba6828e904e",
+   "en": "A set of laws governing international trade.",
+   "kind": "C",
+   "ordinal": 289
+  },
+  "074": {
+   "key": "td08f5ef1e7c531cbb3d4",
+   "en": "A replacement for the ITIL framework.",
+   "kind": "D",
+   "ordinal": 289
+  },
+  "075": {
+   "key": "t642ed00ed65764c2a523",
+   "en": "DevOps provides the \"how-to\" for fast, agile development and stable operations.",
+   "kind": "E",
+   "ordinal": 289
+  },
+  "076": {
+   "key": "tefc64c6ef082fe4f4e92",
+   "en": "What is \"PRINCE2\"?",
+   "kind": "Q",
+   "ordinal": 290
+  },
+  "077": {
+   "key": "t49fa9378d1f5be9d51f8",
+   "en": "A new programming language.",
+   "kind": "A",
+   "ordinal": 290
+  },
+  "078": {
+   "key": "tf159ee248af949365de8",
+   "en": "A type of cloud storage service.",
+   "kind": "B",
+   "ordinal": 290
+  },
+  "079": {
+   "key": "t649069a559e025bd94f7",
+   "en": "A comprehensive method for project, programme, and portfolio management",
+   "kind": "C",
+   "ordinal": 290
+  },
+  "080": {
+   "key": "ta4bc062b854ada297ca2",
+   "en": "A governing body for international sports.",
+   "kind": "D",
+   "ordinal": 290
+  },
+  "081": {
+   "key": "tdc69ef537274d6e4d97c",
+   "en": "PRINCE2 is a widely used framework specifically for managing projects.",
+   "kind": "E",
+   "ordinal": 290
+  },
+  "082": {
+   "key": "t5368bda9042fc295ff63",
+   "en": "Integrating ITIL and PRINCE2 ensures alignment between:",
+   "kind": "Q",
+   "ordinal": 291
+  },
+  "083": {
+   "key": "t54bb69b3fbc478ec2555",
+   "en": "Marketing and Sales only.",
+   "kind": "A",
+   "ordinal": 291
+  },
+  "084": {
+   "key": "tfb295aa0e6a69646b605",
+   "en": "Strategy, change initiatives, and operations",
+   "kind": "B",
+   "ordinal": 291
+  },
+  "085": {
+   "key": "taab7d19ed6615ab5ec86",
+   "en": "The office building and the parking lot.",
+   "kind": "C",
+   "ordinal": 291
+  },
+  "086": {
+   "key": "t89a728b1ea6b06b18b80",
+   "en": "Junior staff and their families.",
+   "kind": "D",
+   "ordinal": 291
+  },
+  "087": {
+   "key": "t6d5933afaef8acd46b44",
+   "en": "Integrating ITIL and PRINCE2 creates a smooth flow from high-level vision to project delivery to daily support.",
+   "kind": "E",
+   "ordinal": 291
+  },
+  "088": {
+   "key": "t303b3e04ff903e8cc23d",
+   "en": "Which framework offers \"agile, continuous development\" practices?",
+   "kind": "Q",
+   "ordinal": 292
+  },
+  "089": {
+   "key": "ta42875e5ced29494bc74",
+   "en": "PRINCE2",
+   "kind": "A",
+   "ordinal": 292
+  },
+  "090": {
+   "key": "tea7e91a3d70df8bcaeaa",
+   "en": "The 6C Model",
+   "kind": "D",
+   "ordinal": 292
+  },
+  "091": {
+   "key": "t7e25dae240153e9743bd",
+   "en": "DevOps is synonymous with agile methodologies in a technology context.",
+   "kind": "E",
+   "ordinal": 292
+  },
+  "092": {
+   "key": "t77414e3d7f72ad8bb6b4",
+   "en": "PRINCE2 supports the \"transition\" of project outputs into:",
+   "kind": "Q",
+   "ordinal": 293
+  },
+  "093": {
+   "key": "t091963e0b27657f47f96",
+   "en": "Physical trash.",
+   "kind": "A",
+   "ordinal": 293
+  },
+  "094": {
+   "key": "tfa0dc9da7bc0ae330e46",
+   "en": "Managed, valuable services",
+   "kind": "B",
+   "ordinal": 293
+  },
+  "095": {
+   "key": "ta211b65c0b37ebc0cc62",
+   "en": "Another project that never ends.",
+   "kind": "C",
+   "ordinal": 293
+  },
+  "096": {
+   "key": "t39205eca81fad5c31b8d",
+   "en": "A technical manual that no one reads.",
+   "kind": "D",
+   "ordinal": 293
+  },
+  "097": {
+   "key": "t8c27b5eb8ef6c17bc965",
+   "en": "In PRINCE2, the purpose of a project is to deliver outputs that are transitioned into outcomes and benefits.",
+   "kind": "E",
+   "ordinal": 293
+  },
+  "098": {
+   "key": "tb3f06a40fd12a7b5bfbe",
+   "en": "Large or complex initiatives often require comprehensive methods like:",
+   "kind": "Q",
+   "ordinal": 294
+  },
+  "099": {
+   "key": "t8d769059aed5005cde35",
+   "en": "Checking a single box on a list.",
+   "kind": "A",
+   "ordinal": 294
+  },
+  "100": {
+   "key": "t1c4d974fd49023fdc465",
+   "en": "Sending a single email to all staff.",
+   "kind": "B",
+   "ordinal": 294
+  },
+  "101": {
+   "key": "t7d86043a9a9e381230ee",
+   "en": "PRINCE2 Project Management",
+   "kind": "C",
+   "ordinal": 294
+  },
+  "102": {
+   "key": "tf9ffc03695d160fcda34",
+   "en": "Guessing what to do next.",
+   "kind": "D",
+   "ordinal": 294
+  },
+  "103": {
+   "key": "t73bf50fb6b88ae2e1ff3",
+   "en": "Complexity requires a structured approach to manage risks, budgets, and timelines.",
+   "kind": "E",
+   "ordinal": 294
+  },
+  "104": {
+   "key": "t8f1ad1c0f5e29d4c8561",
+   "en": "How does DevOps enhance \"execution\" in the value chain?",
+   "kind": "Q",
+   "ordinal": 295
+  },
+  "105": {
+   "key": "t0f6c6fd8b0fd524acca5",
+   "en": "Through automation, collaboration, and fast feedback",
+   "kind": "A",
+   "ordinal": 295
+  },
+  "106": {
+   "key": "t0f79f63d5c4d0751d6a8",
+   "en": "By making every task manual.",
+   "kind": "B",
+   "ordinal": 295
+  },
+  "107": {
+   "key": "t1d3a125b741536beebc0",
+   "en": "By preventing teams from talking to each other.",
+   "kind": "C",
+   "ordinal": 295
+  },
+  "108": {
+   "key": "t89ceda75df6b428bf452",
+   "en": "By avoiding the use of metrics.",
+   "kind": "D",
+   "ordinal": 295
+  },
+  "109": {
+   "key": "t8f88895cf61c4c2d6ca7",
+   "en": "DevOps principles match perfectly with ITIL guiding principles like \"Collaborate\" and \"Progress Iteratively\".",
+   "kind": "E",
+   "ordinal": 295
+  },
+  "110": {
+   "key": "t064c9ba97f7aedff5d19",
+   "en": "The ultimate goal of integrating ITIL, DevOps, and PRINCE2 is to deliver:",
+   "kind": "Q",
+   "ordinal": 296
+  },
+  "111": {
+   "key": "t753e90ae2b3928fa17ff",
+   "en": "The most expensive services possible.",
+   "kind": "A",
+   "ordinal": 296
+  },
+  "112": {
+   "key": "ta3f35eaf62373425c965",
+   "en": "Resilient, adaptive, and customer-focused services",
+   "kind": "B",
+   "ordinal": 296
+  },
+  "113": {
+   "key": "t0cbb383ccab261590938",
+   "en": "A collection of documents that are never used.",
+   "kind": "C",
+   "ordinal": 296
+  },
+  "114": {
+   "key": "t6b19aa9f7a995164672e",
+   "en": "Services that never change for 50 years.",
+   "kind": "D",
+   "ordinal": 296
+  },
+  "115": {
+   "key": "tfe0ddeec45add724265b",
+   "en": "Framework integration allows organizations to be agile enough to change while remaining stable enough to trust.",
+   "kind": "E",
+   "ordinal": 296
+  },
+  "116": {
+   "key": "taf8d57c1928e1c41366c",
+   "en": "How do ITIL and DevOps work together?",
+   "kind": "Q",
+   "ordinal": 297
+  },
+  "117": {
+   "key": "t0230ba04a584455562b7",
+   "en": "ITIL provides structure and governance; DevOps enables rapid development",
+   "kind": "A",
+   "ordinal": 297
+  },
+  "118": {
+   "key": "tc53c6cef76fe349b1fa6",
+   "en": "They are competitors and cannot be used at the same time.",
+   "kind": "B",
+   "ordinal": 297
+  },
+  "119": {
+   "key": "tb7103a3669edcbdd10f4",
+   "en": "DevOps is used for small companies; ITIL is only for large ones.",
+   "kind": "C",
+   "ordinal": 297
+  },
+  "120": {
+   "key": "t81541cad7790ff863026",
+   "en": "ITIL replaces the need for any technical operational practices.",
+   "kind": "D",
+   "ordinal": 297
+  },
+  "121": {
+   "key": "tb711ff5eeccd687b6f48",
+   "en": "Together, they balance the need for stability (ITIL) with the need for speed (DevOps).",
+   "kind": "E",
+   "ordinal": 297
+  },
+  "122": {
+   "key": "tc39a841287e04832b4b5",
+   "en": "Which BEST explains why an organization might choose to utilize external suppliers?",
+   "kind": "Q",
+   "ordinal": 298
+  },
+  "123": {
+   "key": "tdfd621e8c10d0aa028aa",
+   "en": "To obtain capabilities that are difficult to develop internally",
+   "kind": "D",
+   "ordinal": 298
+  },
+  "124": {
+   "key": "tade0004c31e9a4a13979",
+   "en": "Organizations may utilize external suppliers due to resource scarcity, which includes a lack of needed skills or resources internally. It also allows them to leverage the subject matter expertise and knowledge of the supplier.",
+   "kind": "E",
+   "ordinal": 298
+  },
+  "125": {
+   "key": "t7c967c1814e90f3ec294",
+   "en": "Why is project management important in ITIL?",
+   "kind": "Q",
+   "ordinal": 299
+  },
+  "126": {
+   "key": "t2a8513456263240011b6",
+   "en": "To manage routine operational activities and service requests",
+   "kind": "A",
+   "ordinal": 299
+  },
+  "127": {
+   "key": "tc9a1916e987f88d38819",
+   "en": "To define governance authority across the ITIL Value System",
+   "kind": "B",
+   "ordinal": 299
+  },
+  "128": {
+   "key": "t0dee840ddc99f7085a10",
+   "en": "To deliver time-bound initiatives that introduce new or changed services",
+   "kind": "C",
+   "ordinal": 299
+  },
+  "129": {
+   "key": "tabd8c30d5f04dd1a48cd",
+   "en": "To enable structured delivery of change while services continue to operate",
+   "kind": "D",
+   "ordinal": 299
+  },
+  "130": {
+   "key": "t2190c6460c13d2442528",
+   "en": "Project management is essential for delivering change within the ITIL Value System. Effective projects ensure that delivery is structured, controlled, and strategically aligned. PRINCE2 methods specifically support the delivery of changes that implement or modify products and services.",
+   "kind": "E",
+   "ordinal": 299
+  },
+  "131": {
+   "key": "t9285a71250df1be618b0",
+   "en": "A telecom provider designs an enterprise package that contains internet, VoIP, network security, and technical support. Which concept does this illustrate?",
+   "kind": "Q",
+   "ordinal": 300
+  },
+  "132": {
+   "key": "te36bdcee0bae05e51e1e",
+   "en": "A service offering is a formal description of one or more services designed to address the needs of a target consumer group, and it can include goods, access to resources, and service actions.",
+   "kind": "E",
+   "ordinal": 300
+  },
+  "133": {
+   "key": "tbce18722cc6af259a0e1",
+   "en": "What is the purpose of the ITIL AI Capability Model?",
+   "kind": "Q",
+   "ordinal": 301
+  },
+  "134": {
+   "key": "te47478edd03066c802ff",
+   "en": "To describe how service providers, service consumers, and other parties interact with AI to co-create value",
+   "kind": "A",
+   "ordinal": 301
+  },
+  "135": {
+   "key": "tc3bba014be7fb083fb56",
+   "en": "To describe how organizations can assess and develop capabilities for effective use of AI",
+   "kind": "B",
+   "ordinal": 301
+  },
+  "136": {
+   "key": "t3b051b3769490ce9d5be",
+   "en": "To prescribe specific AI technologies required for service development and management",
+   "kind": "C",
+   "ordinal": 301
+  },
+  "137": {
+   "key": "tb3d93391fdcc4ef5d118",
+   "en": "To measure the performance of AI-enabled services against predefined service levels",
+   "kind": "D",
+   "ordinal": 301
+  },
+  "138": {
+   "key": "t32abe5c5149d27a8cfc2",
+   "en": "The ITIL AI Capability Model helps outline AI's functional capabilities (like the 6C model) and connects them with assessing existing capabilities to address any gaps with clear action plans.",
+   "kind": "E",
+   "ordinal": 301
+  },
+  "139": {
+   "key": "ta11573e1a61b555b8e17",
+   "en": "Which value chain activity is addressed by evaluating the quality of the resources and services sourced from a third party?",
+   "kind": "Q",
+   "ordinal": 302
+  },
+  "140": {
+   "key": "t5d949e87a9dd7ab45633",
+   "en": "The \"acquire\" activity has specific success metrics, one of which is the quality of resources and services obtained.",
+   "kind": "E",
+   "ordinal": 302
+  }
+ }
+}

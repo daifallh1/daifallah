@@ -1,0 +1,1025 @@
+{
+ "batch": 2,
+ "items": {
+  "001": {
+   "key": "t394f03521f1857617c89",
+   "en": "Provide services and manage user onboarding",
+   "kind": "C",
+   "ordinal": 32
+  },
+  "002": {
+   "key": "td3d1a2fce6cebe020063",
+   "en": "Create functional prototypes for testing",
+   "kind": "D",
+   "ordinal": 32
+  },
+  "003": {
+   "key": "t4653eb9921f2cdf4c269",
+   "en": "Which activity focuses on minimizing the impact of incidents and disasters when they happen?",
+   "kind": "Q",
+   "ordinal": 33
+  },
+  "004": {
+   "key": "t58c3939c4ce986c8214c",
+   "en": "Operate",
+   "kind": "B",
+   "ordinal": 33
+  },
+  "005": {
+   "key": "t42036d52221b90b9b8c8",
+   "en": "“The purpose of the ‘support’ activity is to identify and resolve incidents, fulfil disaster recovery procedures, and capture consumer’s feedback.” Ref 4.9.1",
+   "kind": "E",
+   "ordinal": 33
+  },
+  "006": {
+   "key": "t1de4f3396d1dba824e22",
+   "en": "What does a product specification primarily describe?",
+   "kind": "Q",
+   "ordinal": 34
+  },
+  "007": {
+   "key": "tee2298b9e40c57781b2f",
+   "en": "Critical aspects, requirements, and characteristics of a product",
+   "kind": "A",
+   "ordinal": 34
+  },
+  "008": {
+   "key": "t1d882d6a91986f256429",
+   "en": "The initial creation used for testing a product’s design",
+   "kind": "B",
+   "ordinal": 34
+  },
+  "009": {
+   "key": "taa51570cb38d239ec865",
+   "en": "The ability of a system to remain operational",
+   "kind": "C",
+   "ordinal": 34
+  },
+  "010": {
+   "key": "tb388bb2f02e42b59fe97",
+   "en": "The process of merging code into a central repository",
+   "kind": "D",
+   "ordinal": 34
+  },
+  "011": {
+   "key": "t4772e0d67096182bf3ff",
+   "en": "A “product specification” is a detailed document that outlines critical aspects, requirements, and characteristics of a product or service to be built. It typically includes descriptions of the product or service features, functionalities, technical requirements, performance criteria, and user interface details. Ref 4.3.1",
+   "kind": "E",
+   "ordinal": 34
+  },
+  "012": {
+   "key": "t2b2e40be1456c37fadc1",
+   "en": "What is an incident in IT services?",
+   "kind": "Q",
+   "ordinal": 35
+  },
+  "013": {
+   "key": "t949b73b180abc5cf72fd",
+   "en": "Any change of state significant for management",
+   "kind": "A",
+   "ordinal": 35
+  },
+  "014": {
+   "key": "t8237e38fb7b64e22315b",
+   "en": "An unplanned interruption to a service or reduction in service quality",
+   "kind": "B",
+   "ordinal": 35
+  },
+  "015": {
+   "key": "t0af4a96db68c4dde8cd2",
+   "en": "A cause of one or more interruptions",
+   "kind": "C",
+   "ordinal": 35
+  },
+  "016": {
+   "key": "t057bd92e8a02a93b2d22",
+   "en": "A flaw or vulnerability in a service",
+   "kind": "D",
+   "ordinal": 35
+  },
+  "017": {
+   "key": "tc6e4036bf669a4f5d3ef",
+   "en": "What BEST describes an event?",
+   "kind": "Q",
+   "ordinal": 36
+  },
+  "018": {
+   "key": "t4eac090c93a97be62087",
+   "en": "A request from a user for a normal service action",
+   "kind": "A",
+   "ordinal": 36
+  },
+  "019": {
+   "key": "tc1d9ca08092cb81fc2de",
+   "en": "A sudden unplanned event causing great damage",
+   "kind": "B",
+   "ordinal": 36
+  },
+  "020": {
+   "key": "t526b9bcb3837a1b3a4f3",
+   "en": "Any change of state that has significance for the management of a service",
+   "kind": "C",
+   "ordinal": 36
+  },
+  "021": {
+   "key": "t6c9228275c57608df1e3",
+   "en": "The addition or removal of anything that could have a direct or indirect effect on services",
+   "kind": "D",
+   "ordinal": 36
+  },
+  "022": {
+   "key": "tacbb0084e200bac5da88",
+   "en": "An “event” is “any change of state that has significance for the management of a product, service, or other configuration item.” Ref 4.7.2",
+   "kind": "E",
+   "ordinal": 36
+  },
+  "023": {
+   "key": "t780a458c831259a653a6",
+   "en": "What is continuous integration?",
+   "kind": "Q",
+   "ordinal": 37
+  },
+  "024": {
+   "key": "ta451c7d6b83385861956",
+   "en": "Automatically releasing every code change into production",
+   "kind": "A",
+   "ordinal": 37
+  },
+  "025": {
+   "key": "t048a085de77c2c1190aa",
+   "en": "Regularly merging code into a central repository with automated builds and tests",
+   "kind": "B",
+   "ordinal": 37
+  },
+  "026": {
+   "key": "t735f9c7de06e834ce4e9",
+   "en": "The ability to track and evaluate service value",
+   "kind": "C",
+   "ordinal": 37
+  },
+  "027": {
+   "key": "tf9e319731fe397048bc6",
+   "en": "A method of ensuring ultra-scalable systems through operations engineering",
+   "kind": "D",
+   "ordinal": 37
+  },
+  "028": {
+   "key": "t49c4cac0d5d4acabe581",
+   "en": "What BEST describes a Service Level Agreement (SLA)?",
+   "kind": "Q",
+   "ordinal": 38
+  },
+  "029": {
+   "key": "t7ab51b976baa1015d5ca",
+   "en": "A legal contract between two vendors regulating financial penalties",
+   "kind": "A",
+   "ordinal": 38
+  },
+  "030": {
+   "key": "tfd245734e50771a1965c",
+   "en": "A documented agreement between a service provider and a customer that identifies services and their agreed levels",
+   "kind": "B",
+   "ordinal": 38
+  },
+  "031": {
+   "key": "tba796291dda81741cc98",
+   "en": "An informal discussion between users and service providers about expectations",
+   "kind": "C",
+   "ordinal": 38
+  },
+  "032": {
+   "key": "t23072d14324de43a8280",
+   "en": "A guideline document for internal IT teams without customer involvement",
+   "kind": "D",
+   "ordinal": 38
+  },
+  "033": {
+   "key": "tbdfb882d637c69a02476",
+   "en": "Service Level Agreement (SLA) is “a documented agreement between a service provider and a customer that identifies the services provided and the agreed level of each service.” Ref 3.2.5",
+   "kind": "E",
+   "ordinal": 38
+  },
+  "034": {
+   "key": "t51d89ef0393aa2843636",
+   "en": "Which ITIL concept includes governance, practices, and continual improvement?",
+   "kind": "Q",
+   "ordinal": 39
+  },
+  "035": {
+   "key": "t5979697b4b651156ffba",
+   "en": "The ITIL Value System",
+   "kind": "A",
+   "ordinal": 39
+  },
+  "036": {
+   "key": "ta8d5adbc49118544aaad",
+   "en": "The “deliver” and “support” value chain activities",
+   "kind": "B",
+   "ordinal": 39
+  },
+  "037": {
+   "key": "t5f95b99260b4576d4ff6",
+   "en": "The “focus on value” ITIL Guiding Principle",
+   "kind": "C",
+   "ordinal": 39
+  },
+  "038": {
+   "key": "tefb0ed984673116d922e",
+   "en": "The “value streams and processes” dimension",
+   "kind": "D",
+   "ordinal": 39
+  },
+  "039": {
+   "key": "t9772212436a8159db677",
+   "en": "The ITIL Value System (ITIL VS) is a model representing how all the components and activities of an organization work together to facilitate value creation through digital products and services. Ref 5.1",
+   "kind": "E",
+   "ordinal": 39
+  },
+  "040": {
+   "key": "tb2dc13d04274a80660da",
+   "en": "What is the MAIN purpose of value stream mapping in an organization?",
+   "kind": "Q",
+   "ordinal": 40
+  },
+  "041": {
+   "key": "t34185537d231523ee609",
+   "en": "To automate service monitoring",
+   "kind": "A",
+   "ordinal": 40
+  },
+  "042": {
+   "key": "t9b6b9e08365dfc0dcd83",
+   "en": "To identify and prioritize improvement opportunities",
+   "kind": "B",
+   "ordinal": 40
+  },
+  "043": {
+   "key": "tf7cfe5c4dbc62f2aa217",
+   "en": "To enhance and support management practices",
+   "kind": "C",
+   "ordinal": 40
+  },
+  "044": {
+   "key": "tf3079b19c4031014e6f8",
+   "en": "To control external stakeholders directly",
+   "kind": "D",
+   "ordinal": 40
+  },
+  "045": {
+   "key": "tbea81c11803cc25d6878",
+   "en": "Value stream mapping “allows organizations to identify, map, and analyse their value streams, as well as identify and prioritize improvement opportunities.” Ref 6.4",
+   "kind": "E",
+   "ordinal": 40
+  },
+  "046": {
+   "key": "t570ea223f6f175b10f6a",
+   "en": "What is the primary purpose of a product in ITIL digital product and service management?",
+   "kind": "Q",
+   "ordinal": 41
+  },
+  "047": {
+   "key": "te34e340dc113c8017db0",
+   "en": "To offer value to consumers through a defined configuration of resources",
+   "kind": "A",
+   "ordinal": 41
+  },
+  "048": {
+   "key": "t6998a10d54f7e903b597",
+   "en": "To replace service management practices with product management",
+   "kind": "B",
+   "ordinal": 41
+  },
+  "049": {
+   "key": "t0f4c12e542633d633e21",
+   "en": "To enable value co-creation by facilitating outcomes that customers want to achieve",
+   "kind": "C",
+   "ordinal": 41
+  },
+  "050": {
+   "key": "t9f47c3176bb5eeaf27dc",
+   "en": "To ensure regulatory compliance across digital services",
+   "kind": "D",
+   "ordinal": 41
+  },
+  "051": {
+   "key": "tab7446a12b079f48a606",
+   "en": "A product is a configuration of an organization’s resources that is designed to offer value. “Digital product is a combination of an organization’s resources based on digital technology and designed to offer value to consumers.”",
+   "kind": "E",
+   "ordinal": 41
+  },
+  "052": {
+   "key": "t52ab6a10a8f07d93ebf0",
+   "en": "What is the primary role of a digital service?",
+   "kind": "Q",
+   "ordinal": 42
+  },
+  "053": {
+   "key": "t79a94cb2f68602bdb0bb",
+   "en": "To define processes and workflows for value creation",
+   "kind": "A",
+   "ordinal": 42
+  },
+  "054": {
+   "key": "t870c7ac1a37b2bba345a",
+   "en": "To enable value co-creation by facilitating customer outcomes",
+   "kind": "B",
+   "ordinal": 42
+  },
+  "055": {
+   "key": "t185fae21d7f575782a24",
+   "en": "To replace product management practices with service management",
+   "kind": "C",
+   "ordinal": 42
+  },
+  "056": {
+   "key": "tef2bf4843ea0639425a2",
+   "en": "To ensure compliance with policies and external regulations",
+   "kind": "D",
+   "ordinal": 42
+  },
+  "057": {
+   "key": "t0de083fd64fc0c38d8c0",
+   "en": "The core purpose of a service (including a digital service) is to enable value co-creation by helping consumers achieve desired outcomes, while relieving them of the need to manage certain costs and risks. “Service is a means of enabling value co-creation by facilitating outcomes that consumers want to achieve, without the consumer having to manage specific costs and risks.” Ref 3.1.1",
+   "kind": "E",
+   "ordinal": 42
+  },
+  "058": {
+   "key": "td4461554b5d34933f531",
+   "en": "Which option is CORRECT in the context of a digital product and a digital service?",
+   "kind": "Q",
+   "ordinal": 43
+  },
+  "059": {
+   "key": "t1a507f5d45e23b626ccb",
+   "en": "A digital service enables value through the use of digital products",
+   "kind": "A",
+   "ordinal": 43
+  },
+  "060": {
+   "key": "tfc0c0275bca9f7474f90",
+   "en": "A digital product replaces the need for services",
+   "kind": "B",
+   "ordinal": 43
+  },
+  "061": {
+   "key": "t9d34ac6d9793d12936bf",
+   "en": "A digital service is limited to internal IT systems",
+   "kind": "C",
+   "ordinal": 43
+  },
+  "062": {
+   "key": "t0bccf16e36d62ba50887",
+   "en": "A digital service is independent of a digital product",
+   "kind": "D",
+   "ordinal": 43
+  },
+  "063": {
+   "key": "t47e08e0d6d3853af547c",
+   "en": "In ITIL, a digital service is a service that relies on digital products. Digital products provide the capabilities, while the digital service uses those capabilities to enable value co-creation for consumers. “Digital service is a service that fully or largely relies on digital products.” Ref 3.1.2",
+   "kind": "E",
+   "ordinal": 43
+  },
+  "064": {
+   "key": "t424e0f01aafd36686413",
+   "en": "A printer is delivered to a customer, while ongoing maintenance and support are provided by the supplier. Which combination of service interactions is shown in this situation?",
+   "kind": "Q",
+   "ordinal": 44
+  },
+  "065": {
+   "key": "tf9350a7e0ec9e8eea74a",
+   "en": "Access to resources and service actions",
+   "kind": "A",
+   "ordinal": 44
+  },
+  "066": {
+   "key": "t1c6335e76ac7c48933fc",
+   "en": "Service offering and service actions",
+   "kind": "B",
+   "ordinal": 44
+  },
+  "067": {
+   "key": "t1a17bc16718611975d20",
+   "en": "Transfer of goods and service actions",
+   "kind": "C",
+   "ordinal": 44
+  },
+  "068": {
+   "key": "tbceaa30f5edfa0271d25",
+   "en": "Transfer of goods and service journey",
+   "kind": "D",
+   "ordinal": 44
+  },
+  "069": {
+   "key": "t7b7f937fef52a8f1a0c3",
+   "en": "The printer being delivered is a transfer of goods, while the ongoing maintenance and support provided by the supplier represent service actions. ITIL defines these as two distinct forms of service interaction, and both are present here. “Transfer of goods: some services include transfer of goods from a service provider to a service consumer.” and “Service action: An action performed by a service provider or jointly by a service provider and a service consumer.” Ref 3.1.2",
+   "kind": "E",
+   "ordinal": 44
+  },
+  "070": {
+   "key": "t36c931cb29355e6f27d2",
+   "en": "How does ‘access to resources’ support value co-creation in a service interaction?",
+   "kind": "Q",
+   "ordinal": 45
+  },
+  "071": {
+   "key": "tfc0b804549c3039626f8",
+   "en": "By allowing consumers to use provider resources",
+   "kind": "A",
+   "ordinal": 45
+  },
+  "072": {
+   "key": "t7f7ac28420133cfd88f8",
+   "en": "By transferring responsibility for resources to consumers",
+   "kind": "B",
+   "ordinal": 45
+  },
+  "073": {
+   "key": "t6316d62003c4a013873b",
+   "en": "By limiting resource use to internal teams",
+   "kind": "C",
+   "ordinal": 45
+  },
+  "074": {
+   "key": "t913f5b7e0c4bd488c2b0",
+   "en": "By replacing service actions with automation",
+   "kind": "D",
+   "ordinal": 45
+  },
+  "075": {
+   "key": "t12d076ff63d710efde5e",
+   "en": "In ITIL, access to resources is a specific form of service interaction where the service consumer uses the service provider’s resources under agreed conditions. This access enables value co-creation because consumers can achieve outcomes without owning or managing those resources. “Access to resources: the service consumer gains access to the service provider’s resources and uses them according to the agreed terms and conditions.” Ref 3.1.2",
+   "kind": "E",
+   "ordinal": 45
+  },
+  "076": {
+   "key": "t7654ae3fa71be8e1ff24",
+   "en": "Which of the following is TRUE about value co-creation?",
+   "kind": "Q",
+   "ordinal": 46
+  },
+  "077": {
+   "key": "tb436bdbec7eb22d4006f",
+   "en": "Value is created only by the service provider and delivered to the consumer",
+   "kind": "A",
+   "ordinal": 46
+  },
+  "078": {
+   "key": "t91654fb7b428559be4e5",
+   "en": "Value is defined and consumed by a service provider",
+   "kind": "B",
+   "ordinal": 46
+  },
+  "079": {
+   "key": "tb6281833830ebff34941",
+   "en": "Value is created independently of service relationships",
+   "kind": "C",
+   "ordinal": 46
+  },
+  "080": {
+   "key": "tbec8e4c5e532e5b2d275",
+   "en": "Value is created jointly through interactions between service providers and service consumers",
+   "kind": "D",
+   "ordinal": 46
+  },
+  "081": {
+   "key": "t4c361a5c36401b59b842",
+   "en": "Value is co-created, it does not exist unless both parties participate. “It is always a combination of service consumption (by the service consumer) and service provision (by the service provider).” Ref 3.1.1",
+   "kind": "E",
+   "ordinal": 46
+  },
+  "082": {
+   "key": "tc2ae2a5e1801104e5ed8",
+   "en": "How do ‘utility’ and ‘warranty’ together support value co-creation?",
+   "kind": "Q",
+   "ordinal": 47
+  },
+  "083": {
+   "key": "t6257d28f276f94d7a42d",
+   "en": "Utility focuses on cost control, while warranty focuses on risk avoidance",
+   "kind": "A",
+   "ordinal": 47
+  },
+  "084": {
+   "key": "ta7a65f912ceabb4e209b",
+   "en": "Utility and warranty apply only to products, not services",
+   "kind": "B",
+   "ordinal": 47
+  },
+  "085": {
+   "key": "ta186cdd9da0e995fe6e5",
+   "en": "Utility ensures the service is fit for use, while warranty ensures it is fit for purpose",
+   "kind": "C",
+   "ordinal": 47
+  },
+  "086": {
+   "key": "tde8d7b924c039f7cf2f1",
+   "en": "Utility ensures the service is fit for purpose, while warranty ensures it is fit for use",
+   "kind": "D",
+   "ordinal": 47
+  },
+  "087": {
+   "key": "t9b17156474847f220dd4",
+   "en": "Utility and warranty are two complementary aspects of service value. Utility describes what the service does (fitness for purpose), while warranty describes how the service performs (fitness for use). Utility is the functionality offered by a product or service to meet a particular need, and warranty ensures the service performs and can be used as expected. Ref 3.2.4",
+   "kind": "E",
+   "ordinal": 47
+  },
+  "088": {
+   "key": "td2eb267d9398555bbf76",
+   "en": "Why does ITIL consider outcomes, costs, and risks together when explaining value co-creation?",
+   "kind": "Q",
+   "ordinal": 48
+  },
+  "089": {
+   "key": "t93872eebe04ebaed4608",
+   "en": "Because value is created when desired outcomes are achieved while costs and risks are optimized",
+   "kind": "A",
+   "ordinal": 48
+  },
+  "090": {
+   "key": "t7b79e62371be5e374618",
+   "en": "Because outcomes eliminate the need to manage costs and risks",
+   "kind": "B",
+   "ordinal": 48
+  },
+  "091": {
+   "key": "t858d528c29fa59afa267",
+   "en": "Because costs are more important than outcomes",
+   "kind": "C",
+   "ordinal": 48
+  },
+  "092": {
+   "key": "t8e069a0bc164a225dd27",
+   "en": "Because risks are more important than outcomes",
+   "kind": "D",
+   "ordinal": 48
+  },
+  "093": {
+   "key": "t5431970db83d79b44521",
+   "en": "ITIL explains value co-creation as a balance between outcomes, costs, and risks. Value is not created by outcomes alone; it emerges when desired outcomes are achieved while costs and risks are appropriately optimized for the service consumer. These three elements must be considered together to understand whether a service is truly valuable. Ref 3.1.1",
+   "kind": "E",
+   "ordinal": 48
+  },
+  "094": {
+   "key": "t54bc45c2496e0d91210c",
+   "en": "What is service quality most concerned with?",
+   "kind": "Q",
+   "ordinal": 49
+  },
+  "095": {
+   "key": "t69ae99fa6167687b74fb",
+   "en": "How well a service meets agreed requirements and expectations",
+   "kind": "A",
+   "ordinal": 49
+  },
+  "096": {
+   "key": "t366171af56534e1b5747",
+   "en": "How quickly incidents are resolved",
+   "kind": "B",
+   "ordinal": 49
+  },
+  "097": {
+   "key": "t0646d885ebc4936c664f",
+   "en": "The speed of service development",
+   "kind": "C",
+   "ordinal": 49
+  },
+  "098": {
+   "key": "tc49652026d12315ccc83",
+   "en": "The social responsibility of a service provider",
+   "kind": "D",
+   "ordinal": 49
+  },
+  "099": {
+   "key": "tfdea4dcc1614f1dde53e",
+   "en": "Service quality is being concerned with how well a service satisfies stated and implied needs, which are expressed through agreed requirements and expectations. It is not limited to speed, development pace, or ethics alone, but to the overall ability of the service to meet what has been agreed and expected. “Service quality is the sum of the characteristics of a service that are relevant to its ability to satisfy stated and implied needs.” Ref 3.2.4",
+   "kind": "E",
+   "ordinal": 49
+  },
+  "100": {
+   "key": "tb1e4eeccd8dbb7b2c29f",
+   "en": "Which of the following is typically used to establish a shared understanding of expected and achieved service quality?",
+   "kind": "Q",
+   "ordinal": 50
+  },
+  "101": {
+   "key": "ta5af9591079ea7a1cf69",
+   "en": "Product specification",
+   "kind": "A",
+   "ordinal": 50
+  },
+  "102": {
+   "key": "t61d5836f58be81af34d6",
+   "en": "Service level agreement",
+   "kind": "B",
+   "ordinal": 50
+  },
+  "103": {
+   "key": "t90431e80dd3dd1cd7bc5",
+   "en": "Product and service roadmaps",
+   "kind": "C",
+   "ordinal": 50
+  },
+  "104": {
+   "key": "t5e143f8058067afde9c7",
+   "en": "Service level requirements",
+   "kind": "D",
+   "ordinal": 50
+  },
+  "105": {
+   "key": "tdf4ea5c68a98283ba5a2",
+   "en": "A Service Level Agreement (SLA) is the common mechanism used to establish a shared understanding between a service provider and a customer regarding expected and achieved service quality. It formalizes what level of service is expected and how it will be measured and managed. Ref 3.2.5",
+   "kind": "E",
+   "ordinal": 50
+  },
+  "106": {
+   "key": "tfd8c4ca8819834ecd337",
+   "en": "How does the ‘information and technology’ dimension support effective product and service management?",
+   "kind": "Q",
+   "ordinal": 51
+  },
+  "107": {
+   "key": "t2d4a1e85eda7910bcdda",
+   "en": "By enabling the use of data, information, and technology required to deliver services",
+   "kind": "A",
+   "ordinal": 51
+  },
+  "108": {
+   "key": "tbc0686061663296cc61f",
+   "en": "By defining organizational roles and responsibilities needed for product development",
+   "kind": "B",
+   "ordinal": 51
+  },
+  "109": {
+   "key": "tdc3482720011c4bd589b",
+   "en": "By defining workflows and activities required for product development",
+   "kind": "C",
+   "ordinal": 51
+  },
+  "110": {
+   "key": "t17411c21abdbb6ce91f3",
+   "en": "By managing relationships with external suppliers",
+   "kind": "D",
+   "ordinal": 51
+  },
+  "111": {
+   "key": "tfcc6996751fcc70b4cbd",
+   "en": "The information and technology dimension in ITIL explicitly focuses on the data, information, and technologies that support digital products and services and the management systems behind them. This dimension ensures that the right technological capabilities and information assets are available to enable effective product and service management. Ref 2.4",
+   "kind": "E",
+   "ordinal": 51
+  },
+  "112": {
+   "key": "tf699318e781f5e554c08",
+   "en": "Which dimension is concerned with management of relationships with external organizations?",
+   "kind": "Q",
+   "ordinal": 52
+  },
+  "113": {
+   "key": "t15544c27aa642403325c",
+   "en": "The Partners and suppliers dimension explicitly addresses how an organization manages its relationships with external organizations that contribute to the discovery, design, delivery, support, and improvement of products and services. Ref 2.5",
+   "kind": "E",
+   "ordinal": 52
+  },
+  "114": {
+   "key": "tb2ea10145d8becd887ed",
+   "en": "Why are ‘value streams and processes’ important in product and service management?",
+   "kind": "Q",
+   "ordinal": 53
+  },
+  "115": {
+   "key": "t0de49cfa31d1ba2fce92",
+   "en": "They specify the tools used for service monitoring",
+   "kind": "A",
+   "ordinal": 53
+  },
+  "116": {
+   "key": "ta0ee31d3eea7129c7962",
+   "en": "They show how activities are coordinated to create and deliver value",
+   "kind": "B",
+   "ordinal": 53
+  },
+  "117": {
+   "key": "t5c21e19216ad623ecd0f",
+   "en": "They define organizational hierarchies and reporting lines",
+   "kind": "C",
+   "ordinal": 53
+  },
+  "118": {
+   "key": "tec55217e8f5febc5f49e",
+   "en": "They describe supplier agreements and help manage contracts",
+   "kind": "D",
+   "ordinal": 53
+  },
+  "119": {
+   "key": "tcd38de1310fd150b0c4d",
+   "en": "The value streams and processes dimension is concerned with how workflows across activities and how those activities are organized and coordinated to enable value for stakeholders. “Value stream is a series of steps that an organization uses to create and deliver products and services to a service consumer.” Ref 2.3.1",
+   "kind": "E",
+   "ordinal": 53
+  },
+  "120": {
+   "key": "t2b8c3784919243056e60",
+   "en": "How does the ‘organizations and people’ dimension contribute to effective product and service management?",
+   "kind": "Q",
+   "ordinal": 54
+  },
+  "121": {
+   "key": "t3e6807fe1264a3111a1a",
+   "en": "By ensuring skills, culture, and communication support value creation",
+   "kind": "A",
+   "ordinal": 54
+  },
+  "122": {
+   "key": "t3e2603d7cbe9744b143b",
+   "en": "By defining the technologies used to deliver services",
+   "kind": "B",
+   "ordinal": 54
+  },
+  "123": {
+   "key": "t97d50a4c74124be0a8c0",
+   "en": "By managing relationships with external organizations",
+   "kind": "C",
+   "ordinal": 54
+  },
+  "124": {
+   "key": "tacc73c49b71b89611069",
+   "en": "By automating workflows across value streams",
+   "kind": "D",
+   "ordinal": 54
+  },
+  "125": {
+   "key": "t7f0cf678053c87eccf9d",
+   "en": "The organizations and people dimension focuses on ensuring that culture, leadership, skills, competencies, and communication enable the organization to work effectively and create value through products and services. Ref Glossary",
+   "kind": "E",
+   "ordinal": 54
+  },
+  "126": {
+   "key": "td9458cc94413a1f26264",
+   "en": "Which set correctly lists the components of the ITIL Value System (VS)?",
+   "kind": "Q",
+   "ordinal": 55
+  },
+  "127": {
+   "key": "t18cb9a21e4affafb83ec",
+   "en": "Value streams, projects, releases, incidents, changes",
+   "kind": "A",
+   "ordinal": 55
+  },
+  "128": {
+   "key": "t8ab8396500e2c804cdb4",
+   "en": "Guiding principles, governance, discover, deliver",
+   "kind": "B",
+   "ordinal": 55
+  },
+  "129": {
+   "key": "t4f5bae64889bcbfc3ff7",
+   "en": "Products, services, customers, suppliers, partners",
+   "kind": "C",
+   "ordinal": 55
+  },
+  "130": {
+   "key": "tddb47af14a84bcdd0a87",
+   "en": "Guiding principles, governance, value chain, management practices, continual improvement",
+   "kind": "D",
+   "ordinal": 55
+  },
+  "131": {
+   "key": "t346df2c67aec4cc23350",
+   "en": "This includes all five components of the VS. “The ITIL VS includes five components: Guiding principles, Governance, Value chain, Practices, Continual improvement” Ref 1.3",
+   "kind": "E",
+   "ordinal": 55
+  },
+  "132": {
+   "key": "t3eef0cc45994a18c9772",
+   "en": "A team is developing a new digital service. Instead of delivering all features at once, they release a small set of features, gather user feedback, and adjust the next release based on what they learn. Which ITIL Guiding Principle is the team applying in this situation?",
+   "kind": "Q",
+   "ordinal": 56
+  },
+  "133": {
+   "key": "t60a8f8ddff4111d44e83",
+   "en": "Keep it simple and practical",
+   "kind": "A",
+   "ordinal": 56
+  },
+  "134": {
+   "key": "t68f0a663e5ec1dec98d8",
+   "en": "Focus on value",
+   "kind": "B",
+   "ordinal": 56
+  },
+  "135": {
+   "key": "t231b3f008f4bd6f47537",
+   "en": "Progress iteratively with feedback",
+   "kind": "C",
+   "ordinal": 56
+  },
+  "136": {
+   "key": "t0d7a93151f86695f1e76",
+   "en": "Collaborate and promote visibility",
+   "kind": "D",
+   "ordinal": 56
+  },
+  "137": {
+   "key": "tf9768796d00999363f08",
+   "en": "The scenario describes releasing work in small increments, gathering feedback, and adjusting future iterations. “Product and service management iterations can be sequential or simultaneous, with multiple feedback loops between them.” Ref 5.2.3",
+   "kind": "E",
+   "ordinal": 56
+  },
+  "138": {
+   "key": "t0b5ec987f43210f536d7",
+   "en": "How should the ITIL Guiding Principle ‘optimize and automate’ be applied?",
+   "kind": "Q",
+   "ordinal": 57
+  },
+  "139": {
+   "key": "t9e248d825e0b93f77160",
+   "en": "By replacing people with technology across all functions",
+   "kind": "A",
+   "ordinal": 57
+  },
+  "140": {
+   "key": "tca3334b39c857982b3c3",
+   "en": "By optimizing processes before automating them",
+   "kind": "B",
+   "ordinal": 57
+  },
+  "141": {
+   "key": "t87b97c4f3a5808ce3b13",
+   "en": "By automating all activities immediately",
+   "kind": "C",
+   "ordinal": 57
+  },
+  "142": {
+   "key": "td49f986cc203d555cd22",
+   "en": "By automating processes before optimizing them",
+   "kind": "D",
+   "ordinal": 57
+  },
+  "143": {
+   "key": "t1e04e44776d2a1087845",
+   "en": "Optimization must come before automation. Automating ineficient or poorly designed work only increases waste and risk. “Before an activity or practice can be effectively automated, it should be optimized to whatever degree is reasonably possible.” Ref 5.2.7",
+   "kind": "E",
+   "ordinal": 57
+  },
+  "144": {
+   "key": "t5efafc4c1941d3887783",
+   "en": "What does the ITIL Guiding Principle ‘think and work holistically’ emphasize?",
+   "kind": "Q",
+   "ordinal": 58
+  },
+  "145": {
+   "key": "tf07b67b243dcdcdbe07a",
+   "en": "Considering all components of the service value system when making decisions",
+   "kind": "A",
+   "ordinal": 58
+  },
+  "146": {
+   "key": "ta72916d933c121a21a77",
+   "en": "Assigning responsibility for improvements to a single team",
+   "kind": "B",
+   "ordinal": 58
+  },
+  "147": {
+   "key": "t149fd282c533c8d35073",
+   "en": "Ensuring all activities result in value creation for the stakeholders",
+   "kind": "C",
+   "ordinal": 58
+  },
+  "148": {
+   "key": "tf992139b59ca88284083",
+   "en": "Automating repetitive and manual tasks",
+   "kind": "D",
+   "ordinal": 58
+  },
+  "149": {
+   "key": "t00ef67c36bf3d8482723",
+   "en": "No element of the organization operates in isolation and decisions must consider the whole system, including interactions across the ITIL Value System. Ref 5.2.5",
+   "kind": "E",
+   "ordinal": 58
+  },
+  "150": {
+   "key": "t4b6497c2be622bbd9542",
+   "en": "How should the ITIL Guiding Principle ‘collaborate and promote visibility’ be applied?",
+   "kind": "Q",
+   "ordinal": 59
+  },
+  "151": {
+   "key": "t12f7724f6affd63f8f41",
+   "en": "By involving stakeholders and sharing information with them",
+   "kind": "A",
+   "ordinal": 59
+  },
+  "152": {
+   "key": "ta62b51fef7aef7df5449",
+   "en": "By limiting communication to management only",
+   "kind": "B",
+   "ordinal": 59
+  },
+  "153": {
+   "key": "te5f5477b573be0917fde",
+   "en": "By reusing existing processes wherever possible",
+   "kind": "C",
+   "ordinal": 59
+  },
+  "154": {
+   "key": "tb3d69ec4c7755809af5c",
+   "en": "By capturing feedback after each iteration",
+   "kind": "D",
+   "ordinal": 59
+  },
+  "155": {
+   "key": "t30ff6013878a29ed0e4a",
+   "en": "Collaborate and promote visibility explicitly emphasizes working with stakeholders and making work and information visible to enable better decision-making, trust, and outcomes. “When initiatives involve the right people in the correct roles, efforts benefit from better buy-in, more relevance (because better information is available for decision-making) and increased likelihood of long-term success.” Ref 5.2.4",
+   "kind": "E",
+   "ordinal": 59
+  },
+  "156": {
+   "key": "tbf8b3c4cf9f34a2a1497",
+   "en": "How does ITIL describe the way the Guiding Principles should be applied together?",
+   "kind": "Q",
+   "ordinal": 60
+  },
+  "157": {
+   "key": "t5c62c28cbbf8caee6ecb",
+   "en": "They should be applied one at a time in a fixed sequence",
+   "kind": "A",
+   "ordinal": 60
+  },
+  "158": {
+   "key": "tc3e06a9543f9416bb339",
+   "en": "They replace the need for governance and management practices",
+   "kind": "B",
+   "ordinal": 60
+  },
+  "159": {
+   "key": "t03320311d47d0330bc65",
+   "en": "They should be applied independent of each other",
+   "kind": "C",
+   "ordinal": 60
+  },
+  "160": {
+   "key": "tbb1cffc965f55d6717e8",
+   "en": "They should be used collectively and balanced based on the situation",
+   "kind": "D",
+   "ordinal": 60
+  },
+  "161": {
+   "key": "t08a2d3402ffee6c70be9",
+   "en": "The guiding principles are not isolated, not hierarchical, and not sequential. They are intended to be used together, with different principles becoming more relevant depending on the context and situation. “Organizations should not use just one or two of the principles but should consider the relevance of each of them and how they complement each other.” Ref 5.2.8",
+   "kind": "E",
+   "ordinal": 60
+  },
+  "162": {
+   "key": "t0129043435ff41873fab",
+   "en": "Which governance activity is focused on ensuring adherence with policies and strategic direction?",
+   "kind": "Q",
+   "ordinal": 61
+  },
+  "163": {
+   "key": "t966591fe7e17f1074acd",
+   "en": "Evaluate",
+   "kind": "A",
+   "ordinal": 61
+  },
+  "164": {
+   "key": "t002c7c68468b4f550fba",
+   "en": "Direct",
+   "kind": "B",
+   "ordinal": 61
+  },
+  "165": {
+   "key": "t4c2e1df4570bebd69829",
+   "en": "Monitor",
+   "kind": "C",
+   "ordinal": 61
+  },
+  "166": {
+   "key": "td4a33d5b78bccebe3f16",
+   "en": "Discover",
+   "kind": "D",
+   "ordinal": 61
+  },
+  "167": {
+   "key": "t981c51f86a62fac03422",
+   "en": "‘Monitor’ is the activity explicitly concerned with checking that performance and activities adhere to policies and strategic direction. “Monitor: monitoring the performance of the organization and its practices, products, and services. The governing body ensures that performance is in accordance with policies and strategic direction.” Ref 5.3",
+   "kind": "E",
+   "ordinal": 61
+  },
+  "168": {
+   "key": "tccb7d456f0d01c6dda1c",
+   "en": "Which of the following is a part of purpose of ‘deliver’ activity?",
+   "kind": "Q",
+   "ordinal": 62
+  },
+  "169": {
+   "key": "td6e64f15686f161cbca4",
+   "en": "Managing user onboarding",
+   "kind": "A",
+   "ordinal": 62
+  },
+  "170": {
+   "key": "t62b2a5566e96a1606897",
+   "en": "Monitoring support systems",
+   "kind": "B",
+   "ordinal": 62
+  }
+ }
+}

@@ -1,0 +1,1025 @@
+{
+ "batch": 3,
+ "items": {
+  "001": {
+   "key": "t164d069f9ffa53aa3e86",
+   "en": "Designing product prototypes",
+   "kind": "C",
+   "ordinal": 62
+  },
+  "002": {
+   "key": "t980d1e338eeeab04b01e",
+   "en": "Obtaining supplier resources",
+   "kind": "D",
+   "ordinal": 62
+  },
+  "003": {
+   "key": "td7985b0f6d224836b144",
+   "en": "The purpose of the deliver activity explicitly includes managing how users are onboarded and ofboarded, as part of providing services and maintaining service quality. “The purpose of the ‘deliver’ activity is to provide services to users, manage user onboarding/ofboarding, maintain service quality standards, and gather consumers’ feedback.” Ref 4.8.1",
+   "kind": "E",
+   "ordinal": 62
+  },
+  "004": {
+   "key": "t060e723a11089d5070b8",
+   "en": "Which activity has the primary responsibility for maintaining and monitoring digital products and supporting systems?",
+   "kind": "Q",
+   "ordinal": 63
+  },
+  "005": {
+   "key": "tab9578e5ce6ea270d964",
+   "en": "‘Operate’ activity is responsible for maintaining and monitoring digital products and supporting systems. “The purpose of the ‘operate’ activity is to maintain and monitor digital products and supporting systems, ensuring optimal performance and reliability.” Ref 4.7.1",
+   "kind": "E",
+   "ordinal": 63
+  },
+  "006": {
+   "key": "t9c66bbea34f48ff2febe",
+   "en": "Which activity ensures that new or changed products are seamlessly introduced in the live environment?",
+   "kind": "Q",
+   "ordinal": 64
+  },
+  "007": {
+   "key": "tbdd254b65baac169f6ac",
+   "en": "Build",
+   "kind": "A",
+   "ordinal": 64
+  },
+  "008": {
+   "key": "t4e1dab5bd933515681f2",
+   "en": "‘Transition’ activity is responsible for seamlessly introducing new or updated products into the live (operational) environment. “The purpose of the ‘transition’ activity is to seamlessly introduce new or updated products into operational environments and to ensure effective onboarding/ofboarding of suppliers.” Ref 4.6.1",
+   "kind": "E",
+   "ordinal": 64
+  },
+  "009": {
+   "key": "t94c70c6565978bd6a5f9",
+   "en": "What is the purpose of the ‘support’ activity?",
+   "kind": "Q",
+   "ordinal": 65
+  },
+  "010": {
+   "key": "t7c884c556737f570b098",
+   "en": "To assist users and maintain service performance",
+   "kind": "A",
+   "ordinal": 65
+  },
+  "011": {
+   "key": "t38cc80b64421ee2ab46e",
+   "en": "To design service architectures",
+   "kind": "B",
+   "ordinal": 65
+  },
+  "012": {
+   "key": "t06736edd4aeb8dd6bc53",
+   "en": "To build solution components",
+   "kind": "C",
+   "ordinal": 65
+  },
+  "013": {
+   "key": "t1bd757ecbeef677777fc",
+   "en": "To discover new business opportunities",
+   "kind": "D",
+   "ordinal": 65
+  },
+  "014": {
+   "key": "t27a5992cf8ade7af6407",
+   "en": "Support activity is responsible for handling incidents and disasters, restoring normal operations, and supporting users so that service performance is maintained or restored when it is disrupted. “The purpose of the ‘support’ activity is to identify and resolve incidents, fulfil disaster recovery procedures, and capture consumer’s feedback.” Ref 4.9.1",
+   "kind": "E",
+   "ordinal": 65
+  },
+  "015": {
+   "key": "tac436b6e87cb0c309a3e",
+   "en": "What distinguishes ‘continuous deployment’ from ‘continuous delivery’?",
+   "kind": "Q",
+   "ordinal": 66
+  },
+  "016": {
+   "key": "t68a562c07103af12a237",
+   "en": "Continuous deployment prevents frequent releases",
+   "kind": "A",
+   "ordinal": 66
+  },
+  "017": {
+   "key": "t2f912cd65dfd70699998",
+   "en": "Continuous delivery requires manual code integration",
+   "kind": "B",
+   "ordinal": 66
+  },
+  "018": {
+   "key": "tdeeb9f6414814af6dd01",
+   "en": "Continuous deployment automatically deploys changes to production",
+   "kind": "C",
+   "ordinal": 66
+  },
+  "019": {
+   "key": "t750633f253e340337e38",
+   "en": "Continuous delivery eliminates testing activities",
+   "kind": "D",
+   "ordinal": 66
+  },
+  "020": {
+   "key": "tafcb2f7d9c7db5ee72c4",
+   "en": "ITIL clearly distinguishes continuous deployment from continuous delivery by stating that continuous deployment automatically deploys every change that passes automated tests to production, without additional authorization. Ref 4.6.2",
+   "kind": "E",
+   "ordinal": 66
+  },
+  "021": {
+   "key": "te695266a2829905af772",
+   "en": "What refers to a detailed document outlining the requirements and characteristics of a product?",
+   "kind": "Q",
+   "ordinal": 67
+  },
+  "022": {
+   "key": "t6946efe81c08b3e69a14",
+   "en": "Change request",
+   "kind": "A",
+   "ordinal": 67
+  },
+  "023": {
+   "key": "t2431514651218d06970b",
+   "en": "Service request",
+   "kind": "B",
+   "ordinal": 67
+  },
+  "024": {
+   "key": "t850fa637bd9584a4f2d7",
+   "en": "Product prototype",
+   "kind": "C",
+   "ordinal": 67
+  },
+  "025": {
+   "key": "tdc2d9f6f54ac7994839a",
+   "en": "Product/service specification is a detailed document that outlines the requirements and characteristics of a product or service to be built. Ref 4.3.1",
+   "kind": "E",
+   "ordinal": 67
+  },
+  "026": {
+   "key": "t2ced77dacc67d6108003",
+   "en": "What does observability enable in digital product and service management?",
+   "kind": "Q",
+   "ordinal": 68
+  },
+  "027": {
+   "key": "t4e03698983ebdec75f86",
+   "en": "Understanding system behaviour through outputs such as logs, metrics, and traces",
+   "kind": "A",
+   "ordinal": 68
+  },
+  "028": {
+   "key": "td180f910245bddfa71a1",
+   "en": "Ensuring changes are approved before being deployed",
+   "kind": "B",
+   "ordinal": 68
+  },
+  "029": {
+   "key": "tb0e135625bda16d0bb87",
+   "en": "Automatically preventing incidents from occurring",
+   "kind": "C",
+   "ordinal": 68
+  },
+  "030": {
+   "key": "t36a4970b9f6c73458131",
+   "en": "Improving service reliability through engineering practice",
+   "kind": "D",
+   "ordinal": 68
+  },
+  "031": {
+   "key": "t6e04b7f7e161b52123fd",
+   "en": "Observability is the ability to understand the internal state and behaviour of a system by analysing its external outputs, such as metrics, logs, and traces. Ref 4.7.1",
+   "kind": "E",
+   "ordinal": 68
+  },
+  "032": {
+   "key": "t12ba6615123231ce6095",
+   "en": "What is a problem?",
+   "kind": "Q",
+   "ordinal": 69
+  },
+  "033": {
+   "key": "t562515284b355dc40043",
+   "en": "An unplanned service interruption",
+   "kind": "A",
+   "ordinal": 69
+  },
+  "034": {
+   "key": "t44f14c7b29fdef6b9330",
+   "en": "Root cause of one or more incidents",
+   "kind": "B",
+   "ordinal": 69
+  },
+  "035": {
+   "key": "t604ca546593fd0c18a39",
+   "en": "A service access request from users",
+   "kind": "C",
+   "ordinal": 69
+  },
+  "036": {
+   "key": "t690b00257a681d6b5a5b",
+   "en": "An incident that impacts critical services",
+   "kind": "D",
+   "ordinal": 69
+  },
+  "037": {
+   "key": "tb1c49aa864b9aa07c19c",
+   "en": "ITIL explicitly defines: “Problem is a cause, or potential cause, of one or more incidents.” Ref 4.9.1",
+   "kind": "E",
+   "ordinal": 69
+  },
+  "038": {
+   "key": "t9140be00b1d8879b2a2e",
+   "en": "An organization wants to evaluate how well the ‘transition’ value chain activity is performing. Which metric would best support this evaluation?",
+   "kind": "Q",
+   "ordinal": 70
+  },
+  "039": {
+   "key": "t05ad59355c93105410bd",
+   "en": "Success rate of releases deployed into the live environment",
+   "kind": "A",
+   "ordinal": 70
+  },
+  "040": {
+   "key": "t9944adc37d0cf780db2d",
+   "en": "Number of ideas generated for new services",
+   "kind": "B",
+   "ordinal": 70
+  },
+  "041": {
+   "key": "t42207dad4254ef5f3b39",
+   "en": "Average cost per service request",
+   "kind": "C",
+   "ordinal": 70
+  },
+  "042": {
+   "key": "tc2c7c728085d5545c5ff",
+   "en": "Percentage of value streams mapped",
+   "kind": "D",
+   "ordinal": 70
+  },
+  "043": {
+   "key": "te02c556e388eb201a4ef",
+   "en": "The ‘transition’ activity is responsible for introducing new or updated products into the live environment. Its performance is best evaluated by metrics related to successful deployments/releases and their impact. Ref 4.6.2",
+   "kind": "E",
+   "ordinal": 70
+  },
+  "044": {
+   "key": "tba552712b4b86bb0ba5f",
+   "en": "Which metric is MOST appropriate for assessing the success of the ‘build’ value chain activity?",
+   "kind": "Q",
+   "ordinal": 71
+  },
+  "045": {
+   "key": "taa1a343d8fb3f84cc0bc",
+   "en": "Number of incidents resolved within agreed targets",
+   "kind": "A",
+   "ordinal": 71
+  },
+  "046": {
+   "key": "tb5bd82c7bc7768d0e2ed",
+   "en": "Customer satisfaction score after service delivery",
+   "kind": "B",
+   "ordinal": 71
+  },
+  "047": {
+   "key": "te7a30f9cee818305c1fc",
+   "en": "Percentage of service requests fulfilled on first contact",
+   "kind": "C",
+   "ordinal": 71
+  },
+  "048": {
+   "key": "taba3a745a34e935711a9",
+   "en": "Quality of the product solutions",
+   "kind": "D",
+   "ordinal": 71
+  },
+  "049": {
+   "key": "tb0262a016786f4fbf992",
+   "en": "Quality of the product solutions is a key metric of success for the ‘build’ activity, which focuses on developing, integrating, and testing products. Ref 4.5.2",
+   "kind": "E",
+   "ordinal": 71
+  },
+  "050": {
+   "key": "tb79be89097eff5cd35d0",
+   "en": "How do value chain activities support an organization’s purpose?",
+   "kind": "Q",
+   "ordinal": 72
+  },
+  "051": {
+   "key": "t49c7dc4dc6688e9d6d25",
+   "en": "By translating the organization’s purpose into activities that create value",
+   "kind": "A",
+   "ordinal": 72
+  },
+  "052": {
+   "key": "t2ecc230fee90427b72da",
+   "en": "By defining the organization’s governance and compliance framework",
+   "kind": "B",
+   "ordinal": 72
+  },
+  "053": {
+   "key": "t1defad9a48b6249374b2",
+   "en": "By prescribing specific tools and technologies for service management",
+   "kind": "C",
+   "ordinal": 72
+  },
+  "054": {
+   "key": "t0b27795d773feb70df99",
+   "en": "By documenting all the regulatory requirements",
+   "kind": "D",
+   "ordinal": 72
+  },
+  "055": {
+   "key": "t523fd84c89712b3a8a1e",
+   "en": "An organization’s purpose is translated into an operating model, and value chain activities are the mechanism through which value is created in line with that purpose. Ref 4.8.2",
+   "kind": "E",
+   "ordinal": 72
+  },
+  "056": {
+   "key": "t60ccedcd48030ff1495a",
+   "en": "Why are management practices important for value chain activities?",
+   "kind": "Q",
+   "ordinal": 73
+  },
+  "057": {
+   "key": "t2f311303987a561b1dcd",
+   "en": "They define the organization’s purpose and strategy",
+   "kind": "A",
+   "ordinal": 73
+  },
+  "058": {
+   "key": "t8339e12d865b1e5c6c95",
+   "en": "They enable value chain activities by providing the required capabilities",
+   "kind": "B",
+   "ordinal": 73
+  },
+  "059": {
+   "key": "t2322d0a4d9eaecaee5a0",
+   "en": "They ensure activities are performed in a fixed order",
+   "kind": "C",
+   "ordinal": 73
+  },
+  "060": {
+   "key": "t05ddc0de60f30356ce1a",
+   "en": "They replace value chain activities with standardized processes",
+   "kind": "D",
+   "ordinal": 73
+  },
+  "061": {
+   "key": "t8a147512188a4bf7d73f",
+   "en": "Management practices enable and support value chain activities by providing the organizational capabilities required to perform those activities effectively. Ref 1.3",
+   "kind": "E",
+   "ordinal": 73
+  },
+  "062": {
+   "key": "t15fcf3326f39f517ee92",
+   "en": "Why do ITIL practice guides follow a standardized structure across all practices?",
+   "kind": "Q",
+   "ordinal": 74
+  },
+  "063": {
+   "key": "t4bd9345db03098059245",
+   "en": "To make it easier for organizations to understand and apply different practices",
+   "kind": "A",
+   "ordinal": 74
+  },
+  "064": {
+   "key": "teb791b679ff3ade3d14f",
+   "en": "To ensure all practices are implemented in the same sequence",
+   "kind": "B",
+   "ordinal": 74
+  },
+  "065": {
+   "key": "ted1724da345b23828573",
+   "en": "To enforce uniform tooling and technology choices",
+   "kind": "C",
+   "ordinal": 74
+  },
+  "066": {
+   "key": "t4a73b82cb09247f900ec",
+   "en": "To limit the flexibility of practice adoption",
+   "kind": "D",
+   "ordinal": 74
+  },
+  "067": {
+   "key": "t0ca02574e67961991fb9",
+   "en": "Oficial Practice Guides follow the same structure so that readers can easily understand, compare, and apply practices consistently. Ref 5.5",
+   "kind": "E",
+   "ordinal": 74
+  },
+  "068": {
+   "key": "t1c4afbaa9a8466f36a49",
+   "en": "How do ITIL practice guides benefit organizations managing digital products and services?",
+   "kind": "Q",
+   "ordinal": 75
+  },
+  "069": {
+   "key": "t20eb91564905fd8eaa4d",
+   "en": "By prescribing mandatory tools and technologies for service management",
+   "kind": "A",
+   "ordinal": 75
+  },
+  "070": {
+   "key": "t6746c5a45ec8a9785ac8",
+   "en": "By separating product management guidance from service management guidance",
+   "kind": "B",
+   "ordinal": 75
+  },
+  "071": {
+   "key": "t370f48190db64aa6c113",
+   "en": "By supporting organizations in developing product and service management capabilities",
+   "kind": "C",
+   "ordinal": 75
+  },
+  "072": {
+   "key": "t3201ea1fa66663ac2779",
+   "en": "By defining a fixed maturity level that organizations must achieve",
+   "kind": "D",
+   "ordinal": 75
+  },
+  "073": {
+   "key": "tce1ca2bd92ededf6645d",
+   "en": "ITIL practice guides provide practical guidance on how to adopt and adapt management practices, helping organizations develop capabilities for managing digital products and services. Ref 1.2.1",
+   "kind": "E",
+   "ordinal": 75
+  },
+  "074": {
+   "key": "t8f6e4db5b2f9cdc2cf01",
+   "en": "Why does the ITIL Continual Improvement Model begin by defining the vision?",
+   "kind": "Q",
+   "ordinal": 76
+  },
+  "075": {
+   "key": "tc6115f1a5f8e9f3fe045",
+   "en": "To document current performance metrics before changes are made",
+   "kind": "A",
+   "ordinal": 76
+  },
+  "076": {
+   "key": "t68d8244a83d7568dac3b",
+   "en": "To ensure improvement efforts are aligned with the organization’s objectives",
+   "kind": "B",
+   "ordinal": 76
+  },
+  "077": {
+   "key": "t6f9eb213c859e88a2e94",
+   "en": "To identify improvement actions and assign responsibilities",
+   "kind": "C",
+   "ordinal": 76
+  },
+  "078": {
+   "key": "t1167937f6e3c006270c0",
+   "en": "To confirm whether previous improvement initiatives were successful",
+   "kind": "D",
+   "ordinal": 76
+  },
+  "079": {
+   "key": "t4bf5a2d73b9b66171372",
+   "en": "The model begins by defining the vision to ensure that any improvement initiative is explicitly linked to the organization’s goals and objectives. Ref 5.6.1",
+   "kind": "E",
+   "ordinal": 76
+  },
+  "080": {
+   "key": "t6667b948d1ea94780841",
+   "en": "How does an enabling value stream contribute to value creation?",
+   "kind": "Q",
+   "ordinal": 77
+  },
+  "081": {
+   "key": "t42a76807d9feb3a605c8",
+   "en": "By supporting the effective operation of core value streams",
+   "kind": "A",
+   "ordinal": 77
+  },
+  "082": {
+   "key": "t700342cbf07d8529cafa",
+   "en": "By replacing the need for core value streams",
+   "kind": "B",
+   "ordinal": 77
+  },
+  "083": {
+   "key": "t71dbd41b4bc16a1b4115",
+   "en": "By defining customer outcomes and service expectations",
+   "kind": "C",
+   "ordinal": 77
+  },
+  "084": {
+   "key": "t9395e8693a6e3b47cef5",
+   "en": "By acting as the primary interface with service consumers",
+   "kind": "D",
+   "ordinal": 77
+  },
+  "085": {
+   "key": "t83087c543d004d1804f6",
+   "en": "An enabling value stream supports internal activities that allow core value streams to function effectively and deliver value to customers. Ref 6.2",
+   "kind": "E",
+   "ordinal": 77
+  },
+  "086": {
+   "key": "t0ee280a8a7bb925157bb",
+   "en": "What does ITIL emphasize as a key difference between ‘value stream mapping’ and ‘value stream management’?",
+   "kind": "Q",
+   "ordinal": 78
+  },
+  "087": {
+   "key": "tdebb172665bd95e1499e",
+   "en": "Mapping identifies how value flows, while management ensures the value stream performs effectively over time",
+   "kind": "A",
+   "ordinal": 78
+  },
+  "088": {
+   "key": "t6fa7152e62b7ca74a43c",
+   "en": "Mapping is used only for reporting, while management is used only for auditing",
+   "kind": "B",
+   "ordinal": 78
+  },
+  "089": {
+   "key": "tff75eef6938f2099bff1",
+   "en": "Mapping applies to services, while management applies to products",
+   "kind": "C",
+   "ordinal": 78
+  },
+  "090": {
+   "key": "t9022ca19455cd5445d94",
+   "en": "Mapping focuses on cost control, while management focuses on risk avoidance",
+   "kind": "D",
+   "ordinal": 78
+  },
+  "091": {
+   "key": "t4139442eae1682edbd37",
+   "en": "Value stream mapping identifies, visualizes, and analyses value streams, while value stream management ensures they remain effective, adaptive, and improved over time. Ref 6.3, 6.4",
+   "kind": "E",
+   "ordinal": 78
+  },
+  "092": {
+   "key": "tca9610d22c2c1b7c32e4",
+   "en": "Which element of the operating model refers to third parties contributing to value creation activities?",
+   "kind": "Q",
+   "ordinal": 79
+  },
+  "093": {
+   "key": "taf56ec7468d0d2835118",
+   "en": "The “Partners and suppliers” dimension encompasses an organization’s relationships with external organizations involved in value creation activities.",
+   "kind": "E",
+   "ordinal": 79
+  },
+  "094": {
+   "key": "t7a8d05e0ae96af15c054",
+   "en": "What does sustainability assure in the context of a service or product?",
+   "kind": "Q",
+   "ordinal": 80
+  },
+  "095": {
+   "key": "tf170fe39c56311727d0f",
+   "en": "The service will meet the agreed requirements",
+   "kind": "A",
+   "ordinal": 80
+  },
+  "096": {
+   "key": "t1a03a9fda1724ee8b7d8",
+   "en": "The service will continually meet requirements for environmental responsibility",
+   "kind": "B",
+   "ordinal": 80
+  },
+  "097": {
+   "key": "t02c60ad769b6b81147cc",
+   "en": "The service delivers the required functionality to meet business needs",
+   "kind": "C",
+   "ordinal": 80
+  },
+  "098": {
+   "key": "t5dc9a61a3d8a2e9ec251",
+   "en": "The service supports the performance of the consumer",
+   "kind": "D",
+   "ordinal": 80
+  },
+  "099": {
+   "key": "t69ac0740508c6c692544",
+   "en": "Sustainability is defined as the assurance that a product or service meets requirements for environmental stewardship, social progress, and economic growth over time.",
+   "kind": "E",
+   "ordinal": 80
+  },
+  "100": {
+   "key": "t8cd6924dc247d1d1aa46",
+   "en": "Which of the following describes a sponsor within a consumer organization?",
+   "kind": "Q",
+   "ordinal": 81
+  },
+  "101": {
+   "key": "t9553ff767141e96b45b5",
+   "en": "A person or group that has its own functions and authorities",
+   "kind": "A",
+   "ordinal": 81
+  },
+  "102": {
+   "key": "td293f5f70b6d5be11452",
+   "en": "A person or group that authorizes a change",
+   "kind": "B",
+   "ordinal": 81
+  },
+  "103": {
+   "key": "t6263d3f7c7a65155aabe",
+   "en": "The role that defines the requirements for a service",
+   "kind": "C",
+   "ordinal": 81
+  },
+  "104": {
+   "key": "tdf3e7a675c9335814688",
+   "en": "The role that authorizes the budget for service consumption",
+   "kind": "D",
+   "ordinal": 81
+  },
+  "105": {
+   "key": "t16ed12be8c42b8a1bb2a",
+   "en": "The ITIL definitions distinguish between the Customer (defines requirements), the User (uses the service), and the Sponsor (authorizes the budget).",
+   "kind": "E",
+   "ordinal": 81
+  },
+  "106": {
+   "key": "tfddb70ddb0c6ef1baf26",
+   "en": "Which of the following BEST describes an operating model?",
+   "kind": "Q",
+   "ordinal": 82
+  },
+  "107": {
+   "key": "tacde6781fa7f68e4a5f1",
+   "en": "A set of rules that ensures consistent decision-making and accountability within the organization",
+   "kind": "A",
+   "ordinal": 82
+  },
+  "108": {
+   "key": "t89068d61474766cbca43",
+   "en": "A recommendation that guides an organization’s actions and decisions in all circumstances",
+   "kind": "B",
+   "ordinal": 82
+  },
+  "109": {
+   "key": "tdfc49fbba391eb1eef08",
+   "en": "A set of organizational resources designed for performing specific work or achieving a particular objective",
+   "kind": "C",
+   "ordinal": 82
+  },
+  "110": {
+   "key": "t47084adf7a71bbf6a4d0",
+   "en": "A conceptual and visual representation of how an organization co-creates value with its customers",
+   "kind": "D",
+   "ordinal": 82
+  },
+  "111": {
+   "key": "tbe5c5b760a4b71f8cca6",
+   "en": "In ITIL 5, the operating model (specifically the Value System) provides the structure for how all components and activities of the organization work together to create value.",
+   "kind": "E",
+   "ordinal": 82
+  },
+  "112": {
+   "key": "t93cdf3df4ebcae99b2aa",
+   "en": "How do service providers contribute to the creation of service value for consumers?",
+   "kind": "Q",
+   "ordinal": 83
+  },
+  "113": {
+   "key": "t2dc64a6767a887734ba1",
+   "en": "They reduce risks and provide resources through specialization",
+   "kind": "A",
+   "ordinal": 83
+  },
+  "114": {
+   "key": "t42b220f58406d6cc6c4c",
+   "en": "They eliminate the need for consumers to use any resources",
+   "kind": "B",
+   "ordinal": 83
+  },
+  "115": {
+   "key": "td41221456bf863cad7c3",
+   "en": "They replace consumers’ responsibilities with their own services",
+   "kind": "C",
+   "ordinal": 83
+  },
+  "116": {
+   "key": "ta02daeee9c53989ccb80",
+   "en": "They determine the financial outcomes for consumers directly",
+   "kind": "D",
+   "ordinal": 83
+  },
+  "117": {
+   "key": "t7ac2dae7063416857d7b",
+   "en": "Services facilitate outcomes that customers want to achieve without the customer having to manage specific costs and risks, relying instead on the provider’s specialized resources.",
+   "kind": "E",
+   "ordinal": 83
+  },
+  "118": {
+   "key": "t6e6191700212e1e17a87",
+   "en": "Which is the main form of service interaction between service consumers and digital services?",
+   "kind": "Q",
+   "ordinal": 84
+  },
+  "119": {
+   "key": "t1ffcf97046b6d4199e74",
+   "en": "Delivery of goods",
+   "kind": "B",
+   "ordinal": 84
+  },
+  "120": {
+   "key": "ta3bf03ed0d8cbff162a4",
+   "en": "While some services involve physical goods, digital services are primarily characterized by providing the consumer with access to the provider’s resources (like cloud storage or software).",
+   "kind": "E",
+   "ordinal": 84
+  },
+  "121": {
+   "key": "tb3de28d32a71dcec6539",
+   "en": "Why do many digital service providers aim to reduce or eliminate service actions?",
+   "kind": "Q",
+   "ordinal": 85
+  },
+  "122": {
+   "key": "te8e14b6b155ffd3658ee",
+   "en": "To strengthen direct personal engagement between users and support staff",
+   "kind": "A",
+   "ordinal": 85
+  },
+  "123": {
+   "key": "tbbefaf07fc70624d0e2e",
+   "en": "To ensure every service interaction is handled manually for better control",
+   "kind": "B",
+   "ordinal": 85
+  },
+  "124": {
+   "key": "t448a1262cd075a9ea36e",
+   "en": "To comply with financial and regulatory policies",
+   "kind": "C",
+   "ordinal": 85
+  },
+  "125": {
+   "key": "tbe243c37e507cb5b1be2",
+   "en": "To streamline operations and increase consistency by relying more on automation",
+   "kind": "D",
+   "ordinal": 85
+  },
+  "126": {
+   "key": "t4658acbde83ad6babb2a",
+   "en": "Reducing manual service actions through automation (a key focus of ITIL 5) leads to faster, more predictable, and more scalable service delivery.",
+   "kind": "E",
+   "ordinal": 85
+  },
+  "127": {
+   "key": "t8174acf339c3e08dd7df",
+   "en": "Which chapter of a practice guide provides recommendations for the successful automation of the practice?",
+   "kind": "Q",
+   "ordinal": 86
+  },
+  "128": {
+   "key": "t9876494771d381fbc71c",
+   "en": "This dimension focuses on the information, knowledge, and technologies (including AI and automation tools) needed to manage and support services.",
+   "kind": "E",
+   "ordinal": 86
+  },
+  "129": {
+   "key": "t54e1e7967cb533d7a607",
+   "en": "Which statement BEST describes service quality?",
+   "kind": "Q",
+   "ordinal": 87
+  },
+  "130": {
+   "key": "t3a45e40cb81ef132a63b",
+   "en": "The totality of characteristics of a service that determine its ability to satisfy stated needs",
+   "kind": "A",
+   "ordinal": 87
+  },
+  "131": {
+   "key": "t1be1fa6a0c1abb4e5c10",
+   "en": "The functionality provided by a product or service to meet a particular need",
+   "kind": "B",
+   "ordinal": 87
+  },
+  "132": {
+   "key": "t566bcdf486dbdaf53bf5",
+   "en": "A documented agreement between a service provider and a customer",
+   "kind": "C",
+   "ordinal": 87
+  },
+  "133": {
+   "key": "tdc6efee00685bc656a6a",
+   "en": "The assurance that a service will meet agreed requirements and is fit for use",
+   "kind": "D",
+   "ordinal": 87
+  },
+  "134": {
+   "key": "t33c532fe1518dfd858d0",
+   "en": "Quality is defined by how well the collective characteristics of the service fulfil the needs and expectations of the stakeholders.",
+   "kind": "E",
+   "ordinal": 87
+  },
+  "135": {
+   "key": "tf54c3ea253632354abce",
+   "en": "What enables the digital product and service management activities of an organization?",
+   "kind": "Q",
+   "ordinal": 88
+  },
+  "136": {
+   "key": "t94ba1e158c29ecefcc87",
+   "en": "Value stream steps",
+   "kind": "A",
+   "ordinal": 88
+  },
+  "137": {
+   "key": "tf3d1b93d52876e01568d",
+   "en": "Management practices",
+   "kind": "B",
+   "ordinal": 88
+  },
+  "138": {
+   "key": "t171d0288dae2fd29e4d6",
+   "en": "Vision and operating model",
+   "kind": "C",
+   "ordinal": 88
+  },
+  "139": {
+   "key": "t94db4991c206fe50b201",
+   "en": "Management practices are the sets of organizational capabilities (like Incident Management or Service Desk) that perform the work within the value system.",
+   "kind": "E",
+   "ordinal": 88
+  },
+  "140": {
+   "key": "t3b7b67f39dfebc05a8ce",
+   "en": "A team is gathering customer feedback and measuring current service response times to understand its existing performance. Which step of the continual improvement model does this activity represent?",
+   "kind": "Q",
+   "ordinal": 89
+  },
+  "141": {
+   "key": "t0190c9bb81aa3b3595c6",
+   "en": "Take action",
+   "kind": "B",
+   "ordinal": 89
+  },
+  "142": {
+   "key": "t2e2afe53dbb537063962",
+   "en": "This step is dedicated to assessing the current state and creating an objective baseline to measure future progress against.",
+   "kind": "E",
+   "ordinal": 89
+  },
+  "143": {
+   "key": "tb3c06e7ed9ebdc167f68",
+   "en": "Which guiding principle emphasizes understanding how all parts of an organization function together as an integrated system?",
+   "kind": "Q",
+   "ordinal": 90
+  },
+  "144": {
+   "key": "tc47f617e11ba8b25ef8b",
+   "en": "Think and work holistically",
+   "kind": "A",
+   "ordinal": 90
+  },
+  "145": {
+   "key": "t5de73b6830f21f0c2733",
+   "en": "This principle advises that no component stands alone; you must understand the entire “system” to achieve the best results.",
+   "kind": "E",
+   "ordinal": 90
+  },
+  "146": {
+   "key": "t5cf8bb3973b3edb50e64",
+   "en": "Which of the following statements about the four dimensions of product and service management is CORRECT?",
+   "kind": "Q",
+   "ordinal": 91
+  },
+  "147": {
+   "key": "tdf66db5071cc3ee02ed5",
+   "en": "Each dimension on its own is suficient to achieve the desired outcomes",
+   "kind": "A",
+   "ordinal": 91
+  },
+  "148": {
+   "key": "te6319702426376c4d7db",
+   "en": "All four dimensions are critical to effective and eficient facilitation of value",
+   "kind": "B",
+   "ordinal": 91
+  },
+  "149": {
+   "key": "tfb035c06ac4e769d6a64",
+   "en": "All four dimensions apply only to product design and not to management practices",
+   "kind": "C",
+   "ordinal": 91
+  },
+  "150": {
+   "key": "t524e87be51e3154c0dd0",
+   "en": "All four dimensions focus mainly on the activities of the service value chain",
+   "kind": "D",
+   "ordinal": 91
+  },
+  "151": {
+   "key": "tdbad2066f43f833b4a5b",
+   "en": "To ensure a balanced approach to service management, an organization must consider all four dimensions equally.",
+   "kind": "E",
+   "ordinal": 91
+  },
+  "152": {
+   "key": "teb2cfcac26f2af154748",
+   "en": "Which of the following BEST describes a release?",
+   "kind": "Q",
+   "ordinal": 92
+  },
+  "153": {
+   "key": "t24541b64dd1f1b4e79c3",
+   "en": "The addition, modification, or removal of anything that could affect services",
+   "kind": "A",
+   "ordinal": 92
+  },
+  "154": {
+   "key": "t8d5d855cd14545fcc013",
+   "en": "A version of a product, service, or other configuration item made available for use",
+   "kind": "B",
+   "ordinal": 92
+  },
+  "155": {
+   "key": "taccc7ddaf5eeb0167a52",
+   "en": "An unplanned interruption to a service or reduction in the quality of a service",
+   "kind": "C",
+   "ordinal": 92
+  },
+  "156": {
+   "key": "t31a975ac0c6bb894b4f0",
+   "en": "A cause, or potential cause, of one or more incidents",
+   "kind": "D",
+   "ordinal": 92
+  },
+  "157": {
+   "key": "t2011d9770b81b9346d4f",
+   "en": "A release is a specific version of a service or component that has been prepared and made ready for use by the consumer.",
+   "kind": "E",
+   "ordinal": 92
+  },
+  "158": {
+   "key": "t948cb030eabab2912ac6",
+   "en": "Which dimension of product and service management promotes conducting safe-to-fail experiments in complex situations?",
+   "kind": "Q",
+   "ordinal": 93
+  },
+  "159": {
+   "key": "t6bd42c35b0ab4b6eb21c",
+   "en": "This dimension includes the culture of the organization. A culture that encourages learning, safety, and experimentation falls under the “People” and “Organizations” aspect.",
+   "kind": "E",
+   "ordinal": 93
+  },
+  "160": {
+   "key": "t0b49c517c89a03279864",
+   "en": "Which activity has the purpose of developing, integrating, and testing digital products to transform designs into functional solutions?",
+   "kind": "Q",
+   "ordinal": 94
+  },
+  "161": {
+   "key": "t47e4b293ff8eb72a4afd",
+   "en": "The “Build” activity in the service lifecycle is where components are actually created, integrated, and verified against the design.",
+   "kind": "E",
+   "ordinal": 94
+  },
+  "162": {
+   "key": "t017b24b2741e51bb57f4",
+   "en": "What is the role of governance within the ITIL Value System?",
+   "kind": "Q",
+   "ordinal": 95
+  },
+  "163": {
+   "key": "tcbed5683616e69e53918",
+   "en": "To define and manage process activities for service delivery",
+   "kind": "A",
+   "ordinal": 95
+  },
+  "164": {
+   "key": "tfdae369a61453b110064",
+   "en": "To perform day-to-day service operations",
+   "kind": "B",
+   "ordinal": 95
+  },
+  "165": {
+   "key": "tb356108c79e83bc77513",
+   "en": "To ensure organizational activities are directed and controlled",
+   "kind": "C",
+   "ordinal": 95
+  },
+  "166": {
+   "key": "tf34eec97f7e8a7a656cb",
+   "en": "To provide detailed technical guidance for service design",
+   "kind": "D",
+   "ordinal": 95
+  },
+  "167": {
+   "key": "t8b5bac5481b5350492fa",
+   "en": "Governance provides the oversight and direction (Evaluate, Direct, Monitor) to ensure the organization stays aligned with its goals.",
+   "kind": "E",
+   "ordinal": 95
+  },
+  "168": {
+   "key": "td8a9d6f55422dbdbc77f",
+   "en": "Which of the following statements about value streams is INCORRECT?",
+   "kind": "Q",
+   "ordinal": 96
+  },
+  "169": {
+   "key": "tdb75de9f4be25113aff5",
+   "en": "Value streams are enabled and supported by the organization’s value chain",
+   "kind": "A",
+   "ordinal": 96
+  },
+  "170": {
+   "key": "tfb9075aa2aa9dc326f75",
+   "en": "Value streams should exclude suppliers",
+   "kind": "B",
+   "ordinal": 96
+  }
+ }
+}

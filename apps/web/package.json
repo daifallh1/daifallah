@@ -1,0 +1,30 @@
+{
+  "name": "@itil5/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build && node scripts/generate-sw.mjs",
+    "start": "node scripts/serve.mjs out 4173",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint --max-warnings 0",
+    "test": "echo 'web unit logic lives in @itil5/core; run npm run e2e for browser tests'",
+    "e2e": "playwright test --trace off"
+  },
+  "dependencies": {
+    "@itil5/content": "1.0.0",
+    "@itil5/core": "1.0.0",
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.49.1",
+    "@types/node": "22.10.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.35",
+    "typescript": "5.6.3"
+  }
+}
