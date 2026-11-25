@@ -28,11 +28,10 @@
 
 | Status | Occurrences |
 |---|---:|
-| approved | 229 |
-| duplicate | 48 |
+| approved | 276 |
 | needs_review | 12 |
-| out_of_scope | 13 |
-| **exam-eligible (approved + classified + translated)** | **229** |
+| out_of_scope | 14 |
+| **exam-eligible (approved + classified + translated)** | **276** |
 
 ## Printed-number anomalies
 
@@ -62,6 +61,7 @@ BL1 achievable range across a 40-item exam: [4, 35] (target 16). **Fully complia
 | 106 | 26 | 105 | needs_review | duplicate_key_conflict: Detected automatically by build_bank.py; duplicate_key_conflict: Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corr |
 | 111 | 27 | 110 | out_of_scope | no_matching_v5_criterion: Definition of "change"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test). |
 | 121 | 29 | 120 | needs_review | legacy_itil4_terminology: ITIL 4 term 'dimensions of service management' (v5: product and service management) (in stem or keyed option) |
+| 126 | 30 | 125 | out_of_scope | no_matching_v5_criterion: Definition of "change"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test). |
 | 140 | 33 | 139 | out_of_scope | legacy_itil4_terminology: ITIL 4 term 'service value chain' (in stem or keyed option); legacy_itil4_terminology: ITIL 4 value chain activity 'Obtain/build' (in stem or keyed option); legacy_itil4_value_chain: Options use ITIL 4 service value chain activities (Engage, Obtain/build, Plan, Improve), not the v5 lifecycle  |
 | 144 | 34 | 143 | needs_review | legacy_itil4_terminology: ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option) |
 | 148 | 35 | 147 | out_of_scope | no_matching_v5_criterion: Definition of "change"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test). |
@@ -83,61 +83,6 @@ BL1 achievable range across a 40-item exam: [4, 35] (target 16). **Fully complia
 | 207 | 48 | 206 | needs_review | legacy_itil4_terminology: ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option); legacy_itil4_terminology: Uses ITIL 4 "Service Value System" inputs/outcome model (opportunity/demand -> value). |
 | 208 | 49 | 207 | needs_review | legacy_itil4_terminology: ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option); legacy_itil4_terminology: Uses ITIL 4 "Service Value System" inputs/outcome model (opportunity/demand -> value). |
 | 212 | 49 | 211 | needs_review | possible_content_accuracy_dispute: Stem describes the ITIL VS as a "series of steps" (wording usually associated with value streams). Flagged for |
-
-## Identical duplicates removed from the app (48)
-
-Same question, same options in the same order and same answer key. One copy is kept; these copies are hidden from every practice mode but remain in the audit data.
-
-| Removed (page / printed #) | Kept copy (page / printed #) | Byte-identical text | Status before |
-|---|---|---|---|
-| p42 / #179 | p1 / #3 | yes | approved |
-| p64 / #273 | p2 / #6 | yes | approved |
-| p53 / #226 | p3 / #10 | yes | approved |
-| p53 / #227 | p3 / #11 | yes | approved |
-| p50 / #215 | p4 / #15 | yes | approved |
-| p56 / #238 | p4 / #16 | no (punctuation/quote/case only) | approved |
-| p41 / #178 | p5 / #17 | yes | approved |
-| p58 / #249 | p5 / #18 | no (punctuation/quote/case only) | approved |
-| p61 / #261 | p6 / #22 | yes | approved |
-| p59 / #250 | p6 / #23 | yes | approved |
-| p45 / #192 | p7 / #27 | yes | approved |
-| p56 / #239 | p8 / #33 | yes | approved |
-| p59 / #251 | p10 / #40 | yes | approved |
-| p48 / #203 | p14 / #55 | yes | approved |
-| p50 / #214 | p15 / #61 | yes | approved |
-| p31 / #129 | p19 / #79 | yes | approved |
-| p31 / #130 | p20 / #80 | yes | approved |
-| p32 / #131 | p20 / #81 | yes | approved |
-| p32 / #132 | p20 / #82 | no (punctuation/quote/case only) | approved |
-| p32 / #133 | p20 / #83 | no (punctuation/quote/case only) | approved |
-| p32 / #134 | p21 / #84 | yes | approved |
-| p32 / #135 | p21 / #85 | yes | approved |
-| p33 / #136 | p21 / #86 | yes | approved |
-| p33 / #137 | p21 / #87 | yes | approved |
-| p33 / #138 | p21 / #88 | yes | approved |
-| p29 / #118 | p22 / #89 | yes | approved |
-| p29 / #121 | p22 / #90 | yes | approved |
-| p30 / #122 | p22 / #91 | yes | approved |
-| p36 / #152 | p22 / #92 | yes | approved |
-| p37 / #153 | p23 / #93 | yes | approved |
-| p34 / #142 | p23 / #94 | yes | approved |
-| p34 / #144 | p23 / #96 | yes | approved |
-| p35 / #145 | p24 / #97 | no (punctuation/quote/case only) | approved |
-| p35 / #146 | p24 / #98 | yes | approved |
-| p37 / #154 | p24 / #99 | yes | approved |
-| p37 / #155 | p24 / #100 | yes | approved |
-| p37 / #156 | p24 / #101 | no (punctuation/quote/case only) | approved |
-| p40 / #173 | p25 / #102 | yes | approved |
-| p40 / #174 | p25 / #103 | yes | approved |
-| p38 / #162 | p25 / #103 | yes | approved |
-| p39 / #163 | p25 / #104 | yes | approved |
-| p39 / #165 | p26 / #106 | yes | approved |
-| p39 / #166 | p26 / #107 | yes | approved |
-| p30 / #123 | p26 / #108 | yes | approved |
-| p30 / #124 | p27 / #109 | yes | approved |
-| p30 / #125 | p27 / #110 | yes | out_of_scope |
-| p31 / #126 | p27 / #111 | yes | approved |
-| p31 / #127 | p27 / #112 | yes | approved |
 
 ## Duplicate groups with differing options or keys
 
@@ -167,9 +112,9 @@ Same question, same options in the same order and same answer key. One copy is k
 
 | Field | Required | Translated | % |
 |---|---:|---:|---:|
-| question | 229 | 229 | 100.0 |
-| option | 916 | 916 | 100.0 |
-| explanation | 221 | 221 | 100.0 |
+| question | 276 | 276 | 100.0 |
+| option | 1104 | 1104 | 100.0 |
+| explanation | 266 | 266 | 100.0 |
 
 Unique English strings translated (all occurrences): 1330/1330. UI strings: 82.
 

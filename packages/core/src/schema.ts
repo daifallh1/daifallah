@@ -4,8 +4,7 @@ import { z } from "zod";
 export const OptionLabel = z.enum(["A", "B", "C", "D"]);
 export type OptionLabel = z.infer<typeof OptionLabel>;
 
-/** "duplicate" = identical copy of another occurrence, hidden from all practice modes (kept for audit). */
-export const ContentStatus = z.enum(["approved", "needs_review", "out_of_scope", "incomplete", "duplicate"]);
+export const ContentStatus = z.enum(["approved", "needs_review", "out_of_scope", "incomplete"]);
 export type ContentStatus = z.infer<typeof ContentStatus>;
 
 export const ReviewReason = z.object({
@@ -38,8 +37,6 @@ export const AuditMeta = z.object({
   duplicateGroupSize: z.number().int().positive(),
   exclusionGroupId: z.string(),
   exclusionGroupSize: z.number().int().positive(),
-  /** questionId of the kept copy when this occurrence is a removed identical duplicate, else null. */
-  duplicateOf: z.string().nullable(),
   stemFingerprint: z.string(),
   translationComplete: z.boolean(),
   examEligible: z.boolean(),

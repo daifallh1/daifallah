@@ -288,40 +288,6 @@ def main() -> int:
             questions[i]["audit"]["exclusionGroupId"] = gid
             questions[i]["audit"]["exclusionGroupSize"] = len(idxs)
 
-    # ---------- remove identical duplicates (owner request, 2026-11-25) ----------
-    # Identical = same normalised stem, same options in the same order, same source key.
-    # One copy is kept (the first approved occurrence, else the first); the others get status
-    # "duplicate" and are never served. They stay in the audit data with their page references.
-    for q in questions:
-        q["audit"]["duplicateOf"] = None
-    clusters: dict[tuple, list[int]] = defaultdict(list)
-    for i, q in enumerate(questions):
-        sig = (norm(q["englishQuestion"]), tuple(norm(o["text"]) for o in q["englishOptions"]), q["sourceAnswerKey"])
-        clusters[sig].append(i)
-    removed_dups = []
-    for idxs in clusters.values():
-        if len(idxs) < 2:
-            continue
-        keep = next((i for i in idxs if questions[i]["audit"]["contentStatus"] == "approved"), idxs[0])
-        kq = questions[keep]
-        for i in idxs:
-            if i == keep:
-                continue
-            q = questions[i]
-            prev = q["audit"]["contentStatus"]
-            byte_identical = (q["englishQuestion"] == kq["englishQuestion"]
-                              and [o["text"] for o in q["englishOptions"]] == [o["text"] for o in kq["englishOptions"]])
-            q["audit"]["contentStatus"] = "duplicate"
-            q["audit"]["duplicateOf"] = kq["questionId"]
-            q["audit"]["reviewReasons"].append({
-                "code": "identical_duplicate_removed", "severity": "info",
-                "detail": f"Identical to {kq['questionId']} (p.{kq['sourcePage']}, printed #{kq['printedQuestionNumber']}); "
-                          f"hidden from all practice modes at the owner's request. Status before removal: {prev}."})
-            removed_dups.append({"questionId": q["questionId"], "page": q["sourcePage"], "printedQuestionNumber": q["printedQuestionNumber"],
-                                 "keptQuestionId": kq["questionId"], "keptPage": kq["sourcePage"],
-                                 "keptPrintedQuestionNumber": kq["printedQuestionNumber"], "statusBeforeRemoval": prev,
-                                 "byteIdenticalText": byte_identical})
-
     # ---------- translations ----------
     needed: dict[str, dict] = {}
     for q in questions:
@@ -469,9 +435,8 @@ def main() -> int:
             {"questionId": q["questionId"], "page": q["sourcePage"], "printedQuestionNumber": q["printedQuestionNumber"],
              "status": q["audit"]["contentStatus"],
              "reasons": [r for r in q["audit"]["reviewReasons"] if r["severity"] not in ("info", "warning")]}
-            for q in questions if q["audit"]["contentStatus"] not in ("approved", "duplicate")
+            for q in questions if q["audit"]["contentStatus"] != "approved"
         ],
-        "removedIdenticalDuplicates": removed_dups,
         "noSourceExplanation": [{"questionId": q["questionId"], "page": q["sourcePage"], "printedQuestionNumber": q["printedQuestionNumber"]} for q in questions if not q["sourceExplanation"]],
         "classificationMethod": "Each occurrence was read by the auditor and mapped to one v5.0 assessment criterion. Bloom level defaults to the criterion's BL column; overrides are listed with a note. Classification is metadata only and never edits source text.",
         "duplicateMethod": "Stems normalised by NFKC, lower-casing, quote unification and removal of non-alphanumerics; identical normalised stems form a duplicate group. Near-duplicates (difflib ratio >= 0.85 AND correct-option text similarity >= 0.9) are merged into exclusion groups used only to prevent repeats within one exam.",
@@ -525,11 +490,6 @@ def write_md(a, cov, qs):
         q = byid[x["questionId"]]
         rs = "; ".join(f"{r['code']}: {r['detail'][:110]}" for r in x["reasons"])
         L.append(f"| {q['sourceOrdinal']} | {x['page']} | {x['printedQuestionNumber']} | {x['status']} | {rs} |")
-    L.append(f"\n## Identical duplicates removed from the app ({len(a['removedIdenticalDuplicates'])})\n")
-    L.append("Same question, same options in the same order and same answer key. One copy is kept; these copies are hidden from every practice mode but remain in the audit data.\n")
-    L.append("| Removed (page / printed #) | Kept copy (page / printed #) | Byte-identical text | Status before |\n|---|---|---|---|")
-    for d in a["removedIdenticalDuplicates"]:
-        L.append(f"| p{d['page']} / #{d['printedQuestionNumber']} | p{d['keptPage']} / #{d['keptPrintedQuestionNumber']} | {'yes' if d['byteIdenticalText'] else 'no (punctuation/quote/case only)'} | {d['statusBeforeRemoval']} |")
     L.append("\n## Duplicate groups with differing options or keys\n")
     L.append("| Group | Members (ordinal/page/key/relation) |\n|---|---|")
     for g in a["duplicateGroups"]:

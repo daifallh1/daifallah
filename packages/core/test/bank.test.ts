@@ -79,36 +79,3 @@ describe("Source anomaly regression (acceptance test 11)", () => {
     for (const q of lb.bank.questions) if (q.audit.examEligible) expect(q.audit.contentStatus).toBe("approved");
   });
 });
-
-describe("identical duplicates removed (owner request 2026-11-25)", () => {
-  const sig = (q: (typeof lb.bank.questions)[number]) => {
-    const n = (x: string) => x.normalize("NFKC").toLowerCase().replace(/[’‘]/g, "'").replace(/[“”]/g, '"').replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
-    return [n(q.englishQuestion), ...q.englishOptions.map((o) => n(o.text)), q.sourceAnswerKey].join("|");
-  };
-  it("keeps all 302 source occurrences in the data for traceability", () => {
-    expect(lb.bank.questions).toHaveLength(302);
-  });
-  it("no two practiceable (approved) questions are identical", () => {
-    const sigs = lb.approved.map(sig);
-    expect(new Set(sigs).size).toBe(sigs.length);
-  });
-  it("every removed duplicate points to a kept copy with identical content and is never served", () => {
-    const dups = lb.bank.questions.filter((q) => q.audit.contentStatus === "duplicate");
-    expect(dups).toHaveLength(48);
-    for (const d of dups) {
-      const kept = lb.byId.get(d.audit.duplicateOf!)!;
-      expect(kept).toBeDefined();
-      expect(kept.audit.contentStatus).not.toBe("duplicate");
-      expect(sig(kept)).toBe(sig(d));
-      expect(d.audit.examEligible).toBe(false);
-    }
-    for (const q of lb.bank.questions) if (q.audit.contentStatus !== "duplicate") expect(q.audit.duplicateOf).toBeNull();
-  });
-  it("only identical copies were removed: reordered or different-option variants and the key conflict remain", () => {
-    expect(byOrdinal(106).audit.contentStatus).toBe("needs_review");
-    expect(byOrdinal(165).audit.contentStatus).toBe("needs_review");
-    const groups = new Map<string, number>();
-    for (const q of lb.approved) groups.set(q.audit.duplicateGroupId, (groups.get(q.audit.duplicateGroupId) ?? 0) + 1);
-    expect([...groups.values()].some((n) => n > 1)).toBe(true); // non-identical variants of the same stem still exist
-  });
-});
