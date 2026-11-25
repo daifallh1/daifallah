@@ -97,11 +97,12 @@
   "nearDuplicatePairs": 7
  },
  "statusCounts": {
-  "approved": 276,
+  "approved": 229,
   "needs_review": 12,
-  "out_of_scope": 14
+  "out_of_scope": 13,
+  "duplicate": 48
  },
- "examEligibleOccurrences": 276,
+ "examEligibleOccurrences": 229,
  "reviewReasonCounts": {
   "source_spelling_preserved": 20,
   "no_source_explanation": 20,
@@ -109,6 +110,7 @@
   "legacy_itil4_terminology_in_distractor": 5,
   "duplicate_key_conflict": 4,
   "no_matching_v5_criterion": 3,
+  "identical_duplicate_removed": 48,
   "legacy_itil4_value_chain": 2,
   "legacy_itil4_practice_detail": 9,
   "possible_legacy_itil4_content": 1,
@@ -1706,19 +1708,6 @@
    ]
   },
   {
-   "questionId": "itilf5-1d11798cd8d9-o126",
-   "page": 30,
-   "printedQuestionNumber": 125,
-   "status": "out_of_scope",
-   "reasons": [
-    {
-     "code": "no_matching_v5_criterion",
-     "severity": "out_of_scope",
-     "detail": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
-    }
-   ]
-  },
-  {
    "questionId": "itilf5-1d11798cd8d9-o140",
    "page": 33,
    "printedQuestionNumber": 139,
@@ -2025,6 +2014,488 @@
      "detail": "Stem describes the ITIL VS as a \"series of steps\" (wording usually associated with value streams). Flagged for owner review; key unchanged."
     }
    ]
+  }
+ ],
+ "removedIdenticalDuplicates": [
+  {
+   "questionId": "itilf5-1d11798cd8d9-o180",
+   "page": 42,
+   "printedQuestionNumber": 179,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o003",
+   "keptPage": 1,
+   "keptPrintedQuestionNumber": 3,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o274",
+   "page": 64,
+   "printedQuestionNumber": 273,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o006",
+   "keptPage": 2,
+   "keptPrintedQuestionNumber": 6,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o227",
+   "page": 53,
+   "printedQuestionNumber": 226,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o010",
+   "keptPage": 3,
+   "keptPrintedQuestionNumber": 10,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o228",
+   "page": 53,
+   "printedQuestionNumber": 227,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o011",
+   "keptPage": 3,
+   "keptPrintedQuestionNumber": 11,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o216",
+   "page": 50,
+   "printedQuestionNumber": 215,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o015",
+   "keptPage": 4,
+   "keptPrintedQuestionNumber": 15,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o239",
+   "page": 56,
+   "printedQuestionNumber": 238,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o016",
+   "keptPage": 4,
+   "keptPrintedQuestionNumber": 16,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": false
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o179",
+   "page": 41,
+   "printedQuestionNumber": 178,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o017",
+   "keptPage": 5,
+   "keptPrintedQuestionNumber": 17,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o250",
+   "page": 58,
+   "printedQuestionNumber": 249,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o018",
+   "keptPage": 5,
+   "keptPrintedQuestionNumber": 18,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": false
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o262",
+   "page": 61,
+   "printedQuestionNumber": 261,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o022",
+   "keptPage": 6,
+   "keptPrintedQuestionNumber": 22,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o251",
+   "page": 59,
+   "printedQuestionNumber": 250,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o023",
+   "keptPage": 6,
+   "keptPrintedQuestionNumber": 23,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o193",
+   "page": 45,
+   "printedQuestionNumber": 192,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o027",
+   "keptPage": 7,
+   "keptPrintedQuestionNumber": 27,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o240",
+   "page": 56,
+   "printedQuestionNumber": 239,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o033",
+   "keptPage": 8,
+   "keptPrintedQuestionNumber": 33,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o252",
+   "page": 59,
+   "printedQuestionNumber": 251,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o040",
+   "keptPage": 10,
+   "keptPrintedQuestionNumber": 40,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o204",
+   "page": 48,
+   "printedQuestionNumber": 203,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o055",
+   "keptPage": 14,
+   "keptPrintedQuestionNumber": 55,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o215",
+   "page": 50,
+   "printedQuestionNumber": 214,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o061",
+   "keptPage": 15,
+   "keptPrintedQuestionNumber": 61,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o130",
+   "page": 31,
+   "printedQuestionNumber": 129,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o079",
+   "keptPage": 19,
+   "keptPrintedQuestionNumber": 79,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o131",
+   "page": 31,
+   "printedQuestionNumber": 130,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o080",
+   "keptPage": 20,
+   "keptPrintedQuestionNumber": 80,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o132",
+   "page": 32,
+   "printedQuestionNumber": 131,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o081",
+   "keptPage": 20,
+   "keptPrintedQuestionNumber": 81,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o133",
+   "page": 32,
+   "printedQuestionNumber": 132,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o082",
+   "keptPage": 20,
+   "keptPrintedQuestionNumber": 82,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": false
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o134",
+   "page": 32,
+   "printedQuestionNumber": 133,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o083",
+   "keptPage": 20,
+   "keptPrintedQuestionNumber": 83,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": false
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o135",
+   "page": 32,
+   "printedQuestionNumber": 134,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o084",
+   "keptPage": 21,
+   "keptPrintedQuestionNumber": 84,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o136",
+   "page": 32,
+   "printedQuestionNumber": 135,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o085",
+   "keptPage": 21,
+   "keptPrintedQuestionNumber": 85,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o137",
+   "page": 33,
+   "printedQuestionNumber": 136,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o086",
+   "keptPage": 21,
+   "keptPrintedQuestionNumber": 86,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o138",
+   "page": 33,
+   "printedQuestionNumber": 137,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o087",
+   "keptPage": 21,
+   "keptPrintedQuestionNumber": 87,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o139",
+   "page": 33,
+   "printedQuestionNumber": 138,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o088",
+   "keptPage": 21,
+   "keptPrintedQuestionNumber": 88,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o119",
+   "page": 29,
+   "printedQuestionNumber": 118,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o089",
+   "keptPage": 22,
+   "keptPrintedQuestionNumber": 89,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o122",
+   "page": 29,
+   "printedQuestionNumber": 121,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o090",
+   "keptPage": 22,
+   "keptPrintedQuestionNumber": 90,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o123",
+   "page": 30,
+   "printedQuestionNumber": 122,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o091",
+   "keptPage": 22,
+   "keptPrintedQuestionNumber": 91,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o153",
+   "page": 36,
+   "printedQuestionNumber": 152,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o092",
+   "keptPage": 22,
+   "keptPrintedQuestionNumber": 92,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o154",
+   "page": 37,
+   "printedQuestionNumber": 153,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o093",
+   "keptPage": 23,
+   "keptPrintedQuestionNumber": 93,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o143",
+   "page": 34,
+   "printedQuestionNumber": 142,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o094",
+   "keptPage": 23,
+   "keptPrintedQuestionNumber": 94,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o145",
+   "page": 34,
+   "printedQuestionNumber": 144,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o096",
+   "keptPage": 23,
+   "keptPrintedQuestionNumber": 96,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o146",
+   "page": 35,
+   "printedQuestionNumber": 145,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o097",
+   "keptPage": 24,
+   "keptPrintedQuestionNumber": 97,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": false
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o147",
+   "page": 35,
+   "printedQuestionNumber": 146,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o098",
+   "keptPage": 24,
+   "keptPrintedQuestionNumber": 98,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o155",
+   "page": 37,
+   "printedQuestionNumber": 154,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o099",
+   "keptPage": 24,
+   "keptPrintedQuestionNumber": 99,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o156",
+   "page": 37,
+   "printedQuestionNumber": 155,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o100",
+   "keptPage": 24,
+   "keptPrintedQuestionNumber": 100,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o157",
+   "page": 37,
+   "printedQuestionNumber": 156,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o101",
+   "keptPage": 24,
+   "keptPrintedQuestionNumber": 101,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": false
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o173",
+   "page": 40,
+   "printedQuestionNumber": 173,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o102",
+   "keptPage": 25,
+   "keptPrintedQuestionNumber": 102,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o174",
+   "page": 40,
+   "printedQuestionNumber": 174,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o103",
+   "keptPage": 25,
+   "keptPrintedQuestionNumber": 103,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o163",
+   "page": 38,
+   "printedQuestionNumber": 162,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o104",
+   "keptPage": 25,
+   "keptPrintedQuestionNumber": 103,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o164",
+   "page": 39,
+   "printedQuestionNumber": 163,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o105",
+   "keptPage": 25,
+   "keptPrintedQuestionNumber": 104,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o166",
+   "page": 39,
+   "printedQuestionNumber": 165,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o107",
+   "keptPage": 26,
+   "keptPrintedQuestionNumber": 106,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o167",
+   "page": 39,
+   "printedQuestionNumber": 166,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o108",
+   "keptPage": 26,
+   "keptPrintedQuestionNumber": 107,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o124",
+   "page": 30,
+   "printedQuestionNumber": 123,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o109",
+   "keptPage": 26,
+   "keptPrintedQuestionNumber": 108,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o125",
+   "page": 30,
+   "printedQuestionNumber": 124,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o110",
+   "keptPage": 27,
+   "keptPrintedQuestionNumber": 109,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o126",
+   "page": 30,
+   "printedQuestionNumber": 125,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o111",
+   "keptPage": 27,
+   "keptPrintedQuestionNumber": 110,
+   "statusBeforeRemoval": "out_of_scope",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o127",
+   "page": 31,
+   "printedQuestionNumber": 126,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o112",
+   "keptPage": 27,
+   "keptPrintedQuestionNumber": 111,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o128",
+   "page": 31,
+   "printedQuestionNumber": 127,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o113",
+   "keptPage": 27,
+   "keptPrintedQuestionNumber": 112,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
   }
  ],
  "noSourceExplanation": [

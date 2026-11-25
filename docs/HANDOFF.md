@@ -15,7 +15,7 @@ Date: 2026-11-22. Everything below was run in a Linux cloud container (Node 22.2
 | Layout regimes | p1–41 have a `QUESTIONS` header and page-number footer (dropped and logged). Numbers appear as `1 )`, `1.`, `120 When…`, `133How…`, or alone on a line (`157`) |
 | Cross-extractor check | pdfplumber and pdftotext agree character-for-character (ignoring whitespace and hyphens) on **all 76 pages** |
 | Duplicates | 58 duplicate-stem groups covering 118 occurrences, 242 distinct normalised stems, and 236 exclusion groups after near-duplicate merging. The brief's preliminary figures (54 / 110 / 246) came from a different normalisation; my method is documented in `import-audit.json` |
-| Status | **276 approved**, 12 needs_review, 14 out_of_scope, 0 incomplete. **276 exam-eligible** (approved, classified and fully translated) |
+| Status | **229 approved**, 12 needs_review, 13 out_of_scope, 0 incomplete, **48 duplicate** (identical copies removed from the app at the owner's request on 2026-11-25; kept in the audit data, see `import-audit.md`). **229 exam-eligible**, covering 214 distinct questions (exclusion groups) |
 | Blueprint | Fully compliant 40-item exams (12/4/4/16/2/1/1, 16 BL1 / 24 BL2) **are achievable**. This was verified across 300 seeded generations in tests |
 
 Machine-readable outputs: `packages/content/reports/import-audit.json`, `import-audit.md`, `extraction-log.json`, `translation-coverage.json`. Local visual audit: `python3 -I tools/audit/side_by_side.py` writes `packages/content/reports/pages/side-by-side.html`, which shows each occurrence's rendered PDF region next to its extracted text. It is gitignored because the page renders include the PDF's personal watermark.
@@ -48,7 +48,7 @@ To approve an item after review, edit its entry in `packages/content/data/classi
 
 ## 3. Translation coverage
 
-- 1,330 unique English strings (all 302 occurrences) translated: **100%**. Approved items: questions 276/276, options 1,104/1,104, explanations 266/266. All 82 UI strings are translated, and a 98-term ITIL glossary is in `translations/glossary.ar.json`.
+- 1,330 unique English strings (all 302 occurrences) translated: **100%**. Approved items: questions 229/229, options 916/916, explanations 221/221. All 82 UI strings are translated, and a 98-term ITIL glossary is in `translations/glossary.ar.json`.
 - Every translation is linked to the SHA-256 of the exact English string. Tests verify each link and confirm the English bank is never modified.
 - **These translations are AI-generated drafts and have not been reviewed by a human** (`status: ai_draft_unreviewed`). The app says the English is authoritative. A bilingual ITIL reviewer should check them, especially the glossary terms.
 - No network translation calls are made. Both apps bundle the overlay for offline use.
