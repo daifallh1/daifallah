@@ -820,6 +820,7 @@
     "exclusionGroupId": "xg-fd31e905be6d2620",
     "stemFingerprint": "f9dd913554f4bf16",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -897,6 +898,7 @@
     "exclusionGroupId": "xg-66f84776c211b7f6",
     "stemFingerprint": "2dcef591b19c52a3",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -974,6 +976,7 @@
     "exclusionGroupId": "xg-d6afa6d57ad79838",
     "stemFingerprint": "ad10159618082472",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1051,6 +1054,7 @@
     "exclusionGroupId": "xg-f5133b3316a170c4",
     "stemFingerprint": "9f04f2d8f5eb738f",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1128,6 +1132,7 @@
     "exclusionGroupId": "xg-6a8a07debdb26f36",
     "stemFingerprint": "2efc87ed73c7eca5",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1205,6 +1210,7 @@
     "exclusionGroupId": "xg-0ebab52938101362",
     "stemFingerprint": "7d2e80c183740233",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1288,6 +1294,7 @@
     "exclusionGroupId": "xg-ce0a431a1d97b679",
     "stemFingerprint": "31f1f53cb17671c7",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1377,6 +1384,7 @@
     "exclusionGroupId": "xg-8ac0baeac27ffaf7",
     "stemFingerprint": "ff00422defab8b31",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1454,6 +1462,7 @@
     "exclusionGroupId": "xg-22c2b84ca9475680",
     "stemFingerprint": "c856f78ab727560e",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1531,6 +1540,7 @@
     "exclusionGroupId": "xg-b10cc0591a3cd228",
     "stemFingerprint": "9dfacb8349d180dc",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1608,6 +1618,7 @@
     "exclusionGroupId": "xg-9ac12348c1f6841c",
     "stemFingerprint": "fc0c7b12e3f5ba97",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1685,6 +1696,7 @@
     "exclusionGroupId": "xg-179b92c4af9a8645",
     "stemFingerprint": "10f57b345599aa41",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1762,6 +1774,7 @@
     "exclusionGroupId": "xg-4946bbedbffd6fa1",
     "stemFingerprint": "dbc832dc707093b9",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1845,6 +1858,7 @@
     "exclusionGroupId": "xg-c79f07794eb03078",
     "stemFingerprint": "b8b6e8ff3c94226d",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1922,6 +1936,7 @@
     "exclusionGroupId": "xg-31c564c7b9ad47ef",
     "stemFingerprint": "f9501f18863501d3",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -1999,6 +2014,7 @@
     "exclusionGroupId": "xg-7c5237b6b4dba9f8",
     "stemFingerprint": "bd32bb148d29dfc2",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2076,6 +2092,7 @@
     "exclusionGroupId": "xg-ef567f7054324666",
     "stemFingerprint": "9d7cb2b3d098d0a9",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2153,6 +2170,7 @@
     "exclusionGroupId": "xg-8674eafadb0b0878",
     "stemFingerprint": "293b18b33baf4699",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2230,6 +2248,7 @@
     "exclusionGroupId": "xg-70e0e5246a4a5ff9",
     "stemFingerprint": "23188ed0e95b69cf",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2307,6 +2326,7 @@
     "exclusionGroupId": "xg-a92d46ade0ccba95",
     "stemFingerprint": "5ca602aaab52b317",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2402,6 +2422,7 @@
     "exclusionGroupId": "xg-ba02840f3edca48e",
     "stemFingerprint": "d46b321c58725a96",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2479,6 +2500,7 @@
     "exclusionGroupId": "xg-7d7bc71c613bdc43",
     "stemFingerprint": "c8a940d61111de93",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2556,6 +2578,7 @@
     "exclusionGroupId": "xg-b57777868b9947cd",
     "stemFingerprint": "6f0d17f547da2441",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2645,6 +2668,7 @@
     "exclusionGroupId": "xg-bf6ec1f6f17be7bc",
     "stemFingerprint": "5a20dc83d011d3fb",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2722,6 +2746,7 @@
     "exclusionGroupId": "xg-f8b5db14dbad800a",
     "stemFingerprint": "99c4f87d0ff67bc6",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2799,6 +2824,7 @@
     "exclusionGroupId": "xg-a00a0c0d5507e285",
     "stemFingerprint": "01b32bc0112c3391",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2876,6 +2902,7 @@
     "exclusionGroupId": "xg-778fd0c6ce3fbbaf",
     "stemFingerprint": "d70ea1a4239ff937",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -2959,6 +2986,7 @@
     "exclusionGroupId": "xg-be3505c1f9bf53ce",
     "stemFingerprint": "3126f0e6aee6086e",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3048,6 +3076,7 @@
     "exclusionGroupId": "xg-f2859f9866f9be01",
     "stemFingerprint": "7bb0939056660b60",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3131,6 +3160,7 @@
     "exclusionGroupId": "xg-57d0b65f36c024bb",
     "stemFingerprint": "7408335c0178c220",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3208,6 +3238,7 @@
     "exclusionGroupId": "xg-7e26bc7b03aefeb6",
     "stemFingerprint": "8d2c204486b52973",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3296,6 +3327,7 @@
     "exclusionGroupId": "xg-a68921fa4f71e32e",
     "stemFingerprint": "455747ccf8476180",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3385,6 +3417,7 @@
     "exclusionGroupId": "xg-e9d1cdf1d987a7b9",
     "stemFingerprint": "c60330e4a8eaa513",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3462,6 +3495,7 @@
     "exclusionGroupId": "xg-aef2e9d893c8ce18",
     "stemFingerprint": "8513e988e32bb317",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3545,6 +3579,7 @@
     "exclusionGroupId": "xg-2d9c334011478e47",
     "stemFingerprint": "11e310288923f816",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3622,6 +3657,7 @@
     "exclusionGroupId": "xg-bed90e02987d53e4",
     "stemFingerprint": "c0f49cf7a9b1baa2",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3705,6 +3741,7 @@
     "exclusionGroupId": "xg-c553655b1945857f",
     "stemFingerprint": "5c98c07994ca654b",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3794,6 +3831,7 @@
     "exclusionGroupId": "xg-67b1bcd654c21601",
     "stemFingerprint": "7a92848c03caae78",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3871,6 +3909,7 @@
     "exclusionGroupId": "xg-50ed02d40d448eb6",
     "stemFingerprint": "6518cc5a0b08dbf7",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -3948,6 +3987,7 @@
     "exclusionGroupId": "xg-307f9edc7011a724",
     "stemFingerprint": "911ec21a7998cac0",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4025,6 +4065,7 @@
     "exclusionGroupId": "xg-7a47b650d24ff102",
     "stemFingerprint": "75254897ca2e7f9a",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4102,6 +4143,7 @@
     "exclusionGroupId": "xg-aa464b6e1543cdc9",
     "stemFingerprint": "9807d9ce7172ea10",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4179,6 +4221,7 @@
     "exclusionGroupId": "xg-84c68b4ab32e0d6d",
     "stemFingerprint": "158f504d2b506a55",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4256,6 +4299,7 @@
     "exclusionGroupId": "xg-f81517ed21294371",
     "stemFingerprint": "574f442704e7f859",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4333,6 +4377,7 @@
     "exclusionGroupId": "xg-a7de97207f4b15d8",
     "stemFingerprint": "535afd0146cf7c68",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4422,6 +4467,7 @@
     "exclusionGroupId": "xg-c785324d828007ba",
     "stemFingerprint": "a444a5aaa6065ffa",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4499,6 +4545,7 @@
     "exclusionGroupId": "xg-33d2f00c2944d059",
     "stemFingerprint": "a7b3a9752ad794ae",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4576,6 +4623,7 @@
     "exclusionGroupId": "xg-62fc4b9f578177e3",
     "stemFingerprint": "8527eb2ed8481e42",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4653,6 +4701,7 @@
     "exclusionGroupId": "xg-1bdf639fbccd0d70",
     "stemFingerprint": "0ae0e6be6993bbfb",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4742,6 +4791,7 @@
     "exclusionGroupId": "xg-29ee283c2cc53b69",
     "stemFingerprint": "045223796abe584b",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4819,6 +4869,7 @@
     "exclusionGroupId": "xg-14762ef7c6cf6605",
     "stemFingerprint": "f842dbd7bcaf27f4",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4896,6 +4947,7 @@
     "exclusionGroupId": "xg-f7d5208a1828430a",
     "stemFingerprint": "eee1710a9d1aae85",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -4973,6 +5025,7 @@
     "exclusionGroupId": "xg-1db655766640d384",
     "stemFingerprint": "fe5e859c7c18754c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5062,6 +5115,7 @@
     "exclusionGroupId": "xg-aab989ed49371f15",
     "stemFingerprint": "9d2a1ec24d56a31d",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5139,6 +5193,7 @@
     "exclusionGroupId": "xg-51a9d0f4a6f7c27c",
     "stemFingerprint": "39d886b563d0ad2d",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5216,6 +5271,7 @@
     "exclusionGroupId": "xg-a242b0ed87cb6153",
     "stemFingerprint": "a6c6b91db853dca3",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5299,6 +5355,7 @@
     "exclusionGroupId": "xg-93f040e4384bf820",
     "stemFingerprint": "8a0bc80ccf8b577f",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5394,6 +5451,7 @@
     "exclusionGroupId": "xg-8df7bd2004a37066",
     "stemFingerprint": "54b57ba9e7fc80ca",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -5471,6 +5529,7 @@
     "exclusionGroupId": "xg-5d906c7a8b795cb1",
     "stemFingerprint": "1e710b7321104f79",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5548,6 +5607,7 @@
     "exclusionGroupId": "xg-185c305ad5a48a4a",
     "stemFingerprint": "add744702404f303",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5625,6 +5685,7 @@
     "exclusionGroupId": "xg-614205031e17ec94",
     "stemFingerprint": "707fa94cda83bdb5",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5714,6 +5775,7 @@
     "exclusionGroupId": "xg-38b28f799cb88768",
     "stemFingerprint": "0cfc780a2bb21f94",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5791,6 +5853,7 @@
     "exclusionGroupId": "xg-6c133e0babe65ff5",
     "stemFingerprint": "3ead1d650fe507ba",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5868,6 +5931,7 @@
     "exclusionGroupId": "xg-6b7bd9930f8c65a7",
     "stemFingerprint": "ebd6650d96378efc",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -5945,6 +6009,7 @@
     "exclusionGroupId": "xg-a4fe3f5e30ae8b0d",
     "stemFingerprint": "2290efcc9c81e8a1",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6034,6 +6099,7 @@
     "exclusionGroupId": "xg-651b5ff02f927d51",
     "stemFingerprint": "5a841dc344bd3307",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6111,6 +6177,7 @@
     "exclusionGroupId": "xg-7065bd84694eee85",
     "stemFingerprint": "a8744b724bebfa3e",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6188,6 +6255,7 @@
     "exclusionGroupId": "xg-d41d4e65993416ce",
     "stemFingerprint": "aa248fab5a8dea76",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6265,6 +6333,7 @@
     "exclusionGroupId": "xg-31598e56df2c3059",
     "stemFingerprint": "a55caff65888236a",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6354,6 +6423,7 @@
     "exclusionGroupId": "xg-b61ed448fb587208",
     "stemFingerprint": "4d3c32b58bd9bd8e",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6431,6 +6501,7 @@
     "exclusionGroupId": "xg-7c8cd6b6fff92a96",
     "stemFingerprint": "3f5200bfb7eed95a",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6508,6 +6579,7 @@
     "exclusionGroupId": "xg-c012d8a6c3ef358b",
     "stemFingerprint": "ef29cdf0f2064a5f",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6585,6 +6657,7 @@
     "exclusionGroupId": "xg-0351c5a6709fee0e",
     "stemFingerprint": "7ce01498c918198a",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6668,6 +6741,7 @@
     "exclusionGroupId": "xg-9ed094b37f4f7131",
     "stemFingerprint": "6200c228cc04fd5a",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6757,6 +6831,7 @@
     "exclusionGroupId": "xg-196ddcfdb0fdc7f1",
     "stemFingerprint": "38699ec18a4fc4df",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6834,6 +6909,7 @@
     "exclusionGroupId": "xg-d021167a1599361b",
     "stemFingerprint": "510a198e9960e96c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6911,6 +6987,7 @@
     "exclusionGroupId": "xg-afc9b384bb5f31d5",
     "stemFingerprint": "ddc1af2a3101d96d",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -6988,6 +7065,7 @@
     "exclusionGroupId": "xg-bbbd09aa85a958e7",
     "stemFingerprint": "c2cfa9019f3da8b3",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7077,6 +7155,7 @@
     "exclusionGroupId": "xg-e27a9bdc3ecb96f2",
     "stemFingerprint": "075f497ed9f9708d",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7154,6 +7233,7 @@
     "exclusionGroupId": "xg-74138d85bf8741e4",
     "stemFingerprint": "045c6e96339f4114",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7231,6 +7311,7 @@
     "exclusionGroupId": "xg-44abf1b5605c2c1f",
     "stemFingerprint": "4a96045f422ec7a2",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7308,6 +7389,7 @@
     "exclusionGroupId": "xg-3550a228fdf771c6",
     "stemFingerprint": "04d7c59291332952",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7385,6 +7467,7 @@
     "exclusionGroupId": "xg-b024a38bf33cef27",
     "stemFingerprint": "6709503fc8c09bc9",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7462,6 +7545,7 @@
     "exclusionGroupId": "xg-8b161a010cd80bc0",
     "stemFingerprint": "32af7cb27cb73cde",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7539,6 +7623,7 @@
     "exclusionGroupId": "xg-71387279b6334ac4",
     "stemFingerprint": "253bc73ef030cdf4",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7616,6 +7701,7 @@
     "exclusionGroupId": "xg-6cb3e2118a5243b8",
     "stemFingerprint": "96c77b93f9d7a46d",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7693,6 +7779,7 @@
     "exclusionGroupId": "xg-c55c43c81ec19a26",
     "stemFingerprint": "0f4bbc46d6a973da",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7782,6 +7869,7 @@
     "exclusionGroupId": "xg-c0ea12a2f428aafd",
     "stemFingerprint": "252ecfee3306dede",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7859,6 +7947,7 @@
     "exclusionGroupId": "xg-bf510bbc2d948ea9",
     "stemFingerprint": "4960769e62a86a3b",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -7936,6 +8025,7 @@
     "exclusionGroupId": "xg-e215d263117de4f3",
     "stemFingerprint": "61e2ae584ab19191",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8029,6 +8119,7 @@
     "exclusionGroupId": "xg-32df13c5ad327b97",
     "stemFingerprint": "f00e9b11d0edcb64",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8118,6 +8209,7 @@
     "exclusionGroupId": "xg-fdabf39a80304fab",
     "stemFingerprint": "6271bd5bc38497ee",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8195,6 +8287,7 @@
     "exclusionGroupId": "xg-218924e907d93e13",
     "stemFingerprint": "7b2810ab40f88085",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8272,6 +8365,7 @@
     "exclusionGroupId": "xg-5d0fb4927518466f",
     "stemFingerprint": "4107fb589fc66f0d",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8349,6 +8443,7 @@
     "exclusionGroupId": "xg-7aa3340eed252947",
     "stemFingerprint": "ab6a91e93b6caca2",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8426,6 +8521,7 @@
     "exclusionGroupId": "xg-ff3364c3bbd90f91",
     "stemFingerprint": "5a1047db5cb0058d",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8503,6 +8599,7 @@
     "exclusionGroupId": "xg-1608914c75313daf",
     "stemFingerprint": "857be5b1521cadfc",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8586,6 +8683,7 @@
     "exclusionGroupId": "xg-39046d7f64fb3e1b",
     "stemFingerprint": "964ae95ce31ccca4",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8663,6 +8761,7 @@
     "exclusionGroupId": "xg-4f66a7e8d48f3f42",
     "stemFingerprint": "8fdcf6eff7256767",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8746,6 +8845,7 @@
     "exclusionGroupId": "xg-7672b0fc047248d6",
     "stemFingerprint": "4941410e27899795",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8835,6 +8935,7 @@
     "exclusionGroupId": "xg-c06de32e3e324ca9",
     "stemFingerprint": "fa52b3ffc829c716",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8912,6 +9013,7 @@
     "exclusionGroupId": "xg-abb207273ac9b2e9",
     "stemFingerprint": "882f1dff964d41c1",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -8989,6 +9091,7 @@
     "exclusionGroupId": "xg-5267c92121b26b61",
     "stemFingerprint": "e220d6fb428416cd",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9066,6 +9169,7 @@
     "exclusionGroupId": "xg-8035da82fdf3b34e",
     "stemFingerprint": "52319324e252c483",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9155,6 +9259,7 @@
     "exclusionGroupId": "xg-8ee1fa1c916adc3e",
     "stemFingerprint": "363ef2617f7dfc83",
     "exclusionGroupSize": 3,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9243,6 +9348,7 @@
     "exclusionGroupId": "xg-d52ef417daaf0591",
     "stemFingerprint": "12bf34bd617e3b76",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -9320,6 +9426,7 @@
     "exclusionGroupId": "xg-1e1dc1cd372b3fd7",
     "stemFingerprint": "511f9456948d142e",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9397,6 +9504,7 @@
     "exclusionGroupId": "xg-f688c866a1c1e14f",
     "stemFingerprint": "161600b177d8c14a",
     "exclusionGroupSize": 3,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9486,6 +9594,7 @@
     "exclusionGroupId": "xg-88064b3ce6a17a13",
     "stemFingerprint": "f85799c96a7c11ae",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9569,6 +9678,7 @@
     "exclusionGroupId": "xg-587db25465b89121",
     "stemFingerprint": "d76fc160387dd445",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9652,6 +9762,7 @@
     "exclusionGroupId": "xg-6d5433ca48577b54",
     "stemFingerprint": "4266a71f009ace4b",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -9729,6 +9840,7 @@
     "exclusionGroupId": "xg-6b117d3f84a7de3f",
     "stemFingerprint": "7cd0d020a14d27be",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9818,6 +9930,7 @@
     "exclusionGroupId": "xg-2c64064740b4787a",
     "stemFingerprint": "e103ec35bdbb9815",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9895,6 +10008,7 @@
     "exclusionGroupId": "xg-6e303f7a6f74a14e",
     "stemFingerprint": "b5c33e730d2b89b8",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -9972,6 +10086,7 @@
     "exclusionGroupId": "xg-b09aa3aeeba2c3e8",
     "stemFingerprint": "9c9445e341eff5a3",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -10049,6 +10164,7 @@
     "exclusionGroupId": "xg-b1ef8c8fc52d46eb",
     "stemFingerprint": "5cc87ff26292d505",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -10138,6 +10254,7 @@
     "exclusionGroupId": "xg-1d50529055fa8920",
     "stemFingerprint": "3df90085014d3491",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -10215,6 +10332,7 @@
     "exclusionGroupId": "xg-a24447b0f8a03542",
     "stemFingerprint": "3e0578dd432f5756",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -10285,15 +10403,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o089 (p.22, printed #89); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-4960769e62a86a3b",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-bf510bbc2d948ea9",
     "stemFingerprint": "4960769e62a86a3b",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o089",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -10380,6 +10505,7 @@
     "exclusionGroupId": "xg-a08b7629ec179bc3",
     "stemFingerprint": "4ebf4039d7985424",
     "exclusionGroupSize": 3,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -10468,6 +10594,7 @@
     "exclusionGroupId": "xg-1ab27bc918aea9ec",
     "stemFingerprint": "d7243e4dd1132ca2",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -10550,15 +10677,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o090 (p.22, printed #90); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-61e2ae584ab19191",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-e215d263117de4f3",
     "stemFingerprint": "61e2ae584ab19191",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o090",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -10627,7 +10761,7 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
+    "contentStatus": "duplicate",
     "reviewReasons": [
      {
       "code": "legacy_itil4_terminology_in_distractor",
@@ -10643,6 +10777,11 @@
       "code": "source_spelling_preserved",
       "severity": "info",
       "detail": "Source spelling containing 'suficien' kept verbatim (visible on rendered page)."
+     },
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o091 (p.22, printed #91); hidden from all practice modes at the owner's request. Status before removal: approved."
      }
     ],
     "duplicateGroupId": "dg-f00e9b11d0edcb64",
@@ -10650,8 +10789,9 @@
     "exclusionGroupId": "xg-32df13c5ad327b97",
     "stemFingerprint": "f00e9b11d0edcb64",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o091",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -10720,15 +10860,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o109 (p.26, printed #108); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-f85799c96a7c11ae",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-88064b3ce6a17a13",
     "stemFingerprint": "f85799c96a7c11ae",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o109",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -10797,12 +10944,17 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
+    "contentStatus": "duplicate",
     "reviewReasons": [
      {
       "code": "source_spelling_preserved",
       "severity": "info",
       "detail": "Source spelling containing 'eficien' kept verbatim (visible on rendered page)."
+     },
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o110 (p.27, printed #109); hidden from all practice modes at the owner's request. Status before removal: approved."
      }
     ],
     "duplicateGroupId": "dg-d76fc160387dd445",
@@ -10810,8 +10962,9 @@
     "exclusionGroupId": "xg-587db25465b89121",
     "stemFingerprint": "d76fc160387dd445",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o110",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -10880,12 +11033,17 @@
     "bloomSource": null,
     "confidence": "medium",
     "classificationNote": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test).",
-    "contentStatus": "out_of_scope",
+    "contentStatus": "duplicate",
     "reviewReasons": [
      {
       "code": "no_matching_v5_criterion",
       "severity": "out_of_scope",
       "detail": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
+     },
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o111 (p.27, printed #110); hidden from all practice modes at the owner's request. Status before removal: out_of_scope."
      }
     ],
     "duplicateGroupId": "dg-4266a71f009ace4b",
@@ -10893,6 +11051,7 @@
     "exclusionGroupId": "xg-6d5433ca48577b54",
     "stemFingerprint": "4266a71f009ace4b",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o111",
     "translationComplete": true,
     "examEligible": false
    }
@@ -10963,15 +11122,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o112 (p.27, printed #111); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-7cd0d020a14d27be",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-6b117d3f84a7de3f",
     "stemFingerprint": "7cd0d020a14d27be",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o112",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11040,15 +11206,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": "Negative-style source item.",
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o113 (p.27, printed #112); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-e103ec35bdbb9815",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-2c64064740b4787a",
     "stemFingerprint": "e103ec35bdbb9815",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o113",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11124,6 +11297,7 @@
     "exclusionGroupId": "xg-6e303f7a6f74a14e",
     "stemFingerprint": "b5c33e730d2b89b8",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -11194,15 +11368,22 @@
     "bloomSource": "criterion",
     "confidence": "medium",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o079 (p.19, printed #79); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-075f497ed9f9708d",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-e27a9bdc3ecb96f2",
     "stemFingerprint": "075f497ed9f9708d",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o079",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11283,15 +11464,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o080 (p.20, printed #80); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-045c6e96339f4114",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-74138d85bf8741e4",
     "stemFingerprint": "045c6e96339f4114",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o080",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11360,15 +11548,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o081 (p.20, printed #81); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-4a96045f422ec7a2",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-44abf1b5605c2c1f",
     "stemFingerprint": "4a96045f422ec7a2",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o081",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11437,15 +11632,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o082 (p.20, printed #82); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-04d7c59291332952",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-3550a228fdf771c6",
     "stemFingerprint": "04d7c59291332952",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o082",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11514,15 +11716,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o083 (p.20, printed #83); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-6709503fc8c09bc9",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-b024a38bf33cef27",
     "stemFingerprint": "6709503fc8c09bc9",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o083",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11591,15 +11800,22 @@
     "bloomSource": "criterion",
     "confidence": "medium",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o084 (p.21, printed #84); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-32af7cb27cb73cde",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-8b161a010cd80bc0",
     "stemFingerprint": "32af7cb27cb73cde",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o084",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11680,15 +11896,22 @@
     "bloomSource": "criterion",
     "confidence": "medium",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o085 (p.21, printed #85); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-253bc73ef030cdf4",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-71387279b6334ac4",
     "stemFingerprint": "253bc73ef030cdf4",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o085",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11757,15 +11980,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o086 (p.21, printed #86); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-96c77b93f9d7a46d",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-6cb3e2118a5243b8",
     "stemFingerprint": "96c77b93f9d7a46d",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o086",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11834,15 +12064,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o087 (p.21, printed #87); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-0f4bbc46d6a973da",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-c55c43c81ec19a26",
     "stemFingerprint": "0f4bbc46d6a973da",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o087",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -11911,15 +12148,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o088 (p.21, printed #88); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-252ecfee3306dede",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-c0ea12a2f428aafd",
     "stemFingerprint": "252ecfee3306dede",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o088",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -12023,6 +12267,7 @@
     "exclusionGroupId": "xg-b3857885c5247d00",
     "stemFingerprint": "5e73079d184e7954",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -12100,6 +12345,7 @@
     "exclusionGroupId": "xg-1b5d9532c16de0d6",
     "stemFingerprint": "1c0e928f548aa745",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -12177,6 +12423,7 @@
     "exclusionGroupId": "xg-b1ef8c8fc52d46eb",
     "stemFingerprint": "385c29607753096f",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -12247,15 +12494,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o094 (p.23, printed #94); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-4107fb589fc66f0d",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-5d0fb4927518466f",
     "stemFingerprint": "4107fb589fc66f0d",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o094",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -12337,6 +12591,7 @@
     "exclusionGroupId": "xg-7aa3340eed252947",
     "stemFingerprint": "9c855c3a57e03db2",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -12419,15 +12674,22 @@
     "bloomSource": "override",
     "confidence": "medium",
     "classificationNote": "Negative-style statements about value streams (understanding).",
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o096 (p.23, printed #96); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-5a1047db5cb0058d",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-ff3364c3bbd90f91",
     "stemFingerprint": "5a1047db5cb0058d",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o096",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -12496,15 +12758,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o097 (p.24, printed #97); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-857be5b1521cadfc",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-1608914c75313daf",
     "stemFingerprint": "857be5b1521cadfc",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o097",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -12573,12 +12842,17 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
+    "contentStatus": "duplicate",
     "reviewReasons": [
      {
       "code": "source_spelling_preserved",
       "severity": "info",
       "detail": "Source spelling containing 'suficien' kept verbatim (visible on rendered page)."
+     },
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o098 (p.24, printed #98); hidden from all practice modes at the owner's request. Status before removal: approved."
      }
     ],
     "duplicateGroupId": "dg-964ae95ce31ccca4",
@@ -12586,8 +12860,9 @@
     "exclusionGroupId": "xg-39046d7f64fb3e1b",
     "stemFingerprint": "964ae95ce31ccca4",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o098",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -12669,6 +12944,7 @@
     "exclusionGroupId": "xg-0656b98fc0b59530",
     "stemFingerprint": "788bd573050901b2",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -12746,6 +13022,7 @@
     "exclusionGroupId": "xg-b6e751c881976a38",
     "stemFingerprint": "75b03a1266ad8f29",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -12829,6 +13106,7 @@
     "exclusionGroupId": "xg-f74c80aaea277895",
     "stemFingerprint": "f07a3f882fd9d3fe",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -12912,6 +13190,7 @@
     "exclusionGroupId": "xg-df133a768ce4c402",
     "stemFingerprint": "3df577b143aa1182",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -12989,6 +13268,7 @@
     "exclusionGroupId": "xg-407f792b50b4db24",
     "stemFingerprint": "12e7fc01c40fbe16",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -13071,15 +13351,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o092 (p.22, printed #92); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-6271bd5bc38497ee",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-fdabf39a80304fab",
     "stemFingerprint": "6271bd5bc38497ee",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o092",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -13148,15 +13435,22 @@
     "bloomSource": "criterion",
     "confidence": "medium",
     "classificationNote": "Safe-to-fail experiments attributed to a dimension.",
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o093 (p.23, printed #93); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-7b2810ab40f88085",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-218924e907d93e13",
     "stemFingerprint": "7b2810ab40f88085",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o093",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -13225,15 +13519,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o099 (p.24, printed #99); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-8fdcf6eff7256767",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-4f66a7e8d48f3f42",
     "stemFingerprint": "8fdcf6eff7256767",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o099",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -13302,12 +13603,17 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
+    "contentStatus": "duplicate",
     "reviewReasons": [
      {
       "code": "source_spelling_preserved",
       "severity": "info",
       "detail": "Source spelling containing 'eficien' kept verbatim (visible on rendered page)."
+     },
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o100 (p.24, printed #100); hidden from all practice modes at the owner's request. Status before removal: approved."
      }
     ],
     "duplicateGroupId": "dg-4941410e27899795",
@@ -13315,8 +13621,9 @@
     "exclusionGroupId": "xg-7672b0fc047248d6",
     "stemFingerprint": "4941410e27899795",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o100",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -13397,15 +13704,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o101 (p.24, printed #101); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-fa52b3ffc829c716",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-c06de32e3e324ca9",
     "stemFingerprint": "fa52b3ffc829c716",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o101",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -13492,6 +13806,7 @@
     "exclusionGroupId": "xg-875c239ff155181c",
     "stemFingerprint": "4a253343be787176",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -13580,6 +13895,7 @@
     "exclusionGroupId": "xg-221057ce15c32304",
     "stemFingerprint": "a45e00ca60739978",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -13668,6 +13984,7 @@
     "exclusionGroupId": "xg-04ecdf09e511306e",
     "stemFingerprint": "fea655076503ece7",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -13756,6 +14073,7 @@
     "exclusionGroupId": "xg-eb32993212c3433f",
     "stemFingerprint": "b53d53513ccf17ad",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -13844,6 +14162,7 @@
     "exclusionGroupId": "xg-4ae62e77d8f95891",
     "stemFingerprint": "d549012f337ec23c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -13926,15 +14245,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o104 (p.25, printed #103); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-52319324e252c483",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-8035da82fdf3b34e",
     "stemFingerprint": "52319324e252c483",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o104",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -14003,15 +14329,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o105 (p.25, printed #104); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-363ef2617f7dfc83",
     "duplicateGroupSize": 3,
     "exclusionGroupId": "xg-8ee1fa1c916adc3e",
     "stemFingerprint": "363ef2617f7dfc83",
     "exclusionGroupSize": 3,
+    "duplicateOf": "itilf5-1d11798cd8d9-o105",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -14098,6 +14431,7 @@
     "exclusionGroupId": "xg-d52ef417daaf0591",
     "stemFingerprint": "12bf34bd617e3b76",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -14168,15 +14502,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o107 (p.26, printed #106); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-511f9456948d142e",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-1e1dc1cd372b3fd7",
     "stemFingerprint": "511f9456948d142e",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o107",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -14257,15 +14598,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o108 (p.26, printed #107); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-161600b177d8c14a",
     "duplicateGroupSize": 3,
     "exclusionGroupId": "xg-f688c866a1c1e14f",
     "stemFingerprint": "161600b177d8c14a",
     "exclusionGroupSize": 3,
+    "duplicateOf": "itilf5-1d11798cd8d9-o108",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -14347,6 +14695,7 @@
     "exclusionGroupId": "xg-25e2f3bef1d574b5",
     "stemFingerprint": "6cab1622930d8f5a",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -14445,6 +14794,7 @@
     "exclusionGroupId": "xg-293e403a5af0ffe2",
     "stemFingerprint": "1db4f88f035c3f23",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -14533,6 +14883,7 @@
     "exclusionGroupId": "xg-6b13af83c3b9d3cb",
     "stemFingerprint": "e76737ee02a09b87",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -14621,6 +14972,7 @@
     "exclusionGroupId": "xg-674db65251285c3a",
     "stemFingerprint": "4785255118701938",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -14709,6 +15061,7 @@
     "exclusionGroupId": "xg-e4986cbda54f5fec",
     "stemFingerprint": "3d259aa6081369ae",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -14779,12 +15132,17 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
+    "contentStatus": "duplicate",
     "reviewReasons": [
      {
       "code": "no_source_explanation",
       "severity": "info",
       "detail": "The PDF has no explanation for this occurrence."
+     },
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o102 (p.25, printed #102); hidden from all practice modes at the owner's request. Status before removal: approved."
      }
     ],
     "duplicateGroupId": "dg-882f1dff964d41c1",
@@ -14792,8 +15150,9 @@
     "exclusionGroupId": "xg-abb207273ac9b2e9",
     "stemFingerprint": "882f1dff964d41c1",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o102",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -14874,12 +15233,17 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
+    "contentStatus": "duplicate",
     "reviewReasons": [
      {
       "code": "no_source_explanation",
       "severity": "info",
       "detail": "The PDF has no explanation for this occurrence."
+     },
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o103 (p.25, printed #103); hidden from all practice modes at the owner's request. Status before removal: approved."
      }
     ],
     "duplicateGroupId": "dg-e220d6fb428416cd",
@@ -14887,8 +15251,9 @@
     "exclusionGroupId": "xg-5267c92121b26b61",
     "stemFingerprint": "e220d6fb428416cd",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o103",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -14970,6 +15335,7 @@
     "exclusionGroupId": "xg-40bad9f8ece23e77",
     "stemFingerprint": "d6015754ecb71316",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15053,6 +15419,7 @@
     "exclusionGroupId": "xg-0ffe70b3ae9c929c",
     "stemFingerprint": "3d48365952e881a5",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15141,6 +15508,7 @@
     "exclusionGroupId": "xg-a08b7629ec179bc3",
     "stemFingerprint": "4ebf4039d7985424",
     "exclusionGroupSize": 3,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15218,6 +15586,7 @@
     "exclusionGroupId": "xg-e916d551f212d204",
     "stemFingerprint": "b7fd7b0d6b06a0d2",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15288,15 +15657,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o017 (p.5, printed #17); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-9d7cb2b3d098d0a9",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-ef567f7054324666",
     "stemFingerprint": "9d7cb2b3d098d0a9",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o017",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -15365,15 +15741,22 @@
     "bloomSource": "criterion",
     "confidence": "medium",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o003 (p.1, printed #3); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-ad10159618082472",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-d6afa6d57ad79838",
     "stemFingerprint": "ad10159618082472",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o003",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -15449,6 +15832,7 @@
     "exclusionGroupId": "xg-bf6ec1f6f17be7bc",
     "stemFingerprint": "5a20dc83d011d3fb",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15526,6 +15910,7 @@
     "exclusionGroupId": "xg-30756954281bcdf7",
     "stemFingerprint": "cd75d26630ff5e4f",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15603,6 +15988,7 @@
     "exclusionGroupId": "xg-ade0a08308175a55",
     "stemFingerprint": "20cb9e2e97e50d39",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15680,6 +16066,7 @@
     "exclusionGroupId": "xg-c191461255caceac",
     "stemFingerprint": "37ab3861c204e7c3",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15757,6 +16144,7 @@
     "exclusionGroupId": "xg-de39a577a36c0128",
     "stemFingerprint": "07448ddf48e42e35",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15834,6 +16222,7 @@
     "exclusionGroupId": "xg-5bf6f991d234f4b3",
     "stemFingerprint": "336e9af18f846c16",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15911,6 +16300,7 @@
     "exclusionGroupId": "xg-b45ace41e12a949d",
     "stemFingerprint": "7ffcdebf0e3c2f48",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -15988,6 +16378,7 @@
     "exclusionGroupId": "xg-67f438820f78d02d",
     "stemFingerprint": "3ccaa3a009aa0f4f",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -16065,6 +16456,7 @@
     "exclusionGroupId": "xg-ad338c44c6cf7fb2",
     "stemFingerprint": "3c2c852c07286413",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -16142,6 +16534,7 @@
     "exclusionGroupId": "xg-2b401e7e6eb86f7b",
     "stemFingerprint": "4534a4deb9d8b743",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -16230,6 +16623,7 @@
     "exclusionGroupId": "xg-6a8a07debdb26f36",
     "stemFingerprint": "2efc87ed73c7eca5",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -16307,6 +16701,7 @@
     "exclusionGroupId": "xg-be3505c1f9bf53ce",
     "stemFingerprint": "5e6bb323d1b61593",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -16377,15 +16772,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o027 (p.7, printed #27); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-d70ea1a4239ff937",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-778fd0c6ce3fbbaf",
     "stemFingerprint": "d70ea1a4239ff937",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o027",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -16461,6 +16863,7 @@
     "exclusionGroupId": "xg-c7fa88d540ca07ae",
     "stemFingerprint": "c011f8dacc293601",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -16544,6 +16947,7 @@
     "exclusionGroupId": "xg-3a410d4439ec6a5f",
     "stemFingerprint": "b5d292019d62f431",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -16634,6 +17038,7 @@
     "exclusionGroupId": "xg-dfd84923889a612a",
     "stemFingerprint": "373228f43a6aa06c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -16711,6 +17116,7 @@
     "exclusionGroupId": "xg-751e69134f7d1779",
     "stemFingerprint": "08f54aff923e8b2b",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -16788,6 +17194,7 @@
     "exclusionGroupId": "xg-b3cf862ec57c1497",
     "stemFingerprint": "6628a8b0510fc496",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -16865,6 +17272,7 @@
     "exclusionGroupId": "xg-747d36d483e7a34c",
     "stemFingerprint": "10c5c2b753967416",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -16942,6 +17350,7 @@
     "exclusionGroupId": "xg-224ba97b1c40e356",
     "stemFingerprint": "75f7944dc596b05b",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17019,6 +17428,7 @@
     "exclusionGroupId": "xg-802099a79f5025c1",
     "stemFingerprint": "d383e5f91078a8e2",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17096,6 +17506,7 @@
     "exclusionGroupId": "xg-ed918a0ad6db1da8",
     "stemFingerprint": "e0f210b9acf3aa94",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17179,6 +17590,7 @@
     "exclusionGroupId": "xg-50ed02d40d448eb6",
     "stemFingerprint": "6518cc5a0b08dbf7",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17249,15 +17661,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o055 (p.14, printed #55); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-39d886b563d0ad2d",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-51a9d0f4a6f7c27c",
     "stemFingerprint": "39d886b563d0ad2d",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o055",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -17333,6 +17752,7 @@
     "exclusionGroupId": "xg-f88819121ee80e66",
     "stemFingerprint": "857a7fe58ab86710",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17410,6 +17830,7 @@
     "exclusionGroupId": "xg-9714723f70fc58f0",
     "stemFingerprint": "a1d6fb8c5d897142",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17498,6 +17919,7 @@
     "exclusionGroupId": "xg-ef6b9f8a1a30523e",
     "stemFingerprint": "6edc49fd0af11f19",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -17586,6 +18008,7 @@
     "exclusionGroupId": "xg-d3e120417f36ea7d",
     "stemFingerprint": "50ec6523641dbfa3",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -17663,6 +18086,7 @@
     "exclusionGroupId": "xg-bb158341f25b5a65",
     "stemFingerprint": "214cd637c4e694b0",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17740,6 +18164,7 @@
     "exclusionGroupId": "xg-c65ce7a76375ad6c",
     "stemFingerprint": "d29b6c0280c6d46e",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17817,6 +18242,7 @@
     "exclusionGroupId": "xg-6d6e915a0414d741",
     "stemFingerprint": "4f2d146ed0611c58",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -17912,6 +18338,7 @@
     "exclusionGroupId": "xg-a79304fd09537ae1",
     "stemFingerprint": "e1496293c802f2e5",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": false
    }
@@ -17989,6 +18416,7 @@
     "exclusionGroupId": "xg-dc156243dbd6f3da",
     "stemFingerprint": "cdc03784412cc832",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18066,6 +18494,7 @@
     "exclusionGroupId": "xg-360c386bdd9cd387",
     "stemFingerprint": "60844c67b2daec7a",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18136,15 +18565,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o061 (p.15, printed #61); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-707fa94cda83bdb5",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-614205031e17ec94",
     "stemFingerprint": "707fa94cda83bdb5",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o061",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -18225,15 +18661,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o015 (p.4, printed #15); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-f9501f18863501d3",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-31c564c7b9ad47ef",
     "stemFingerprint": "f9501f18863501d3",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o015",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -18309,6 +18752,7 @@
     "exclusionGroupId": "xg-dbb82818ccdfe1ac",
     "stemFingerprint": "40880cca8e90b34d",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18386,6 +18830,7 @@
     "exclusionGroupId": "xg-b4ed77147e8405ed",
     "stemFingerprint": "cc4ffcd77a38840f",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18463,6 +18908,7 @@
     "exclusionGroupId": "xg-9821a3756719203c",
     "stemFingerprint": "fef43be17ac34005",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18540,6 +18986,7 @@
     "exclusionGroupId": "xg-43bb7d268a227f15",
     "stemFingerprint": "d66bcaf6ed739397",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18629,6 +19076,7 @@
     "exclusionGroupId": "xg-a06eab88de9706e3",
     "stemFingerprint": "3dd7af5152618313",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18706,6 +19154,7 @@
     "exclusionGroupId": "xg-c2e3c1c66819d2c4",
     "stemFingerprint": "faf998f0e602a130",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18783,6 +19232,7 @@
     "exclusionGroupId": "xg-4104c67a26df9652",
     "stemFingerprint": "e3a32deafd630ab5",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18860,6 +19310,7 @@
     "exclusionGroupId": "xg-4c55d899096d7ef9",
     "stemFingerprint": "387b3905509f5f62",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -18949,6 +19400,7 @@
     "exclusionGroupId": "xg-893c13744c9982f7",
     "stemFingerprint": "af612dcef21879b6",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19026,6 +19478,7 @@
     "exclusionGroupId": "xg-ac49e22c593f8e32",
     "stemFingerprint": "791478f7a22cac24",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19096,15 +19549,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o010 (p.3, printed #10); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-9dfacb8349d180dc",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-b10cc0591a3cd228",
     "stemFingerprint": "9dfacb8349d180dc",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o010",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -19173,15 +19633,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o011 (p.3, printed #11); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-fc0c7b12e3f5ba97",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-9ac12348c1f6841c",
     "stemFingerprint": "fc0c7b12e3f5ba97",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o011",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -19269,6 +19736,7 @@
     "exclusionGroupId": "xg-c79f07794eb03078",
     "stemFingerprint": "b8b6e8ff3c94226d",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19346,6 +19814,7 @@
     "exclusionGroupId": "xg-367105236fad5fea",
     "stemFingerprint": "9cce073142599928",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19423,6 +19892,7 @@
     "exclusionGroupId": "xg-8940c30c4114b2f7",
     "stemFingerprint": "793cd768728333ff",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19500,6 +19970,7 @@
     "exclusionGroupId": "xg-4a0a7640f65b0f29",
     "stemFingerprint": "bcc66da961fa7f10",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19589,6 +20060,7 @@
     "exclusionGroupId": "xg-78298c969ed6e8f9",
     "stemFingerprint": "093ae845bb09a4b2",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19666,6 +20138,7 @@
     "exclusionGroupId": "xg-d40b34e9681be989",
     "stemFingerprint": "0e6e23aa3e33b6a1",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19743,6 +20216,7 @@
     "exclusionGroupId": "xg-b40bfce08e873a28",
     "stemFingerprint": "4c0e39f8cd6a775e",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19820,6 +20294,7 @@
     "exclusionGroupId": "xg-a4272af1bd3484a5",
     "stemFingerprint": "fb704195224ef5ee",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19897,6 +20372,7 @@
     "exclusionGroupId": "xg-27c09ddc8631f976",
     "stemFingerprint": "e8b2022239d46d35",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -19974,6 +20450,7 @@
     "exclusionGroupId": "xg-57d0b65f36c024bb",
     "stemFingerprint": "7408335c0178c220",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20044,15 +20521,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": "Negative-style source item.",
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o016 (p.4, printed #16); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-bd32bb148d29dfc2",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-7c5237b6b4dba9f8",
     "stemFingerprint": "bd32bb148d29dfc2",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o016",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -20121,15 +20605,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o033 (p.8, printed #33); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-c60330e4a8eaa513",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-e9d1cdf1d987a7b9",
     "stemFingerprint": "c60330e4a8eaa513",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o033",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -20205,6 +20696,7 @@
     "exclusionGroupId": "xg-38c347cd5dc84b74",
     "stemFingerprint": "5439c13dbc2fd89d",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20282,6 +20774,7 @@
     "exclusionGroupId": "xg-8ee1fa1c916adc3e",
     "stemFingerprint": "363ef2617f7dfc83",
     "exclusionGroupSize": 3,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20359,6 +20852,7 @@
     "exclusionGroupId": "xg-7605bc55905a005a",
     "stemFingerprint": "54c6029fdc50fa4c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20436,6 +20930,7 @@
     "exclusionGroupId": "xg-7b5f0edb47778934",
     "stemFingerprint": "b19f114b9e282f6c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20513,6 +21008,7 @@
     "exclusionGroupId": "xg-51140674b8f90591",
     "stemFingerprint": "f815a2a1e7cdc2fb",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20602,6 +21098,7 @@
     "exclusionGroupId": "xg-10c1e25b03bde790",
     "stemFingerprint": "1cf09c600b57024c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20679,6 +21176,7 @@
     "exclusionGroupId": "xg-507791831ce89580",
     "stemFingerprint": "59fcf81e49237fd3",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20756,6 +21254,7 @@
     "exclusionGroupId": "xg-52b6510b1a471a55",
     "stemFingerprint": "34811882ec874190",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20833,6 +21332,7 @@
     "exclusionGroupId": "xg-8084eb64ca22e10e",
     "stemFingerprint": "3f87f08de8535319",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -20915,15 +21415,22 @@
     "bloomSource": "override",
     "confidence": "medium",
     "classificationNote": "Definition recall of \"organization's purpose\".",
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o018 (p.5, printed #18); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-293b18b33baf4699",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-8674eafadb0b0878",
     "stemFingerprint": "293b18b33baf4699",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o018",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -20992,15 +21499,22 @@
     "bloomSource": "criterion",
     "confidence": "medium",
     "classificationNote": "Negative-style; distinguishes mapping steps from value stream management.",
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o023 (p.6, printed #23); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-6f0d17f547da2441",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-b57777868b9947cd",
     "stemFingerprint": "6f0d17f547da2441",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o023",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -21069,15 +21583,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o040 (p.10, printed #40); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-911ec21a7998cac0",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-307f9edc7011a724",
     "stemFingerprint": "911ec21a7998cac0",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o040",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -21153,6 +21674,7 @@
     "exclusionGroupId": "xg-f688c866a1c1e14f",
     "stemFingerprint": "161600b177d8c14a",
     "exclusionGroupSize": 3,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21242,6 +21764,7 @@
     "exclusionGroupId": "xg-44f6733dac0be81d",
     "stemFingerprint": "50d398f96c56bff1",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21319,6 +21842,7 @@
     "exclusionGroupId": "xg-2400825a7d043f1a",
     "stemFingerprint": "37f1ccfeef02a5fd",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21396,6 +21920,7 @@
     "exclusionGroupId": "xg-5ce19aa2fed7834c",
     "stemFingerprint": "e27653921e94db94",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21473,6 +21998,7 @@
     "exclusionGroupId": "xg-bb0f013d75592545",
     "stemFingerprint": "1ce1630b29300056",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21550,6 +22076,7 @@
     "exclusionGroupId": "xg-91107abb199337c9",
     "stemFingerprint": "97b37977509fe46d",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21639,6 +22166,7 @@
     "exclusionGroupId": "xg-475d065c80c255a3",
     "stemFingerprint": "c4cd8ecebe712611",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21716,6 +22244,7 @@
     "exclusionGroupId": "xg-47c63e6d2aa5b956",
     "stemFingerprint": "5c6de6b7c8984226",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21793,6 +22322,7 @@
     "exclusionGroupId": "xg-659e461e6d192794",
     "stemFingerprint": "a1b83bfb4247b807",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -21875,15 +22405,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o022 (p.6, printed #22); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-c8a940d61111de93",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-7d7bc71c613bdc43",
     "stemFingerprint": "c8a940d61111de93",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o022",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -21959,6 +22496,7 @@
     "exclusionGroupId": "xg-037c4727ba6cf47c",
     "stemFingerprint": "148d567b26ba39f4",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22036,6 +22574,7 @@
     "exclusionGroupId": "xg-7069ced7b87b1316",
     "stemFingerprint": "c423986b65c3e03f",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22113,6 +22652,7 @@
     "exclusionGroupId": "xg-5e983f29e46812a3",
     "stemFingerprint": "4d29f951a4c266ed",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22190,6 +22730,7 @@
     "exclusionGroupId": "xg-c32e11378c5ed987",
     "stemFingerprint": "2db40a7586a86c32",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22279,6 +22820,7 @@
     "exclusionGroupId": "xg-1707b0f1badbfae0",
     "stemFingerprint": "520c0147ffe4fb9e",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22356,6 +22898,7 @@
     "exclusionGroupId": "xg-95909707b4a8b806",
     "stemFingerprint": "57417496930451ef",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22433,6 +22976,7 @@
     "exclusionGroupId": "xg-9fd2ef05d0b8d576",
     "stemFingerprint": "3b3f1bde8746919e",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22522,6 +23066,7 @@
     "exclusionGroupId": "xg-7d854cdf1df270ca",
     "stemFingerprint": "a290d53a4dc99b18",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22599,6 +23144,7 @@
     "exclusionGroupId": "xg-a8ff27e45719aa5f",
     "stemFingerprint": "cbce6e0415f213a5",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22676,6 +23222,7 @@
     "exclusionGroupId": "xg-a3a35eea12171e23",
     "stemFingerprint": "bce20bce77639b1c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22753,6 +23300,7 @@
     "exclusionGroupId": "xg-5362aceb25883876",
     "stemFingerprint": "2cfabdf1ba36b2cf",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22835,15 +23383,22 @@
     "bloomSource": "criterion",
     "confidence": "high",
     "classificationNote": null,
-    "contentStatus": "approved",
-    "reviewReasons": [],
+    "contentStatus": "duplicate",
+    "reviewReasons": [
+     {
+      "code": "identical_duplicate_removed",
+      "severity": "info",
+      "detail": "Identical to itilf5-1d11798cd8d9-o006 (p.2, printed #6); hidden from all practice modes at the owner's request. Status before removal: approved."
+     }
+    ],
     "duplicateGroupId": "dg-7d2e80c183740233",
     "duplicateGroupSize": 2,
     "exclusionGroupId": "xg-0ebab52938101362",
     "stemFingerprint": "7d2e80c183740233",
     "exclusionGroupSize": 2,
+    "duplicateOf": "itilf5-1d11798cd8d9-o006",
     "translationComplete": true,
-    "examEligible": true
+    "examEligible": false
    }
   },
   {
@@ -22919,6 +23474,7 @@
     "exclusionGroupId": "xg-ce0a431a1d97b679",
     "stemFingerprint": "31f1f53cb17671c7",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -22996,6 +23552,7 @@
     "exclusionGroupId": "xg-8ac0baeac27ffaf7",
     "stemFingerprint": "ff00422defab8b31",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23073,6 +23630,7 @@
     "exclusionGroupId": "xg-8e7e44afb1a44cfb",
     "stemFingerprint": "56e38a90eb18cbca",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23162,6 +23720,7 @@
     "exclusionGroupId": "xg-a49a84af3d910dcc",
     "stemFingerprint": "ae161fffb1f0af14",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23239,6 +23798,7 @@
     "exclusionGroupId": "xg-0e34232af8d84f93",
     "stemFingerprint": "ca40661d48a8ee7d",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23316,6 +23876,7 @@
     "exclusionGroupId": "xg-5971f6280a8a3aa9",
     "stemFingerprint": "2e6b72505edf8cc0",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23393,6 +23954,7 @@
     "exclusionGroupId": "xg-13aab7718f5961ec",
     "stemFingerprint": "9bcc436a98f1ca8c",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23470,6 +24032,7 @@
     "exclusionGroupId": "xg-d4619dfb9df9224a",
     "stemFingerprint": "36eec03ee23ff754",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23547,6 +24110,7 @@
     "exclusionGroupId": "xg-202d31826cb06473",
     "stemFingerprint": "8a75f57c533edc62",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23624,6 +24188,7 @@
     "exclusionGroupId": "xg-590a42a425485dcd",
     "stemFingerprint": "382f1cebaef1c5ec",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23701,6 +24266,7 @@
     "exclusionGroupId": "xg-169e8035e518602a",
     "stemFingerprint": "277526054339090d",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23778,6 +24344,7 @@
     "exclusionGroupId": "xg-f9a19a189dac8f78",
     "stemFingerprint": "e530c4922c99a4ae",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23861,6 +24428,7 @@
     "exclusionGroupId": "xg-dd9921f66a62c0c0",
     "stemFingerprint": "4661d59d10bd2cbe",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -23938,6 +24506,7 @@
     "exclusionGroupId": "xg-ecd7e4452962181b",
     "stemFingerprint": "d1c5ad448027dd69",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24015,6 +24584,7 @@
     "exclusionGroupId": "xg-dfde5673da6aa4bd",
     "stemFingerprint": "fa14d91e13ef3ab4",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24092,6 +24662,7 @@
     "exclusionGroupId": "xg-84440cdbb3d94d91",
     "stemFingerprint": "33dd12c7d44c34b7",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24169,6 +24740,7 @@
     "exclusionGroupId": "xg-052da201b1cbaffe",
     "stemFingerprint": "47a6620818bf98e2",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24246,6 +24818,7 @@
     "exclusionGroupId": "xg-798106bfde224d80",
     "stemFingerprint": "bd32b1988edda7e9",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24323,6 +24896,7 @@
     "exclusionGroupId": "xg-ce096fba4ec5cd32",
     "stemFingerprint": "201bd695e8f0396b",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24400,6 +24974,7 @@
     "exclusionGroupId": "xg-2b52aefd2be960f3",
     "stemFingerprint": "c862f6f72005f6c2",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24489,6 +25064,7 @@
     "exclusionGroupId": "xg-693bc273d8fb4d5c",
     "stemFingerprint": "f603ebb0bfd6371f",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24566,6 +25142,7 @@
     "exclusionGroupId": "xg-75a138958c43b11e",
     "stemFingerprint": "aa0d792afc3b7a34",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24643,6 +25220,7 @@
     "exclusionGroupId": "xg-70adcbf175928fa0",
     "stemFingerprint": "64e0fb831de1aea1",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24720,6 +25298,7 @@
     "exclusionGroupId": "xg-a08b7629ec179bc3",
     "stemFingerprint": "00d2e840b538ef08",
     "exclusionGroupSize": 3,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24797,6 +25376,7 @@
     "exclusionGroupId": "xg-c6a94607192cfc78",
     "stemFingerprint": "67057d3b426017e5",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24874,6 +25454,7 @@
     "exclusionGroupId": "xg-0ffe70b3ae9c929c",
     "stemFingerprint": "b4cfcad42177ed99",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -24951,6 +25532,7 @@
     "exclusionGroupId": "xg-d362eb0dba045311",
     "stemFingerprint": "c4b5979241897a35",
     "exclusionGroupSize": 1,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
@@ -25028,6 +25610,7 @@
     "exclusionGroupId": "xg-40bad9f8ece23e77",
     "stemFingerprint": "4b7471906b472fc1",
     "exclusionGroupSize": 2,
+    "duplicateOf": null,
     "translationComplete": true,
     "examEligible": true
    }
