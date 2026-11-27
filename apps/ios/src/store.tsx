@@ -1,11 +1,11 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import { Alert } from "react-native";
 import {
   buildMistakesExam, createFixedExamSession, createKeyValueStorage, createSession, generateExam, randomSeed,
   type Attempt, type ExamSession, type KeyValueBackend, type MarkEvent, type StorageAdapter,
 } from "@itil5/core";
 import { lb } from "./data";
+import { confirmAsync } from "./confirm";
 
 /** Persistent on-device storage (AsyncStorage → native storage on iOS). No account or network needed. */
 const asyncStorageBackend: KeyValueBackend = {
@@ -28,6 +28,8 @@ interface Ctx {
   activeSession: ExamSession | null;
   ready: boolean;
   refresh: () => Promise<void>;
+  /** Save the in-progress exam to storage AND to the shared state (Home's resume card, re-entry). */
+  saveSession: (s: ExamSession) => Promise<void>;
   toggleBookmark: (questionId: string) => Promise<void>;
   setSettings: (s: Settings) => Promise<void>;
   /** Creates the exam session (asking first if another exam is in progress). Resolves true when one is active. */
@@ -53,6 +55,11 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     setReady(true);
   }, [storage]);
   useEffect(() => { void refresh(); }, [refresh]);
+
+  const saveSession = useCallback(async (s: ExamSession) => {
+    setActive(s);
+    await storage.setActiveSession(s);
+  }, [storage]);
 
   const toggleBookmark = useCallback(async (id: string) => {
     await storage.setBookmark(id, !bookmarks.has(id));
@@ -87,14 +94,13 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     const same = (k.kind === "fixed" && activeSession.mode === "fixed" && activeSession.examId === k.examId)
       || (k.kind === "random" && activeSession.mode === "exam") || (k.kind === "mistakes" && activeSession.mode === "mistakes");
     if (same) { resolve(true); return; }
-    Alert.alert("An exam is in progress", "Resume it, or discard it and start the new exam?", [
-      { text: "Resume", style: "cancel", onPress: () => resolve(true) },
-      { text: "Discard and start", style: "destructive", onPress: () => { void create(k).then(resolve); } },
-    ]);
+    void confirmAsync("An exam is in progress", "Discard it and start the new exam? Cancel resumes the exam in progress.", "Discard and start", { cancel: "Resume", destructive: true })
+      .then((discard) => (discard ? create(k) : true))
+      .then(resolve);
   }), [activeSession, create]);
 
   return (
-    <StoreCtx.Provider value={{ storage, attempts, marks, bookmarks, settings, activeSession, ready, refresh, toggleBookmark, setSettings, startExam }}>
+    <StoreCtx.Provider value={{ storage, attempts, marks, bookmarks, settings, activeSession, ready, refresh, saveSession, toggleBookmark, setSettings, startExam }}>
       {children}
     </StoreCtx.Provider>
   );

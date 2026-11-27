@@ -16,9 +16,11 @@ export function HomeScreen() {
   const { attempts, marks, activeSession, startExam } = useStore();
   const p = usePalette();
   const sum = useMemo(() => summarize(attempts, Date.now()), [attempts]);
+  // Level indicators use real exams only: mistakes exams repeat questions already answered.
+  const graded = useMemo(() => attempts.filter((a) => a.mode !== "mistakes"), [attempts]);
   const fixed = useMemo(() => fixedExamStatus(lb, attempts, activeSession), [attempts, activeSession]);
   const mq = useMemo(() => mistakeQueue(lb, attempts, marks), [attempts, marks]);
-  const answered = attempts.flatMap((a) => a.items.filter((i) => i.selected));
+  const answered = graded.flatMap((a) => a.items.filter((i) => i.selected));
   const accuracy = answered.length ? answered.filter((i) => i.correct).length / answered.length : null;
   const covered = useMemo(() => new Set(attempts.flatMap((a) => a.items.map((i) => i.questionId)).filter((id) => lb.byId.get(id)?.audit.examEligible)).size, [attempts]);
   const distinct = (lb.bank.fixedExams ?? []).reduce((n, e) => n + e.questionIds.length, 0);
@@ -68,7 +70,7 @@ export function HomeScreen() {
         {fixed.map((f) => {
           const a = f.latest;
           const color = f.inProgress ? p.warn : a ? (a.passed ? p.ok : p.bad) : p.muted;
-          const status = f.inProgress ? "⏸ In progress" : a ? `${a.passed ? "✓ Passed" : "✗ Failed"} · ${a.score}/${a.total}` : "Not started";
+          const status = f.inProgress && activeSession ? `⏸ In progress · ${Object.values(activeSession.answers).filter(Boolean).length}/${activeSession.questionIds.length}` : a ? `${a.passed ? "✓ Passed" : "✗ Failed"} · ${a.score}/${a.total}` : "Not started";
           return (
             <Card key={f.exam.examId} onPress={() => void go({ kind: "fixed", examId: f.exam.examId })} style={{ width: "48%", marginVertical: 0, padding: 12 }}
               testID={`fixed-${f.exam.examId}`} accessibilityLabel={`${f.exam.title}, ${f.exam.questionIds.length} questions, ${status}`}>
@@ -77,7 +79,7 @@ export function HomeScreen() {
                 <Text style={{ color: p.muted, fontSize: 12 }}>{f.exam.questionIds.length} Q</Text>
               </Row>
               <Text style={{ color, fontWeight: "700", fontSize: 12.5, marginTop: 6, marginBottom: 7 }}>{status}</Text>
-              <Bar value={f.inProgress ? 0.3 : a ? a.score / a.total : 0} color={color} />
+              <Bar value={f.inProgress && activeSession ? Object.values(activeSession.answers).filter(Boolean).length / activeSession.questionIds.length : a ? a.score / a.total : 0} color={color} />
             </Card>
           );
         })}

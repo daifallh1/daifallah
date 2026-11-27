@@ -71,3 +71,20 @@ appId: com.daifallah.itil5foundation
 - assertVisible:
     id: "import-progress"
 - takeScreenshot: 09-settings
+# Leave an exam and resume it from Home: the answer must still be there
+- tapOn: "Back"
+- tapOn:
+    id: "fixed-fixed-2"
+- tapOn:
+    id: "select-B"
+- assertVisible: ".*1 answered · 0 flagged.*"
+- tapOn:
+    id: "exam-leave"
+- tapOn: "Leave"
+- assertVisible:
+    id: "resume-card"
+- assertVisible: ".*Exam 2 · 1/43 answered.*"
+- tapOn:
+    id: "resume-card"
+- assertVisible: ".*1 answered · 0 flagged.*"
+- takeScreenshot: 10-resumed

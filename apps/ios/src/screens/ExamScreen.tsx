@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Alert, AppState, Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { AppState, Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useNavigation } from "@react-navigation/native";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -11,6 +11,7 @@ import { usePalette } from "../theme";
 import { QuestionCard } from "../components/QuestionCard";
 import { Bar, Button, Card, P, Pill, Row, Screen } from "../components/Ui";
 import type { RootParams } from "../nav";
+import { confirmAsync } from "../confirm";
 
 export function ExamScreen() {
   const { activeSession, ready } = useStore();
@@ -31,7 +32,7 @@ export function ExamScreen() {
 const WARN_AT = [10 * 60_000, 5 * 60_000];
 
 function Runner({ initial }: { initial: ExamSession }) {
-  const { storage, refresh, settings } = useStore();
+  const { storage, refresh, settings, saveSession } = useStore();
   const nav = useNavigation<NativeStackNavigationProp<RootParams>>();
   const insets = useSafeAreaInsets();
   const p = usePalette();
@@ -42,7 +43,7 @@ function Runner({ initial }: { initial: ExamSession }) {
   const [banner, setBanner] = useState<string | null>(null);
   const warned = useRef(new Set<number>());
   const done = useRef(false);
-  const persist = (n: ExamSession) => { setS(n); void storage.setActiveSession(n); };
+  const persist = (n: ExamSession) => { setS(n); void saveSession(n); };
   const finish = useCallback(async (by: "user" | "timer") => {
     if (done.current) return;
     done.current = true;
@@ -74,10 +75,8 @@ function Runner({ initial }: { initial: ExamSession }) {
   const q = lb.byId.get(id)!;
   const pr = progress(s);
   const last = s.current === s.questionIds.length - 1;
-  const leave = () => Alert.alert("Leave the exam?", "Your answers are saved and the timer keeps running. Resume it from Home.", [
-    { text: "Stay", style: "cancel" },
-    { text: "Leave", onPress: () => nav.popTo("Tabs", { screen: "Home" }) },
-  ]);
+  const leave = () => void confirmAsync("Leave the exam?", "Your answers are saved and the timer keeps running. Resume it from Home.", "Leave", { cancel: "Stay" })
+    .then((ok) => { if (ok) nav.popTo("Tabs", { screen: "Home" }); });
   return (
     <View style={{ flex: 1, backgroundColor: p.bg, paddingTop: insets.top }}>
       <View style={st.top}>

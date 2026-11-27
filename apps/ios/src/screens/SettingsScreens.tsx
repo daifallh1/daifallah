@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Alert, Platform, Switch, Text, View } from "react-native";
+import { Platform, Switch, Text, View } from "react-native";
+import { confirmAsync, notify } from "../confirm";
 import { useNavigation } from "@react-navigation/native";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import * as DocumentPicker from "expo-document-picker";
@@ -38,7 +39,7 @@ export function SettingsScreen() {
         await Sharing.shareAsync(uri, { mimeType: "application/json", UTI: "public.json", dialogTitle: "Save progress backup" });
       }
     } catch (e) {
-      Alert.alert("Export failed", e instanceof Error ? e.message : String(e));
+      notify("Export failed", e instanceof Error ? e.message : String(e));
     } finally {
       setBusy(false);
     }
@@ -52,23 +53,18 @@ export function SettingsScreen() {
     try {
       text = Platform.OS === "web" && asset.file ? await asset.file.text() : await FileSystem.readAsStringAsync(asset.uri, { encoding: FileSystem.EncodingType.UTF8 });
     } catch (e) {
-      Alert.alert("Could not read the file", e instanceof Error ? e.message : String(e));
+      notify("Could not read the file", e instanceof Error ? e.message : String(e));
       return;
     }
-    Alert.alert("Replace progress on this iPhone?", `Your current progress (${attempts.length} exams, ${marks.length} study marks) will be replaced by the backup.`, [
-      { text: "Cancel", style: "cancel" },
-      {
-        text: "Replace", style: "destructive", onPress: async () => {
-          try {
-            const r = await storage.importBackup(text);
-            await refresh();
-            Alert.alert("Progress restored", `${r.attempts} exams, ${r.marks} study marks and ${r.bookmarks} saved questions restored.`);
-          } catch (e) {
-            Alert.alert("Import failed", e instanceof Error ? e.message : String(e));
-          }
-        },
-      },
-    ]);
+    const ok = await confirmAsync("Replace progress on this iPhone?", `Your current progress (${attempts.length} exams, ${marks.length} study marks) will be replaced by the backup.`, "Replace", { destructive: true });
+    if (!ok) return;
+    try {
+      const r = await storage.importBackup(text);
+      await refresh();
+      notify("Progress restored", `${r.attempts} exams, ${r.marks} study marks and ${r.bookmarks} saved questions restored.`);
+    } catch (e) {
+      notify("Import failed", e instanceof Error ? e.message : String(e));
+    }
   };
 
   return (

@@ -15,7 +15,8 @@ export function ProgressScreen() {
   const nav = useNavigation<BottomTabNavigationProp<TabParams>>();
   const p = usePalette();
   const [w, setW] = useState(320);
-  const s = useMemo(() => summarize(attempts, Date.now()), [attempts]);
+  // Mistakes exams repeat questions already answered, so they are left out of the level statistics.
+  const s = useMemo(() => summarize(attempts.filter((a) => a.mode !== "mistakes"), Date.now()), [attempts]);
   const exams = s.trend;
   const avg = exams.length ? exams.reduce((n, x) => n + x.percent, 0) / exams.length : null;
   const best = exams.length ? Math.max(...exams.map((x) => x.percent)) : null;
@@ -60,7 +61,7 @@ export function ProgressScreen() {
             </View>
           );
         })}
-        <Text style={{ color: p.muted, fontSize: 11.5 }}>All answers in every exam, including mistakes exams.</Text>
+        <Text style={{ color: p.muted, fontSize: 11.5 }}>Random and fixed exams (mistakes exams are not counted).</Text>
       </Card>
       {weakest && (
         <Card style={{ borderColor: p.badBorder, backgroundColor: p.badBg }} onPress={() => nav.navigate("Study", { category: weakest.category })} accessibilityLabel={`Practise weakest area ${categoryShort(weakest.category)}`} testID="practise-weakest">

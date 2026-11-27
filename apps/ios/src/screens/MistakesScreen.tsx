@@ -46,7 +46,7 @@ export function MistakesScreen() {
         </Text>
       </Card>
       <Button kind="primary" title="Start mistakes exam" onPress={() => void go()} disabled={n === 0}
-        subtitle={n ? `All ${n} question${n === 1 ? "" : "s"} · ${Math.ceil((n * MISTAKES_SECONDS_PER_QUESTION) / 60)} min (90 s each) · pass ${passMarkFor(n)}/${n} (65%)` : "No mistakes yet: finish an exam first"}
+        subtitle={n ? `All ${n} question${n === 1 ? "" : "s"} · ${Math.ceil((n * MISTAKES_SECONDS_PER_QUESTION) / 60)} min (90 s each) · pass ${passMarkFor(n)}/${n} (65%)` : q.mastered.length ? "All your mistakes are fixed 🎉" : "No mistakes yet: finish an exam first"}
         style={{ marginTop: 8 }} testID="start-mistakes" />
       {byCat.length > 0 && (
         <>

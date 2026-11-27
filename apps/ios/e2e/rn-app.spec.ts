@@ -156,6 +156,62 @@ test("study 'Not studied': answering keeps the question on screen; Next shows a 
   await expect(page.getByTestId("stem-en")).toHaveText(first);
 });
 
+test("timer: a fixed exam auto-submits at 60:00 and the result says time is up", async ({ page }) => {
+  await page.clock.install();
+  await page.goto("/");
+  await page.getByTestId("fixed-fixed-4").tap();
+  await page.getByTestId("select-A").tap();
+  await page.clock.fastForward("50:30");
+  await expect(page.getByText(/10 minutes left/)).toBeVisible();
+  await page.clock.fastForward("10:00");
+  await expect(page.getByText(/Time is up/)).toBeVisible();
+  await expect(page.getByTestId("score")).toContainText("/ 43");
+  await expect(page.getByText(/Elapsed 1:00:00 · auto-submitted/)).toBeVisible();
+});
+
+test("leave an exam, resume it from Home with answers kept; starting another asks first", async ({ page }) => {
+  await page.goto("/");
+  await page.getByTestId("fixed-fixed-5").tap();
+  await page.getByTestId("select-C").tap();
+  await page.getByTestId("next").tap();
+  await page.getByTestId("exam-leave").tap(); // window.confirm accepted by the test
+  await expect(page.getByTestId("resume-card")).toContainText("Exam 5 · 1/42 answered");
+  await expect(page.getByTestId("fixed-fixed-5")).toContainText("In progress · 1/42");
+  await page.getByTestId("resume-card").tap();
+  await expect(page.getByTestId("q-counter")).toHaveText("Question 2 of 42");
+  await page.getByTestId("prev").tap();
+  await expect(page.getByTestId("select-C")).toHaveAttribute("aria-checked", "true");
+  await page.getByTestId("exam-leave").tap();
+  // starting a different exam asks to discard (accepted) and starts Exam 6
+  await page.getByTestId("fixed-fixed-6").tap();
+  await expect(page.getByTestId("exam-title")).toHaveText("Exam 6");
+  await expect(page.getByTestId("answered-count")).toContainText("0 answered");
+});
+
+test("backup: export, wipe, import restores exams and saved questions", async ({ page }) => {
+  await page.goto("/");
+  await page.getByTestId("fixed-fixed-1").tap();
+  await page.getByTestId("select-A").tap();
+  await page.getByTestId("open-navigator").tap();
+  await page.getByText("Submit exam…").tap();
+  await page.getByTestId("submit-now").tap();
+  await page.getByTestId("results-home").tap();
+  await page.getByTestId("open-settings").tap();
+  const dl = page.waitForEvent("download");
+  await page.getByTestId("export-progress").tap();
+  const file = await (await dl).path();
+  await page.evaluate(() => localStorage.clear());
+  await page.goto("/");
+  await expect(page.getByTestId("fixed-fixed-1")).toContainText("Not started");
+  await page.getByTestId("open-settings").tap();
+  const chooser = page.waitForEvent("filechooser");
+  await page.getByTestId("import-progress").tap();
+  await (await chooser).setFiles(file!);
+  await expect(page.getByText(/On this iPhone: 1 exams/)).toBeVisible();
+  await page.goto("/");
+  await expect(page.getByTestId("fixed-fixed-1")).toContainText(/Failed · \d+\/43/);
+});
+
 test("progress screen with chart and weakest area (light mode)", async ({ page }) => {
   await page.emulateMedia({ colorScheme: "light" });
   await page.goto("/");

@@ -14,7 +14,7 @@ export function Screen({ children, scroll = true, testID, safeTop }: { children:
   return (
     <View style={{ flex: 1, backgroundColor: p.bg }}>
       <ScrollView style={{ backgroundColor: p.bg }} contentContainerStyle={{ padding: 16, paddingTop: top, paddingBottom: 48 }} testID={testID}
-        scrollIndicatorInsets={safeTop ? { top: insets.top } : undefined}>
+        scrollIndicatorInsets={safeTop ? { top: insets.top } : undefined} keyboardShouldPersistTaps="handled" keyboardDismissMode="on-drag">
         {children}
       </ScrollView>
       {shield}
