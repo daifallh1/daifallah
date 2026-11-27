@@ -135,6 +135,27 @@ test("study: full category names, filters, search, bookmark, AI explanation labe
   await expect(page.getByText("271 / 256")).toBeVisible();
 });
 
+test("study 'Not studied': answering keeps the question on screen; Next shows a fresh, unanswered question", async ({ page }) => {
+  await page.goto("/");
+  await page.getByTestId("tab-study").tap();
+  await page.getByText(/^Not studied \d+$/).tap();
+  const first = await page.getByTestId("stem-en").innerText();
+  await page.getByTestId("select-A").tap();
+  // the chip count drops, but the answered question and its explanation stay on screen
+  await expect(page.getByText(/^Not studied 270$/)).toBeVisible();
+  await expect(page.getByTestId("stem-en")).toHaveText(first);
+  await expect(page.getByTestId("explanation")).toBeVisible();
+  await expect(page.getByTestId("select-A")).toHaveAttribute("aria-checked", "true");
+  await page.getByTestId("study-next").tap();
+  await expect(page.getByTestId("stem-en")).not.toHaveText(first);
+  for (const l of ["A", "B", "C", "D"]) await expect(page.getByTestId(`select-${l}`)).toHaveAttribute("aria-checked", "false");
+  await expect(page.getByTestId("explanation")).toHaveCount(0);
+  await page.getByTestId("select-B").tap();
+  await expect(page.getByText(/^Not studied 269$/)).toBeVisible();
+  await page.getByText("‹ Previous").tap();
+  await expect(page.getByTestId("stem-en")).toHaveText(first);
+});
+
 test("progress screen with chart and weakest area (light mode)", async ({ page }) => {
   await page.emulateMedia({ colorScheme: "light" });
   await page.goto("/");

@@ -19,7 +19,7 @@
     "ios": {
       "bundleIdentifier": "com.daifallah.itil5foundation",
       "supportsTablet": true,
-      "buildNumber": "3",
+      "buildNumber": "4",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "CFBundleDevelopmentRegion": "en",

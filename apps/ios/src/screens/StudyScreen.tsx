@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Modal, Pressable, ScrollView, Text, TextInput, View } from "react-native";
 import { useRoute, type RouteProp } from "@react-navigation/native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -24,33 +24,47 @@ export function StudyScreen() {
   const [query, setQuery] = useState("");
   const [picker, setPicker] = useState(false);
   const [i, setI] = useState(0);
-  const [sel, setSel] = useState<OptionLabel | null>(null);
-  useEffect(() => { if (route.params?.category) { setCat(route.params.category); setFilter("all"); setI(0); setSel(null); } }, [route.params?.category]);
+  // The answer belongs to one question: it can never carry over to another question.
+  const [picked, setPicked] = useState<{ id: string; label: OptionLabel } | null>(null);
+  useEffect(() => { if (route.params?.category) { setCat(route.params.category); setFilter("all"); setI(0); setPicked(null); } }, [route.params?.category]);
   const latest = useMemo(() => latestMarks(marks), [marks]);
   const base = useMemo(() => studyQuestions(lb, filter === "legacy" ? "all" : cat, { includeLegacy: filter === "legacy" }), [cat, filter]);
+  // Marks and bookmarks are read through refs so that answering, marking or saving the question on
+  // screen does NOT remove it from the list (e.g. under "Not studied"). The list is rebuilt only
+  // when the category, filter or search changes.
+  const latestRef = useRef(latest);
+  latestRef.current = latest;
+  const bookmarksRef = useRef(bookmarks);
+  bookmarksRef.current = bookmarks;
   const list = useMemo(() => {
+    const lm = latestRef.current, bm = bookmarksRef.current;
     let l = base;
     if (filter === "legacy") l = l.filter((q) => q.audit.legacy);
-    if (filter === "notStudied") l = l.filter((q) => !latest.has(q.questionId));
-    if (filter === "saved") l = l.filter((q) => bookmarks.has(q.questionId));
-    if (filter === "confusing") l = l.filter((q) => latest.get(q.questionId) === "confusing");
+    if (filter === "notStudied") l = l.filter((q) => !lm.has(q.questionId));
+    if (filter === "saved") l = l.filter((q) => bm.has(q.questionId));
+    if (filter === "confusing") l = l.filter((q) => lm.get(q.questionId) === "confusing");
     const qn = norm(query).trim();
     if (qn) l = l.filter((q) => norm([q.englishQuestion, ...q.englishOptions.map((o) => o.text)].join(" ")).includes(qn));
     return l;
-  }, [base, filter, latest, bookmarks, query]);
+  }, [base, filter, query]);
   const catAll = useMemo(() => studyQuestions(lb, cat), [cat]);
   const studied = catAll.filter((q) => latest.has(q.questionId)).length;
   const idx = Math.min(i, Math.max(0, list.length - 1));
   const q = list[idx];
+  const sel = q && picked?.id === q.questionId ? picked.label : null;
   const res = q && sel ? checkStudyAnswer(q, sel) : null;
-  const go = (n: number) => { setI(Math.max(0, Math.min(list.length - 1, n))); setSel(null); };
+  const go = (n: number) => { setI(Math.max(0, Math.min(list.length - 1, n))); setPicked(null); };
   const mark = async (id: string, m: StudyMark) => { await storage.addMark({ questionId: id, mark: m, at: Date.now() }); await refresh(); };
-  const choose = (l: OptionLabel) => { setSel(l); if (q && !latest.has(q.questionId) && !q.audit.legacy) void mark(q.questionId, "studied"); };
+  const choose = (l: OptionLabel) => {
+    if (!q) return;
+    setPicked({ id: q.questionId, label: l });
+    if (!latest.has(q.questionId) && !q.audit.legacy) void mark(q.questionId, "studied");
+  };
   const count = (c: number | "all") => studyQuestions(lb, c).length;
   return (
     <Screen testID="study" safeTop>
       <Text accessibilityRole="header" style={{ color: p.text, fontSize: 28, fontWeight: "800" }}>Study</Text>
-      <TextInput value={query} onChangeText={(v) => { setQuery(v); setI(0); setSel(null); }} placeholder="🔍  Search questions…" placeholderTextColor={p.muted}
+      <TextInput value={query} onChangeText={(v) => { setQuery(v); setI(0); setPicked(null); }} placeholder="🔍  Search questions…" placeholderTextColor={p.muted}
         style={{ marginTop: 10, borderWidth: 1, borderColor: p.border, backgroundColor: p.surface, color: p.text, borderRadius: 14, paddingHorizontal: 12, paddingVertical: 11, fontSize: 16 }}
         accessibilityLabel="Search questions" autoCorrect={false} clearButtonMode="while-editing" testID="study-search" />
       <Pressable onPress={() => setPicker(true)} accessibilityRole="button" accessibilityLabel={`Category: ${cat === "all" ? "All categories" : categoryLabel(cat)}`} testID="study-category"
@@ -59,7 +73,7 @@ export function StudyScreen() {
         <Text style={{ color: p.muted }}>▾</Text>
       </Pressable>
       <View style={{ marginTop: 10 }}>
-        <Chips<Filter> value={filter} onChange={(f) => { setFilter(f); setI(0); setSel(null); }} items={[
+        <Chips<Filter> value={filter} onChange={(f) => { setFilter(f); setI(0); setPicked(null); }} items={[
           { key: "all", label: "All" },
           { key: "notStudied", label: `Not studied ${catAll.length - studied}` },
           { key: "saved", label: `★ Saved ${[...bookmarks].filter((b) => lb.byId.get(b)).length}` },
@@ -113,7 +127,7 @@ export function StudyScreen() {
             <Text style={{ color: p.text, fontWeight: "800", fontSize: 17, marginBottom: 8 }}>Category</Text>
             <ScrollView>
               {(["all", ...lb.bank.categories.map((c) => c.id)] as (number | "all")[]).map((c) => (
-                <Pressable key={String(c)} onPress={() => { setCat(c); setPicker(false); setI(0); setSel(null); }} accessibilityRole="button" accessibilityState={{ selected: cat === c }}
+                <Pressable key={String(c)} onPress={() => { setCat(c); setPicker(false); setI(0); setPicked(null); }} accessibilityRole="button" accessibilityState={{ selected: cat === c }}
                   style={{ paddingVertical: 13, borderBottomWidth: 1, borderBottomColor: p.border, flexDirection: "row", gap: 8 }}>
                   <Text style={{ color: cat === c ? p.accent : p.text, fontSize: 15, flex: 1, fontWeight: cat === c ? "800" : "500" }}>{c === "all" ? "All categories" : categoryLabel(c)}</Text>
                   <Text style={{ color: p.muted }}>{count(c)}</Text>

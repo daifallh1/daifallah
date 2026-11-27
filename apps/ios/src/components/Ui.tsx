@@ -8,11 +8,17 @@ export function Screen({ children, scroll = true, testID, safeTop }: { children:
   const p = usePalette();
   const insets = useSafeAreaInsets();
   const top = safeTop ? insets.top + 8 : 16;
-  if (!scroll) return <View style={{ flex: 1, backgroundColor: p.bg, padding: 16, paddingTop: top }} testID={testID}>{children}</View>;
+  // Opaque strip behind the status bar so scrolled content never shows under the clock/battery.
+  const shield = safeTop ? <View pointerEvents="none" style={{ position: "absolute", top: 0, left: 0, right: 0, height: insets.top, backgroundColor: p.bg }} /> : null;
+  if (!scroll) return <View style={{ flex: 1, backgroundColor: p.bg, padding: 16, paddingTop: top }} testID={testID}>{children}{shield}</View>;
   return (
-    <ScrollView style={{ backgroundColor: p.bg }} contentContainerStyle={{ padding: 16, paddingTop: top, paddingBottom: 48 }} testID={testID}>
-      {children}
-    </ScrollView>
+    <View style={{ flex: 1, backgroundColor: p.bg }}>
+      <ScrollView style={{ backgroundColor: p.bg }} contentContainerStyle={{ padding: 16, paddingTop: top, paddingBottom: 48 }} testID={testID}
+        scrollIndicatorInsets={safeTop ? { top: insets.top } : undefined}>
+        {children}
+      </ScrollView>
+      {shield}
+    </View>
   );
 }
 
