@@ -1,6 +1,6 @@
 "use client";
-import auditJson from "@itil5/content/import-audit.json";
-import coverageJson from "@itil5/content/translation-coverage.json";
+import auditJson from "@itil5/content/web/import-audit.json";
+import coverageJson from "@itil5/content/web/translation-coverage.json";
 import { categoryLabel, lb } from "@/lib/data";
 
 type Reason = { code: string; detail: string };

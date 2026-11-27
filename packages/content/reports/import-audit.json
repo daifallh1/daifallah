@@ -1,6 +1,6 @@
 {
  "reportType": "ImportAuditReport",
- "bankVersion": "1.0.0+32721183c4e52e10",
+ "bankVersion": "1.1.0+216726579ec3324b",
  "sourceDocument": "ITIL Foundation 11-05-26.pdf",
  "sourceDocumentSha256": "1d11798cd8d91fe100ed32690a95388a5cafe588b1aea495c76b4cbaaadce9bf",
  "syllabus": {
@@ -85,38 +85,34 @@
    71
   ],
   "answerKeyLines": 302,
-  "questionOccurrences": 302,
-  "occurrencesWithFourOptions": 302,
-  "occurrencesWithSourceExplanation": 282,
-  "occurrencesWithoutSourceExplanation": 20,
+  "questionOccurrences": 336,
+  "occurrencesWithFourOptions": 336,
+  "occurrencesWithSourceExplanation": 278,
+  "occurrencesWithoutSourceExplanation": 58,
   "occurrencesWithRefCitation": 82,
-  "distinctNormalizedStems": 242,
-  "duplicateStemGroups": 58,
-  "occurrencesInDuplicateGroups": 118,
-  "exclusionGroups": 236,
-  "nearDuplicatePairs": 7
+  "distinctNormalizedStems": 275,
+  "duplicateStemGroups": 59,
+  "occurrencesInDuplicateGroups": 120,
+  "exclusionGroups": 270,
+  "nearDuplicatePairs": 6
  },
  "statusCounts": {
-  "approved": 229,
-  "needs_review": 12,
+  "approved": 271,
   "out_of_scope": 13,
-  "duplicate": 48
+  "duplicate": 51,
+  "needs_review": 1
  },
- "examEligibleOccurrences": 229,
+ "examEligibleOccurrences": 271,
  "reviewReasonCounts": {
   "source_spelling_preserved": 20,
-  "no_source_explanation": 20,
-  "legacy_itil4_terminology": 9,
+  "no_source_explanation": 54,
+  "owner_correction": 14,
   "legacy_itil4_terminology_in_distractor": 5,
-  "duplicate_key_conflict": 4,
   "no_matching_v5_criterion": 3,
-  "identical_duplicate_removed": 48,
+  "identical_duplicate_removed": 51,
+  "legacy_itil4_terminology": 2,
   "legacy_itil4_value_chain": 2,
   "legacy_itil4_practice_detail": 9,
-  "possible_legacy_itil4_content": 1,
-  "duplicate_option_text": 2,
-  "truncated_option_text": 1,
-  "editorial_artifact": 2,
   "possible_content_accuracy_dispute": 1,
   "option_shaped_line_in_explanation": 1
  },
@@ -273,7 +269,7 @@
      "page": 44,
      "printedQuestionNumber": 190,
      "sourceAnswerKey": "D",
-     "relationToReference": "different_options_same_correct_text"
+     "relationToReference": "identical"
     }
    ]
   },
@@ -1069,7 +1065,7 @@
      "sourceOrdinal": 93,
      "page": 23,
      "printedQuestionNumber": 93,
-     "sourceAnswerKey": "A",
+     "sourceAnswerKey": "B",
      "relationToReference": "reference"
     },
     {
@@ -1077,7 +1073,7 @@
      "sourceOrdinal": 154,
      "page": 37,
      "printedQuestionNumber": 153,
-     "sourceAnswerKey": "A",
+     "sourceAnswerKey": "B",
      "relationToReference": "identical"
     }
    ]
@@ -1101,6 +1097,29 @@
      "page": 34,
      "printedQuestionNumber": 142,
      "sourceAnswerKey": "B",
+     "relationToReference": "identical"
+    }
+   ]
+  },
+  {
+   "duplicateGroupId": "dg-ab6a91e93b6caca2",
+   "normalizedStem": "what is the role of governance within the itil value system",
+   "size": 2,
+   "members": [
+    {
+     "questionId": "itilf5-1d11798cd8d9-o095",
+     "sourceOrdinal": 95,
+     "page": 23,
+     "printedQuestionNumber": 95,
+     "sourceAnswerKey": "C",
+     "relationToReference": "reference"
+    },
+    {
+     "questionId": "itilf5-1d11798cd8d9-o144",
+     "sourceOrdinal": 144,
+     "page": 34,
+     "printedQuestionNumber": 143,
+     "sourceAnswerKey": "C",
      "relationToReference": "identical"
     }
    ]
@@ -1330,8 +1349,8 @@
      "sourceOrdinal": 165,
      "page": 39,
      "printedQuestionNumber": 164,
-     "sourceAnswerKey": "C",
-     "relationToReference": "KEY_CONFLICT"
+     "sourceAnswerKey": "A",
+     "relationToReference": "identical"
     }
    ]
   },
@@ -1531,15 +1550,6 @@
    "bStem": "Which type of service relationship typically focuses on support and efficiency through standardized services?"
   },
   {
-   "a": "itilf5-1d11798cd8d9-o095",
-   "b": "itilf5-1d11798cd8d9-o144",
-   "ratio": 0.937,
-   "aPage": 23,
-   "bPage": 34,
-   "aStem": "What is the role of governance within the ITIL Value System?",
-   "bStem": "What is the role of governance within the ITIL Service Value System?"
-  },
-  {
    "a": "itilf5-1d11798cd8d9-o116",
    "b": "itilf5-1d11798cd8d9-o142",
    "ratio": 0.871,
@@ -1601,24 +1611,24 @@
   },
   "eligibleUniqueGroupsByCategoryAndBloom": {
    "1": {
-    "1": 33,
-    "2": 20
+    "1": 41,
+    "2": 24
    },
    "2": {
     "1": 0,
-    "2": 22
+    "2": 27
    },
    "3": {
-    "1": 16,
+    "1": 19,
     "2": 0
    },
    "4": {
-    "1": 29,
-    "2": 66
+    "1": 33,
+    "2": 82
    },
    "5": {
-    "1": 6,
-    "2": 8
+    "1": 7,
+    "2": 9
    },
    "6": {
     "1": 0,
@@ -1630,11 +1640,11 @@
    }
   },
   "eligibleUniqueGroupsByCategory": {
-   "1": 53,
-   "2": 22,
-   "3": 16,
-   "4": 95,
-   "5": 14,
+   "1": 65,
+   "2": 27,
+   "3": 19,
+   "4": 115,
+   "5": 16,
    "6": 1,
    "7": 13
   },
@@ -1651,37 +1661,6 @@
  },
  "quarantine": [
   {
-   "questionId": "itilf5-1d11798cd8d9-o058",
-   "page": 14,
-   "printedQuestionNumber": 58,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "legacy_itil4_terminology",
-     "severity": "blocking",
-     "detail": "ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option)"
-    }
-   ]
-  },
-  {
-   "questionId": "itilf5-1d11798cd8d9-o106",
-   "page": 26,
-   "printedQuestionNumber": 105,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "duplicate_key_conflict",
-     "severity": "blocking",
-     "detail": "Detected automatically by build_bank.py"
-    },
-    {
-     "code": "duplicate_key_conflict",
-     "severity": "blocking",
-     "detail": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically."
-    }
-   ]
-  },
-  {
    "questionId": "itilf5-1d11798cd8d9-o111",
    "page": 27,
    "printedQuestionNumber": 110,
@@ -1691,19 +1670,6 @@
      "code": "no_matching_v5_criterion",
      "severity": "out_of_scope",
      "detail": "Definition of \"change\"; no v5 Foundation assessment criterion defines change (4.4.4 covers release and test)."
-    }
-   ]
-  },
-  {
-   "questionId": "itilf5-1d11798cd8d9-o121",
-   "page": 29,
-   "printedQuestionNumber": 120,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "legacy_itil4_terminology",
-     "severity": "blocking",
-     "detail": "ITIL 4 term 'dimensions of service management' (v5: product and service management) (in stem or keyed option)"
     }
    ]
   },
@@ -1731,19 +1697,6 @@
    ]
   },
   {
-   "questionId": "itilf5-1d11798cd8d9-o144",
-   "page": 34,
-   "printedQuestionNumber": 143,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "legacy_itil4_terminology",
-     "severity": "blocking",
-     "detail": "ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option)"
-    }
-   ]
-  },
-  {
    "questionId": "itilf5-1d11798cd8d9-o148",
    "page": 35,
    "printedQuestionNumber": 147,
@@ -1766,19 +1719,6 @@
      "code": "legacy_itil4_practice_detail",
      "severity": "out_of_scope",
      "detail": "Purpose of the service configuration management practice (ITIL 4 practice detail; not a v5 Foundation criterion)."
-    }
-   ]
-  },
-  {
-   "questionId": "itilf5-1d11798cd8d9-o151",
-   "page": 36,
-   "printedQuestionNumber": 150,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "possible_legacy_itil4_content",
-     "severity": "blocking",
-     "detail": "\"Service relationship management\" practice wording; no direct v5 assessment criterion. Owner to confirm scope."
     }
    ]
   },
@@ -1848,24 +1788,6 @@
    ]
   },
   {
-   "questionId": "itilf5-1d11798cd8d9-o165",
-   "page": 39,
-   "printedQuestionNumber": 164,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "duplicate_key_conflict",
-     "severity": "blocking",
-     "detail": "Detected automatically by build_bank.py"
-    },
-    {
-     "code": "duplicate_key_conflict",
-     "severity": "blocking",
-     "detail": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically."
-    }
-   ]
-  },
-  {
    "questionId": "itilf5-1d11798cd8d9-o169",
    "page": 40,
    "printedQuestionNumber": 168,
@@ -1918,91 +1840,6 @@
    ]
   },
   {
-   "questionId": "itilf5-1d11798cd8d9-o191",
-   "page": 44,
-   "printedQuestionNumber": 190,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "duplicate_option_text",
-     "severity": "blocking",
-     "detail": "Detected automatically by build_bank.py"
-    },
-    {
-     "code": "duplicate_option_text",
-     "severity": "blocking",
-     "detail": "Options B and C are both \"Warranty\" in the source (verified on rendered page 44). Not four distinct options."
-    }
-   ]
-  },
-  {
-   "questionId": "itilf5-1d11798cd8d9-o195",
-   "page": 45,
-   "printedQuestionNumber": 194,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "truncated_option_text",
-     "severity": "blocking",
-     "detail": "Option C reads \"Product Vend\" in the source (verified on rendered page 45); appears truncated. Not completed."
-    }
-   ]
-  },
-  {
-   "questionId": "itilf5-1d11798cd8d9-o196",
-   "page": 46,
-   "printedQuestionNumber": 195,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "editorial_artifact",
-     "severity": "blocking",
-     "detail": "Add answer: D. The external partner providing technology."
-    },
-    {
-     "code": "editorial_artifact",
-     "severity": "blocking",
-     "detail": "Line \"Add answer: D. The external partner providing technology.\" precedes option A (verified on rendered page 46). Not inserted into the question; owner must decide."
-    }
-   ]
-  },
-  {
-   "questionId": "itilf5-1d11798cd8d9-o207",
-   "page": 48,
-   "printedQuestionNumber": 206,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "legacy_itil4_terminology",
-     "severity": "blocking",
-     "detail": "ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option)"
-    },
-    {
-     "code": "legacy_itil4_terminology",
-     "severity": "blocking",
-     "detail": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value)."
-    }
-   ]
-  },
-  {
-   "questionId": "itilf5-1d11798cd8d9-o208",
-   "page": 49,
-   "printedQuestionNumber": 207,
-   "status": "needs_review",
-   "reasons": [
-    {
-     "code": "legacy_itil4_terminology",
-     "severity": "blocking",
-     "detail": "ITIL 4 term 'service value system' (v5: ITIL Value System) (in stem or keyed option)"
-    },
-    {
-     "code": "legacy_itil4_terminology",
-     "severity": "blocking",
-     "detail": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value)."
-    }
-   ]
-  },
-  {
    "questionId": "itilf5-1d11798cd8d9-o212",
    "page": 49,
    "printedQuestionNumber": 211,
@@ -2024,6 +1861,16 @@
    "keptQuestionId": "itilf5-1d11798cd8d9-o003",
    "keptPage": 1,
    "keptPrintedQuestionNumber": 3,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o191",
+   "page": 44,
+   "printedQuestionNumber": 190,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o005",
+   "keptPage": 2,
+   "keptPrintedQuestionNumber": 5,
    "statusBeforeRemoval": "approved",
    "byteIdenticalText": true
   },
@@ -2328,6 +2175,16 @@
    "byteIdenticalText": true
   },
   {
+   "questionId": "itilf5-1d11798cd8d9-o144",
+   "page": 34,
+   "printedQuestionNumber": 143,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o095",
+   "keptPage": 23,
+   "keptPrintedQuestionNumber": 95,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": true
+  },
+  {
    "questionId": "itilf5-1d11798cd8d9-o145",
    "page": 34,
    "printedQuestionNumber": 144,
@@ -2428,6 +2285,16 @@
    "byteIdenticalText": true
   },
   {
+   "questionId": "itilf5-1d11798cd8d9-o165",
+   "page": 39,
+   "printedQuestionNumber": 164,
+   "keptQuestionId": "itilf5-1d11798cd8d9-o106",
+   "keptPage": 26,
+   "keptPrintedQuestionNumber": 105,
+   "statusBeforeRemoval": "approved",
+   "byteIdenticalText": false
+  },
+  {
    "questionId": "itilf5-1d11798cd8d9-o166",
    "page": 39,
    "printedQuestionNumber": 165,
@@ -2498,6 +2365,966 @@
    "byteIdenticalText": true
   }
  ],
+ "corrections": [
+  {
+   "questionId": "itilf5-1d11798cd8d9-o165",
+   "source": "pdf",
+   "printedQuestionNumber": 164,
+   "bookReference": "5.2.2",
+   "summary": "Answer key changed C -> A. 'Start where you are' asks for objective observation, e.g. people with no prior knowledge of the service ('fresh eyes'). Same question as printed #105 (key A); this copy then becomes an identical duplicate.",
+   "changedFields": [
+    "sourceAnswerKey",
+    "sourceExplanation"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o191",
+   "source": "pdf",
+   "printedQuestionNumber": 190,
+   "bookReference": "3.2.4",
+   "summary": "Option C was printed as a second 'Warranty'; replaced by 'User experience', the fourth of the book's four concepts (utility, warranty, user experience, sustainability).",
+   "changedFields": [
+    "englishOptions"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o195",
+   "source": "pdf",
+   "printedQuestionNumber": 194,
+   "bookReference": "3.2.1",
+   "summary": "Truncated option 'Product Vend' completed as 'Product Vendor' (the book's digital product vendor role).",
+   "changedFields": [
+    "englishOptions"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o196",
+   "source": "pdf",
+   "printedQuestionNumber": 195,
+   "bookReference": "3.2.1.1",
+   "summary": "Removed the stray editorial line 'Add answer: D. The external partner providing technology.'; key C (sponsor authorizes the budget) confirmed.",
+   "changedFields": [
+    "editorialArtifacts"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o058",
+   "source": "pdf",
+   "printedQuestionNumber": 58,
+   "bookReference": "5.1, 5.2.5",
+   "summary": "ITIL 4 term 'service value system' renamed to the Version 5 term 'ITIL Value System'.",
+   "changedFields": [
+    "englishOptions"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o144",
+   "source": "pdf",
+   "printedQuestionNumber": 143,
+   "bookReference": "5.1, 5.3",
+   "summary": "ITIL 4 term 'Service Value System' renamed to the Version 5 term 'ITIL Value System'.",
+   "changedFields": [
+    "englishQuestion",
+    "sourceExplanation"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o207",
+   "source": "pdf",
+   "printedQuestionNumber": 206,
+   "bookReference": "5.1",
+   "summary": "ITIL 4 term 'Service Value System' renamed to the Version 5 term 'ITIL Value System'. Inputs (opportunity and demand) confirmed.",
+   "changedFields": [
+    "englishQuestion"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o208",
+   "source": "pdf",
+   "printedQuestionNumber": 207,
+   "bookReference": "5.1",
+   "summary": "ITIL 4 term 'Service Value System' renamed to the Version 5 term 'ITIL Value System'. Outcome (value) confirmed.",
+   "changedFields": [
+    "englishQuestion"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o121",
+   "source": "pdf",
+   "printedQuestionNumber": 120,
+   "bookReference": "2.1",
+   "summary": "ITIL 4 term 'dimension of service management' renamed to the Version 5 term 'dimension of product and service management'.",
+   "changedFields": [
+    "englishQuestion"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o093",
+   "source": "pdf",
+   "printedQuestionNumber": 93,
+   "bookReference": "2.3.2",
+   "summary": "Answer key changed A -> B. The book places handling complexity through experimentation (probe, sense, respond) in the 'value streams and processes' dimension. Medium confidence: the book does not use the exact words 'safe-to-fail'.",
+   "changedFields": [
+    "sourceAnswerKey",
+    "sourceExplanation"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o154",
+   "source": "pdf",
+   "printedQuestionNumber": 153,
+   "bookReference": "2.3.2",
+   "summary": "Answer key changed A -> B, as for printed #93 (same question).",
+   "changedFields": [
+    "sourceAnswerKey",
+    "sourceExplanation"
+   ]
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o299",
+   "source": "pdf",
+   "printedQuestionNumber": 298,
+   "bookReference": "7.3.2",
+   "summary": "Answer key changed D -> C (owner decision). The book describes projects as time-bound initiatives that introduce new or changed products and services; the dump keys the same question C twice.",
+   "changedFields": [
+    "sourceAnswerKey",
+    "sourceExplanation"
+   ]
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o025",
+   "source": "dump",
+   "printedQuestionNumber": 25,
+   "bookReference": "4.9.1 (Table 4.9)",
+   "summary": "Answer key changed D (Operate) -> B (Support). In the book, incident resolution belongs to the 'support' activity.",
+   "changedFields": [
+    "sourceAnswerKey"
+   ]
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o012",
+   "source": "dump",
+   "printedQuestionNumber": 12,
+   "bookReference": "2.1",
+   "summary": "ITIL 4 term 'dimension of service management' renamed to the Version 5 term 'dimension of product and service management'.",
+   "changedFields": [
+    "englishQuestion"
+   ]
+  }
+ ],
+ "dumpImport": [
+  {
+   "dumpNumber": 1,
+   "page": 1,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o087",
+   "closestPdfPrintedNumber": 87,
+   "stemSimilarity": 0.756,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 2,
+   "page": 1,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o301",
+   "closestPdfPrintedNumber": 301,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 3,
+   "page": 1,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o237",
+   "closestPdfPrintedNumber": 236,
+   "stemSimilarity": 0.667,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 4,
+   "page": 1,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o104",
+   "closestPdfPrintedNumber": 103,
+   "stemSimilarity": 0.862,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 5,
+   "page": 2,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o184",
+   "closestPdfPrintedNumber": 183,
+   "stemSimilarity": 0.578,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 6,
+   "page": 2,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o114",
+   "closestPdfPrintedNumber": 113,
+   "stemSimilarity": 0.738,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 7,
+   "page": 2,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o069",
+   "closestPdfPrintedNumber": 69,
+   "stemSimilarity": 0.727,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 8,
+   "page": 2,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o087",
+   "closestPdfPrintedNumber": 87,
+   "stemSimilarity": 0.614,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 9,
+   "page": 2,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o042",
+   "closestPdfPrintedNumber": 42,
+   "stemSimilarity": 0.574,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 10,
+   "page": 3,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o014",
+   "closestPdfPrintedNumber": 14,
+   "stemSimilarity": 0.735,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 11,
+   "page": 3,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o084",
+   "closestPdfPrintedNumber": 84,
+   "stemSimilarity": 0.544,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 12,
+   "page": 3,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o009",
+   "closestPdfPrintedNumber": 9,
+   "stemSimilarity": 0.538,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 13,
+   "page": 3,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o270",
+   "closestPdfPrintedNumber": 269,
+   "stemSimilarity": 0.447,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 14,
+   "page": 3,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o017",
+   "closestPdfPrintedNumber": 17,
+   "stemSimilarity": 0.787,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 15,
+   "page": 4,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o018",
+   "closestPdfPrintedNumber": 18,
+   "stemSimilarity": 0.546,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 16,
+   "page": 4,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o205",
+   "closestPdfPrintedNumber": 204,
+   "stemSimilarity": 0.795,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 17,
+   "page": 4,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o023",
+   "closestPdfPrintedNumber": 23,
+   "stemSimilarity": 0.497,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 18,
+   "page": 4,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o008",
+   "closestPdfPrintedNumber": 8,
+   "stemSimilarity": 0.626,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 19,
+   "page": 5,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o237",
+   "closestPdfPrintedNumber": 236,
+   "stemSimilarity": 0.571,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 20,
+   "page": 5,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o032",
+   "closestPdfPrintedNumber": 32,
+   "stemSimilarity": 0.587,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 21,
+   "page": 5,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o041",
+   "closestPdfPrintedNumber": 41,
+   "stemSimilarity": 0.494,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 22,
+   "page": 5,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o225",
+   "closestPdfPrintedNumber": 224,
+   "stemSimilarity": 0.508,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 23,
+   "page": 5,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o041",
+   "closestPdfPrintedNumber": 41,
+   "stemSimilarity": 0.686,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 24,
+   "page": 6,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o053",
+   "closestPdfPrintedNumber": 53,
+   "stemSimilarity": 0.767,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 25,
+   "page": 6,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o031",
+   "closestPdfPrintedNumber": 31,
+   "stemSimilarity": 0.517,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 26,
+   "page": 6,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o201",
+   "closestPdfPrintedNumber": 200,
+   "stemSimilarity": 0.562,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 27,
+   "page": 6,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o184",
+   "closestPdfPrintedNumber": 183,
+   "stemSimilarity": 0.683,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 28,
+   "page": 7,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o188",
+   "closestPdfPrintedNumber": 187,
+   "stemSimilarity": 0.776,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 29,
+   "page": 7,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o007",
+   "closestPdfPrintedNumber": 7,
+   "stemSimilarity": 0.588,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 30,
+   "page": 7,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o254",
+   "closestPdfPrintedNumber": 253,
+   "stemSimilarity": 0.554,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 31,
+   "page": 7,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o095",
+   "closestPdfPrintedNumber": 95,
+   "stemSimilarity": 0.58,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 32,
+   "page": 7,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o195",
+   "closestPdfPrintedNumber": 194,
+   "stemSimilarity": 0.943,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 33,
+   "page": 8,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o030",
+   "closestPdfPrintedNumber": 30,
+   "stemSimilarity": 0.733,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 34,
+   "page": 8,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o187",
+   "closestPdfPrintedNumber": 186,
+   "stemSimilarity": 0.724,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 35,
+   "page": 8,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o100",
+   "closestPdfPrintedNumber": 100,
+   "stemSimilarity": 0.8,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 36,
+   "page": 8,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o299",
+   "closestPdfPrintedNumber": 298,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 37,
+   "page": 9,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o022",
+   "closestPdfPrintedNumber": 22,
+   "stemSimilarity": 0.372,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 38,
+   "page": 9,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o110",
+   "closestPdfPrintedNumber": 109,
+   "stemSimilarity": 0.994,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 39,
+   "page": 9,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o102",
+   "closestPdfPrintedNumber": 102,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 40,
+   "page": 9,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o084",
+   "closestPdfPrintedNumber": 84,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 41,
+   "page": 9,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o104",
+   "closestPdfPrintedNumber": 103,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 42,
+   "page": 10,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o095",
+   "closestPdfPrintedNumber": 95,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 43,
+   "page": 10,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o109",
+   "closestPdfPrintedNumber": 108,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 44,
+   "page": 10,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o114",
+   "closestPdfPrintedNumber": 113,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 45,
+   "page": 10,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o101",
+   "closestPdfPrintedNumber": 101,
+   "stemSimilarity": 0.951,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 46,
+   "page": 10,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o080",
+   "closestPdfPrintedNumber": 80,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 47,
+   "page": 11,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o082",
+   "closestPdfPrintedNumber": 82,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 48,
+   "page": 11,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o120",
+   "closestPdfPrintedNumber": 119,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 49,
+   "page": 11,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o111",
+   "closestPdfPrintedNumber": 110,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 50,
+   "page": 11,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o299",
+   "closestPdfPrintedNumber": 298,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 51,
+   "page": 12,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o100",
+   "closestPdfPrintedNumber": 100,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 52,
+   "page": 12,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o106",
+   "closestPdfPrintedNumber": 105,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 53,
+   "page": 12,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o085",
+   "closestPdfPrintedNumber": 85,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 54,
+   "page": 12,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o090",
+   "closestPdfPrintedNumber": 90,
+   "stemSimilarity": 0.98,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 55,
+   "page": 12,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o094",
+   "closestPdfPrintedNumber": 94,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 56,
+   "page": 13,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o081",
+   "closestPdfPrintedNumber": 81,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 57,
+   "page": 13,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o088",
+   "closestPdfPrintedNumber": 88,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 58,
+   "page": 13,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o091",
+   "closestPdfPrintedNumber": 91,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 59,
+   "page": 13,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o089",
+   "closestPdfPrintedNumber": 89,
+   "stemSimilarity": 0.987,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 60,
+   "page": 14,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o083",
+   "closestPdfPrintedNumber": 83,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 61,
+   "page": 14,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o103",
+   "closestPdfPrintedNumber": 103,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 62,
+   "page": 14,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o097",
+   "closestPdfPrintedNumber": 97,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 63,
+   "page": 14,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o105",
+   "closestPdfPrintedNumber": 104,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 64,
+   "page": 15,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o176",
+   "closestPdfPrintedNumber": 176,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 65,
+   "page": 15,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o087",
+   "closestPdfPrintedNumber": 87,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 66,
+   "page": 15,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o112",
+   "closestPdfPrintedNumber": 111,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 67,
+   "page": 15,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o108",
+   "closestPdfPrintedNumber": 107,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 68,
+   "page": 15,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o098",
+   "closestPdfPrintedNumber": 98,
+   "stemSimilarity": 0.997,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 69,
+   "page": 16,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o175",
+   "closestPdfPrintedNumber": 175,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 70,
+   "page": 16,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o099",
+   "closestPdfPrintedNumber": 99,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 71,
+   "page": 16,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o079",
+   "closestPdfPrintedNumber": 79,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 72,
+   "page": 16,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o107",
+   "closestPdfPrintedNumber": 106,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 73,
+   "page": 17,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o086",
+   "closestPdfPrintedNumber": 86,
+   "stemSimilarity": 0.933,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 74,
+   "page": 17,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o096",
+   "closestPdfPrintedNumber": 96,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 75,
+   "page": 17,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o092",
+   "closestPdfPrintedNumber": 92,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  },
+  {
+   "dumpNumber": 76,
+   "page": 17,
+   "imported": true,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o113",
+   "closestPdfPrintedNumber": 112,
+   "stemSimilarity": 0.791,
+   "decision": "imported as a new question"
+  },
+  {
+   "dumpNumber": 77,
+   "page": 17,
+   "imported": false,
+   "closestPdfQuestion": "itilf5-1d11798cd8d9-o093",
+   "closestPdfPrintedNumber": 93,
+   "stemSimilarity": 1.0,
+   "decision": "not imported: same or near-same question already in the bank"
+  }
+ ],
+ "fixedExams": [
+  {
+   "examId": "fixed-1",
+   "title": "Exam 1",
+   "durationMinutes": 60,
+   "passMark": 28,
+   "passPercent": 65,
+   "categoryCounts": {
+    "1": 11,
+    "2": 5,
+    "3": 3,
+    "4": 19,
+    "5": 3,
+    "7": 2
+   },
+   "bloomCounts": {
+    "1": 16,
+    "2": 27
+   }
+  },
+  {
+   "examId": "fixed-2",
+   "title": "Exam 2",
+   "durationMinutes": 60,
+   "passMark": 28,
+   "passPercent": 65,
+   "categoryCounts": {
+    "1": 11,
+    "2": 5,
+    "3": 3,
+    "4": 19,
+    "5": 3,
+    "7": 2
+   },
+   "bloomCounts": {
+    "1": 16,
+    "2": 27
+   }
+  },
+  {
+   "examId": "fixed-3",
+   "title": "Exam 3",
+   "durationMinutes": 60,
+   "passMark": 28,
+   "passPercent": 65,
+   "categoryCounts": {
+    "1": 11,
+    "2": 4,
+    "3": 4,
+    "4": 19,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "bloomCounts": {
+    "1": 17,
+    "2": 26
+   }
+  },
+  {
+   "examId": "fixed-4",
+   "title": "Exam 4",
+   "durationMinutes": 60,
+   "passMark": 28,
+   "passPercent": 65,
+   "categoryCounts": {
+    "1": 11,
+    "2": 4,
+    "3": 3,
+    "4": 20,
+    "5": 2,
+    "7": 3
+   },
+   "bloomCounts": {
+    "1": 18,
+    "2": 25
+   }
+  },
+  {
+   "examId": "fixed-5",
+   "title": "Exam 5",
+   "durationMinutes": 60,
+   "passMark": 28,
+   "passPercent": 65,
+   "categoryCounts": {
+    "1": 11,
+    "2": 4,
+    "3": 3,
+    "4": 19,
+    "5": 3,
+    "7": 2
+   },
+   "bloomCounts": {
+    "1": 19,
+    "2": 23
+   }
+  },
+  {
+   "examId": "fixed-6",
+   "title": "Exam 6",
+   "durationMinutes": 60,
+   "passMark": 28,
+   "passPercent": 65,
+   "categoryCounts": {
+    "1": 10,
+    "2": 5,
+    "3": 3,
+    "4": 19,
+    "5": 3,
+    "7": 2
+   },
+   "bloomCounts": {
+    "1": 17,
+    "2": 25
+   }
+  }
+ ],
+ "supplementaryExplanations": 45,
  "noSourceExplanation": [
   {
    "questionId": "itilf5-1d11798cd8d9-o032",
@@ -2515,6 +3342,11 @@
    "printedQuestionNumber": 37
   },
   {
+   "questionId": "itilf5-1d11798cd8d9-o093",
+   "page": 23,
+   "printedQuestionNumber": 93
+  },
+  {
    "questionId": "itilf5-1d11798cd8d9-o120",
    "page": 29,
    "printedQuestionNumber": 119
@@ -2523,6 +3355,11 @@
    "questionId": "itilf5-1d11798cd8d9-o121",
    "page": 29,
    "printedQuestionNumber": 120
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o154",
+   "page": 37,
+   "printedQuestionNumber": 153
   },
   {
    "questionId": "itilf5-1d11798cd8d9-o158",
@@ -2548,6 +3385,11 @@
    "questionId": "itilf5-1d11798cd8d9-o162",
    "page": 38,
    "printedQuestionNumber": 161
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o165",
+   "page": 39,
+   "printedQuestionNumber": 164
   },
   {
    "questionId": "itilf5-1d11798cd8d9-o168",
@@ -2598,6 +3440,181 @@
    "questionId": "itilf5-1d11798cd8d9-o177",
    "page": 41,
    "printedQuestionNumber": 177
+  },
+  {
+   "questionId": "itilf5-1d11798cd8d9-o299",
+   "page": 70,
+   "printedQuestionNumber": 298
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o001",
+   "page": 1,
+   "printedQuestionNumber": 1
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o003",
+   "page": 1,
+   "printedQuestionNumber": 3
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o005",
+   "page": 2,
+   "printedQuestionNumber": 5
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o006",
+   "page": 2,
+   "printedQuestionNumber": 6
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o007",
+   "page": 2,
+   "printedQuestionNumber": 7
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o008",
+   "page": 2,
+   "printedQuestionNumber": 8
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o009",
+   "page": 2,
+   "printedQuestionNumber": 9
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o010",
+   "page": 3,
+   "printedQuestionNumber": 10
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o011",
+   "page": 3,
+   "printedQuestionNumber": 11
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o012",
+   "page": 3,
+   "printedQuestionNumber": 12
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o013",
+   "page": 3,
+   "printedQuestionNumber": 13
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o014",
+   "page": 3,
+   "printedQuestionNumber": 14
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o015",
+   "page": 4,
+   "printedQuestionNumber": 15
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o016",
+   "page": 4,
+   "printedQuestionNumber": 16
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o017",
+   "page": 4,
+   "printedQuestionNumber": 17
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o018",
+   "page": 4,
+   "printedQuestionNumber": 18
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o019",
+   "page": 5,
+   "printedQuestionNumber": 19
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o020",
+   "page": 5,
+   "printedQuestionNumber": 20
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o021",
+   "page": 5,
+   "printedQuestionNumber": 21
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o022",
+   "page": 5,
+   "printedQuestionNumber": 22
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o023",
+   "page": 5,
+   "printedQuestionNumber": 23
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o024",
+   "page": 6,
+   "printedQuestionNumber": 24
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o025",
+   "page": 6,
+   "printedQuestionNumber": 25
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o026",
+   "page": 6,
+   "printedQuestionNumber": 26
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o027",
+   "page": 6,
+   "printedQuestionNumber": 27
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o028",
+   "page": 7,
+   "printedQuestionNumber": 28
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o029",
+   "page": 7,
+   "printedQuestionNumber": 29
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o030",
+   "page": 7,
+   "printedQuestionNumber": 30
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o031",
+   "page": 7,
+   "printedQuestionNumber": 31
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o033",
+   "page": 8,
+   "printedQuestionNumber": 33
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o034",
+   "page": 8,
+   "printedQuestionNumber": 34
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o035",
+   "page": 8,
+   "printedQuestionNumber": 35
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o037",
+   "page": 9,
+   "printedQuestionNumber": 37
+  },
+  {
+   "questionId": "itilf5-92e44064df18-o076",
+   "page": 17,
+   "printedQuestionNumber": 76
   }
  ],
  "classificationMethod": "Each occurrence was read by the auditor and mapped to one v5.0 assessment criterion. Bloom level defaults to the criterion's BL column; overrides are listed with a note. Classification is metadata only and never edits source text.",

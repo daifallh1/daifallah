@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 // Answer keys come from the same committed bank the deployment was built from (used only to drive answers).
-const bank = JSON.parse(readFileSync(resolve(__dirname, "../../../packages/content/build/bank.json"), "utf8"));
+const bank = JSON.parse(readFileSync(resolve(__dirname, "../../../packages/content/web-frozen/bank.json"), "utf8"));
 const keyOf = new Map<string, string>(bank.questions.map((q: { questionId: string; sourceAnswerKey: string }) => [q.questionId, q.sourceAnswerKey]));
 const shot = (n: string) => `../../docs/screenshots/vercel-iphone-webkit/${n}.png`;
 

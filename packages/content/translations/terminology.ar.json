@@ -1,0 +1,19 @@
+{
+ "_doc": "Arabic terminology alignment with the instructor's bilingual course notes (ITIL 5 Foundation, Mohammed Alomary), owner request 2026-11-27. Applied by tools/audit/build_bank.py to every Arabic content string when the bank is built; enPattern (regex) limits a rule to strings whose English matches, so generic words are not changed. Counts per rule are written to reports/translation-coverage.json.",
+ "rules": [
+  {"from": "المنظمات والأفراد", "to": "المنظمة والأشخاص", "term": "organizations and people"},
+  {"from": "المنظمة والأفراد", "to": "المنظمة والأشخاص", "term": "organizations and people"},
+  {"from": "مسارات القيمة والعمليات", "to": "تدفقات القيمة والعمليات", "term": "value streams and processes"},
+  {"from": "مسارات القيمة", "to": "تدفقات القيمة", "term": "value streams"},
+  {"from": "مسار القيمة", "to": "تدفق القيمة", "term": "value stream"},
+  {"from": "مسار قيمة", "to": "تدفق قيمة", "term": "value stream"},
+  {"from": "الاكتشاف", "to": "الاستكشاف", "term": "discover (lifecycle activity)", "enPattern": "[‘'\"“]discover[’'\"”]|\\bDiscover\\b|discover activity|discovery, design"},
+  {"from": " اكتشاف", "to": " استكشاف", "term": "discover (lifecycle activity)", "enPattern": "[‘'\"“]discover[’'\"”]|\\bDiscover\\b|discover activity|discovery, design"},
+  {"from": "التقديم", "to": "التسليم", "term": "deliver (lifecycle activity)", "enPattern": "[‘'\"“]deliver[’'\"”]|\\bDeliver\\b|deliver activity|operate, deliver"},
+  {"from": "التقدم بشكل تكراري مع التغذية الراجعة", "to": "التقدم بشكل تدريجي مع التغذية الراجعة", "term": "progress iteratively with feedback"},
+  {"from": "التقدم بشكل تكراري", "to": "التقدم بشكل تدريجي", "term": "progress iteratively with feedback", "enPattern": "(?i)progress iteratively"},
+  {"from": "التفكير والعمل بشكل شمولي", "to": "فكّر واعمل بشكل شمولي", "term": "think and work holistically"},
+  {"from": "اجعله بسيطًا وعمليًا", "to": "اجعلها بسيطة وعملية", "term": "keep it simple and practical"},
+  {"from": "التحسين والأتمتة", "to": "حسّن وأتمت", "term": "optimize and automate", "enPattern": "(?i)optimi[sz]e and automate"}
+ ]
+}

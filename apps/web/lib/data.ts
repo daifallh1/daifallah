@@ -1,5 +1,5 @@
-import bankJson from "@itil5/content/bank.json";
-import trJson from "@itil5/content/translations.ar.json";
+import bankJson from "@itil5/content/web/bank.json";
+import trJson from "@itil5/content/web/translations.ar.json";
 import { createTranslator, loadBank, loadTranslations } from "@itil5/core";
 
 /** Bank + Arabic overlay are bundled into the app so they work offline (no network translation calls). */

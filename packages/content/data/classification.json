@@ -843,9 +843,9 @@
   "criterion": "4.2.3",
   "confidence": "high",
   "bloomOverride": null,
-  "statusOverride": "needs_review",
-  "reasonCode": "duplicate_key_conflict",
-  "note": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically."
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically. Resolved 2026-11-27 by owner-approved correction/confirmation against the Official Book (see data/corrections.json)."
  },
  "107": {
   "criterion": "4.2.4",
@@ -1200,12 +1200,12 @@
   "note": "Purpose of the service configuration management practice (ITIL 4 practice detail; not a v5 Foundation criterion)."
  },
  "151": {
-  "criterion": null,
-  "confidence": "low",
+  "criterion": "1.3.5",
+  "confidence": "medium",
   "bloomOverride": null,
-  "statusOverride": "needs_review",
-  "reasonCode": "possible_legacy_itil4_content",
-  "note": "\"Service relationship management\" practice wording; no direct v5 assessment criterion. Owner to confirm scope."
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "\"Service relationship management\" practice wording; no direct v5 assessment criterion. Owner to confirm scope. Resolved 2026-11-27 by owner-approved correction/confirmation against the Official Book (see data/corrections.json)."
  },
  "152": {
   "criterion": "1.4.6",
@@ -1315,9 +1315,9 @@
   "criterion": "4.2.3",
   "confidence": "high",
   "bloomOverride": null,
-  "statusOverride": "needs_review",
-  "reasonCode": "duplicate_key_conflict",
-  "note": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically."
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Same stem and identical options appear at p.26 (key A) and p.39 (key C). Source keys conflict; neither is corrected automatically. Resolved 2026-11-27 by owner-approved correction/confirmation against the Official Book (see data/corrections.json)."
  },
  "166": {
   "criterion": "4.2.4",
@@ -1523,9 +1523,9 @@
   "criterion": "1.4.11",
   "confidence": "medium",
   "bloomOverride": null,
-  "statusOverride": "needs_review",
-  "reasonCode": "duplicate_option_text",
-  "note": "Options B and C are both \"Warranty\" in the source (verified on rendered page 44). Not four distinct options."
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Options B and C are both \"Warranty\" in the source (verified on rendered page 44). Not four distinct options. Resolved 2026-11-27 by owner-approved correction/confirmation against the Official Book (see data/corrections.json)."
  },
  "192": {
   "criterion": "1.4.2",
@@ -1555,17 +1555,17 @@
   "criterion": "1.4.1",
   "confidence": "medium",
   "bloomOverride": null,
-  "statusOverride": "needs_review",
-  "reasonCode": "truncated_option_text",
-  "note": "Option C reads \"Product Vend\" in the source (verified on rendered page 45); appears truncated. Not completed."
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Option C reads \"Product Vend\" in the source (verified on rendered page 45); appears truncated. Not completed. Resolved 2026-11-27 by owner-approved correction/confirmation against the Official Book (see data/corrections.json)."
  },
  "196": {
   "criterion": "1.4.4",
   "confidence": "high",
   "bloomOverride": null,
-  "statusOverride": "needs_review",
-  "reasonCode": "editorial_artifact",
-  "note": "Line \"Add answer: D. The external partner providing technology.\" precedes option A (verified on rendered page 46). Not inserted into the question; owner must decide."
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Line \"Add answer: D. The external partner providing technology.\" precedes option A (verified on rendered page 46). Not inserted into the question; owner must decide. Resolved 2026-11-27 by owner-approved correction/confirmation against the Official Book (see data/corrections.json)."
  },
  "197": {
   "criterion": "1.4.3",
@@ -1651,17 +1651,17 @@
   "criterion": "4.1.2",
   "confidence": "medium",
   "bloomOverride": null,
-  "statusOverride": "needs_review",
-  "reasonCode": "legacy_itil4_terminology",
-  "note": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value)."
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value). Resolved 2026-11-27 by owner-approved correction/confirmation against the Official Book (see data/corrections.json)."
  },
  "208": {
   "criterion": "4.1.2",
   "confidence": "medium",
   "bloomOverride": null,
-  "statusOverride": "needs_review",
-  "reasonCode": "legacy_itil4_terminology",
-  "note": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value)."
+  "statusOverride": null,
+  "reasonCode": null,
+  "note": "Uses ITIL 4 \"Service Value System\" inputs/outcome model (opportunity/demand -> value). Resolved 2026-11-27 by owner-approved correction/confirmation against the Official Book (see data/corrections.json)."
  },
  "209": {
   "criterion": "4.3.1",

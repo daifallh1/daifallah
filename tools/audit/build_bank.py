@@ -109,6 +109,91 @@ def main() -> int:
     tr = load_translations()
 
     assert len(occ) == len(cls), "classification must cover every occurrence"
+    for o in occ:
+        o["sourceKind"] = "pdf"
+        o["_cls"] = cls[str(o["sourceOrdinal"])]
+
+    # ---------- pre-correction self-check: automated detectors fire on the ORIGINAL source text ----------
+    by_ord0 = {o["sourceOrdinal"]: o for o in occ}
+    a0, b0 = by_ord0[106], by_ord0[165]
+    assert norm(a0["englishQuestion"]) == norm(b0["englishQuestion"]) and a0["sourceAnswerKey"] != b0["sourceAnswerKey"], "key-conflict detector baseline"
+    t191 = [norm(x["text"]) for x in by_ord0[191]["englishOptions"]]
+    assert len(set(t191)) < 4, "duplicate-option detector baseline"
+    assert by_ord0[196]["editorialArtifacts"], "editorial-artifact detector baseline"
+
+    # ---------- second source: dump questions selected for import ----------
+    dump_doc = json.loads((CONTENT / "data" / "dump-occurrences.json").read_text(encoding="utf-8"))
+    dump_cls = json.loads((CONTENT / "data" / "dump-classification.json").read_text(encoding="utf-8"))["questions"]
+    dump_sha12 = dump_doc["sourceDocumentSha256"][:12]
+    for d in dump_doc["questions"]:
+        c = dump_cls.get(str(d["dumpNumber"]))
+        if not c or not c.get("import"):
+            continue
+        occ.append({
+            "questionId": f"itilf5-{dump_sha12}-o{d['dumpNumber']:03d}",
+            "sourceDocument": dump_doc["sourceDocument"],
+            "sourceDocumentSha256": dump_doc["sourceDocumentSha256"],
+            "sourcePage": d["sourcePage"],
+            "sourcePagesSpanned": d["sourcePagesSpanned"],
+            "sourceRegion": [{"page": d["sourcePage"], "firstLine": 0, "lastLine": 0, "bbox": d["bbox"]}],
+            "sourceOrdinal": d["dumpNumber"],
+            "printedQuestionNumber": d["dumpNumber"],
+            "englishQuestion": d["englishQuestion"],
+            "englishOptions": d["englishOptions"],
+            "sourceAnswerKey": d["sourceAnswerKey"],
+            "sourceExplanation": None,
+            "sourceReferenceText": None,
+            "editorialArtifacts": [],
+            "extractionAnomalies": [{"code": "no_source_explanation"}],
+            "sourceKind": "dump",
+            "_cls": {"criterion": c["criterion"], "confidence": c["confidence"], "bloomOverride": c["bloomOverride"],
+                     "statusOverride": None, "reasonCode": None, "note": c.get("note") or ""},
+        })
+
+    # ---------- owner-approved corrections (checked against the Official Book) ----------
+    corr_doc = json.loads((CONTENT / "data" / "corrections.json").read_text(encoding="utf-8"))
+    applied_corrections = []
+    for cr_ in corr_doc["corrections"]:
+        tgt = next((o for o in occ if o["sourceKind"] == cr_["source"] and o["sourceOrdinal"] == cr_["ordinal"]), None)
+        assert tgt is not None, f"correction target missing: {cr_['source']} #{cr_['ordinal']}"
+        assert tgt["printedQuestionNumber"] == cr_["printed"], f"printed number mismatch for {cr_}"
+        orig = {}
+        if cr_.get("answerKey"):
+            assert cr_["answerKey"] != tgt["sourceAnswerKey"]
+            orig["sourceAnswerKey"] = tgt["sourceAnswerKey"]
+            tgt["sourceAnswerKey"] = cr_["answerKey"]
+        if cr_.get("options"):
+            orig["englishOptions"] = [dict(x) for x in tgt["englishOptions"]]
+            tgt["englishOptions"] = [{"label": x["label"], "text": cr_["options"].get(x["label"], x["text"])} for x in tgt["englishOptions"]]
+        if cr_.get("replace"):
+            hit = False
+            for a, b in cr_["replace"]:
+                if a in tgt["englishQuestion"]:
+                    orig.setdefault("englishQuestion", tgt["englishQuestion"])
+                    tgt["englishQuestion"] = tgt["englishQuestion"].replace(a, b); hit = True
+                if any(a in x["text"] for x in tgt["englishOptions"]):
+                    orig.setdefault("englishOptions", [dict(x) for x in tgt["englishOptions"]])
+                    tgt["englishOptions"] = [{"label": x["label"], "text": x["text"].replace(a, b)} for x in tgt["englishOptions"]]; hit = True
+                if tgt["sourceExplanation"] and a in tgt["sourceExplanation"]:
+                    orig.setdefault("sourceExplanation", tgt["sourceExplanation"])
+                    tgt["sourceExplanation"] = tgt["sourceExplanation"].replace(a, b)
+            assert hit, f"replacement text not found in {cr_}"
+        if cr_.get("removeEditorialArtifacts"):
+            orig["editorialArtifacts"] = tgt["editorialArtifacts"]
+            tgt["editorialArtifacts"] = []
+            tgt["extractionAnomalies"] = [x for x in tgt["extractionAnomalies"] if x["code"] != "editorial_artifact"]
+        if cr_.get("dropExplanation") and tgt["sourceExplanation"]:
+            orig.setdefault("sourceExplanation", tgt["sourceExplanation"])
+            tgt["sourceExplanation"] = None
+            tgt["sourceReferenceText"] = None
+        tgt["correction"] = {"label": "معدّل", "labelEn": "Corrected", "bookReference": cr_["bookReference"],
+                             "summary": cr_["summary"], "summaryAr": cr_["summaryAr"], "original": orig}
+        applied_corrections.append({"questionId": tgt["questionId"], "source": cr_["source"], "printedQuestionNumber": cr_["printed"],
+                                    "bookReference": cr_["bookReference"], "summary": cr_["summary"], "changedFields": sorted(orig)})
+
+    supp_file = CONTENT / "data" / "supplementary-explanations.json"
+    supp = json.loads(supp_file.read_text(encoding="utf-8"))["explanations"] if supp_file.exists() else {}
+
     n = len(occ)
 
     # ---------- duplicate analysis ----------
@@ -168,7 +253,7 @@ def main() -> int:
     # ---------- per-occurrence audit ----------
     questions = []
     for i, o in enumerate(occ):
-        c = cls[str(o["sourceOrdinal"])]
+        c = o["_cls"]
         reasons: list[dict] = []
         opts = o["englishOptions"]
         # extraction anomalies
@@ -180,7 +265,7 @@ def main() -> int:
             elif a["code"] == "possible_swallowed_question":
                 reasons.append({"code": a["code"], "severity": "blocking", "detail": a["text"]})
             elif a["code"] == "no_source_explanation":
-                reasons.append({"code": "no_source_explanation", "severity": "info", "detail": "The PDF has no explanation for this occurrence."})
+                reasons.append({"code": "no_source_explanation", "severity": "info", "detail": "The source has no explanation for this occurrence."})
             elif a["code"] == "option_shaped_line_in_explanation":
                 reasons.append({"code": a["code"], "severity": "info", "detail": a["text"]})
         # duplicate option text
@@ -236,11 +321,18 @@ def main() -> int:
         seen = set()
         reasons = [r for r in reasons if not ((r["code"], r["detail"]) in seen or seen.add((r["code"], r["detail"])))]
 
+        if o.get("correction"):
+            reasons.append({"code": "owner_correction", "severity": "info",
+                            "detail": f"Corrected against the Official Book {o['correction']['bookReference']}: {o['correction']['summary']}"})
         cr = crit.get(c["criterion"]) if c["criterion"] else None
         bloom = c["bloomOverride"] or (cr["bl"] if cr else None)
         stem_key = norm(o["englishQuestion"])
+        sx = supp.get(o["questionId"])
+        if sx and o["sourceExplanation"]:
+            raise SystemExit(f"supplementary explanation given for {o['questionId']}, which has a source explanation")
         q = {
             "questionId": o["questionId"],
+            "sourceKind": o["sourceKind"],
             "sourceDocument": o["sourceDocument"],
             "sourceDocumentSha256": o["sourceDocumentSha256"],
             "sourcePage": o["sourcePage"],
@@ -254,10 +346,14 @@ def main() -> int:
             "sourceExplanation": o["sourceExplanation"],
             "sourceReferenceText": o["sourceReferenceText"],
             "editorialArtifacts": o["editorialArtifacts"],
+            "correction": o.get("correction"),
+            "supplementaryExplanation": ({"text": sx["text"], "bookReference": sx["bookReference"], "author": "ai",
+                                          "note": "AI-written from the ITIL Foundation Version 5 Official Book; not part of the source."} if sx else None),
             "i18n": {
                 "question": text_key(o["englishQuestion"]),
                 "options": {x["label"]: text_key(x["text"]) for x in opts},
                 "explanation": text_key(o["sourceExplanation"]) if o["sourceExplanation"] else None,
+                "supplementaryExplanation": text_key(sx["text"]) if sx else None,
             },
             "audit": {
                 "derived": True,
@@ -270,6 +366,7 @@ def main() -> int:
                 "confidence": c["confidence"],
                 "classificationNote": c["note"] or None,
                 "contentStatus": status,
+                "legacy": status == "out_of_scope",
                 "reviewReasons": reasons,
                 "duplicateGroupId": "dg-" + h16(stem_key),
                 "duplicateGroupSize": len(stem_groups[stem_key]),
@@ -313,6 +410,7 @@ def main() -> int:
                               and [o["text"] for o in q["englishOptions"]] == [o["text"] for o in kq["englishOptions"]])
             q["audit"]["contentStatus"] = "duplicate"
             q["audit"]["duplicateOf"] = kq["questionId"]
+            q["audit"]["legacy"] = False
             q["audit"]["reviewReasons"].append({
                 "code": "identical_duplicate_removed", "severity": "info",
                 "detail": f"Identical to {kq['questionId']} (p.{kq['sourcePage']}, printed #{kq['printedQuestionNumber']}); "
@@ -329,12 +427,17 @@ def main() -> int:
         refs += [(f"option{x['label']}", x["text"], q["i18n"]["options"][x["label"]]) for x in q["englishOptions"]]
         if q["sourceExplanation"]:
             refs.append(("explanation", q["sourceExplanation"], q["i18n"]["explanation"]))
+        if q["supplementaryExplanation"]:
+            refs.append(("supplementaryExplanation", q["supplementaryExplanation"]["text"], q["i18n"]["supplementaryExplanation"]))
         for field, en, key in refs:
             needed.setdefault(key, {"en": en, "fields": set(), "statuses": set()})
             needed[key]["fields"].add(field)
             needed[key]["statuses"].add(q["audit"]["contentStatus"])
     bad_links = []
     out_tr = {}
+    term_file = CONTENT / "translations" / "terminology.ar.json"
+    term_rules = json.loads(term_file.read_text(encoding="utf-8"))["rules"] if term_file.exists() else []
+    term_counts = Counter()
     for key, v in needed.items():
         t = tr.get(key)
         if t is None:
@@ -342,7 +445,12 @@ def main() -> int:
         if t["en"] != v["en"]:
             bad_links.append({"key": key, "reason": "English text in translation file does not match bank text"})
             continue
-        out_tr[key] = {"en": v["en"], "ar": t["ar"]}
+        ar = t["ar"]
+        for rule in term_rules:
+            if rule["from"] in ar and (not rule.get("enPattern") or re.search(rule["enPattern"], v["en"])):
+                term_counts[f"{rule['from']} -> {rule['to']}"] += ar.count(rule["from"])
+                ar = ar.replace(rule["from"], rule["to"])
+        out_tr[key] = {"en": v["en"], "ar": ar}
     ui = {}
     ui_file = CONTENT / "translations" / "ui.ar.json"
     if ui_file.exists():
@@ -355,6 +463,8 @@ def main() -> int:
         pairs = [("question", q["i18n"]["question"])] + [(f"option", q["i18n"]["options"][L]) for L in "ABCD"]
         if q["i18n"]["explanation"]:
             pairs.append(("explanation", q["i18n"]["explanation"]))
+        if q["i18n"]["supplementaryExplanation"]:
+            pairs.append(("supplementaryExplanation", q["i18n"]["supplementaryExplanation"]))
         complete = True
         for f, k in pairs:
             per_field[f]["required"] += 1
@@ -365,7 +475,7 @@ def main() -> int:
         q["audit"]["translationComplete"] = complete
     for q in questions:
         if q["audit"]["contentStatus"] != "approved":
-            keys = [q["i18n"]["question"], *q["i18n"]["options"].values()] + ([q["i18n"]["explanation"]] if q["i18n"]["explanation"] else [])
+            keys = [q["i18n"]["question"], *q["i18n"]["options"].values()] + [k for k in (q["i18n"]["explanation"], q["i18n"]["supplementaryExplanation"]) if k]
             q["audit"]["translationComplete"] = all(k in out_tr for k in keys)
         q["audit"]["examEligible"] = (q["audit"]["contentStatus"] == "approved" and q["audit"]["syllabusCategory"] is not None
                                       and q["audit"]["bloomLevel"] in (1, 2) and q["audit"]["translationComplete"])
@@ -402,10 +512,12 @@ def main() -> int:
     # ---------- write ----------
     status_counts = Counter(q["audit"]["contentStatus"] for q in questions)
     reason_counts = Counter(r["code"] for q in questions for r in q["audit"]["reviewReasons"])
-    bank_hash = h16(json.dumps([[q["questionId"], q["englishQuestion"], q["englishOptions"], q["sourceAnswerKey"], q["sourceExplanation"]] for q in questions], ensure_ascii=False))
+    bank_hash = h16(json.dumps([[q["questionId"], q["englishQuestion"], q["englishOptions"], q["sourceAnswerKey"], q["sourceExplanation"],
+                                 (q["supplementaryExplanation"] or {}).get("text"), q["audit"]["contentStatus"]] for q in questions], ensure_ascii=False))
+    fixed_exams = build_fixed_exams(questions, cats)
     meta = {
         "schemaVersion": 1,
-        "bankVersion": f"1.0.0+{bank_hash}",
+        "bankVersion": f"1.1.0+{bank_hash}",
         "bankContentHash": bank_hash,
         "sourceDocument": occ_doc["sourceDocument"],
         "sourceDocumentSha256": occ_doc["sourceDocumentSha256"],
@@ -413,9 +525,13 @@ def main() -> int:
         "examSpec": syl["examSpec"],
         "categories": syl["categories"],
         "criteria": syl["criteria"],
-        "notice": "Independent practice tool. Not affiliated with, endorsed by, or an official product of PeopleCert or AXELOS. ITIL® is a registered trademark of PeopleCert. Questions are reproduced verbatim from the owner-supplied PDF.",
+        "notice": "Independent practice tool. Not affiliated with, endorsed by, or an official product of PeopleCert or AXELOS. ITIL® is a registered trademark of PeopleCert. Questions are reproduced verbatim from the owner-supplied PDFs; owner-approved corrections are labelled 'معدّل' and keep the original text.",
+        "sources": [
+            {"kind": "pdf", "document": occ_doc["sourceDocument"], "sha256": occ_doc["sourceDocumentSha256"]},
+            {"kind": "dump", "document": dump_doc["sourceDocument"], "sha256": dump_doc["sourceDocumentSha256"]},
+        ],
     }
-    bank = {**meta, "questionCount": len(questions), "questions": questions}
+    bank = {**meta, "fixedExams": fixed_exams, "questionCount": len(questions), "questions": questions}
     (CONTENT / "build").mkdir(parents=True, exist_ok=True)
     (CONTENT / "build" / "bank.json").write_text(json.dumps(bank, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (CONTENT / "build" / "translations.ar.json").write_text(json.dumps({"language": "ar", "bankVersion": meta["bankVersion"], "content": dict(sorted(out_tr.items())), "ui": ui}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -431,6 +547,7 @@ def main() -> int:
         "uniqueStringsTranslated": len(out_tr),
         "uiStrings": len(ui),
         "brokenTranslationLinks": bad_links,
+        "terminologyAlignment": {"source": "translations/terminology.ar.json (instructor course notes)", "replacements": dict(sorted(term_counts.items()))},
         "missing": missing_tr,
     }
     (CONTENT / "reports" / "translation-coverage.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -472,6 +589,10 @@ def main() -> int:
             for q in questions if q["audit"]["contentStatus"] not in ("approved", "duplicate")
         ],
         "removedIdenticalDuplicates": removed_dups,
+        "corrections": applied_corrections,
+        "dumpImport": dump_import_report(dump_doc, dump_cls, questions),
+        "fixedExams": [{k: v for k, v in e.items() if k != "questionIds"} | {"categoryCounts": e["categoryCounts"], "bloomCounts": e["bloomCounts"]} for e in fixed_exams],
+        "supplementaryExplanations": sum(1 for q in questions if q["supplementaryExplanation"]),
         "noSourceExplanation": [{"questionId": q["questionId"], "page": q["sourcePage"], "printedQuestionNumber": q["printedQuestionNumber"]} for q in questions if not q["sourceExplanation"]],
         "classificationMethod": "Each occurrence was read by the auditor and mapped to one v5.0 assessment criterion. Bloom level defaults to the criterion's BL column; overrides are listed with a note. Classification is metadata only and never edits source text.",
         "duplicateMethod": "Stems normalised by NFKC, lower-casing, quote unification and removal of non-alphanumerics; identical normalised stems form a duplicate group. Near-duplicates (difflib ratio >= 0.85 AND correct-option text similarity >= 0.9) are merged into exclusion groups used only to prevent repeats within one exam.",
@@ -480,15 +601,91 @@ def main() -> int:
     write_md(audit, coverage, questions)
 
     # ---------- self-checks: automated detectors must agree with curated quarantine ----------
-    by_ord = {q["sourceOrdinal"]: q for q in questions}
-    for o, code in [(106, "duplicate_key_conflict"), (165, "duplicate_key_conflict"), (191, "duplicate_option_text"), (196, "editorial_artifact")]:
-        codes = {r["code"] for r in by_ord[o]["audit"]["reviewReasons"] if "automatically" in r["detail"] or r["code"] == "editorial_artifact"}
-        assert code in codes, f"automated detector missed {code} on ordinal {o}"
-        assert by_ord[o]["audit"]["contentStatus"] != "approved"
+    # The detector baselines were asserted on the original text above; every flagged item must now carry an
+    # owner correction (or have been confirmed), and nothing still blocked may be served.
+    by_ord = {q["sourceOrdinal"]: q for q in questions if q["sourceKind"] == "pdf"}
+    for o in (165, 191, 196):
+        assert by_ord[o]["correction"], f"ordinal {o} was flagged by a detector but has no correction record"
+    assert by_ord[212]["audit"]["contentStatus"] == "needs_review", "printed #211 must stay quarantined"
+    for q in questions:
+        if q["audit"]["contentStatus"] == "approved":
+            assert not [r for r in q["audit"]["reviewReasons"] if r["severity"] in ("blocking", "incomplete", "out_of_scope")]
+    seen_fixed = [i for e in fixed_exams for i in e["questionIds"]]
+    assert len(seen_fixed) == len(set(seen_fixed)), "fixed exams overlap"
     print(json.dumps({"status": dict(status_counts), "eligible": audit["examEligibleOccurrences"],
                       "dupGroups": len(dup_detail), "exclusionGroups": len(roots), "blueprintFeasible": feasible,
-                      "cells": cell, "translated": f"{len(out_tr)}/{len(needed)}"}, indent=None))
+                      "cells": cell, "translated": f"{len(out_tr)}/{len(needed)}",
+                      "fixedExams": [len(e["questionIds"]) for e in fixed_exams], "corrections": len(applied_corrections),
+                      "supplementary": audit["supplementaryExplanations"],
+                      "missingExplanation": sum(1 for q in questions if q["audit"]["contentStatus"] == "approved" and not q["sourceExplanation"] and not q["supplementaryExplanation"])}, indent=None))
     return 0
+
+
+def build_fixed_exams(questions: list[dict], cat_targets: dict) -> list[dict]:
+    """Six fixed exams that together cover every distinct exam-eligible question exactly once.
+
+    One question per exclusion group (near-duplicate variants stay out), sorted by category, Bloom level
+    and source position, then dealt across the six exams in a serpentine order so each exam gets a
+    balanced category/Bloom mix. Exam sizes differ by at most one question. Pass mark = 65% rounded up.
+    """
+    reps: dict[str, dict] = {}
+    for q in questions:
+        a = q["audit"]
+        if not a["examEligible"]:
+            continue
+        g = a["exclusionGroupId"]
+        cur = reps.get(g)
+        key = (0 if q["sourceKind"] == "pdf" else 1, q["sourceOrdinal"])
+        if cur is None or key < (0 if cur["sourceKind"] == "pdf" else 1, cur["sourceOrdinal"]):
+            reps[g] = q
+    pool = sorted(reps.values(), key=lambda q: (q["audit"]["syllabusCategory"], q["audit"]["bloomLevel"],
+                                                 0 if q["sourceKind"] == "pdf" else 1, q["sourceOrdinal"]))
+    k = 6
+    buckets: list[list[dict]] = [[] for _ in range(k)]
+    size_cap = [len(pool) // k + (1 if i < len(pool) % k else 0) for i in range(k)]
+    cat_n = [Counter() for _ in range(k)]
+    cell_n = [Counter() for _ in range(k)]
+    # Greedy balancing: each question goes to the exam with the fewest questions of its category,
+    # then of its (category, Bloom) cell, then the fewest questions overall, never above the size cap.
+    for q in pool:
+        c, b = q["audit"]["syllabusCategory"], q["audit"]["bloomLevel"]
+        choices = [i for i in range(k) if len(buckets[i]) < size_cap[i]]
+        i = min(choices, key=lambda i: (cat_n[i][c], cell_n[i][(c, b)], len(buckets[i]), i))
+        buckets[i].append(q)
+        cat_n[i][c] += 1
+        cell_n[i][(c, b)] += 1
+    out = []
+    for i, b in enumerate(buckets, start=1):
+        rng = __import__("random").Random(1000 + i)
+        ids = [q["questionId"] for q in b]
+        rng.shuffle(ids)
+        n = len(ids)
+        out.append({
+            "examId": f"fixed-{i}",
+            "title": f"Exam {i}",
+            "questionIds": ids,
+            "durationMinutes": 60,
+            "passMark": -(-65 * n // 100),
+            "passPercent": 65,
+            "categoryCounts": dict(sorted(Counter(q["audit"]["syllabusCategory"] for q in b).items())),
+            "bloomCounts": dict(sorted(Counter(q["audit"]["bloomLevel"] for q in b).items())),
+        })
+    return out
+
+
+def dump_import_report(dump_doc: dict, dump_cls: dict, questions: list[dict]) -> list[dict]:
+    pdf_qs = [q for q in questions if q["sourceKind"] == "pdf"]
+    rows = []
+    for d in dump_doc["questions"]:
+        stem = norm(d["englishQuestion"])
+        best = max(pdf_qs, key=lambda q: difflib.SequenceMatcher(None, stem, norm(q["englishQuestion"])).ratio())
+        ratio = difflib.SequenceMatcher(None, stem, norm(best["englishQuestion"])).ratio()
+        imported = bool(dump_cls.get(str(d["dumpNumber"]), {}).get("import"))
+        rows.append({"dumpNumber": d["dumpNumber"], "page": d["sourcePage"], "imported": imported,
+                     "closestPdfQuestion": best["questionId"], "closestPdfPrintedNumber": best["printedQuestionNumber"],
+                     "stemSimilarity": round(ratio, 3),
+                     "decision": "imported as a new question" if imported else "not imported: same or near-same question already in the bank"})
+    return rows
 
 
 def write_md(a, cov, qs):

@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { Page } from "@playwright/test";
 
-const bank = JSON.parse(readFileSync(resolve(__dirname, "../../../packages/content/build/bank.json"), "utf8"));
+const bank = JSON.parse(readFileSync(resolve(__dirname, "../../../packages/content/web-frozen/bank.json"), "utf8"));
 const keyById = new Map<string, string>(bank.questions.map((q: { questionId: string; sourceAnswerKey: string }) => [q.questionId, q.sourceAnswerKey]));
 export const keyOf = (id: string) => keyById.get(id)!;
 

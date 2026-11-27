@@ -1,0 +1,28 @@
+{
+ "bankVersion": "1.0.0+32721183c4e52e10",
+ "approvedPerField": {
+  "question": {
+   "required": 276,
+   "translated": 276,
+   "percent": 100.0
+  },
+  "option": {
+   "required": 1104,
+   "translated": 1104,
+   "percent": 100.0
+  },
+  "explanation": {
+   "required": 266,
+   "translated": 266,
+   "percent": 100.0
+  }
+ },
+ "approvedQuestionsFullyTranslated": 276,
+ "approvedQuestions": 276,
+ "allOccurrencesFullyTranslated": 302,
+ "uniqueStringsNeeded": 1330,
+ "uniqueStringsTranslated": 1330,
+ "uiStrings": 82,
+ "brokenTranslationLinks": [],
+ "missing": []
+}

@@ -49,7 +49,7 @@ test("installed PWA keeps working offline (bank + Arabic bundled)", async ({ pag
 test("audit page shows quarantine and counts", async ({ page }) => {
   await page.goto("/audit/");
   await expect(page.getByText("answerKeyLines")).toBeVisible();
-  await expect(page.getByText(/Quarantined \/ excluded items \(25\)/)).toBeVisible();
+  await expect(page.getByText(/Quarantined \/ excluded items \(26\)/)).toBeVisible();
   await expect(page.getByText(/editorial_artifact/).first()).toBeVisible();
   await page.screenshot({ path: "../../docs/screenshots/web/audit-1280.png" });
 });

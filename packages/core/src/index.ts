@@ -8,3 +8,5 @@ export * from "./analytics";
 export * from "./i18n";
 export * from "./storage";
 export * from "./study";
+export * from "./mistakes";
+export * from "./fixed";

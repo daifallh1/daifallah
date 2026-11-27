@@ -14,7 +14,7 @@ export interface ProgressSummary {
   latest: { score: number; total: number; percent: number; passed: boolean | null; submittedAt: number } | null;
   last7: WindowSummary;
   last30: WindowSummary;
-  trend: { submittedAt: number; percent: number }[];
+  trend: { submittedAt: number; percent: number; passed: boolean | null; mode: string; examId?: string }[];
   byCategory: { category: number; correct: number; total: number; accuracy: number }[];
   frequentlyMissed: { questionId: string; timesWrong: number; timesSeen: number }[];
 }
@@ -33,7 +33,8 @@ function windowSummary(exams: Attempt[], now: number, days: number): WindowSumma
 
 /** Pure function of stored attempts. Returns nulls (never placeholder numbers) when there is no data. */
 export function summarize(attempts: Attempt[], now: number): ProgressSummary {
-  const exams = attempts.filter((a) => a.mode === "exam" && a.passed !== null).sort((a, b) => a.submittedAt - b.submittedAt);
+  // Graded exams: random 40-question exams and the six fixed exams (mistakes exams are reported separately).
+  const exams = attempts.filter((a) => (a.mode === "exam" || a.mode === "fixed") && a.passed !== null).sort((a, b) => a.submittedAt - b.submittedAt);
   const latest = exams[exams.length - 1];
   const cat = new Map<number, { correct: number; total: number }>();
   const missed = new Map<string, { timesWrong: number; timesSeen: number }>();
@@ -60,7 +61,7 @@ export function summarize(attempts: Attempt[], now: number): ProgressSummary {
       : null,
     last7: windowSummary(exams, now, 7),
     last30: windowSummary(exams, now, 30),
-    trend: exams.map((a) => ({ submittedAt: a.submittedAt, percent: pct(a) })),
+    trend: exams.map((a) => ({ submittedAt: a.submittedAt, percent: pct(a), passed: a.passed, mode: a.mode, ...(a.examId ? { examId: a.examId } : {}) })),
     byCategory: [...cat.entries()]
       .sort((a, b) => a[0] - b[0])
       .map(([category, v]) => ({ category, ...v, accuracy: v.total ? v.correct / v.total : 0 })),

@@ -39,14 +39,43 @@ export const AuditMeta = z.object({
   exclusionGroupId: z.string(),
   exclusionGroupSize: z.number().int().positive(),
   /** questionId of the kept copy when this occurrence is a removed identical duplicate, else null. */
-  duplicateOf: z.string().nullable(),
+  duplicateOf: z.string().nullable().optional(),
+  /** ITIL 4 legacy item: shown in Study only (labelled), never in exams. */
+  legacy: z.boolean().optional(),
   stemFingerprint: z.string(),
   translationComplete: z.boolean(),
   examEligible: z.boolean(),
 });
 
+/** Owner-approved correction checked against the Official Book. The original source text is kept. */
+export const Correction = z.object({
+  label: z.string(),
+  labelEn: z.string(),
+  bookReference: z.string(),
+  summary: z.string(),
+  summaryAr: z.string(),
+  original: z.object({
+    englishQuestion: z.string().optional(),
+    englishOptions: z.array(z.object({ label: OptionLabel, text: z.string() })).optional(),
+    sourceAnswerKey: OptionLabel.optional(),
+    sourceExplanation: z.string().optional(),
+    editorialArtifacts: z.array(z.string()).optional(),
+  }),
+});
+export type Correction = z.infer<typeof Correction>;
+
+/** AI-written explanation based on the Official Book, used only where the source has none. */
+export const SupplementaryExplanation = z.object({
+  text: z.string().min(1),
+  bookReference: z.string(),
+  author: z.literal("ai"),
+  note: z.string(),
+});
+
 export const Question = z.object({
   questionId: z.string().regex(/^itilf5-[0-9a-f]{12}-o\d{3}$/),
+  /** "pdf" = ITIL Foundation 11-05-26.pdf, "dump" = second owner-supplied question file. */
+  sourceKind: z.enum(["pdf", "dump"]).optional(),
   sourceDocument: z.string(),
   sourceDocumentSha256: z.string().regex(/^[0-9a-f]{64}$/),
   sourcePage: z.number().int().positive(),
@@ -64,10 +93,13 @@ export const Question = z.object({
   sourceExplanation: z.string().nullable(),
   sourceReferenceText: z.string().nullable(),
   editorialArtifacts: z.array(z.string()),
+  correction: Correction.nullable().optional(),
+  supplementaryExplanation: SupplementaryExplanation.nullable().optional(),
   i18n: z.object({
     question: z.string(),
     options: z.object({ A: z.string(), B: z.string(), C: z.string(), D: z.string() }),
     explanation: z.string().nullable(),
+    supplementaryExplanation: z.string().nullable().optional(),
   }),
   audit: AuditMeta,
 });
@@ -80,6 +112,19 @@ export const Criterion = z.object({
   bl: z.union([z.literal(1), z.literal(2)]),
   text: z.string(),
 });
+
+/** One of the six fixed exams that together cover every distinct exam-eligible question once. */
+export const FixedExam = z.object({
+  examId: z.string(),
+  title: z.string(),
+  questionIds: z.array(z.string()).min(1),
+  durationMinutes: z.number().int().positive(),
+  passMark: z.number().int().positive(),
+  passPercent: z.number(),
+  categoryCounts: z.record(z.number().int()),
+  bloomCounts: z.record(z.number().int()),
+});
+export type FixedExam = z.infer<typeof FixedExam>;
 
 export const Bank = z.object({
   schemaVersion: z.literal(1),
@@ -104,6 +149,8 @@ export const Bank = z.object({
   categories: z.array(z.object({ id: z.number().int(), name: z.string(), weight: z.number(), questions: z.number().int() })).length(7),
   criteria: z.array(Criterion),
   notice: z.string(),
+  sources: z.array(z.object({ kind: z.string(), document: z.string(), sha256: z.string() })).optional(),
+  fixedExams: z.array(FixedExam).optional(),
   questionCount: z.number().int(),
   questions: z.array(Question),
 });
@@ -135,7 +182,7 @@ export const AttemptItem = z.object({
 });
 export type AttemptItem = z.infer<typeof AttemptItem>;
 
-export const AttemptMode = z.enum(["exam", "mistakes"]);
+export const AttemptMode = z.enum(["exam", "mistakes", "fixed"]);
 export type AttemptMode = z.infer<typeof AttemptMode>;
 
 export const Attempt = z.object({
@@ -148,6 +195,10 @@ export const Attempt = z.object({
   elapsedMs: z.number(),
   submittedBy: z.enum(["user", "timer"]),
   blueprintCompliant: z.boolean(),
+  /** For mode "fixed": which fixed exam (e.g. "fixed-3"). */
+  examId: z.string().optional(),
+  /** Pass mark used for this attempt (score >= passMark passes). Absent on older attempts. */
+  passMark: z.number().int().optional(),
   items: z.array(AttemptItem),
   score: z.number().int(),
   total: z.number().int(),

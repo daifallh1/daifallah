@@ -1,0 +1,185 @@
+{
+ "_doc": "Supplementary explanations for approved questions whose source has no usable explanation. AI-written (Claude) from the ITIL Foundation Version 5 Official Book; each cites the book section it is based on. Shown in the app with an 'AI-written' label, never as source text.",
+ "explanations": {
+  "itilf5-1d11798cd8d9-o032": {
+   "bookReference": "4.4.1",
+   "text": "The book defines the purpose of the ‘acquire’ activity as securing and allocating necessary resources efficiently, ensuring the sustainability and scalability of products and services. Resolving incidents belongs to ‘support’, onboarding users to ‘deliver’, and creating prototypes to ‘build’."
+  },
+  "itilf5-1d11798cd8d9-o035": {
+   "bookReference": "4.9",
+   "text": "The book defines an incident as an unplanned interruption to a service or reduction in the quality of a service. A flaw or vulnerability that may cause incidents is an error, and a cause of one or more incidents is a problem."
+  },
+  "itilf5-1d11798cd8d9-o037": {
+   "bookReference": "4.5.2",
+   "text": "Continuous integration is a set of techniques and tools that enables developers to frequently merge their code changes into a central repository, followed by automated builds and tests. Automatically releasing every change into production is continuous deployment, not continuous integration."
+  },
+  "itilf5-1d11798cd8d9-o093": {
+   "bookReference": "2.3.2",
+   "text": "Section 2.3.2 (‘Optimizing workflows for complexity’) places complexity thinking in the ‘value streams and processes’ dimension: in complex situations outcomes cannot be predicted, so work is organized as small experiments whose results guide the next step. Safe-to-fail experiments are this kind of work design. The book does not use the exact phrase ‘safe-to-fail’ (owner-approved correction, medium confidence)."
+  },
+  "itilf5-1d11798cd8d9-o120": {
+   "bookReference": "2.5",
+   "text": "Every organization depends to some extent on services provided by other organizations. Engaging suppliers gives access to resources and capabilities the organization does not have or cannot efficiently develop itself. It increases reliance on third parties and still requires oversight and governance of the relationship."
+  },
+  "itilf5-1d11798cd8d9-o177": {
+   "bookReference": "2.5",
+   "text": "Every organization depends to some extent on services provided by other organizations. Engaging suppliers gives access to resources and capabilities the organization does not have or cannot efficiently develop itself. It increases reliance on third parties and still requires oversight and governance of the relationship."
+  },
+  "itilf5-1d11798cd8d9-o121": {
+   "bookReference": "2.5",
+   "text": "The ‘partners and suppliers’ dimension encompasses an organization’s relationships with other organizations involved in the discovery, design, build, transition, operation, delivery, support and continual improvement of products and services, including contracts and other agreements with them."
+  },
+  "itilf5-1d11798cd8d9-o168": {
+   "bookReference": "3.2.5",
+   "text": "A Service Level Agreement (SLA) is a documented agreement between a service provider and a customer that identifies both the services required and the agreed level of service, so it is where the required performance outcomes are defined."
+  },
+  "itilf5-1d11798cd8d9-o175": {
+   "bookReference": "4.4",
+   "text": "The book lists the quality of the resources and services sourced from suppliers among the key measures of the ‘acquire’ activity, whose purpose is to secure and allocate the necessary resources efficiently."
+  },
+  "itilf5-1d11798cd8d9-o176": {
+   "bookReference": "3.1.2",
+   "text": "A service offering is a formal description of one or more services, designed to address the needs of a target consumer group. An enterprise package that combines internet, VoIP, security and support is such an offering; it can include goods, access to resources and service actions."
+  },
+  "itilf5-1d11798cd8d9-o299": {
+   "bookReference": "7.3.2",
+   "text": "ITIL focuses on managing digital products and services, while PRINCE2 equips professionals to manage the projects that implement or transform those products and services. Projects are time-bound initiatives that introduce new or changed services; routine operations and governance authority are not their purpose. The source keyed D; changed to C by owner decision."
+  },
+  "itilf5-92e44064df18-o001": {
+   "bookReference": "3.1.2",
+   "text": "The book defines a service action as an action performed by a service provider, or jointly by a service provider and a service consumer (for example, fulfilling service requests, user training or consultations). Option D describes access to resources, and option A describes a digital service."
+  },
+  "itilf5-92e44064df18-o003": {
+   "bookReference": "5.2.6",
+   "text": "Trying to provide a solution for every exception often leads to over-complication. Designers cannot cover all exceptions, so the book advises designing rules that can be used to handle exceptions in general."
+  },
+  "itilf5-92e44064df18-o005": {
+   "bookReference": "3.2.4",
+   "text": "The book states that service level metrics fall into four categories: utility, warranty, sustainability and experience. Governance is not one of them."
+  },
+  "itilf5-92e44064df18-o006": {
+   "bookReference": "3.1.2",
+   "text": "A live training session delivered by the provider is a service action; user training is one of the book’s examples. Delivering a security token is a transfer of goods, and access to virtual machines or to a streaming platform is access to resources."
+  },
+  "itilf5-92e44064df18-o007": {
+   "bookReference": "4.9",
+   "text": "The book defines an error as a flaw or vulnerability that may cause incidents. An unplanned interruption to a service, or a reduction in its quality, is an incident."
+  },
+  "itilf5-92e44064df18-o008": {
+   "bookReference": "3.2.4",
+   "text": "Utility is the functionality offered by a product or service to meet a particular need. It is summarized as ‘what the service does’ and shows whether a service is ‘fit for purpose’. Assurance that a service meets agreed requirements is warranty, and the perceived interactions are user experience."
+  },
+  "itilf5-92e44064df18-o009": {
+   "bookReference": "3.2.1.1",
+   "text": "The customer is the role that defines the requirements for products and services and takes responsibility for the outcomes of service consumption. The sponsor authorizes the budget, and the user uses the service."
+  },
+  "itilf5-92e44064df18-o010": {
+   "bookReference": "5.2.8",
+   "text": "The guiding principles interact and depend on each other. An organization should consider all of them and judge which are relevant in each situation, rather than applying them in a fixed order or relying on only one or two."
+  },
+  "itilf5-92e44064df18-o011": {
+   "bookReference": "3.1.1.3",
+   "text": "The book gives ‘a service provider ceasing to operate or experiencing a security breach’ as an example of the risks imposed on a consumer by the service. The other options are risks that sit with the consumer organization itself."
+  },
+  "itilf5-92e44064df18-o012": {
+   "bookReference": "2.2",
+   "text": "The ‘organizations and people’ dimension covers organizational structure, culture, roles, skills and competencies. It makes sure the way the organization is structured and staffed supports its strategy and the creation of value."
+  },
+  "itilf5-92e44064df18-o013": {
+   "bookReference": "2.5",
+   "text": "Relationships between organizations range from formal contracts with clear separation of responsibilities to flexible partnerships, where the parties share common goals and risks and collaborate to achieve the desired outcomes."
+  },
+  "itilf5-92e44064df18-o014": {
+   "bookReference": "3.1.2",
+   "text": "A digital service is a service that fully or largely relies on digital products. Like every service, it enables value for consumers without transferring ownership. Option A is the definition of a digital product."
+  },
+  "itilf5-92e44064df18-o015": {
+   "bookReference": "2.3.1",
+   "text": "The book defines a value stream as a series of steps that an organization uses to create and deliver products and services to a service consumer."
+  },
+  "itilf5-92e44064df18-o016": {
+   "bookReference": "5.1",
+   "text": "The ITIL Value System is a model representing how all the components and activities of an organization work together to facilitate value creation through digital products and services."
+  },
+  "itilf5-92e44064df18-o017": {
+   "bookReference": "4.7.1",
+   "text": "Observability is the ability to understand the internal state of a complicated system by analysing its external outputs, such as metrics, logs and traces."
+  },
+  "itilf5-92e44064df18-o018": {
+   "bookReference": "2.3.2",
+   "text": "Complexity thinking is an approach to analysis and decision-making based on understanding the various levels of complexity in systems and their context. The book presents it in the ‘value streams and processes’ dimension (Section 2.3.2, ‘Optimizing workflows for complexity’)."
+  },
+  "itilf5-92e44064df18-o019": {
+   "bookReference": "5.2.5",
+   "text": "Applying ‘think and work holistically’ includes looking for patterns in the interactions between system elements. With this information, needs can be anticipated, standards can be set and a holistic viewpoint can be achieved."
+  },
+  "itilf5-92e44064df18-o020": {
+   "bookReference": "5.2.2",
+   "text": "‘Start where you are’ means not starting from scratch. First observe and assess what already exists (services, processes, resources and capabilities) and reuse what is valuable, then decide what to change."
+  },
+  "itilf5-92e44064df18-o021": {
+   "bookReference": "5.5.1 (Table 5.4)",
+   "text": "In the ITIL Official Practice Guides, the ‘partners and suppliers’ chapter describes the practice’s dependencies on third parties and the support it receives from them. Key information, automation and tooling are in the ‘information and technology’ chapter."
+  },
+  "itilf5-92e44064df18-o022": {
+   "bookReference": "5.2.4",
+   "text": "The book states that collaboration does not mean consensus: it is not necessary, nor even wise, to get everyone to agree before acting. Involving the right people, communicating in ways that suit each audience and deciding on visible data are part of the principle."
+  },
+  "itilf5-92e44064df18-o023": {
+   "bookReference": "5.2.3",
+   "text": "Feedback gathered throughout iterative work keeps improvement efforts aligned with changing needs and priorities. The book notes that working iteratively with feedback loops allows faster responses to customer and business needs."
+  },
+  "itilf5-92e44064df18-o024": {
+   "bookReference": "5.7",
+   "text": "A management practice is a set of organizational resources and capabilities designed and adopted for performing work or accomplishing an objective. Practices provide the resources and capabilities that value streams and value chain activities use."
+  },
+  "itilf5-92e44064df18-o025": {
+   "bookReference": "4.9.1 (Table 4.9)",
+   "text": "The purpose of the ‘support’ activity is to identify and resolve incidents, fulfil disaster recovery procedures and capture consumers’ feedback. The source keyed ‘Operate’; corrected to ‘Support’ by owner decision."
+  },
+  "itilf5-92e44064df18-o026": {
+   "bookReference": "4.7.1",
+   "text": "Site Reliability Engineering (SRE) is a technology management discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems."
+  },
+  "itilf5-92e44064df18-o027": {
+   "bookReference": "3.1.2",
+   "text": "Access to resources means the consumer uses the provider’s resources under agreed terms without any transfer of ownership, for example a user granted permission to use a cloud application. Training and on-site installation are service actions, and delivering laptops is a transfer of goods."
+  },
+  "itilf5-92e44064df18-o028": {
+   "bookReference": "4.8.2",
+   "text": "The book defines a service request as a request from a user, or a user’s authorized representative, that initiates a service action which has been agreed as a normal part of service delivery."
+  },
+  "itilf5-92e44064df18-o029": {
+   "bookReference": "2.4",
+   "text": "Data governance is a system of rules, policies, standards, processes and controls that organizations implement to manage their data assets effectively. The book describes it within the ‘information and technology’ dimension."
+  },
+  "itilf5-92e44064df18-o030": {
+   "bookReference": "7.1.2",
+   "text": "Value streams have variability and cannot be managed directly. The book states that continual improvement of value streams is achieved by improving the management practices that enable and support them, as well as the organization’s products and services."
+  },
+  "itilf5-92e44064df18-o031": {
+   "bookReference": "5.3, 5.6",
+   "text": "Governance is one of the components of the ITIL Value System. The guiding principles shape how governance is defined and applied, and continual improvement applies to every component, so governance stays aligned with stakeholder expectations over time."
+  },
+  "itilf5-92e44064df18-o033": {
+   "bookReference": "4.8.1",
+   "text": "The purpose of the ‘deliver’ activity is to provide services to users, manage user onboarding and offboarding, maintain service quality standards and gather consumers’ feedback."
+  },
+  "itilf5-92e44064df18-o034": {
+   "bookReference": "5.7, Appendix B",
+   "text": "Management practices enable and support the value chain activities. Each activity is supported by several practices, and one practice can contribute to several activities; Appendix B of the book maps them."
+  },
+  "itilf5-92e44064df18-o035": {
+   "bookReference": "3.2.2 (Table 3.1)",
+   "text": "In the book’s table of service relationship types, a basic relationship typically involves commercial off-the-shelf, out-of-the-box or highly standardized services. Customized services and a focus on innovation and growth are features of cooperative and partnership relationships."
+  },
+  "itilf5-92e44064df18-o037": {
+   "bookReference": "5.6.1.3",
+   "text": "After the current state has been assessed (‘Where are we now?’), setting a measurable target, here reducing call time from 10 to 3 minutes within six months, is the ‘Where do we want to be?’ step of the ITIL Continual Improvement Model."
+  },
+  "itilf5-92e44064df18-o076": {
+   "bookReference": "4.1",
+   "text": "The activities of the ITIL Product and Service Lifecycle are discover, design, acquire, build, transition, operate, deliver and support. ‘Agree’ is not one of them."
+  }
+ }
+}

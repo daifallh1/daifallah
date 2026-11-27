@@ -1,0 +1,2684 @@
+{
+ "sourceDocument": "ITIL5_Exam_Dump_Questions_26-10_1.pdf",
+ "sourceDocumentSha256": "92e44064df1872b074c1b56786afeb76a5c85e8f08fbb33718708f0e07d5a324",
+ "pageCount": 18,
+ "extractor": "pdfplumber 0.11.10",
+ "questionCount": 77,
+ "explanations": "none in source",
+ "wrapJoins": [
+  {
+   "question": 2,
+   "option": "D",
+   "continuation": "value"
+  },
+  {
+   "question": 14,
+   "option": "A",
+   "continuation": "consumers"
+  },
+  {
+   "question": 16,
+   "option": "C",
+   "continuation": "facilitate value creation through digital products and services"
+  },
+  {
+   "question": 31,
+   "option": "A",
+   "continuation": "aligns with stakeholder expectations"
+  },
+  {
+   "question": 45,
+   "option": "B",
+   "continuation": "decision"
+  },
+  {
+   "question": 47,
+   "option": "A",
+   "continuation": "customers"
+  },
+  {
+   "question": 49,
+   "option": "D",
+   "continuation": "service"
+  },
+  {
+   "question": 67,
+   "option": "D",
+   "continuation": "of products and services"
+  }
+ ],
+ "questions": [
+  {
+   "dumpNumber": 1,
+   "sourcePage": 1,
+   "sourcePagesSpanned": [
+    1
+   ],
+   "bbox": [
+    38.88,
+    151.24,
+    411.93,
+    296.15
+   ],
+   "englishQuestion": "Which BEST describes service actions?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Actions enabling value through digital products without transferring ownership"
+    },
+    {
+     "label": "B",
+     "text": "A combination of digital resources that provide consumer value"
+    },
+    {
+     "label": "C",
+     "text": "Actions performed by a service provider or jointly with a consumer"
+    },
+    {
+     "label": "D",
+     "text": "Consumer's access to a provider's resources according to agreed terms"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 2,
+   "sourcePage": 1,
+   "sourcePagesSpanned": [
+    1
+   ],
+   "bbox": [
+    38.88,
+    312.43,
+    520.05,
+    470.17
+   ],
+   "englishQuestion": "What is the purpose of the ITIL AI Capability Model?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To measure the performance of AI-enabled services against predefined service levels"
+    },
+    {
+     "label": "B",
+     "text": "To describe how organizations can assess and develop capabilities for effective use of AI"
+    },
+    {
+     "label": "C",
+     "text": "To prescribe specific AI technologies required for service development and management"
+    },
+    {
+     "label": "D",
+     "text": "To describe how service providers, service consumers, and other parties interact with AI to co-create value"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 3,
+   "sourcePage": 1,
+   "sourcePagesSpanned": [
+    1
+   ],
+   "bbox": [
+    38.88,
+    486.45,
+    438.02,
+    631.45
+   ],
+   "englishQuestion": "Which BEST describes the principle of 'keep it simple and practical'?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "All exceptions must be addressed with unique and detailed processes"
+    },
+    {
+     "label": "B",
+     "text": "Every product should include as many features as possible to handle all exceptions"
+    },
+    {
+     "label": "C",
+     "text": "Add as many steps as possible to ensure every exception is fully controlled"
+    },
+    {
+     "label": "D",
+     "text": "Solutions should be designed to handle exceptions through rules"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 4,
+   "sourcePage": 1,
+   "sourcePagesSpanned": [
+    1
+   ],
+   "bbox": [
+    38.88,
+    647.76,
+    390.75,
+    792.75
+   ],
+   "englishQuestion": "Which is a key success metric for 'transition' activity?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Service performance against the agreed SLA targets"
+    },
+    {
+     "label": "B",
+     "text": "Negative impact of changes on service availability and performance"
+    },
+    {
+     "label": "C",
+     "text": "Number and impact of incidents and performance deviations"
+    },
+    {
+     "label": "D",
+     "text": "Quality of the resources and services sourced from suppliers"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 5,
+   "sourcePage": 2,
+   "sourcePagesSpanned": [
+    2
+   ],
+   "bbox": [
+    38.88,
+    46.34,
+    376.83,
+    191.36
+   ],
+   "englishQuestion": "Which is NOT one of the four categories of service level metrics?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Governance"
+    },
+    {
+     "label": "B",
+     "text": "Sustainability"
+    },
+    {
+     "label": "C",
+     "text": "Warranty"
+    },
+    {
+     "label": "D",
+     "text": "Utility"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 6,
+   "sourcePage": 2,
+   "sourcePagesSpanned": [
+    2
+   ],
+   "bbox": [
+    38.88,
+    207.64,
+    436.3,
+    352.67
+   ],
+   "englishQuestion": "Which of the following is an example of a service action?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A digital learning platform conducting a live online training session for users"
+    },
+    {
+     "label": "B",
+     "text": "A software company delivering a hardware security token to the customer"
+    },
+    {
+     "label": "C",
+     "text": "A cloud service provider giving users access to virtual machines"
+    },
+    {
+     "label": "D",
+     "text": "A user accessing a streaming platform to watch movies"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 7,
+   "sourcePage": 2,
+   "sourcePagesSpanned": [
+    2
+   ],
+   "bbox": [
+    38.88,
+    368.95,
+    228.7,
+    513.97
+   ],
+   "englishQuestion": "What is an error?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "An unplanned interruption to a service"
+    },
+    {
+     "label": "B",
+     "text": "A flaw or vulnerability in a service"
+    },
+    {
+     "label": "C",
+     "text": "A reduction in the quality of a service"
+    },
+    {
+     "label": "D",
+     "text": "An event causing critical loss"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 8,
+   "sourcePage": 2,
+   "sourcePagesSpanned": [
+    2
+   ],
+   "bbox": [
+    38.88,
+    530.25,
+    513.52,
+    675.28
+   ],
+   "englishQuestion": "What BEST describes the concept of utility?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "The functional and emotional interactions with a service and provider as perceived by a stakeholder"
+    },
+    {
+     "label": "B",
+     "text": "The functionality offered by a product or service to meet a particular need"
+    },
+    {
+     "label": "C",
+     "text": "The assurance that helps determine whether a service is fit for use"
+    },
+    {
+     "label": "D",
+     "text": "The assurance that product or service will meet agreed requirements"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 9,
+   "sourcePage": 2,
+   "sourcePagesSpanned": [
+    2,
+    3
+   ],
+   "bbox": [
+    38.88,
+    691.56,
+    303.96,
+    783.15
+   ],
+   "englishQuestion": "What is the customer of a service responsible for?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Provisioning the service"
+    },
+    {
+     "label": "B",
+     "text": "Authorizing the budget for the service"
+    },
+    {
+     "label": "C",
+     "text": "Using the service"
+    },
+    {
+     "label": "D",
+     "text": "Defining the service requirements"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 10,
+   "sourcePage": 3,
+   "sourcePagesSpanned": [
+    3
+   ],
+   "bbox": [
+    38.88,
+    99.76,
+    370.4,
+    244.64
+   ],
+   "englishQuestion": "How should an organization apply the ITIL Guiding Principles?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Sequentially, according to a fixed order of priority"
+    },
+    {
+     "label": "B",
+     "text": "By considering the relevance of each principle in each situation"
+    },
+    {
+     "label": "C",
+     "text": "By relying on just one or two principles for efficiency"
+    },
+    {
+     "label": "D",
+     "text": "As optional suggestions, that can be ignored"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 11,
+   "sourcePage": 3,
+   "sourcePagesSpanned": [
+    3
+   ],
+   "bbox": [
+    38.88,
+    261.04,
+    371.7,
+    405.95
+   ],
+   "englishQuestion": "Which type of risk is imposed on consumers by a service?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Lack of staff availability in the consumer organization"
+    },
+    {
+     "label": "B",
+     "text": "The service provider ceasing to operate"
+    },
+    {
+     "label": "C",
+     "text": "Requirement for consumer staff training to use the service effectively"
+    },
+    {
+     "label": "D",
+     "text": "Failure of hardware owned and managed by the consumer"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 12,
+   "sourcePage": 3,
+   "sourcePagesSpanned": [
+    3
+   ],
+   "bbox": [
+    38.88,
+    422.35,
+    534.03,
+    579.97
+   ],
+   "englishQuestion": "Which dimension of service management is concerned with ensuring that a company's structure supports the fulfillment of strategic goals?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Organizations and people"
+    },
+    {
+     "label": "B",
+     "text": "Partners and suppliers"
+    },
+    {
+     "label": "C",
+     "text": "Information and technology"
+    },
+    {
+     "label": "D",
+     "text": "Value streams and processes"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 13,
+   "sourcePage": 3,
+   "sourcePagesSpanned": [
+    3
+   ],
+   "bbox": [
+    38.88,
+    596.25,
+    519.52,
+    753.87
+   ],
+   "englishQuestion": "In the 'partners and suppliers' dimension, what does it mean when organizations form flexible partnerships?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "They rely only on suppliers for technical resources without collaboration"
+    },
+    {
+     "label": "B",
+     "text": "They operate strictly through formal contracts with no shared responsibilities"
+    },
+    {
+     "label": "C",
+     "text": "They avoid cooperation to maintain complete independence"
+    },
+    {
+     "label": "D",
+     "text": "They share common goals and risks while collaborating to achieve desired outcomes"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 14,
+   "sourcePage": 3,
+   "sourcePagesSpanned": [
+    3,
+    4
+   ],
+   "bbox": [
+    51.84,
+    770.28,
+    117.71,
+    781.8
+   ],
+   "englishQuestion": "Which BEST defines a digital service?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A combination of an organization's resources based on digital technology and designed to offer value to consumers"
+    },
+    {
+     "label": "B",
+     "text": "A means of enabling value for consumers through digital products without ownership transfer"
+    },
+    {
+     "label": "C",
+     "text": "The adoption and integration of digital technologies into all areas of an organization"
+    },
+    {
+     "label": "D",
+     "text": "The maintaining and improving the effective, efficient, and convenient use of information"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 15,
+   "sourcePage": 4,
+   "sourcePagesSpanned": [
+    4
+   ],
+   "bbox": [
+    38.88,
+    192.4,
+    539.0,
+    350.15
+   ],
+   "englishQuestion": "Which is a series of steps that an organization undertakes to enable value for consumers through management of products and services?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Product and service lifecycle"
+    },
+    {
+     "label": "B",
+     "text": "Service journey"
+    },
+    {
+     "label": "C",
+     "text": "Value stream mapping"
+    },
+    {
+     "label": "D",
+     "text": "Value stream"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 16,
+   "sourcePage": 4,
+   "sourcePagesSpanned": [
+    4
+   ],
+   "bbox": [
+    38.88,
+    366.43,
+    530.54,
+    524.05
+   ],
+   "englishQuestion": "What is the ITIL Value System?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "The entire set of activities that create value through the provision of a product or service"
+    },
+    {
+     "label": "B",
+     "text": "A system by which the current and future use of digital technology is governed"
+    },
+    {
+     "label": "C",
+     "text": "A model representing how all the components and activities of an organization work together to facilitate value creation through digital products and services"
+    },
+    {
+     "label": "D",
+     "text": "A set of organizational capabilities designed for performing work or accomplishing an objective"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 17,
+   "sourcePage": 4,
+   "sourcePagesSpanned": [
+    4
+   ],
+   "bbox": [
+    38.88,
+    540.33,
+    494.25,
+    698.08
+   ],
+   "englishQuestion": "Which of the following helps to understand the internal state of a complicated system by analyzing its external outputs?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Continuous integration"
+    },
+    {
+     "label": "B",
+     "text": "Observability"
+    },
+    {
+     "label": "C",
+     "text": "Site Reliability Engineering"
+    },
+    {
+     "label": "D",
+     "text": "Continuous delivery"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 18,
+   "sourcePage": 4,
+   "sourcePagesSpanned": [
+    4,
+    5
+   ],
+   "bbox": [
+    38.88,
+    714.36,
+    542.12,
+    791.91
+   ],
+   "englishQuestion": "Which dimension of product and service management encourages analyzing and decision-making based on understanding different levels of complexity?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Organizations and people"
+    },
+    {
+     "label": "B",
+     "text": "Information and technology"
+    },
+    {
+     "label": "C",
+     "text": "Value streams and processes"
+    },
+    {
+     "label": "D",
+     "text": "Partners and suppliers"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 19,
+   "sourcePage": 5,
+   "sourcePagesSpanned": [
+    5
+   ],
+   "bbox": [
+    38.88,
+    126.4,
+    442.03,
+    271.4
+   ],
+   "englishQuestion": "Which BEST describes the 'think and work holistically' ITIL Guiding Principle?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Identify patterns in interactions between system elements to anticipate needs"
+    },
+    {
+     "label": "B",
+     "text": "Ensure that each iteration aligns with the concept of a Minimum Viable Product"
+    },
+    {
+     "label": "C",
+     "text": "Reduce complexity by focusing on doing fewer things but doing them better"
+    },
+    {
+     "label": "D",
+     "text": "Encourage all staff to clearly understand who their customers are"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 20,
+   "sourcePage": 5,
+   "sourcePagesSpanned": [
+    5
+   ],
+   "bbox": [
+    38.88,
+    287.71,
+    443.64,
+    432.71
+   ],
+   "englishQuestion": "What is the PRIMARY focus of the 'start where you are' ITIL Guiding Principle?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Reduce complexity by focusing on doing fewer things, but doing them better"
+    },
+    {
+     "label": "B",
+     "text": "Encourage all staff to clearly understand who their customers are"
+    },
+    {
+     "label": "C",
+     "text": "Ensure that each iteration aligns with the concept of a Minimum Viable Product"
+    },
+    {
+     "label": "D",
+     "text": "Assessing the existing resources before making decisions"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 21,
+   "sourcePage": 5,
+   "sourcePagesSpanned": [
+    5
+   ],
+   "bbox": [
+    38.88,
+    448.99,
+    497.59,
+    594.01
+   ],
+   "englishQuestion": "What does the 'partners and suppliers' chapter of an ITIL Official Practice Guide provide?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Key information, automation, and tooling for a practice"
+    },
+    {
+     "label": "B",
+     "text": "Capability levels, criteria, and recommendations for self-assessment"
+    },
+    {
+     "label": "C",
+     "text": "Purpose and description of the practice"
+    },
+    {
+     "label": "D",
+     "text": "Dependencies on third parties"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 22,
+   "sourcePage": 5,
+   "sourcePagesSpanned": [
+    5
+   ],
+   "bbox": [
+    38.88,
+    610.29,
+    517.47,
+    767.91
+   ],
+   "englishQuestion": "When applying the 'collaborate and promote visibility' principle to an organization's initiative, which is NOT a necessary action?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Ensuring everyone involved in the initiative agrees about it before initiating"
+    },
+    {
+     "label": "B",
+     "text": "Communicating information about the initiative to other parts of the organization"
+    },
+    {
+     "label": "C",
+     "text": "Making decisions about the initiative on visible data"
+    },
+    {
+     "label": "D",
+     "text": "Considering different methods of communication for the different audiences"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 23,
+   "sourcePage": 5,
+   "sourcePagesSpanned": [
+    5,
+    6
+   ],
+   "bbox": [
+    51.84,
+    784.2,
+    117.71,
+    795.72
+   ],
+   "englishQuestion": "What is the MAIN purpose of collecting feedback during digital product development?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To reduce stakeholder involvement to minimize complexity"
+    },
+    {
+     "label": "B",
+     "text": "To ensure that improvement efforts stay aligned with changing priorities"
+    },
+    {
+     "label": "C",
+     "text": "To limit information sharing to senior management to avoid confusion"
+    },
+    {
+     "label": "D",
+     "text": "To record the final project results after completion"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 24,
+   "sourcePage": 6,
+   "sourcePagesSpanned": [
+    6
+   ],
+   "bbox": [
+    38.88,
+    179.8,
+    483.56,
+    324.71
+   ],
+   "englishQuestion": "Why are management practices important in digital product and service management?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "They provide resources and capabilities to accomplish objectives"
+    },
+    {
+     "label": "B",
+     "text": "They replace the need for value streams"
+    },
+    {
+     "label": "C",
+     "text": "They influence the financial outcome of the organization"
+    },
+    {
+     "label": "D",
+     "text": "They define the purpose of the organization"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 25,
+   "sourcePage": 6,
+   "sourcePagesSpanned": [
+    6
+   ],
+   "bbox": [
+    38.88,
+    341.11,
+    429.91,
+    486.01
+   ],
+   "englishQuestion": "Which lifecycle management activity is responsible for resolving incidents?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Design"
+    },
+    {
+     "label": "B",
+     "text": "Support"
+    },
+    {
+     "label": "C",
+     "text": "Transition"
+    },
+    {
+     "label": "D",
+     "text": "Operate"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 26,
+   "sourcePage": 6,
+   "sourcePagesSpanned": [
+    6
+   ],
+   "bbox": [
+    38.88,
+    502.41,
+    493.73,
+    647.29
+   ],
+   "englishQuestion": "What is Site Reliability Engineering (SRE)?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Applying software engineering to infrastructure and operations problems"
+    },
+    {
+     "label": "B",
+     "text": "Evaluating how reliable a product is against its specifications"
+    },
+    {
+     "label": "C",
+     "text": "Applying a strategy to avoid sudden unplanned events that might cause organizational damage"
+    },
+    {
+     "label": "D",
+     "text": "Regularly merging code into a shared repository"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 27,
+   "sourcePage": 6,
+   "sourcePagesSpanned": [
+    6,
+    7
+   ],
+   "bbox": [
+    38.88,
+    663.6,
+    358.87,
+    781.95
+   ],
+   "englishQuestion": "Which of the following is an example of access to resources?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "An employee attends a training session delivered by an instructor"
+    },
+    {
+     "label": "B",
+     "text": "A technician performs on-site installation of equipment"
+    },
+    {
+     "label": "C",
+     "text": "A supplier delivers new laptops to the customer's office"
+    },
+    {
+     "label": "D",
+     "text": "A user is granted permission to use a cloud-based application"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 28,
+   "sourcePage": 7,
+   "sourcePagesSpanned": [
+    7
+   ],
+   "bbox": [
+    38.88,
+    72.98,
+    318.47,
+    218.0
+   ],
+   "englishQuestion": "What is a service request?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A cause of one or more service incidents"
+    },
+    {
+     "label": "B",
+     "text": "A flaw or vulnerability in a product or system"
+    },
+    {
+     "label": "C",
+     "text": "A change of state significant for management"
+    },
+    {
+     "label": "D",
+     "text": "A user-initiated action that triggers an agreed service"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 29,
+   "sourcePage": 7,
+   "sourcePagesSpanned": [
+    7
+   ],
+   "bbox": [
+    38.88,
+    234.28,
+    543.21,
+    392.03
+   ],
+   "englishQuestion": "Which dimension of product and service management focuses on implementing a system of rules, policies, and standards to manage data assets?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Information and technology"
+    },
+    {
+     "label": "B",
+     "text": "Partners and suppliers"
+    },
+    {
+     "label": "C",
+     "text": "Value streams and processes"
+    },
+    {
+     "label": "D",
+     "text": "Organizations and people"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 30,
+   "sourcePage": 7,
+   "sourcePagesSpanned": [
+    7
+   ],
+   "bbox": [
+    38.88,
+    408.31,
+    449.66,
+    553.33
+   ],
+   "englishQuestion": "How can continual improvement of value streams be achieved?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "By improving the management practices that support and enable value streams"
+    },
+    {
+     "label": "B",
+     "text": "By directly controlling variability in workflows"
+    },
+    {
+     "label": "C",
+     "text": "By creating new value streams for every product or service"
+    },
+    {
+     "label": "D",
+     "text": "By eliminating external dependencies altogether"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 31,
+   "sourcePage": 7,
+   "sourcePagesSpanned": [
+    7
+   ],
+   "bbox": [
+    38.88,
+    569.61,
+    539.56,
+    739.96
+   ],
+   "englishQuestion": "How do ITIL Guiding Principles and continual improvement affect governance activities within the ITIL Value System (VS)?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "They provide a framework for defining governance principles and ensure ongoing improvement aligns with stakeholder expectations"
+    },
+    {
+     "label": "B",
+     "text": "They apply only to management practices and do not influence governance activities"
+    },
+    {
+     "label": "C",
+     "text": "They are optional elements that organizations may choose to ignore without impacting governance"
+    },
+    {
+     "label": "D",
+     "text": "They focus exclusively on financial performance and do not relate to governance oversight"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 32,
+   "sourcePage": 7,
+   "sourcePagesSpanned": [
+    7,
+    8
+   ],
+   "bbox": [
+    51.84,
+    756.24,
+    357.67,
+    794.55
+   ],
+   "englishQuestion": "Who is responsible for the procurement and use of services?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Service consumer"
+    },
+    {
+     "label": "B",
+     "text": "Sponsors"
+    },
+    {
+     "label": "C",
+     "text": "Service provider"
+    },
+    {
+     "label": "D",
+     "text": "Digital product vendor"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 33,
+   "sourcePage": 8,
+   "sourcePagesSpanned": [
+    8
+   ],
+   "bbox": [
+    38.88,
+    153.04,
+    347.01,
+    298.07
+   ],
+   "englishQuestion": "The purpose of the 'deliver' activity is to:",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Align service offerings with organizational strategy"
+    },
+    {
+     "label": "B",
+     "text": "Develop and integrate functional solutions"
+    },
+    {
+     "label": "C",
+     "text": "Provide services and manage user onboarding/offboarding"
+    },
+    {
+     "label": "D",
+     "text": "Resolve incidents and ensure disaster recovery"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 34,
+   "sourcePage": 8,
+   "sourcePagesSpanned": [
+    8
+   ],
+   "bbox": [
+    38.88,
+    314.35,
+    511.65,
+    472.09
+   ],
+   "englishQuestion": "Which statement regarding the relationship between management practices and value chain activities is CORRECT?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Management practices replace the need for value chain activities"
+    },
+    {
+     "label": "B",
+     "text": "Value chain activities and management practices operate independently of each other"
+    },
+    {
+     "label": "C",
+     "text": "Each management practice supports one value chain activity"
+    },
+    {
+     "label": "D",
+     "text": "Each value chain activity is supported and enabled by several management practices"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 35,
+   "sourcePage": 8,
+   "sourcePagesSpanned": [
+    8
+   ],
+   "bbox": [
+    38.88,
+    488.37,
+    392.73,
+    633.37
+   ],
+   "englishQuestion": "Which statement about a basic relationship is TRUE?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "It operates across operational, tactical, and strategic organizational levels"
+    },
+    {
+     "label": "B",
+     "text": "It typically involves out-of-the-box services offered to customers"
+    },
+    {
+     "label": "C",
+     "text": "Services are usually customized to meet the needs of customers"
+    },
+    {
+     "label": "D",
+     "text": "It focuses on innovation and business growth"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 36,
+   "sourcePage": 8,
+   "sourcePagesSpanned": [
+    8
+   ],
+   "bbox": [
+    38.88,
+    649.68,
+    414.08,
+    794.55
+   ],
+   "englishQuestion": "Why is project management important in ITIL?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To define governance authority across the ITIL Value System"
+    },
+    {
+     "label": "B",
+     "text": "To manage routine operational activities and service requests"
+    },
+    {
+     "label": "C",
+     "text": "To deliver time-bound initiatives that introduce new or changed services"
+    },
+    {
+     "label": "D",
+     "text": "To enable structured delivery of change while services continue to operate"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 37,
+   "sourcePage": 9,
+   "sourcePagesSpanned": [
+    9
+   ],
+   "bbox": [
+    38.88,
+    46.34,
+    520.97,
+    216.68
+   ],
+   "englishQuestion": "After assessing its current customer service performance, a telecom company sets a target to reduce average call times from 10 minutes to 3 minutes within six months. Which continual improvement step are they performing?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "What is the vision?"
+    },
+    {
+     "label": "B",
+     "text": "Take Action"
+    },
+    {
+     "label": "C",
+     "text": "Where are we now?"
+    },
+    {
+     "label": "D",
+     "text": "Where do we want to be?"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 38,
+   "sourcePage": 9,
+   "sourcePagesSpanned": [
+    9
+   ],
+   "bbox": [
+    38.88,
+    232.96,
+    466.87,
+    377.99
+   ],
+   "englishQuestion": "Which activity focuses on securing and allocating necessary resources efficiently?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Acquire"
+    },
+    {
+     "label": "B",
+     "text": "Deliver"
+    },
+    {
+     "label": "C",
+     "text": "Build"
+    },
+    {
+     "label": "D",
+     "text": "Discover"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 39,
+   "sourcePage": 9,
+   "sourcePagesSpanned": [
+    9
+   ],
+   "bbox": [
+    38.88,
+    394.27,
+    442.32,
+    539.29
+   ],
+   "englishQuestion": "Which is the purpose of the 'transition' activity?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To develop, integrate and test digital products"
+    },
+    {
+     "label": "B",
+     "text": "To seamlessly introduce new products into operational environment"
+    },
+    {
+     "label": "C",
+     "text": "To ensure continual alignment of product roadmap with needs of service consumers"
+    },
+    {
+     "label": "D",
+     "text": "To create prototypes and specifications for products and services"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 40,
+   "sourcePage": 9,
+   "sourcePagesSpanned": [
+    9
+   ],
+   "bbox": [
+    38.88,
+    555.57,
+    528.16,
+    700.6
+   ],
+   "englishQuestion": "Which is the MAIN form of service interaction between service consumers and digital services?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Service actions"
+    },
+    {
+     "label": "B",
+     "text": "Delivery of goods"
+    },
+    {
+     "label": "C",
+     "text": "Transfer of goods"
+    },
+    {
+     "label": "D",
+     "text": "Access to resources"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 41,
+   "sourcePage": 9,
+   "sourcePagesSpanned": [
+    9,
+    10
+   ],
+   "bbox": [
+    38.88,
+    716.88,
+    401.72,
+    781.83
+   ],
+   "englishQuestion": "Which of the following is a key success metric for 'transition' activity?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Service performance against the agreed SLA targets"
+    },
+    {
+     "label": "B",
+     "text": "Quality of the resources and services outsourced from suppliers"
+    },
+    {
+     "label": "C",
+     "text": "Speed of normal service restoration"
+    },
+    {
+     "label": "D",
+     "text": "Number and impact of deployment errors"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 42,
+   "sourcePage": 10,
+   "sourcePagesSpanned": [
+    10
+   ],
+   "bbox": [
+    38.88,
+    126.4,
+    362.24,
+    271.4
+   ],
+   "englishQuestion": "What is the role of governance within the ITIL Value System?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To provide detailed technical guidance for service design"
+    },
+    {
+     "label": "B",
+     "text": "To define and manage process activities for service delivery"
+    },
+    {
+     "label": "C",
+     "text": "To ensure organizational activities are directed and controlled"
+    },
+    {
+     "label": "D",
+     "text": "To perform day-to-day service operations"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 43,
+   "sourcePage": 10,
+   "sourcePagesSpanned": [
+    10
+   ],
+   "bbox": [
+    38.88,
+    287.71,
+    497.19,
+    432.71
+   ],
+   "englishQuestion": "Which of the following activities BEST represents transfer of goods in a service offering?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A team attends a virtual training session"
+    },
+    {
+     "label": "B",
+     "text": "A customer receives advice from a helpdesk agent"
+    },
+    {
+     "label": "C",
+     "text": "A cloud user accesses shared online storage"
+    },
+    {
+     "label": "D",
+     "text": "A service provider supplies new laptops to the customer"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 44,
+   "sourcePage": 10,
+   "sourcePagesSpanned": [
+    10
+   ],
+   "bbox": [
+    38.88,
+    448.99,
+    437.65,
+    594.01
+   ],
+   "englishQuestion": "Which of the following BEST describes an outcome in a service relationship?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A specific task completed by the service provider as part of service delivery"
+    },
+    {
+     "label": "B",
+     "text": "A result achieved by a stakeholder through the use of at least one output"
+    },
+    {
+     "label": "C",
+     "text": "A tangible or intangible deliverable created during a service activity"
+    },
+    {
+     "label": "D",
+     "text": "A software product provided to the consumer by the service provider"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 45,
+   "sourcePage": 10,
+   "sourcePagesSpanned": [
+    10
+   ],
+   "bbox": [
+    38.88,
+    610.29,
+    537.07,
+    767.91
+   ],
+   "englishQuestion": "How should the ITIL Guiding Principles be combined when an organization is making a decision?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "By considering each guiding principle to understand its relevance before applying it"
+    },
+    {
+     "label": "B",
+     "text": "By using the 'keep it simple and practical' principle and one or two others that are relevant to the specific decision"
+    },
+    {
+     "label": "C",
+     "text": "By selecting one guiding principle to follow as the main basis for every decision"
+    },
+    {
+     "label": "D",
+     "text": "By using all the guiding principles equally when making any decision"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 46,
+   "sourcePage": 10,
+   "sourcePagesSpanned": [
+    10,
+    11
+   ],
+   "bbox": [
+    51.84,
+    784.2,
+    117.71,
+    795.72
+   ],
+   "englishQuestion": "What does sustainability assure in the context of a service or product?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "The service delivers the required functionality to meet business needs"
+    },
+    {
+     "label": "B",
+     "text": "The service will meet the agreed requirements"
+    },
+    {
+     "label": "C",
+     "text": "The service will continually meet requirements for environmental responsibility"
+    },
+    {
+     "label": "D",
+     "text": "The service supports the performance of the consumer"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 47,
+   "sourcePage": 11,
+   "sourcePagesSpanned": [
+    11
+   ],
+   "bbox": [
+    38.88,
+    179.8,
+    540.78,
+    337.43
+   ],
+   "englishQuestion": "Which of the following BEST describes an operating model?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A conceptual and visual representation of how an organization co-creates value with its customers"
+    },
+    {
+     "label": "B",
+     "text": "A recommendation that guides an organization's actions and decisions in all circumstances"
+    },
+    {
+     "label": "C",
+     "text": "A set of organizational resources designed for performing specific work or achieving a particular objective"
+    },
+    {
+     "label": "D",
+     "text": "A set of rules that ensures consistent decision-making and accountability within the organization"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 48,
+   "sourcePage": 11,
+   "sourcePagesSpanned": [
+    11
+   ],
+   "bbox": [
+    38.88,
+    353.71,
+    485.94,
+    498.73
+   ],
+   "englishQuestion": "Which BEST explains why an organization might choose to engage external suppliers?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To remove the need for oversight, governance, and internal management"
+    },
+    {
+     "label": "B",
+     "text": "To minimize reliance on third-party providers"
+    },
+    {
+     "label": "C",
+     "text": "To obtain capabilities that are difficult to develop internally"
+    },
+    {
+     "label": "D",
+     "text": "To maintain greater control and visibility over service delivery"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 49,
+   "sourcePage": 11,
+   "sourcePagesSpanned": [
+    11
+   ],
+   "bbox": [
+    38.88,
+    515.01,
+    504.64,
+    672.64
+   ],
+   "englishQuestion": "Which of the following terms BEST describes a change?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Any component that needs to be managed in order to deliver an IT service"
+    },
+    {
+     "label": "B",
+     "text": "An unplanned interruption to a service or reduction in the quality of a service"
+    },
+    {
+     "label": "C",
+     "text": "An underlying cause of one or more incidents"
+    },
+    {
+     "label": "D",
+     "text": "The addition, modification or removal of anything that could have an effect on product and service"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 50,
+   "sourcePage": 11,
+   "sourcePagesSpanned": [
+    11,
+    12
+   ],
+   "bbox": [
+    38.88,
+    689.04,
+    414.08,
+    780.63
+   ],
+   "englishQuestion": "Why is project management important in ITIL?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To deliver time-bound initiatives that introduce new or changed services"
+    },
+    {
+     "label": "B",
+     "text": "To define governance authority across the ITIL Value System"
+    },
+    {
+     "label": "C",
+     "text": "To enable structured delivery of change while services continue to operate"
+    },
+    {
+     "label": "D",
+     "text": "To manage routine operational activities and service requests"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 51,
+   "sourcePage": 12,
+   "sourcePagesSpanned": [
+    12
+   ],
+   "bbox": [
+    38.88,
+    99.76,
+    400.95,
+    244.64
+   ],
+   "englishQuestion": "Which statement regarding a partnership relationship is TRUE?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "It provides commercial off-the-shelf services for a wide range of consumers"
+    },
+    {
+     "label": "B",
+     "text": "It focuses mainly on operational efficiency and uses standardized contracts"
+    },
+    {
+     "label": "C",
+     "text": "It focuses on operational and tactical level not on strategic level"
+    },
+    {
+     "label": "D",
+     "text": "It involves bespoke services with a focus on innovation and growth"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 52,
+   "sourcePage": 12,
+   "sourcePagesSpanned": [
+    12
+   ],
+   "bbox": [
+    38.88,
+    261.04,
+    527.95,
+    431.39
+   ],
+   "englishQuestion": "An organization is planning to improve the existing service and wants to understand its current performance before making any changes. According to the principle 'start where you are,' what could an organization consider when observing current performance of the service?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Involve people who have little or no prior knowledge of the service"
+    },
+    {
+     "label": "B",
+     "text": "Select the right message and method to communicate with stakeholders"
+    },
+    {
+     "label": "C",
+     "text": "Avoid applying risk management when reusing existing processes"
+    },
+    {
+     "label": "D",
+     "text": "Identify who the consumer is and why they use the service"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 53,
+   "sourcePage": 12,
+   "sourcePagesSpanned": [
+    12
+   ],
+   "bbox": [
+    38.88,
+    447.67,
+    464.16,
+    592.69
+   ],
+   "englishQuestion": "Why do many digital service providers aim to reduce or eliminate service actions?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To comply with financial and regulatory policies"
+    },
+    {
+     "label": "B",
+     "text": "To ensure every service interaction is handled manually for better control"
+    },
+    {
+     "label": "C",
+     "text": "To streamline operations and increase consistency by relying more on automation"
+    },
+    {
+     "label": "D",
+     "text": "To strengthen direct personal engagement between users and support staff"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 54,
+   "sourcePage": 12,
+   "sourcePagesSpanned": [
+    12
+   ],
+   "bbox": [
+    38.88,
+    608.97,
+    537.89,
+    766.59
+   ],
+   "englishQuestion": "Which ITIL Guiding Principle emphasizes understanding how all parts of an organization function together as an integrated system?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Keep it simple and practical"
+    },
+    {
+     "label": "B",
+     "text": "Progress iteratively with feedback"
+    },
+    {
+     "label": "C",
+     "text": "Think and work holistically"
+    },
+    {
+     "label": "D",
+     "text": "Focus on value"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 55,
+   "sourcePage": 12,
+   "sourcePagesSpanned": [
+    12,
+    13
+   ],
+   "bbox": [
+    51.84,
+    782.88,
+    117.71,
+    794.4
+   ],
+   "englishQuestion": "Which activity has the purpose of developing, integrating, and testing digital products to transform designs into functional solutions?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Build"
+    },
+    {
+     "label": "B",
+     "text": "Operate"
+    },
+    {
+     "label": "C",
+     "text": "Discover"
+    },
+    {
+     "label": "D",
+     "text": "Support"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 56,
+   "sourcePage": 13,
+   "sourcePagesSpanned": [
+    13
+   ],
+   "bbox": [
+    38.88,
+    192.4,
+    435.81,
+    337.43
+   ],
+   "englishQuestion": "Which of the following describes a sponsor within a consumer organization?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A person or group that has its own functions and authorities"
+    },
+    {
+     "label": "B",
+     "text": "The role that authorizes the budget for service consumption"
+    },
+    {
+     "label": "C",
+     "text": "The role that defines the requirements for a service"
+    },
+    {
+     "label": "D",
+     "text": "A person or group that authorizes a change"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 57,
+   "sourcePage": 13,
+   "sourcePagesSpanned": [
+    13
+   ],
+   "bbox": [
+    38.88,
+    353.71,
+    490.14,
+    498.73
+   ],
+   "englishQuestion": "What enables the digital product and service management activities of an organization?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Value chain"
+    },
+    {
+     "label": "B",
+     "text": "Value stream steps"
+    },
+    {
+     "label": "C",
+     "text": "Management practices"
+    },
+    {
+     "label": "D",
+     "text": "Vision and operating model"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 58,
+   "sourcePage": 13,
+   "sourcePagesSpanned": [
+    13
+   ],
+   "bbox": [
+    38.88,
+    515.01,
+    476.6,
+    672.64
+   ],
+   "englishQuestion": "Which of the following statements about the Four Dimensions of product and service management is CORRECT?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Each dimension on its own is sufficient to achieve the desired outcomes"
+    },
+    {
+     "label": "B",
+     "text": "All Four Dimensions focus mainly on the activities of the service value chain"
+    },
+    {
+     "label": "C",
+     "text": "All Four Dimensions are critical to effective and efficient facilitation of value"
+    },
+    {
+     "label": "D",
+     "text": "All Four Dimensions apply only to product design and not to management practices"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 59,
+   "sourcePage": 13,
+   "sourcePagesSpanned": [
+    13,
+    14
+   ],
+   "bbox": [
+    38.88,
+    689.04,
+    528.99,
+    779.31
+   ],
+   "englishQuestion": "A team is gathering customer feedback and measuring current service response times to understand its existing performance. Which step of the ITIL Continual Improvement Model does this activity represent?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Where are we now?"
+    },
+    {
+     "label": "B",
+     "text": "Take action"
+    },
+    {
+     "label": "C",
+     "text": "What is the vision?"
+    },
+    {
+     "label": "D",
+     "text": "Where do we want to be?"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 60,
+   "sourcePage": 14,
+   "sourcePagesSpanned": [
+    14
+   ],
+   "bbox": [
+    38.88,
+    126.4,
+    473.23,
+    271.4
+   ],
+   "englishQuestion": "How do service providers contribute to the creation of service value for consumers?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "They determine the financial outcomes for consumers directly"
+    },
+    {
+     "label": "B",
+     "text": "They reduce risks and provide resources through specialization"
+    },
+    {
+     "label": "C",
+     "text": "They eliminate the need for consumers to use any resources"
+    },
+    {
+     "label": "D",
+     "text": "They replace consumers' responsibilities with their own services"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 61,
+   "sourcePage": 14,
+   "sourcePagesSpanned": [
+    14
+   ],
+   "bbox": [
+    38.88,
+    287.71,
+    528.04,
+    445.31
+   ],
+   "englishQuestion": "Performing routine tasks such as backups, monitoring, and capturing and processing events is part of which of the following activities?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Support"
+    },
+    {
+     "label": "B",
+     "text": "Operate"
+    },
+    {
+     "label": "C",
+     "text": "Deliver"
+    },
+    {
+     "label": "D",
+     "text": "Transition"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 62,
+   "sourcePage": 14,
+   "sourcePagesSpanned": [
+    14
+   ],
+   "bbox": [
+    38.88,
+    461.73,
+    521.95,
+    619.33
+   ],
+   "englishQuestion": "Which term BEST describes a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Service Journey"
+    },
+    {
+     "label": "B",
+     "text": "Culture"
+    },
+    {
+     "label": "C",
+     "text": "Partnership"
+    },
+    {
+     "label": "D",
+     "text": "Organization"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 63,
+   "sourcePage": 14,
+   "sourcePagesSpanned": [
+    14
+   ],
+   "bbox": [
+    38.88,
+    635.61,
+    434.45,
+    780.63
+   ],
+   "englishQuestion": "What is a product prototype?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "An initial version of a product demonstrating its basic form and functionality"
+    },
+    {
+     "label": "B",
+     "text": "The process of releasing new or updated products to users"
+    },
+    {
+     "label": "C",
+     "text": "A finalized product specification approved for development"
+    },
+    {
+     "label": "D",
+     "text": "A request that triggers an agreed service action"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 64,
+   "sourcePage": 15,
+   "sourcePagesSpanned": [
+    15
+   ],
+   "bbox": [
+    38.88,
+    46.34,
+    537.21,
+    203.96
+   ],
+   "englishQuestion": "A telecom provider designs an enterprise package that combines internet, VoIP, network security and technical support. Which concept does this illustrate?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Transfer of goods"
+    },
+    {
+     "label": "B",
+     "text": "Service offering"
+    },
+    {
+     "label": "C",
+     "text": "Service action"
+    },
+    {
+     "label": "D",
+     "text": "Access to resources"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 65,
+   "sourcePage": 15,
+   "sourcePagesSpanned": [
+    15
+   ],
+   "bbox": [
+    38.88,
+    220.36,
+    498.79,
+    365.27
+   ],
+   "englishQuestion": "Which statement BEST describes service quality?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "The assurance that a service will meet agreed requirements and is fit for use"
+    },
+    {
+     "label": "B",
+     "text": "The functionality provided by a product or service to meet a particular need"
+    },
+    {
+     "label": "C",
+     "text": "A documented agreement between a service provider and a customer"
+    },
+    {
+     "label": "D",
+     "text": "The totality of characteristics of a service that determine its ability to satisfy stated needs"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 66,
+   "sourcePage": 15,
+   "sourcePagesSpanned": [
+    15
+   ],
+   "bbox": [
+    38.88,
+    381.67,
+    542.63,
+    539.29
+   ],
+   "englishQuestion": "Which is an approach to software development in which software can be released to production at any time after a decision is made by the team?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Continuous delivery"
+    },
+    {
+     "label": "B",
+     "text": "Continuous integration"
+    },
+    {
+     "label": "C",
+     "text": "Continuous deployment"
+    },
+    {
+     "label": "D",
+     "text": "DevOps"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 67,
+   "sourcePage": 15,
+   "sourcePagesSpanned": [
+    15
+   ],
+   "bbox": [
+    38.88,
+    555.57,
+    540.65,
+    713.32
+   ],
+   "englishQuestion": "What is a value stream?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A set of organizational resources and capabilities to achieve an objective"
+    },
+    {
+     "label": "B",
+     "text": "A configuration of an organization's resources designed to offer value for a consumer"
+    },
+    {
+     "label": "C",
+     "text": "A tangible or intangible deliverable of an activity"
+    },
+    {
+     "label": "D",
+     "text": "A series of steps an organization undertakes to enable value for consumers through management of products and services"
+    }
+   ],
+   "sourceAnswerKey": "D",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 68,
+   "sourcePage": 15,
+   "sourcePagesSpanned": [
+    15,
+    16
+   ],
+   "bbox": [
+    51.84,
+    729.6,
+    526.88,
+    780.51
+   ],
+   "englishQuestion": "Which dimension of digital product and service management ensures whoever is working in an organization has sufficient skills to support anticipated needs?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Organizations and people"
+    },
+    {
+     "label": "B",
+     "text": "Value streams and processes"
+    },
+    {
+     "label": "C",
+     "text": "Partners and suppliers"
+    },
+    {
+     "label": "D",
+     "text": "Information and technology"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 69,
+   "sourcePage": 16,
+   "sourcePagesSpanned": [
+    16
+   ],
+   "bbox": [
+    38.88,
+    153.04,
+    521.05,
+    310.79
+   ],
+   "englishQuestion": "Which value chain activity is assessed by evaluating the quality of the resources and services sourced from a third party?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Design"
+    },
+    {
+     "label": "B",
+     "text": "Acquire"
+    },
+    {
+     "label": "C",
+     "text": "Build"
+    },
+    {
+     "label": "D",
+     "text": "Discover"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 70,
+   "sourcePage": 16,
+   "sourcePagesSpanned": [
+    16
+   ],
+   "bbox": [
+    38.88,
+    327.07,
+    534.46,
+    497.41
+   ],
+   "englishQuestion": "The board of directors approves a new digital strategy and instructs management to prioritize investment in cloud infrastructure to support future growth. Which governance activity does this represent?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Monitor"
+    },
+    {
+     "label": "B",
+     "text": "Evaluate"
+    },
+    {
+     "label": "C",
+     "text": "Direct"
+    },
+    {
+     "label": "D",
+     "text": "Engage stakeholders"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 71,
+   "sourcePage": 16,
+   "sourcePagesSpanned": [
+    16
+   ],
+   "bbox": [
+    38.88,
+    513.69,
+    501.19,
+    671.32
+   ],
+   "englishQuestion": "Which element of the operating model refers to third parties contributing to value creation activities?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Value streams and processes"
+    },
+    {
+     "label": "B",
+     "text": "Partners and suppliers"
+    },
+    {
+     "label": "C",
+     "text": "Organizations and people"
+    },
+    {
+     "label": "D",
+     "text": "Value chain"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 72,
+   "sourcePage": 16,
+   "sourcePagesSpanned": [
+    16,
+    17
+   ],
+   "bbox": [
+    38.88,
+    687.72,
+    435.27,
+    779.31
+   ],
+   "englishQuestion": "Why is it important to seek feedback before, during, and after each iteration?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "To ensure the project plan remains fixed and unchanged throughout development"
+    },
+    {
+     "label": "B",
+     "text": "To ensure that each iteration is aligned with changing circumstances"
+    },
+    {
+     "label": "C",
+     "text": "To document all activities in detail before starting the next iteration"
+    },
+    {
+     "label": "D",
+     "text": "To allow the team to follow the original design without interruption"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 73,
+   "sourcePage": 17,
+   "sourcePagesSpanned": [
+    17
+   ],
+   "bbox": [
+    38.88,
+    99.76,
+    521.47,
+    257.36
+   ],
+   "englishQuestion": "Which chapter of an ITIL Official Practice Guide provides recommendations for the successful automation of the practice?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Organizations and people"
+    },
+    {
+     "label": "B",
+     "text": "Partners and suppliers"
+    },
+    {
+     "label": "C",
+     "text": "Information and technology"
+    },
+    {
+     "label": "D",
+     "text": "Value streams and processes"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 74,
+   "sourcePage": 17,
+   "sourcePagesSpanned": [
+    17
+   ],
+   "bbox": [
+    38.88,
+    273.67,
+    410.08,
+    418.67
+   ],
+   "englishQuestion": "Which of the following statements about value streams is INCORRECT?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Value streams can involve multiple practices"
+    },
+    {
+     "label": "B",
+     "text": "Value streams are enabled and supported by the organization's value chain"
+    },
+    {
+     "label": "C",
+     "text": "Value streams should exclude suppliers"
+    },
+    {
+     "label": "D",
+     "text": "Value streams continue to evolve over time"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 75,
+   "sourcePage": 17,
+   "sourcePagesSpanned": [
+    17
+   ],
+   "bbox": [
+    38.88,
+    434.95,
+    461.36,
+    579.97
+   ],
+   "englishQuestion": "Which of the following BEST describes a release?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "A version of a product, service, or other configuration item made available for use"
+    },
+    {
+     "label": "B",
+     "text": "An unplanned interruption to a service or reduction in the quality of a service"
+    },
+    {
+     "label": "C",
+     "text": "The addition, modification, or removal of anything that could affect services"
+    },
+    {
+     "label": "D",
+     "text": "A cause, or potential cause, of one or more incidents"
+    }
+   ],
+   "sourceAnswerKey": "A",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 76,
+   "sourcePage": 17,
+   "sourcePagesSpanned": [
+    17
+   ],
+   "bbox": [
+    38.88,
+    596.25,
+    502.25,
+    753.87
+   ],
+   "englishQuestion": "Which of the following is NOT one of the digital product and service lifecycle management activities?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Build"
+    },
+    {
+     "label": "B",
+     "text": "Discover"
+    },
+    {
+     "label": "C",
+     "text": "Agree"
+    },
+    {
+     "label": "D",
+     "text": "Acquire"
+    }
+   ],
+   "sourceAnswerKey": "C",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  },
+  {
+   "dumpNumber": 77,
+   "sourcePage": 17,
+   "sourcePagesSpanned": [
+    17,
+    18
+   ],
+   "bbox": [
+    51.84,
+    770.28,
+    117.71,
+    781.8
+   ],
+   "englishQuestion": "Which dimension of product and service management promotes conducting safe-to-fail experiments in complex situations?",
+   "englishOptions": [
+    {
+     "label": "A",
+     "text": "Information and technology"
+    },
+    {
+     "label": "B",
+     "text": "Value streams and processes"
+    },
+    {
+     "label": "C",
+     "text": "Organizations and people"
+    },
+    {
+     "label": "D",
+     "text": "Partners and suppliers"
+    }
+   ],
+   "sourceAnswerKey": "B",
+   "answerKeyMethod": "green text colour RGB(0.129, 0.42, 0.208)"
+  }
+ ]
+}

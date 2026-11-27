@@ -1,28 +1,52 @@
 {
- "bankVersion": "1.0.0+32721183c4e52e10",
+ "bankVersion": "1.1.0+216726579ec3324b",
  "approvedPerField": {
   "question": {
-   "required": 229,
-   "translated": 229,
+   "required": 271,
+   "translated": 271,
    "percent": 100.0
   },
   "option": {
-   "required": 916,
-   "translated": 916,
+   "required": 1084,
+   "translated": 1084,
    "percent": 100.0
   },
   "explanation": {
-   "required": 221,
-   "translated": 221,
+   "required": 226,
+   "translated": 226,
+   "percent": 100.0
+  },
+  "supplementaryExplanation": {
+   "required": 45,
+   "translated": 45,
    "percent": 100.0
   }
  },
- "approvedQuestionsFullyTranslated": 229,
- "approvedQuestions": 229,
- "allOccurrencesFullyTranslated": 302,
- "uniqueStringsNeeded": 1330,
- "uniqueStringsTranslated": 1330,
+ "approvedQuestionsFullyTranslated": 271,
+ "approvedQuestions": 271,
+ "allOccurrencesFullyTranslated": 336,
+ "uniqueStringsNeeded": 1506,
+ "uniqueStringsTranslated": 1506,
  "uiStrings": 82,
  "brokenTranslationLinks": [],
+ "terminologyAlignment": {
+  "source": "translations/terminology.ar.json (instructor course notes)",
+  "replacements": {
+   " اكتشاف ->  استكشاف": 3,
+   "اجعله بسيطًا وعمليًا -> اجعلها بسيطة وعملية": 6,
+   "الاكتشاف -> الاستكشاف": 10,
+   "التحسين والأتمتة -> حسّن وأتمت": 4,
+   "التفكير والعمل بشكل شمولي -> فكّر واعمل بشكل شمولي": 3,
+   "التقدم بشكل تكراري -> التقدم بشكل تدريجي": 1,
+   "التقدم بشكل تكراري مع التغذية الراجعة -> التقدم بشكل تدريجي مع التغذية الراجعة": 5,
+   "التقديم -> التسليم": 11,
+   "المنظمات والأفراد -> المنظمة والأشخاص": 7,
+   "المنظمة والأفراد -> المنظمة والأشخاص": 2,
+   "مسار القيمة -> تدفق القيمة": 47,
+   "مسار قيمة -> تدفق قيمة": 1,
+   "مسارات القيمة -> تدفقات القيمة": 21,
+   "مسارات القيمة والعمليات -> تدفقات القيمة والعمليات": 9
+  }
+ },
  "missing": []
 }

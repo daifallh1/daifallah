@@ -19,6 +19,10 @@ export interface ExamSession {
   extendedTime: boolean;
   blueprintCompliant: boolean;
   seed: number;
+  /** Fixed exam id when mode is "fixed". */
+  examId?: string;
+  /** Pass mark for this session; when absent a full 40-question exam uses the bank pass mark. */
+  passMark?: number;
 }
 
 export const STANDARD_DURATION_MS = 60 * 60 * 1000;
@@ -37,6 +41,10 @@ export function createSession(args: {
   timed?: boolean;
   blueprintCompliant: boolean;
   seed: number;
+  /** Explicit duration (overrides standard/extended), e.g. 90 s per question for the mistakes exam. */
+  durationMs?: number;
+  examId?: string;
+  passMark?: number;
 }): ExamSession {
   for (const id of args.questionIds) {
     const q = args.lb.byId.get(id);
@@ -53,10 +61,12 @@ export function createSession(args: {
     flags: {},
     current: 0,
     startedAt: args.now,
-    durationMs: timed ? (args.extendedTime ? EXTENDED_DURATION_MS : STANDARD_DURATION_MS) : null,
+    durationMs: !timed ? null : args.durationMs ?? (args.extendedTime ? EXTENDED_DURATION_MS : STANDARD_DURATION_MS),
     extendedTime: !!args.extendedTime,
     blueprintCompliant: args.blueprintCompliant,
     seed: args.seed,
+    ...(args.examId ? { examId: args.examId } : {}),
+    ...(args.passMark != null ? { passMark: args.passMark } : {}),
   };
 }
 
@@ -121,6 +131,7 @@ export function submit(lb: LoadedBank, s: ExamSession, now: number, by: "user" |
   const score = items.filter((i) => i.correct).length;
   const end = s.durationMs != null ? Math.min(now, s.startedAt + s.durationMs) : now;
   const isFullExam = s.mode === "exam" && s.questionIds.length === lb.bank.examSpec.questions;
+  const passMark = s.passMark ?? (isFullExam ? lb.bank.examSpec.passMark : undefined);
   return {
     attemptId: s.sessionId,
     mode: s.mode,
@@ -131,10 +142,12 @@ export function submit(lb: LoadedBank, s: ExamSession, now: number, by: "user" |
     elapsedMs: end - s.startedAt,
     submittedBy: by,
     blueprintCompliant: s.blueprintCompliant,
+    ...(s.examId ? { examId: s.examId } : {}),
+    ...(passMark != null ? { passMark } : {}),
     items,
     score,
     total: items.length,
-    passed: isFullExam ? score >= lb.bank.examSpec.passMark : null,
+    passed: passMark != null ? score >= passMark : null,
   };
 }
 
@@ -147,6 +160,11 @@ export function categoryBreakdown(a: Attempt): Record<number, { correct: number;
     if (i.correct) out[c].correct += 1;
   }
   return out;
+}
+
+/** Pass mark for a given percentage, rounded up (65% of 42 = 28). */
+export function passMarkFor(total: number, percent = 65): number {
+  return Math.ceil((percent * total) / 100 - 1e-9);
 }
 
 export function formatDuration(ms: number): string {

@@ -1,6 +1,6 @@
 {
  "language": "ar",
- "bankVersion": "1.0.0+32721183c4e52e10",
+ "bankVersion": "1.1.0+216726579ec3324b",
  "content": {
   "t002c7c68468b4f550fba": {
    "en": "Direct",
@@ -16,7 +16,7 @@
   },
   "t00a6bd5f900cbba93534": {
    "en": "A Value Stream is a specific journey or set of steps that maps how work flows from the initial demand/opportunity to the final creation of value for the consumer.",
-   "ar": "مسار القيمة رحلة محددة أو مجموعة من الخطوات ترسم كيفية تدفق العمل من الطلب/الفرصة الأولية إلى الإنشاء النهائي للقيمة للمستهلك."
+   "ar": "تدفق القيمة رحلة محددة أو مجموعة من الخطوات ترسم كيفية تدفق العمل من الطلب/الفرصة الأولية إلى الإنشاء النهائي للقيمة للمستهلك."
   },
   "t00ef67c36bf3d8482723": {
    "en": "No element of the organization operates in isolation and decisions must consider the whole system, including interactions across the ITIL Value System. Ref 5.2.5",
@@ -42,6 +42,10 @@
    "en": "To define the desired future state with measurable objectives (KPIs)",
    "ar": "تحديد الوضع المستقبلي المرغوب بأهداف قابلة للقياس (مؤشرات الأداء الرئيسية KPIs)"
   },
+  "t02019d90b14b367496a7": {
+   "en": "By directly controlling variability in workflows",
+   "ar": "من خلال التحكم المباشر في التباين في سير العمل"
+  },
   "t021deb51cf7bf76a0286": {
    "en": "To secure and allocate resources eficiently",
    "ar": "تأمين الموارد وتخصيصها بكفاءة"
@@ -49,6 +53,10 @@
   "t0230ba04a584455562b7": {
    "en": "ITIL provides structure and governance; DevOps enables rapid development",
    "ar": "توفّر ITIL البنية والحوكمة؛ وتمكّن DevOps التطوير السريع"
+  },
+  "t02787f7f5106a17c6496": {
+   "en": "Management practices replace the need for value chain activities",
+   "ar": "الممارسات الإدارية تُغني عن الحاجة إلى أنشطة سلسلة القيمة"
   },
   "t027aa7b96264c89f7e8c": {
    "en": "What does the \"Monitor\" activity in governance focus on?",
@@ -66,6 +74,10 @@
    "en": "They should be applied independent of each other",
    "ar": "ينبغي تطبيقها بشكل مستقل بعضها عن بعض"
   },
+  "t0350b019cd386f490d23": {
+   "en": "The book defines an error as a flaw or vulnerability that may cause incidents. An unplanned interruption to a service, or a reduction in its quality, is an incident.",
+   "ar": "يعرّف الكتاب الخطأ بأنه عيب أو ثغرة قد تسبب حوادث. أما الانقطاع غير المخطط للخدمة أو انخفاض جودتها فهو حادث."
+  },
   "t03e3ee998372bd8004cc": {
    "en": "When is the earliest that a workaround can be documented in ‘problem management’?",
    "ar": "ما أبكر وقت يمكن فيه توثيق حل بديل (workaround) في «إدارة المشكلات»؟"
@@ -78,9 +90,9 @@
    "en": "Regularly merging code into a central repository with automated builds and tests",
    "ar": "دمج الشيفرة بانتظام في مستودع مركزي مع عمليات بناء واختبار مؤتمتة"
   },
-  "t050cf662be6057356191": {
-   "en": "The organizations and people dimension promotes conducting safe-to-fail experiments in complex situations by fostering a culture that encourages learning, collaboration, adaptability, and informed decision-making within teams and across the organization.",
-   "ar": "يشجّع بُعد المنظمات والأفراد على إجراء تجارب آمنة الإخفاق في المواقف المعقدة من خلال تعزيز ثقافة تشجّع التعلم والتعاون والقدرة على التكيّف واتخاذ القرارات المستنيرة داخل الفرق وعبر المنظمة."
+  "t04ea29d2e6f6ee8774c6": {
+   "en": "The purpose of the ‘support’ activity is to identify and resolve incidents, fulfil disaster recovery procedures and capture consumers’ feedback. The source keyed ‘Operate’; corrected to ‘Support’ by owner decision.",
+   "ar": "الغرض من نشاط «الدعم» هو تحديد الحوادث وحلّها، وتنفيذ إجراءات التعافي من الكوارث، وجمع التغذية الراجعة من المستهلكين. المصدر جعل الإجابة «Operate»، وصُحّحت إلى «Support» بقرار المالك."
   },
   "t057bd92e8a02a93b2d22": {
    "en": "A flaw or vulnerability in a service",
@@ -97,6 +109,10 @@
   "t05b4d74024c1af28bff6": {
    "en": "Since the goal of Transition is to introduce changes seamlessly, a primary measure of its success is how few errors or incidents are caused during the deployment process.",
    "ar": "بما أن هدف الانتقال هو إدخال التغييرات بسلاسة، فإن المقياس الأساسي لنجاحه هو مدى قلة الأخطاء أو الحوادث الناتجة أثناء عملية النشر."
+  },
+  "t05c0d4b4acd9cb711cd4": {
+   "en": "Provisioning the service",
+   "ar": "توفير الخدمة (تجهيزها)"
   },
   "t05ddc0de60f30356ce1a": {
    "en": "They replace value chain activities with standardized processes",
@@ -118,6 +134,10 @@
    "en": "The ultimate goal of integrating ITIL, DevOps, and PRINCE2 is to deliver:",
    "ar": "الهدف النهائي من دمج ITIL وDevOps وPRINCE2 هو تقديم:"
   },
+  "t0656e09951e82c4b1286": {
+   "en": "A live training session delivered by the provider is a service action; user training is one of the book’s examples. Delivering a security token is a transfer of goods, and access to virtual machines or to a streaming platform is access to resources.",
+   "ar": "جلسة تدريب مباشرة يقدمها المزوّد هي إجراء خدمة، فتدريب المستخدمين من أمثلة الكتاب. أما تسليم رمز أمان فهو نقل سلع، والوصول إلى أجهزة افتراضية أو إلى منصة بث هو وصول إلى الموارد."
+  },
   "t06736edd4aeb8dd6bc53": {
    "en": "To build solution components",
    "ar": "بناء مكونات الحلول"
@@ -126,13 +146,17 @@
    "en": "Stakeholder satisfaction with products and service offerings",
    "ar": "رضا أصحاب المصلحة عن المنتجات وعروض الخدمات"
   },
-  "t06dcfb890d16260fcd98": {
-   "en": "What is the outcome of the Service Value System?",
-   "ar": "ما مُحصِّلة نظام قيمة الخدمة (Service Value System)؟"
-  },
   "t0711a8d636e4c068ae59": {
    "en": "Risk",
    "ar": "المخاطرة (Risk)"
+  },
+  "t0718b18e3c1b4a1f1080": {
+   "en": "A cause of one or more service incidents",
+   "ar": "سبب لحادث خدمة واحد أو أكثر"
+  },
+  "t0766c3bb0dae68c8ee9a": {
+   "en": "A management practice is a set of organizational resources and capabilities designed and adopted for performing work or accomplishing an objective. Practices provide the resources and capabilities that value streams and value chain activities use.",
+   "ar": "الممارسة الإدارية مجموعة من الموارد والقدرات التنظيمية المصممة والمعتمدة لأداء العمل أو تحقيق هدف. وتوفر الممارسات الموارد والقدرات التي تستخدمها تدفقات القيمة وأنشطة سلسلة القيمة."
   },
   "t077c4d01ef9236b50ade": {
    "en": "It is responsible for day-to-day operations",
@@ -146,6 +170,10 @@
    "en": "Which activity transforms solution designs into functional digital products?",
    "ar": "أي نشاط يحوّل تصاميم الحلول إلى منتجات رقمية وظيفية؟"
   },
+  "t07c07db91b12af5ea723": {
+   "en": "What are the key inputs to the ITIL Value System?",
+   "ar": "ما المدخلات الرئيسية لنظام قيمة ITIL؟"
+  },
   "t086c2360086c23cd3f31": {
    "en": "When its positive effects outweigh its negative ones",
    "ar": "عندما تفوق آثارها الإيجابية آثارها السلبية"
@@ -156,7 +184,11 @@
   },
   "t08c8e7c8454d6a5d6119": {
    "en": "Value stream mapping is a technique used to visualize and analyze the flow of work and information. The process follows a structured sequence of five steps:\n1. Identify the value stream: Determine which stream needs to be analyzed.\n2. Map the ‘as-is’ stream: Document the current state of the workflow as it exists.\n3. Analyse the stream: Look for waste (non-value-adding activities) and opportunities for optimization.\n4. Map the ‘to-be’ stream: Design the desired future state of the workflow.\n5. Plan and implement improvements: This is the final step, where the organization actually executes changes to achieve the target state.",
-   "ar": "رسم خريطة مسار القيمة أسلوب يُستخدم لتصوير تدفق العمل والمعلومات وتحليله. وتتبع العملية تسلسلًا منظمًا من خمس خطوات:\n1. تحديد مسار القيمة: تحديد المسار الذي يلزم تحليله.\n2. رسم خريطة المسار «الحالي»: توثيق الوضع الحالي لسير العمل كما هو موجود.\n3. تحليل المسار: البحث عن الهدر (الأنشطة التي لا تضيف قيمة) وفرص التحسين.\n4. رسم خريطة المسار «المستهدف»: تصميم الوضع المستقبلي المرغوب لسير العمل.\n5. تخطيط التحسينات وتنفيذها: هذه هي الخطوة الأخيرة، التي تنفّذ فيها المنظمة التغييرات فعليًا لبلوغ الوضع المستهدف."
+   "ar": "رسم خريطة تدفق القيمة أسلوب يُستخدم لتصوير تدفق العمل والمعلومات وتحليله. وتتبع العملية تسلسلًا منظمًا من خمس خطوات:\n1. تحديد تدفق القيمة: تحديد المسار الذي يلزم تحليله.\n2. رسم خريطة المسار «الحالي»: توثيق الوضع الحالي لسير العمل كما هو موجود.\n3. تحليل المسار: البحث عن الهدر (الأنشطة التي لا تضيف قيمة) وفرص التحسين.\n4. رسم خريطة المسار «المستهدف»: تصميم الوضع المستقبلي المرغوب لسير العمل.\n5. تخطيط التحسينات وتنفيذها: هذه هي الخطوة الأخيرة، التي تنفّذ فيها المنظمة التغييرات فعليًا لبلوغ الوضع المستهدف."
+  },
+  "t08e33cd245418f226338": {
+   "en": "They focus exclusively on financial performance and do not relate to governance oversight",
+   "ar": "تركّز حصريًا على الأداء المالي ولا علاقة لها بالإشراف الحوكمي"
   },
   "t091963e0b27657f47f96": {
    "en": "Physical trash.",
@@ -172,15 +204,15 @@
   },
   "t0a1adadfbf37062eb3ca": {
    "en": "In value stream mapping, what is \"as-is\" mapping?",
-   "ar": "في رسم خريطة مسار القيمة، ما رسم الخريطة «الحالية» (as-is)؟"
+   "ar": "في رسم خريطة تدفق القيمة، ما رسم الخريطة «الحالية» (as-is)؟"
   },
   "t0a4d3136fe5909d10e7c": {
    "en": "Optimize and automate",
-   "ar": "التحسين والأتمتة (Optimize and automate)"
+   "ar": "حسّن وأتمت (Optimize and automate)"
   },
   "t0a567461f0c7a6900f90": {
    "en": "Mapping of the ‘as-is’ value stream",
-   "ar": "رسم خريطة مسار القيمة «الحالي» (as-is)"
+   "ar": "رسم خريطة تدفق القيمة «الحالي» (as-is)"
   },
   "t0a660e1403e05e02fc0a": {
    "en": "What is the PRIMARY purpose of the ‘acquire’ activity?",
@@ -198,9 +230,17 @@
    "en": "What is the \"Band of Visibility\"?",
    "ar": "ما «نطاق الرؤية» (Band of Visibility)؟"
   },
+  "t0ad6596522a31dee4cfc": {
+   "en": "By creating new value streams for every product or service",
+   "ar": "من خلال إنشاء تدفقات قيمة جديدة لكل منتج أو خدمة"
+  },
   "t0ad7133926eb50ce872f": {
    "en": "What should an organization do if an improvement initiative reaches the \"Are we getting there?\" step and finds that results have fallen short of the objectives?",
    "ar": "ماذا ينبغي للمنظمة أن تفعل إذا وصلت مبادرة تحسين إلى خطوة «هل نحن في طريقنا إلى هناك؟» ووجدت أن النتائج جاءت دون الأهداف؟"
+  },
+  "t0adad20471d68cae81e8": {
+   "en": "A cloud service provider giving users access to virtual machines",
+   "ar": "مزوّد خدمة سحابية يمنح المستخدمين الوصول إلى أجهزة افتراضية"
   },
   "t0af4a96db68c4dde8cd2": {
    "en": "A cause of one or more interruptions",
@@ -216,7 +256,7 @@
   },
   "t0b305b417767c9b427ac": {
    "en": "“The ‘Value streams and processes’ dimension address organizational and cross-organizational workflows, focusing on what activities the organization undertakes and how they are organized to enable value for stakeholders effectively and eficiently.” Ref 2.3",
-   "ar": "«يتناول بُعد ‹مسارات القيمة والعمليات› سير العمل التنظيمي والعابر للمنظمات، مع التركيز على الأنشطة التي تضطلع بها المنظمة وكيفية تنظيمها لتمكين القيمة لأصحاب المصلحة بفعالية وكفاءة.» المرجع 2.3"
+   "ar": "«يتناول بُعد ‹تدفقات القيمة والعمليات› سير العمل التنظيمي والعابر للمنظمات، مع التركيز على الأنشطة التي تضطلع بها المنظمة وكيفية تنظيمها لتمكين القيمة لأصحاب المصلحة بفعالية وكفاءة.» المرجع 2.3"
   },
   "t0b49c517c89a03279864": {
    "en": "Which activity has the purpose of developing, integrating, and testing digital products to transform designs into functional solutions?",
@@ -224,7 +264,7 @@
   },
   "t0b5ec987f43210f536d7": {
    "en": "How should the ITIL Guiding Principle ‘optimize and automate’ be applied?",
-   "ar": "كيف ينبغي تطبيق مبدأ ITIL التوجيهي «التحسين والأتمتة»؟"
+   "ar": "كيف ينبغي تطبيق مبدأ ITIL التوجيهي «حسّن وأتمت»؟"
   },
   "t0b647efe38cb42dea75d": {
    "en": "A set of interconnected activities that an organization performs to create and deliver products",
@@ -237,6 +277,14 @@
   "t0bccf16e36d62ba50887": {
    "en": "A digital service is independent of a digital product",
    "ar": "الخدمة الرقمية مستقلة عن المنتج الرقمي"
+  },
+  "t0c3c67b622104cc7e96f": {
+   "en": "Which is NOT one of the four categories of service level metrics?",
+   "ar": "أيٌّ مما يلي ليس من الفئات الأربع لمقاييس مستوى الخدمة؟"
+  },
+  "t0c90c84e3122a4c3d13c": {
+   "en": "The book states that service level metrics fall into four categories: utility, warranty, sustainability and experience. Governance is not one of them.",
+   "ar": "يذكر الكتاب أن مقاييس مستوى الخدمة تنقسم إلى أربع فئات: المنفعة، والضمان، والاستدامة، والتجربة. والحوكمة ليست منها."
   },
   "t0c96b749d50dabbdd1b9": {
    "en": "Continuous Deployment",
@@ -270,6 +318,14 @@
    "en": "Secure and allocate necessary resources eficiently",
    "ar": "تأمين الموارد اللازمة وتخصيصها بكفاءة"
   },
+  "t0db6b60555d46853fa6b": {
+   "en": "A digital service is a service that fully or largely relies on digital products. Like every service, it enables value for consumers without transferring ownership. Option A is the definition of a digital product.",
+   "ar": "الخدمة الرقمية هي خدمة تعتمد كليًا أو بدرجة كبيرة على المنتجات الرقمية. ومثل أي خدمة، تمكّن القيمة للمستهلكين دون نقل الملكية. أما الخيار A فهو تعريف المنتج الرقمي."
+  },
+  "t0dce4698a966827b672a": {
+   "en": "Why are management practices important in digital product and service management?",
+   "ar": "لماذا تُعد الممارسات الإدارية مهمة في إدارة المنتجات والخدمات الرقمية؟"
+  },
   "t0de083fd64fc0c38d8c0": {
    "en": "The core purpose of a service (including a digital service) is to enable value co-creation by helping consumers achieve desired outcomes, while relieving them of the need to manage certain costs and risks. “Service is a means of enabling value co-creation by facilitating outcomes that consumers want to achieve, without the consumer having to manage specific costs and risks.” Ref 3.1.1",
    "ar": "الغرض الجوهري من الخدمة (بما في ذلك الخدمة الرقمية) هو تمكين الإنشاء المشترك للقيمة من خلال مساعدة المستهلكين على تحقيق النتائج المرغوبة، مع إعفائهم من الحاجة إلى إدارة تكاليف ومخاطر معينة. «الخدمة وسيلة لتمكين الإنشاء المشترك للقيمة من خلال تيسير النتائج التي يرغب المستهلكون في تحقيقها، دون أن يضطر المستهلك إلى إدارة تكاليف ومخاطر محددة.» المرجع 3.1.1"
@@ -294,6 +350,10 @@
    "en": "Which of the following is a significant risk associated with poor visibility of workload and progress?",
    "ar": "أيّ مما يلي يُعدّ خطرًا كبيرًا مرتبطًا بضعف الرؤية لعبء العمل والتقدم؟"
   },
+  "t0e8b905a959b1318a701": {
+   "en": "The book defines the purpose of the ‘acquire’ activity as securing and allocating necessary resources efficiently, ensuring the sustainability and scalability of products and services. Resolving incidents belongs to ‘support’, onboarding users to ‘deliver’, and creating prototypes to ‘build’.",
+   "ar": "يعرّف الكتاب الغرض من نشاط «الاقتناء» بأنه تأمين الموارد اللازمة وتخصيصها بكفاءة، بما يضمن استدامة المنتجات والخدمات وقابليتها للتوسع. أما حل الحوادث فيتبع «الدعم»، وإلحاق المستخدمين يتبع «التسليم»، وإنشاء النماذج الأولية يتبع «البناء»."
+  },
   "t0ea90e2f2082f4da8519": {
    "en": "Which of the following is a key success metric for ‘Transition’ activity?",
    "ar": "أيّ مما يلي يُعدّ مقياس نجاح رئيسيًا لنشاط «الانتقال» (Transition)؟"
@@ -304,7 +364,7 @@
   },
   "t0ee280a8a7bb925157bb": {
    "en": "What does ITIL emphasize as a key difference between ‘value stream mapping’ and ‘value stream management’?",
-   "ar": "ما الذي تؤكده ITIL بوصفه فرقًا رئيسيًا بين «رسم خريطة مسار القيمة» و«إدارة مسار القيمة»؟"
+   "ar": "ما الذي تؤكده ITIL بوصفه فرقًا رئيسيًا بين «رسم خريطة تدفق القيمة» و«إدارة تدفق القيمة»؟"
   },
   "t0f1766dd6a87a963605c": {
    "en": "What is \"DevOps\"?",
@@ -336,7 +396,7 @@
   },
   "t10c13dfe1e00d4367477": {
    "en": "Deliver and support",
-   "ar": "التقديم والدعم (Deliver and support)"
+   "ar": "التسليم والدعم (Deliver and support)"
   },
   "t1167937f6e3c006270c0": {
    "en": "To confirm whether previous improvement initiatives were successful",
@@ -370,6 +430,10 @@
    "en": "It focuses mainly on operational eficiency and uses standardized contracts",
    "ar": "تركّز أساسًا على الكفاءة التشغيلية وتستخدم عقودًا موحّدة"
   },
+  "t1294579c2b2cbfcc0890": {
+   "en": "Which of the following is NOT one of the digital product and service lifecycle management activities?",
+   "ar": "أيٌّ مما يلي ليس من أنشطة إدارة دورة حياة المنتجات والخدمات الرقمية؟"
+  },
   "t12ba6615123231ce6095": {
    "en": "What is a problem?",
    "ar": "ما المشكلة (problem)؟"
@@ -396,11 +460,15 @@
   },
   "t134c6d7fb25e20984078": {
    "en": "Value streams continue to evolve over time",
-   "ar": "تستمر مسارات القيمة في التطور بمرور الوقت"
+   "ar": "تستمر تدفقات القيمة في التطور بمرور الوقت"
   },
   "t1356207d16a9b21178db": {
    "en": "The price of the service.",
    "ar": "سعر الخدمة."
+  },
+  "t138629718f96077eb693": {
+   "en": "Capability levels, criteria, and recommendations for self-assessment",
+   "ar": "مستويات القدرة ومعاييرها وتوصيات التقييم الذاتي"
   },
   "t13ad7944eea5d60abf0f": {
    "en": "Buying new computers.",
@@ -413,6 +481,10 @@
   "t141c1dec12f83368f452": {
    "en": "To handle daily support calls.",
    "ar": "التعامل مع مكالمات الدعم اليومية."
+  },
+  "t141e5d5faa7f41c557f1": {
+   "en": "Evaluating how reliable a product is against its specifications",
+   "ar": "تقييم مدى موثوقية المنتج مقارنةً بمواصفاته"
   },
   "t142fc1ece45f06fac1ef": {
    "en": "Avoid applying risk management when reusing existing processes",
@@ -428,7 +500,7 @@
   },
   "t14fcf1e32e949c410b16": {
    "en": "Which of the following is NOT one of the steps in value stream mapping?",
-   "ar": "أيّ مما يلي ليس من خطوات رسم خريطة مسار القيمة؟"
+   "ar": "أيّ مما يلي ليس من خطوات رسم خريطة تدفق القيمة؟"
   },
   "t154b1011ed96dceec77f": {
    "en": "Select the right message and method to communicate with stakeholders",
@@ -436,7 +508,7 @@
   },
   "t15544c27aa642403325c": {
    "en": "The Partners and suppliers dimension explicitly addresses how an organization manages its relationships with external organizations that contribute to the discovery, design, delivery, support, and improvement of products and services. Ref 2.5",
-   "ar": "يتناول بُعد الشركاء والموردين صراحةً كيفية إدارة المنظمة لعلاقاتها مع المنظمات الخارجية التي تسهم في اكتشاف المنتجات والخدمات وتصميمها وتقديمها ودعمها وتحسينها. المرجع 2.5"
+   "ar": "يتناول بُعد الشركاء والموردين صراحةً كيفية إدارة المنظمة لعلاقاتها مع المنظمات الخارجية التي تسهم في استكشاف المنتجات والخدمات وتصميمها وتقديمها ودعمها وتحسينها. المرجع 2.5"
   },
   "t1561e0f27cd76e7c65b6": {
    "en": "It defines service level targets and metrics",
@@ -454,6 +526,10 @@
    "en": "Why do ITIL practice guides follow a standardized structure across all practices?",
    "ar": "لماذا تتبع أدلة ممارسات ITIL بنية موحّدة عبر جميع الممارسات؟"
   },
+  "t162ff242a01536461b96": {
+   "en": "After assessing its current customer service performance, a telecom company sets a target to reduce average call times from 10 minutes to 3 minutes within six months. Which continual improvement step are they performing?",
+   "ar": "بعد تقييم أداء خدمة العملاء الحالي، حددت شركة اتصالات هدفًا لخفض متوسط مدة المكالمة من 10 دقائق إلى 3 دقائق خلال ستة أشهر. أي خطوة من خطوات التحسين المستمر تنفذها؟"
+  },
   "t164d069f9ffa53aa3e86": {
    "en": "Designing product prototypes",
    "ar": "تصميم النماذج الأولية للمنتجات"
@@ -468,7 +544,7 @@
   },
   "t16c920b8506b0e344b28": {
    "en": "“Value stream mapping includes the following steps: value stream identification; mapping of the ‘as-is’ value stream; analysing the value stream; mapping a ‘to-be’ value stream; planning and implementing improvements.” Ref 6.3, Glossary",
-   "ar": "«يتضمن رسم خريطة مسار القيمة الخطوات التالية: تحديد مسار القيمة؛ ورسم خريطة مسار القيمة ‹الحالي›؛ وتحليل مسار القيمة؛ ورسم خريطة مسار القيمة ‹المستهدف›؛ وتخطيط التحسينات وتنفيذها.» المرجع 6.3، المسرد (Glossary)"
+   "ar": "«يتضمن رسم خريطة تدفق القيمة الخطوات التالية: تحديد تدفق القيمة؛ ورسم خريطة تدفق القيمة ‹الحالي›؛ وتحليل تدفق القيمة؛ ورسم خريطة تدفق القيمة ‹المستهدف›؛ وتخطيط التحسينات وتنفيذها.» المرجع 6.3، المسرد (Glossary)"
   },
   "t16d2ffed3f56bf553135": {
    "en": "Benefits for organization, its customers, and stakeholders",
@@ -481,6 +557,10 @@
   "t16ed12be8c42b8a1bb2a": {
    "en": "The ITIL definitions distinguish between the Customer (defines requirements), the User (uses the service), and the Sponsor (authorizes the budget).",
    "ar": "تميّز تعريفات ITIL بين العميل (يحدّد المتطلبات)، والمستخدم (يستخدم الخدمة)، والراعي (يعتمد الميزانية)."
+  },
+  "t16fb82ad8a4d6e849642": {
+   "en": "The purpose of the 'deliver' activity is to:",
+   "ar": "الغرض من نشاط «التسليم» هو:"
   },
   "t16fd54930e50ebeabe21": {
    "en": "The key metrics of the ‘acquire’ activity are “Quality of the resources and services; acquire cycle time; adherence to the product roadmap and other relevant guidelines; stakeholder satisfaction with the ‘acquire’ activity, timelines, and acquired resources.” Ref 4.4.2, Table 4.3",
@@ -510,6 +590,10 @@
    "en": "“Sustainability requirements may include responsible sourcing of materials and components, responsible work and employment practices, use of clean energy, low carbon footprint, incorporation of recycled and recyclable materials, transparent supply chains, and others. These requirements may originate from national and international regulations and standards or be defined in the organization’s sustainability strategy.” Ref 3.2.4",
    "ar": "«قد تشمل متطلبات الاستدامة التوريد المسؤول للمواد والمكونات، وممارسات العمل والتوظيف المسؤولة، واستخدام الطاقة النظيفة، وانخفاض البصمة الكربونية، ودمج المواد المعاد تدويرها والقابلة لإعادة التدوير، وسلاسل التوريد الشفافة، وغير ذلك. وقد تنشأ هذه المتطلبات من اللوائح والمعايير الوطنية والدولية، أو تُحدَّد في استراتيجية الاستدامة الخاصة بالمنظمة.» المرجع 3.2.4"
   },
+  "t17c82d91b9321683bce5": {
+   "en": "Solutions should be designed to handle exceptions through rules",
+   "ar": "ينبغي تصميم الحلول بحيث تتعامل مع الاستثناءات من خلال قواعد"
+  },
   "t181d56e33ca30715bd3c": {
    "en": "Digital products are always based on digital services",
    "ar": "تستند المنتجات الرقمية دائمًا إلى الخدمات الرقمية"
@@ -524,7 +608,7 @@
   },
   "t18825b4f2a9606f3b74c": {
    "en": "\"Progress iteratively with feedback\" allows organizations to:",
-   "ar": "مبدأ «التقدم بشكل تكراري مع التغذية الراجعة» يتيح للمنظمات أن:"
+   "ar": "مبدأ «التقدم بشكل تدريجي مع التغذية الراجعة» يتيح للمنظمات أن:"
   },
   "t189a4e167763a16f1118": {
    "en": "A sponsor within a consumer organization is the role that authorizes the budget for service consumption, ensuring that funding is approved to obtain and use the service.",
@@ -540,7 +624,7 @@
   },
   "t18cb9a21e4affafb83ec": {
    "en": "Value streams, projects, releases, incidents, changes",
-   "ar": "مسارات القيمة، والمشاريع، والإصدارات، والحوادث، والتغييرات"
+   "ar": "تدفقات القيمة، والمشاريع، والإصدارات، والحوادث، والتغييرات"
   },
   "t190709d339cdb35083c9": {
    "en": "A software product provided to the consumer by the service provider",
@@ -566,6 +650,10 @@
    "en": "Identify the missing word in the following sentence The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of [?], and the CIs that support them, is available when and where it is needed",
    "ar": "حدّد الكلمة المفقودة في الجملة التالية: الغرض من ممارسة إدارة تهيئة الخدمة هو ضمان توافر معلومات دقيقة وموثوقة عن تهيئة [?]، وعناصر التهيئة (CIs) التي تدعمها، متى وأينما دعت الحاجة إليها"
   },
+  "t19dc2cc6b33b1e4c142a": {
+   "en": "A Service Level Agreement (SLA) is a documented agreement between a service provider and a customer that identifies both the services required and the agreed level of service, so it is where the required performance outcomes are defined.",
+   "ar": "اتفاقية مستوى الخدمة (SLA) اتفاقية موثقة بين مزوّد الخدمة والعميل تحدد الخدمات المطلوبة ومستوى الخدمة المتفق عليه، ولذلك فهي المكان الذي تُحدَّد فيه نتائج الأداء المطلوبة."
+  },
   "t1a03a9fda1724ee8b7d8": {
    "en": "The service will continually meet requirements for environmental responsibility",
    "ar": "أن الخدمة ستلبي باستمرار متطلبات المسؤولية البيئية"
@@ -577,6 +665,10 @@
   "t1a17bc16718611975d20": {
    "en": "Transfer of goods and service actions",
    "ar": "نقل السلع وإجراءات الخدمة"
+  },
+  "t1a26b7391d4f03e43c4d": {
+   "en": "Complexity thinking is an approach to analysis and decision-making based on understanding the various levels of complexity in systems and their context. The book presents it in the ‘value streams and processes’ dimension (Section 2.3.2, ‘Optimizing workflows for complexity’).",
+   "ar": "التفكير في التعقيد نهج للتحليل واتخاذ القرار يقوم على فهم المستويات المختلفة من التعقيد في الأنظمة وسياقها. ويعرضه الكتاب ضمن بُعد «تدفقات القيمة والعمليات» (القسم 2.3.2، «تحسين سير العمل بما يتناسب مع التعقيد»)."
   },
   "t1a3b4510814e1bacc9fc": {
    "en": "Services completely eliminate risks associated with achieving outcomes",
@@ -594,13 +686,17 @@
    "en": "The guiding principles should each be considered to determine their relevance to the specific context and decision, as they are universal recommendations that may apply differently depending on the situation.",
    "ar": "ينبغي النظر في كل مبدأ من المبادئ التوجيهية لتحديد مدى ملاءمته للسياق والقرار المحددين، إذ إنها توصيات عامة قد تنطبق بشكل مختلف بحسب الموقف."
   },
+  "t1adf9bb2462003df29bc": {
+   "en": "A combination of an organization's resources based on digital technology and designed to offer value to consumers",
+   "ar": "مزيج من موارد المنظمة يعتمد على التقنية الرقمية ومصمم لتقديم قيمة للمستهلكين"
+  },
   "t1b03072ff7282404830f": {
    "en": "Because principles must be applied in a strict order",
    "ar": "لأن المبادئ يجب أن تُطبَّق بترتيب صارم"
   },
   "t1b34a7115c783be4e8e2": {
    "en": "Value stream identification",
-   "ar": "تحديد مسار القيمة"
+   "ar": "تحديد تدفق القيمة"
   },
   "t1b64c3ad955d88379540": {
    "en": "The operating model element that refers to third parties contributing to value creation activities is partners and suppliers, as it describes how external organizations support the service provider through goods, services, and expertise to help create and deliver value.",
@@ -609,6 +705,10 @@
   "t1bd757ecbeef677777fc": {
    "en": "To discover new business opportunities",
    "ar": "اكتشاف فرص أعمال جديدة"
+  },
+  "t1bdb59e46f315b01c440": {
+   "en": "Which dimension of product and service management focuses on implementing a system of rules, policies, and standards to manage data assets?",
+   "ar": "أي بُعد من أبعاد إدارة المنتجات والخدمات يركّز على تطبيق منظومة من القواعد والسياسات والمعايير لإدارة أصول البيانات؟"
   },
   "t1be1fa6a0c1abb4e5c10": {
    "en": "The functionality provided by a product or service to meet a particular need",
@@ -646,6 +746,10 @@
    "en": "The initial creation used for testing a product’s design",
    "ar": "الإنشاء الأولي المستخدم لاختبار تصميم المنتج"
   },
+  "t1da5672398a84e68d391": {
+   "en": "What is the outcome of the ITIL Value System?",
+   "ar": "ما ناتج نظام قيمة ITIL؟"
+  },
   "t1da6e3758af0f1da452a": {
    "en": "The financial profit generated by a service.",
    "ar": "الربح المالي الذي تحققه الخدمة."
@@ -660,7 +764,7 @@
   },
   "t1dffdaf2e3d1991a2fe5": {
    "en": "Which of the following is NOT a success metric of ‘Discover’ activity?",
-   "ar": "أيّ مما يلي ليس مقياس نجاح لنشاط «الاكتشاف» (Discover)؟"
+   "ar": "أيّ مما يلي ليس مقياس نجاح لنشاط «الاستكشاف» (Discover)؟"
   },
   "t1e04e44776d2a1087845": {
    "en": "Optimization must come before automation. Automating ineficient or poorly designed work only increases waste and risk. “Before an activity or practice can be effectively automated, it should be optimized to whatever degree is reasonably possible.” Ref 5.2.7",
@@ -672,7 +776,7 @@
   },
   "t1e3a3661340e86b833d6": {
    "en": "Mapping a ‘to-be’ value stream",
-   "ar": "رسم خريطة مسار القيمة «المستهدف» (to-be)"
+   "ar": "رسم خريطة تدفق القيمة «المستهدف» (to-be)"
   },
   "t1f4ee590aa4171828e15": {
    "en": "To write user manuals for new apps.",
@@ -685,6 +789,10 @@
   "t1f6f3ab20884db0bb344": {
    "en": "Collaborative relationship",
    "ar": "العلاقة التشاركية (Collaborative relationship)"
+  },
+  "t1f87ca67485fd95f5d8e": {
+   "en": "ITIL focuses on managing digital products and services, while PRINCE2 equips professionals to manage the projects that implement or transform those products and services. Projects are time-bound initiatives that introduce new or changed services; routine operations and governance authority are not their purpose. The source keyed D; changed to C by owner decision.",
+   "ar": "يركّز ITIL على إدارة المنتجات والخدمات الرقمية، بينما يزوّد PRINCE2 المختصين بأدوات إدارة المشاريع التي تنفذ تلك المنتجات والخدمات أو تحوّلها. والمشاريع مبادرات محددة زمنيًا تُدخل خدمات جديدة أو معدّلة، وليس غرضها العمليات الروتينية ولا سلطة الحوكمة. المصدر جعل الإجابة D، وتغيّرت إلى C بقرار المالك."
   },
   "t1fd933329485dc22cce8": {
    "en": "It manages the technical details of digital products directly",
@@ -701,6 +809,10 @@
   "t2011d9770b81b9346d4f": {
    "en": "A release is a specific version of a service or component that has been prepared and made ready for use by the consumer.",
    "ar": "الإصدار نسخة محددة من خدمة أو مكوّن جرى إعدادها وتجهيزها للاستخدام من قِبل المستهلك."
+  },
+  "t202347735a5a7077b15d": {
+   "en": "Considering different methods of communication for the different audiences",
+   "ar": "مراعاة أساليب تواصل مختلفة للجماهير المختلفة"
   },
   "t2024a81224fa35a3ea44": {
    "en": "After the problem has been analyzed",
@@ -726,6 +838,14 @@
    "en": "By prescribing mandatory tools and technologies for service management",
    "ar": "بفرض أدوات وتقنيات إلزامية لإدارة الخدمات"
   },
+  "t21355d90a01ed6d63270": {
+   "en": "Which BEST defines a digital service?",
+   "ar": "أيٌّ مما يلي يعرّف الخدمة الرقمية على أفضل وجه؟"
+  },
+  "t215d8ee1fe58cd477be8": {
+   "en": "Applying software engineering to infrastructure and operations problems",
+   "ar": "تطبيق هندسة البرمجيات على مشكلات البنية التحتية والعمليات"
+  },
   "t21649c14aa0a41488dcb": {
    "en": "Never try to improve anything ever again.",
    "ar": "عدم محاولة تحسين أي شيء مرة أخرى أبدًا."
@@ -733,10 +853,6 @@
   "t216e71c7b9b936372d0c": {
    "en": "An increase in excessive capacity",
    "ar": "زيادة في الطاقة الاستيعابية الفائضة"
-  },
-  "t2190c6460c13d2442528": {
-   "en": "Project management is essential for delivering change within the ITIL Value System. Effective projects ensure that delivery is structured, controlled, and strategically aligned. PRINCE2 methods specifically support the delivery of changes that implement or modify products and services.",
-   "ar": "إدارة المشاريع أساسية لتسليم التغيير ضمن نظام قيمة ITIL. فالمشاريع الفعّالة تضمن أن يكون التسليم منظمًا ومضبوطًا ومتوائمًا استراتيجيًا. وتدعم منهجيات PRINCE2 تحديدًا تسليم التغييرات التي تنفّذ المنتجات والخدمات أو تعدّلها."
   },
   "t21fab002e42dd99ed53d": {
    "en": "Improvement work is often complex and requires constant adjustment based on reality.",
@@ -756,7 +872,7 @@
   },
   "t22b7dd2c9da5d7f29ece": {
    "en": "The ‘Organization and people’ dimension is most concerned with establishing a culture of trust. Digitally enabled organizations are under pressure to continually improve their performance under changing market conditions […] The challenge for these organizations is to foster an effective set of shared beliefs, perceptions, and values in relation to risks. This, in turn, should create a safety culture, and result in behavior that is beneficial for all stakeholders, including the members of the organization. Ref 2.2.1",
-   "ar": "يهتم بُعد «المنظمة والأفراد» في المقام الأول بترسيخ ثقافة الثقة. وتتعرض المنظمات الممكَّنة رقميًا لضغوط لتحسين أدائها باستمرار في ظل ظروف السوق المتغيرة […] ويتمثل التحدي أمام هذه المنظمات في تعزيز مجموعة فعّالة من المعتقدات والتصورات والقيم المشتركة فيما يتعلق بالمخاطر. وهذا بدوره ينبغي أن يخلق ثقافة أمان، ويؤدي إلى سلوك مفيد لجميع أصحاب المصلحة، بمن فيهم أعضاء المنظمة. المرجع 2.2.1"
+   "ar": "يهتم بُعد «المنظمة والأشخاص» في المقام الأول بترسيخ ثقافة الثقة. وتتعرض المنظمات الممكَّنة رقميًا لضغوط لتحسين أدائها باستمرار في ظل ظروف السوق المتغيرة […] ويتمثل التحدي أمام هذه المنظمات في تعزيز مجموعة فعّالة من المعتقدات والتصورات والقيم المشتركة فيما يتعلق بالمخاطر. وهذا بدوره ينبغي أن يخلق ثقافة أمان، ويؤدي إلى سلوك مفيد لجميع أصحاب المصلحة، بمن فيهم أعضاء المنظمة. المرجع 2.2.1"
   },
   "t23072d14324de43a8280": {
    "en": "A guideline document for internal IT teams without customer involvement",
@@ -764,11 +880,15 @@
   },
   "t231b3f008f4bd6f47537": {
    "en": "Progress iteratively with feedback",
-   "ar": "التقدم بشكل تكراري مع التغذية الراجعة (Progress iteratively with feedback)"
+   "ar": "التقدم بشكل تدريجي مع التغذية الراجعة (Progress iteratively with feedback)"
   },
   "t2322d0a4d9eaecaee5a0": {
    "en": "They ensure activities are performed in a fixed order",
    "ar": "لأنها تضمن أداء الأنشطة بترتيب ثابت"
+  },
+  "t23574e4b6f479b301436": {
+   "en": "To limit information sharing to senior management to avoid confusion",
+   "ar": "حصر مشاركة المعلومات في الإدارة العليا لتجنب الالتباس"
   },
   "t2385781c326ff1b3ad81": {
    "en": "One product can only ever enable one service.",
@@ -785,6 +905,10 @@
   "t24541b64dd1f1b4e79c3": {
    "en": "The addition, modification, or removal of anything that could affect services",
    "ar": "إضافة أو تعديل أو إزالة أي شيء قد يؤثر في الخدمات"
+  },
+  "t24745cd7f4af7b7e271d": {
+   "en": "They influence the financial outcome of the organization",
+   "ar": "تؤثر في النتيجة المالية للمنظمة"
   },
   "t247a1b8f38a0a20cfd6b": {
    "en": "Which of these is a result for a stakeholder enabled by one or more outputs?",
@@ -844,11 +968,11 @@
   },
   "t2873cc94a5c20abe42cf": {
    "en": "The organizations and people dimension ensures that individuals within the organization have the appropriate skills, competencies, roles, and structure to meet current and anticipated needs in delivering products and services.",
-   "ar": "يضمن بُعد المنظمات والأفراد أن يمتلك الأفراد داخل المنظمة المهارات والكفاءات والأدوار والهيكل المناسبة لتلبية الاحتياجات الحالية والمتوقعة في تقديم المنتجات والخدمات."
+   "ar": "يضمن بُعد المنظمة والأشخاص أن يمتلك الأفراد داخل المنظمة المهارات والكفاءات والأدوار والهيكل المناسبة لتلبية الاحتياجات الحالية والمتوقعة في تقديم المنتجات والخدمات."
   },
   "t28e9f69b63d2fb6e9b8a": {
    "en": "What is \"waste\" in a value stream?",
-   "ar": "ما «الهدر» (waste) في مسار القيمة؟"
+   "ar": "ما «الهدر» (waste) في تدفق القيمة؟"
   },
   "t29962b5e22fcd07f44ba": {
    "en": "The total number of outputs produced.",
@@ -861,6 +985,10 @@
   "t2a19281e7fc59b193d2d": {
    "en": "Transactional",
    "ar": "تعاملية (Transactional)"
+  },
+  "t2a7090c1b5eec1df997e": {
+   "en": "The book lists the quality of the resources and services sourced from suppliers among the key measures of the ‘acquire’ activity, whose purpose is to secure and allocate the necessary resources efficiently.",
+   "ar": "يذكر الكتاب جودة الموارد والخدمات التي يتم الحصول عليها من الموردين ضمن المقاييس الرئيسية لنشاط «الاقتناء»، الذي يهدف إلى تأمين الموارد اللازمة وتخصيصها بكفاءة."
   },
   "t2a8513456263240011b6": {
    "en": "To manage routine operational activities and service requests",
@@ -882,6 +1010,10 @@
    "en": "What is an incident in IT services?",
    "ar": "ما الحادث (incident) في خدمات تقنية المعلومات؟"
   },
+  "t2b3182949e4d0ab1efad": {
+   "en": "By improving the management practices that support and enable value streams",
+   "ar": "من خلال تحسين الممارسات الإدارية التي تدعم تدفقات القيمة وتمكّنها"
+  },
   "t2b5fd08570280d97283e": {
    "en": "A list of external suppliers.",
    "ar": "قائمة بالموردين الخارجيين."
@@ -900,7 +1032,7 @@
   },
   "t2b8c3784919243056e60": {
    "en": "How does the ‘organizations and people’ dimension contribute to effective product and service management?",
-   "ar": "كيف يسهم بُعد «المنظمات والأفراد» في الإدارة الفعّالة للمنتجات والخدمات؟"
+   "ar": "كيف يسهم بُعد «المنظمة والأشخاص» في الإدارة الفعّالة للمنتجات والخدمات؟"
   },
   "t2b9b77122ced77574a72": {
    "en": "The functionality offered by a service.",
@@ -922,9 +1054,13 @@
    "en": "To obtain capabilities that are dificult to develop internally",
    "ar": "للحصول على قدرات يصعب تطويرها داخليًا"
   },
+  "t2cae26c88c2cc1ed782e": {
+   "en": "A means of enabling value for consumers through digital products without ownership transfer",
+   "ar": "وسيلة لتمكين القيمة للمستهلكين من خلال المنتجات الرقمية دون نقل الملكية"
+  },
   "t2cc0168c4464cba7b704": {
    "en": "Which of these is a \"Core Value Stream\"?",
-   "ar": "أيّ مما يلي «مسار قيمة أساسي» (Core Value Stream)؟"
+   "ar": "أيّ مما يلي «تدفق قيمة أساسي» (Core Value Stream)؟"
   },
   "t2ced77dacc67d6108003": {
    "en": "What does observability enable in digital product and service management?",
@@ -950,6 +1086,10 @@
    "en": "By keeping the success a secret from other teams.",
    "ar": "بإبقاء النجاح سرًا عن الفرق الأخرى."
   },
+  "t2dbb34e7fafbafe7cd34": {
+   "en": "Reduce complexity by focusing on doing fewer things but doing them better",
+   "ar": "تقليل التعقيد بالتركيز على عدد أقل من الأمور مع إتقانها أكثر"
+  },
   "t2dc64a6767a887734ba1": {
    "en": "They reduce risks and provide resources through specialization",
    "ar": "يقلّلون المخاطر ويوفّرون الموارد من خلال التخصص"
@@ -957,6 +1097,10 @@
   "t2dd9f3b30cb01f657a1c": {
    "en": "Only the help desk",
    "ar": "مكتب المساعدة فقط"
+  },
+  "t2e00069304cf9a450bd6": {
+   "en": "The functionality offered by a product or service to meet a particular need",
+   "ar": "الوظائف التي يقدمها المنتج أو الخدمة لتلبية حاجة معينة"
   },
   "t2e006d40b16ebe037bb0": {
    "en": "Continuous Delivery",
@@ -968,7 +1112,7 @@
   },
   "t2e914663efb19d6169b0": {
    "en": "Value streams include all activities and stakeholders required to create and deliver value, which can involve suppliers and partners as part of the overall flow of work. Therefore, excluding suppliers is incorrect.",
-   "ar": "تشمل مسارات القيمة جميع الأنشطة وأصحاب المصلحة اللازمين لإنشاء القيمة وتقديمها، والتي قد تتضمن الموردين والشركاء كجزء من التدفق العام للعمل. لذلك فإن استبعاد الموردين غير صحيح."
+   "ar": "تشمل تدفقات القيمة جميع الأنشطة وأصحاب المصلحة اللازمين لإنشاء القيمة وتقديمها، والتي قد تتضمن الموردين والشركاء كجزء من التدفق العام للعمل. لذلك فإن استبعاد الموردين غير صحيح."
   },
   "t2ecc230fee90427b72da": {
    "en": "By defining the organization’s governance and compliance framework",
@@ -977,6 +1121,10 @@
   "t2ee46a0d7d95dde89a89": {
    "en": "An outcome in a service relationship is a result achieved by a stakeholder through the use of one or more outputs, representing the value realized from the service rather than the deliverables themselves.",
    "ar": "النتيجة في علاقة الخدمة حصيلة يحققها صاحب المصلحة من خلال استخدام مُخرَج واحد أو أكثر، وتمثّل القيمة المتحققة من الخدمة لا المُخرَجات ذاتها."
+  },
+  "t2f1b1a3cb164b5b816fb": {
+   "en": "Product and service lifecycle",
+   "ar": "دورة حياة المنتج والخدمة"
   },
   "t2f308b4805e38485054d": {
    "en": "Which is an example of \"Access to resources\" in a service offering?",
@@ -1006,9 +1154,17 @@
    "en": "Hiring more people to do the same work.",
    "ar": "توظيف مزيد من الأشخاص لأداء العمل نفسه."
   },
+  "t2faea6c457e018c17dcd": {
+   "en": "‘Start where you are’ means not starting from scratch. First observe and assess what already exists (services, processes, resources and capabilities) and reuse what is valuable, then decide what to change.",
+   "ar": "مبدأ «ابدأ من حيث أنت» يعني عدم البدء من الصفر: لاحظ أولًا ما هو موجود وقيّمه (الخدمات والعمليات والموارد والقدرات)، وأعد استخدام ما له قيمة، ثم قرر ما يجب تغييره."
+  },
   "t2fb12318fe9bf73549f1": {
    "en": "Evaluate the risks and financial consequences for the consumers",
    "ar": "تقييم المخاطر والعواقب المالية على المستهلكين"
+  },
+  "t2fcd4703d578befa18f3": {
+   "en": "Which of the following is an example of a service action?",
+   "ar": "أيٌّ مما يلي مثال على إجراء خدمة؟"
   },
   "t2fe70464aadf5873057c": {
    "en": "Transition",
@@ -1034,6 +1190,10 @@
    "en": "To maintain greater control and visibility over service delivery",
    "ar": "للحفاظ على تحكم ورؤية أكبر في تقديم الخدمة"
   },
+  "t30bad4c3785037f08cf3": {
+   "en": "To record the final project results after completion",
+   "ar": "تسجيل النتائج النهائية للمشروع بعد اكتماله"
+  },
   "t30bd76ca3eeb7e27656a": {
    "en": "The \"Where do we want to be?\" step is focused on defining the desired future state (Point B) by setting clear improvement objectives with Critical Success Factors (CSFs) and Key Performance Indicators (KPIs).",
    "ar": "تركّز خطوة «أين نريد أن نكون؟» على تحديد الوضع المستقبلي المرغوب (النقطة B) من خلال وضع أهداف تحسين واضحة مع عوامل النجاح الحاسمة (CSFs) ومؤشرات الأداء الرئيسية (KPIs)."
@@ -1052,7 +1212,7 @@
   },
   "t313b71d2bea8e7c558e4": {
    "en": "Organizations and People",
-   "ar": "المنظمات والأفراد (Organizations and People)"
+   "ar": "المنظمة والأشخاص (Organizations and People)"
   },
   "t3167102c7ae3f1fd9922": {
    "en": "A board of directors or executive managers",
@@ -1062,6 +1222,10 @@
    "en": "A cause, or potential cause, of one or more incidents",
    "ar": "سبب، أو سبب محتمل، لحادث واحد أو أكثر"
   },
+  "t31bd23d2dd375651cbdb": {
+   "en": "Defining the service requirements",
+   "ar": "تحديد متطلبات الخدمة"
+  },
   "t3201ea1fa66663ac2779": {
    "en": "By defining a fixed maturity level that organizations must achieve",
    "ar": "بتحديد مستوى نضج ثابت يجب على المنظمات بلوغه"
@@ -1069,6 +1233,10 @@
   "t3251de7e145c742606bc": {
    "en": "The ‘Focus on value’ principle stipulates that all “activities conducted by the organization should link back, directly or indirectly, to value for itself, its customers, and other stakeholders.” Ref 5.2.1",
    "ar": "ينص مبدأ «التركيز على القيمة» على أن جميع «الأنشطة التي تجريها المنظمة يجب أن ترتبط، بشكل مباشر أو غير مباشر، بالقيمة لها ولعملائها ولأصحاب المصلحة الآخرين.» المرجع 5.2.1"
+  },
+  "t3266a3f3bf5a99cd5a44": {
+   "en": "Governance within the ITIL Value System ensures that organizational activities are directed and controlled, aligning them with strategic objectives and ensuring accountability, performance, and compliance.",
+   "ar": "تضمن الحوكمة ضمن نظام قيمة ITIL توجيه الأنشطة التنظيمية والتحكم فيها، ومواءمتها مع الأهداف الاستراتيجية، وضمان المساءلة والأداء والامتثال."
   },
   "t329b3c4622ceca563324": {
    "en": "Project management",
@@ -1081,6 +1249,10 @@
   "t32abe5c5149d27a8cfc2": {
    "en": "The ITIL AI Capability Model helps outline AI's functional capabilities (like the 6C model) and connects them with assessing existing capabilities to address any gaps with clear action plans.",
    "ar": "يساعد نموذج قدرات الذكاء الاصطناعي (AI) في ITIL على تحديد القدرات الوظيفية للذكاء الاصطناعي (مثل نموذج 6C) وربطها بتقييم القدرات الحالية لمعالجة أي فجوات بخطط عمل واضحة."
+  },
+  "t32f4fa051c5d09110159": {
+   "en": "The customer is the role that defines the requirements for products and services and takes responsibility for the outcomes of service consumption. The sponsor authorizes the budget, and the user uses the service.",
+   "ar": "العميل هو الدور الذي يحدد متطلبات المنتجات والخدمات ويتحمل مسؤولية نتائج استهلاك الخدمة. أما الراعي فيعتمد الميزانية، والمستخدم يستخدم الخدمة."
   },
   "t33c01f505c6072e57b7c": {
    "en": "The goal of digital technology governance is ensuring technology use is:",
@@ -1142,9 +1314,17 @@
    "en": "PRINCE2 Agile defines service management practices",
    "ar": "يحدّد PRINCE2 Agile ممارسات إدارة الخدمات"
   },
+  "t3585e467d4de211e06a3": {
+   "en": "A flaw or vulnerability in a product or system",
+   "ar": "عيب أو ثغرة في منتج أو نظام"
+  },
   "t361fd781327573343ca3": {
    "en": "Only the IT service desk team.",
    "ar": "فريق مكتب خدمة تقنية المعلومات فقط."
+  },
+  "t3644c2e621ed28e789b1": {
+   "en": "Align service offerings with organizational strategy",
+   "ar": "مواءمة عروض الخدمات مع استراتيجية المنظمة"
   },
   "t36574fcce3922cde5b61": {
    "en": "Goods",
@@ -1194,6 +1374,10 @@
    "en": "Relationship management",
    "ar": "إدارة العلاقات (Relationship management)"
   },
+  "t37b4a2e0c53b88a0a4f0": {
+   "en": "Section 2.3.2 (‘Optimizing workflows for complexity’) places complexity thinking in the ‘value streams and processes’ dimension: in complex situations outcomes cannot be predicted, so work is organized as small experiments whose results guide the next step. Safe-to-fail experiments are this kind of work design. The book does not use the exact phrase ‘safe-to-fail’ (owner-approved correction, medium confidence).",
+   "ar": "يضع القسم 2.3.2 («تحسين سير العمل بما يتناسب مع التعقيد») التفكير في التعقيد ضمن بُعد «تدفقات القيمة والعمليات»: ففي المواقف المعقدة لا يمكن التنبؤ بالنتائج، لذلك يُنظَّم العمل على شكل تجارب صغيرة توجّه نتائجها الخطوة التالية. والتجارب الآمنة الفشل (safe-to-fail) من هذا النوع من تصميم العمل. لا يستخدم الكتاب عبارة «safe-to-fail» حرفيًا (تصحيح بموافقة المالك، بثقة متوسطة)."
+  },
   "t37ebfc287a25e22a9af1": {
    "en": "A series of steps that an organization uses to create and deliver products",
    "ar": "سلسلة من الخطوات تستخدمها المنظمة لإنشاء المنتجات وتقديمها"
@@ -1205,6 +1389,10 @@
   "t38123de2ad1d0ad7ab04": {
    "en": "To avoid having to use any data or metrics.",
    "ar": "لتجنّب الاضطرار إلى استخدام أي بيانات أو مقاييس."
+  },
+  "t3830228abb9a903647ea": {
+   "en": "A reduction in the quality of a service",
+   "ar": "انخفاض في جودة الخدمة"
   },
   "t38353e18b9540f2140e1": {
    "en": "To pick a random date for a party.",
@@ -1240,7 +1428,7 @@
   },
   "t39502a31b6d09610cdc7": {
    "en": "Under the principle “Progress iteratively with feedback,” constant feedback ensures the work remains relevant. If circumstances change or the initial direction was wrong, the organization can “pivot” or adjust before wasting more resources.",
-   "ar": "وفقًا لمبدأ «التقدم بشكل تكراري مع التغذية الراجعة»، تضمن التغذية الراجعة المستمرة بقاء العمل ملائمًا. فإذا تغيّرت الظروف أو كان الاتجاه الأولي خاطئًا، تستطيع المنظمة «تغيير المسار» أو التعديل قبل إهدار مزيد من الموارد."
+   "ar": "وفقًا لمبدأ «التقدم بشكل تدريجي مع التغذية الراجعة»، تضمن التغذية الراجعة المستمرة بقاء العمل ملائمًا. فإذا تغيّرت الظروف أو كان الاتجاه الأولي خاطئًا، تستطيع المنظمة «تغيير المسار» أو التعديل قبل إهدار مزيد من الموارد."
   },
   "t3960ba72493607268d31": {
    "en": "General information",
@@ -1256,7 +1444,7 @@
   },
   "t3a2bf8e298644ad08aff": {
    "en": "What is the core recommendation of \"Optimize and Automate\"?",
-   "ar": "ما التوصية الجوهرية لمبدأ «التحسين والأتمتة»؟"
+   "ar": "ما التوصية الجوهرية لمبدأ «حسّن وأتمت»؟"
   },
   "t3a326d60251aad08d06b": {
    "en": "Who typically makes up a governing body?",
@@ -1298,6 +1486,10 @@
    "en": "A team is gathering customer feedback and measuring current service response times to understand its existing performance. Which step of the continual improvement model does this activity represent?",
    "ar": "يجمع فريق ملاحظات العملاء ويقيس أوقات الاستجابة الحالية للخدمة لفهم أدائه الحالي. أي خطوة من خطوات نموذج التحسين المستمر يمثّلها هذا النشاط؟"
   },
+  "t3b8ceeb90741e90c088e": {
+   "en": "It typically involves out-of-the-box services offered to customers",
+   "ar": "تتضمن عادةً خدمات جاهزة تُقدَّم للعملاء"
+  },
   "t3b94e860109344a43975": {
    "en": "Prototypes are used during the \"Design\" activity to refine ideas before full building starts.",
    "ar": "تُستخدم النماذج الأولية خلال نشاط «التصميم» لتنقيح الأفكار قبل بدء البناء الكامل."
@@ -1309,6 +1501,14 @@
   "t3bd21469c1c310c143a9": {
    "en": "The cause of one or more incidents. It represents a deeper issue that needs to be identified and resolved to prevent future incidents. For example, the root cause of a system outage might be a software bug or a hardware failure.",
    "ar": "سبب حادث واحد أو أكثر. وهي تمثّل مشكلة أعمق يلزم تحديدها وحلّها لمنع الحوادث المستقبلية. فعلى سبيل المثال، قد يكون السبب الجذري لتعطّل النظام خللًا برمجيًا أو عطلًا في الأجهزة."
+  },
+  "t3be3f0a9e597325aa805": {
+   "en": "Key information, automation, and tooling for a practice",
+   "ar": "المعلومات الرئيسية والأتمتة والأدوات الخاصة بالممارسة"
+  },
+  "t3c2a39882d09b32f8304": {
+   "en": "Identify patterns in interactions between system elements to anticipate needs",
+   "ar": "تحديد الأنماط في التفاعلات بين عناصر النظام لاستباق الاحتياجات"
   },
   "t3c723442a21286004fb5": {
    "en": "Governance provides the oversight and direction for the organization.",
@@ -1330,9 +1530,13 @@
    "en": "By defining the technologies used to deliver services",
    "ar": "بتحديد التقنيات المستخدمة لتقديم الخدمات"
   },
+  "t3e57ee0719f3491f9f14": {
+   "en": "A user-initiated action that triggers an agreed service",
+   "ar": "إجراء يبادر به المستخدم ويطلق خدمة متفقًا عليها"
+  },
   "t3e5a1be7f4e327e7a3bd": {
    "en": "The ‘value streams and processes’ dimension addresses organizational and cross-organizational workflows, focusing on what activities the organization undertakes and how they are organized to enable value for stakeholders effectively and efficiently.",
-   "ar": "يتناول بُعد «مسارات القيمة والعمليات» سير العمل التنظيمي والعابر للمنظمات، مع التركيز على الأنشطة التي تضطلع بها المنظمة وكيفية تنظيمها لتمكين القيمة لأصحاب المصلحة بفعالية وكفاءة."
+   "ar": "يتناول بُعد «تدفقات القيمة والعمليات» سير العمل التنظيمي والعابر للمنظمات، مع التركيز على الأنشطة التي تضطلع بها المنظمة وكيفية تنظيمها لتمكين القيمة لأصحاب المصلحة بفعالية وكفاءة."
   },
   "t3e6807fe1264a3111a1a": {
    "en": "By ensuring skills, culture, and communication support value creation",
@@ -1345,6 +1549,10 @@
   "t3e8000487688b6b376f9": {
    "en": "Which lifecycle activity is focused on creating prototypes and specifications?",
    "ar": "أي نشاط من أنشطة دورة الحياة يركّز على إنشاء النماذج الأولية والمواصفات؟"
+  },
+  "t3ed31c1375c41e97635c": {
+   "en": "They define the purpose of the organization",
+   "ar": "تحدد غرض المنظمة"
   },
   "t3eef0cc45994a18c9772": {
    "en": "A team is developing a new digital service. Instead of delivering all features at once, they release a small set of features, gather user feedback, and adjust the next release based on what they learn. Which ITIL Guiding Principle is the team applying in this situation?",
@@ -1368,7 +1576,7 @@
   },
   "t3f6837e32d0847782bb7": {
    "en": "“In addition to being aware of the ITIL guiding principles, it is important to recognize that they interact with and depend upon each other. For example, if an organization is committed to progressing iteratively with feedback, it should also think and work holistically to ensure that each iteration of an improvement includes all the elements necessary to deliver real results. Similarly, making use of appropriate feedback is key to collaboration, and focusing on what will truly be valuable to the customer makes it easier to keep things simple and practical.” Ref 5.2.8",
-   "ar": "«بالإضافة إلى الإلمام بمبادئ ITIL التوجيهية، من المهم إدراك أنها تتفاعل فيما بينها ويعتمد بعضها على بعض. فعلى سبيل المثال، إذا كانت المنظمة ملتزمة بالتقدم بشكل تكراري مع التغذية الراجعة، فينبغي لها أيضًا أن تفكر وتعمل بشكل شمولي لضمان أن تتضمن كل دورة من دورات التحسين جميع العناصر اللازمة لتحقيق نتائج حقيقية. وبالمثل، فإن الاستفادة من التغذية الراجعة المناسبة أمر أساسي للتعاون، كما أن التركيز على ما سيكون ذا قيمة حقيقية للعميل يجعل من الأسهل إبقاء الأمور بسيطة وعملية.» المرجع 5.2.8"
+   "ar": "«بالإضافة إلى الإلمام بمبادئ ITIL التوجيهية، من المهم إدراك أنها تتفاعل فيما بينها ويعتمد بعضها على بعض. فعلى سبيل المثال، إذا كانت المنظمة ملتزمة بالتقدم بشكل تدريجي مع التغذية الراجعة، فينبغي لها أيضًا أن تفكر وتعمل بشكل شمولي لضمان أن تتضمن كل دورة من دورات التحسين جميع العناصر اللازمة لتحقيق نتائج حقيقية. وبالمثل، فإن الاستفادة من التغذية الراجعة المناسبة أمر أساسي للتعاون، كما أن التركيز على ما سيكون ذا قيمة حقيقية للعميل يجعل من الأسهل إبقاء الأمور بسيطة وعملية.» المرجع 5.2.8"
   },
   "t3fa2d2d3089f48846bee": {
    "en": "Results should only be measured at the very end.",
@@ -1377,6 +1585,10 @@
   "t3fc245915e8341513ea8": {
    "en": "The physical location of the headquarters.",
    "ar": "الموقع المادي للمقر الرئيسي."
+  },
+  "t3fc87739efbdb60c47a8": {
+   "en": "Which BEST describes service actions?",
+   "ar": "أيٌّ مما يلي يصف إجراءات الخدمة على أفضل وجه؟"
   },
   "t3fe4a2184d2c8bce67fc": {
    "en": "Each organization's VS interfaces with others to form a value-facilitating ecosystem.",
@@ -1392,7 +1604,7 @@
   },
   "t4139442eae1682edbd37": {
    "en": "Value stream mapping identifies, visualizes, and analyses value streams, while value stream management ensures they remain effective, adaptive, and improved over time. Ref 6.3, 6.4",
-   "ar": "يحدّد رسم خريطة مسار القيمة مسارات القيمة ويصوّرها ويحلّلها، بينما تضمن إدارة مسار القيمة بقاءها فعّالة وقابلة للتكيّف ومحسّنة بمرور الوقت. المرجع 6.3، 6.4"
+   "ar": "يحدّد رسم خريطة تدفق القيمة تدفقات القيمة ويصوّرها ويحلّلها، بينما تضمن إدارة تدفق القيمة بقاءها فعّالة وقابلة للتكيّف ومحسّنة بمرور الوقت. المرجع 6.3، 6.4"
   },
   "t4139da9c1e40ae29889a": {
    "en": "Service quality is the totality of characteristics of a service that determine its ability to satisfy stated needs, reflecting how well the service meets expectations and requirements from the consumer's perspective.",
@@ -1418,6 +1630,10 @@
    "en": "Average cost per service request",
    "ar": "متوسط التكلفة لكل طلب خدمة"
   },
+  "t422b785c3258a94155ba": {
+   "en": "Encourage all staff to clearly understand who their customers are",
+   "ar": "تشجيع جميع الموظفين على فهم من هم عملاؤهم بوضوح"
+  },
   "t424e0f01aafd36686413": {
    "en": "A printer is delivered to a customer, while ongoing maintenance and support are provided by the supplier. Which combination of service interactions is shown in this situation?",
    "ar": "تُسلَّم طابعة إلى عميل، بينما يقدّم المورّد الصيانة والدعم المستمرين. أي مزيج من تفاعلات الخدمة يظهر في هذا الموقف؟"
@@ -1428,7 +1644,7 @@
   },
   "t42a76807d9feb3a605c8": {
    "en": "By supporting the effective operation of core value streams",
-   "ar": "بدعم التشغيل الفعّال لمسارات القيمة الأساسية"
+   "ar": "بدعم التشغيل الفعّال لتدفقات القيمة الأساسية"
   },
   "t42b220f58406d6cc6c4c": {
    "en": "They eliminate the need for consumers to use any resources",
@@ -1437,6 +1653,10 @@
   "t42cd6c7d31b533a1cdd7": {
    "en": "Products and services delivered to a consumer",
    "ar": "منتجات وخدمات تُقدَّم إلى المستهلك"
+  },
+  "t42db7cd8f1e9d4087d3e": {
+   "en": "An event causing critical loss",
+   "ar": "حدث يسبب خسارة جسيمة"
   },
   "t4342f25556f0c16e58e3": {
    "en": "Focusing on all four dimensions ensures that no critical aspect (like people or suppliers) is ignored.",
@@ -1474,6 +1694,10 @@
    "en": "Root cause of one or more incidents",
    "ar": "السبب الجذري لحادث واحد أو أكثر"
   },
+  "t44f971cdab3556e67e27": {
+   "en": "Which BEST describes the 'think and work holistically' ITIL Guiding Principle?",
+   "ar": "أيٌّ مما يلي يصف المبدأ التوجيهي «فكّر واعمل بشكل شمولي» على أفضل وجه؟"
+  },
   "t450112bfdcd3c6cfd8a3": {
    "en": "Any component that needs to be managed in order to deliver an IT service",
    "ar": "أي مكوّن يلزم إدارته من أجل تقديم خدمة تقنية معلومات"
@@ -1484,7 +1708,7 @@
   },
   "t45c39634f58f81409c5c": {
    "en": "Value Streams and Processes",
-   "ar": "مسارات القيمة والعمليات (Value Streams and Processes)"
+   "ar": "تدفقات القيمة والعمليات (Value Streams and Processes)"
   },
   "t46056ee9c308a8ec2b0d": {
    "en": "Negative impact of changes on service availability and performance",
@@ -1514,6 +1738,10 @@
    "en": "Reducing manual service actions through automation (a key focus of ITIL 5) leads to faster, more predictable, and more scalable service delivery.",
    "ar": "يؤدي تقليل إجراءات الخدمة اليدوية من خلال الأتمتة (وهو محور تركيز رئيسي في ITIL 5) إلى تقديم خدمة أسرع وأكثر قابلية للتنبؤ والتوسع."
   },
+  "t4659c9cb254d4071df36": {
+   "en": "Which dimension of product and service management is concerned with ensuring that a company's structure supports the fulfillment of strategic goals?",
+   "ar": "أي بُعد من أبعاد إدارة المنتجات والخدمات يُعنى بضمان أن هيكل الشركة يدعم تحقيق الأهداف الاستراتيجية؟"
+  },
   "t47084adf7a71bbf6a4d0": {
    "en": "A conceptual and visual representation of how an organization co-creates value with its customers",
    "ar": "تمثيل مفاهيمي ومرئي لكيفية مشاركة المنظمة في إنشاء القيمة مع عملائها"
@@ -1521,6 +1749,10 @@
   "t471f48e6646541fc9542": {
    "en": "Design and transition",
    "ar": "التصميم والانتقال (Design and transition)"
+  },
+  "t4741d2ea7221c71ef0e4": {
+   "en": "They are optional elements that organizations may choose to ignore without impacting governance",
+   "ar": "عناصر اختيارية يمكن للمنظمات تجاهلها دون أن يتأثر ذلك بالحوكمة"
   },
   "t47449918cc622b645056": {
    "en": "A user asking for a new password.",
@@ -1540,11 +1772,15 @@
   },
   "t479abd13e297e5dafdeb": {
    "en": "A value stream is a series of steps an organization undertakes to create and deliver products and services, enabling value for consumers through coordinated activities and the use of management practices.",
-   "ar": "مسار القيمة سلسلة من الخطوات تتخذها المنظمة لإنشاء المنتجات والخدمات وتقديمها، بما يمكّن القيمة للمستهلكين من خلال أنشطة منسّقة واستخدام الممارسات الإدارية."
+   "ar": "تدفق القيمة سلسلة من الخطوات تتخذها المنظمة لإنشاء المنتجات والخدمات وتقديمها، بما يمكّن القيمة للمستهلكين من خلال أنشطة منسّقة واستخدام الممارسات الإدارية."
   },
   "t47a1cc251d1429e7f4f6": {
    "en": "Which component of the VS is defined as \"The system by which an organization is directed and controlled\"?",
    "ar": "أي مكوّن من مكونات نظام القيمة يُعرَّف بأنه «النظام الذي تُوجَّه به المنظمة ويُتحكَّم فيها»؟"
+  },
+  "t47bb1f321ed959c0e9c3": {
+   "en": "Services are usually customized to meet the needs of customers",
+   "ar": "تُخصَّص الخدمات عادةً لتلبية احتياجات العملاء"
   },
   "t47e08e0d6d3853af547c": {
    "en": "In ITIL, a digital service is a service that relies on digital products. Digital products provide the capabilities, while the digital service uses those capabilities to enable value co-creation for consumers. “Digital service is a service that fully or largely relies on digital products.” Ref 3.1.2",
@@ -1561,6 +1797,10 @@
   "t4837968d0790a0cee6da": {
    "en": "Writing a marketing brochure for the process.",
    "ar": "كتابة كتيّب تسويقي للعملية."
+  },
+  "t48445eee8071a97763f4": {
+   "en": "They replace the need for value streams",
+   "ar": "تُغني عن الحاجة إلى تدفقات القيمة"
   },
   "t488946fe07a2e217cd1c": {
    "en": "They should be written using language and terms which all parties will understand",
@@ -1581,6 +1821,10 @@
   "t492151c1f1c374654b18": {
    "en": "Where do we want to be?",
    "ar": "أين نريد أن نكون؟ (Where do we want to be?)"
+  },
+  "t495785bf3e1aa6d115c1": {
+   "en": "A software company delivering a hardware security token to the customer",
+   "ar": "شركة برمجيات تسلّم العميل رمز أمان (جهاز مادي)"
   },
   "t4976e3f639ec78a1455c": {
    "en": "To assess the current state, strategies, and portfolios to identify needs",
@@ -1636,7 +1880,7 @@
   },
   "t4b9642ddf9f99479f52d": {
    "en": "Which dimension of product and service management is concerned with relationships with other organizations that are involved in discovery, design and continual improvement of product?",
-   "ar": "أي بُعد من أبعاد إدارة المنتجات والخدمات يهتم بالعلاقات مع المنظمات الأخرى المشاركة في اكتشاف المنتج وتصميمه وتحسينه المستمر؟"
+   "ar": "أي بُعد من أبعاد إدارة المنتجات والخدمات يهتم بالعلاقات مع المنظمات الأخرى المشاركة في استكشاف المنتج وتصميمه وتحسينه المستمر؟"
   },
   "t4bd9345db03098059245": {
    "en": "To make it easier for organizations to understand and apply different practices",
@@ -1645,6 +1889,10 @@
   "t4bf5a2d73b9b66171372": {
    "en": "The model begins by defining the vision to ensure that any improvement initiative is explicitly linked to the organization’s goals and objectives. Ref 5.6.1",
    "ar": "يبدأ النموذج بتحديد الرؤية لضمان ارتباط أي مبادرة تحسين صراحةً بأهداف المنظمة وغاياتها. المرجع 5.6.1"
+  },
+  "t4c03f7b6fe21a6d7c632": {
+   "en": "Resolve incidents and ensure disaster recovery",
+   "ar": "حل الحوادث وضمان التعافي من الكوارث"
   },
   "t4c2e1df4570bebd69829": {
    "en": "Monitor",
@@ -1664,15 +1912,23 @@
   },
   "t4c761c3ee5bd527e3004": {
    "en": "The value chain represents the internal activities (like Design, Build, Deliver) that transform demand into value.",
-   "ar": "تمثّل سلسلة القيمة الأنشطة الداخلية (مثل التصميم والبناء والتقديم) التي تحوّل الطلب إلى قيمة."
+   "ar": "تمثّل سلسلة القيمة الأنشطة الداخلية (مثل التصميم والبناء والتسليم) التي تحوّل الطلب إلى قيمة."
   },
   "t4c92aafe8f49d9901129": {
    "en": "The cause, or potential cause, of one or more incidents.",
    "ar": "السبب، أو السبب المحتمل، لحادث واحد أو أكثر."
   },
+  "t4ce15b8989e2676721a2": {
+   "en": "What is the customer of a service responsible for?",
+   "ar": "ما الذي يتحمل عميل الخدمة مسؤوليته؟"
+  },
   "t4ce3e25a24c1b821d95f": {
    "en": "The person who defines the technical requirements.",
    "ar": "الشخص الذي يحدّد المتطلبات التقنية."
+  },
+  "t4dd2c006dfa60e67168d": {
+   "en": "The ‘partners and suppliers’ dimension encompasses an organization’s relationships with other organizations involved in the discovery, design, build, transition, operation, delivery, support and continual improvement of products and services, including contracts and other agreements with them.",
+   "ar": "يشمل بُعد «الشركاء والموردون» علاقات المنظمة بالمنظمات الأخرى المشاركة في استكشاف المنتجات والخدمات وتصميمها وبنائها وانتقالها وتشغيلها وتسليمها ودعمها وتحسينها المستمر، بما في ذلك العقود والاتفاقيات الأخرى معها."
   },
   "t4e03698983ebdec75f86": {
    "en": "Understanding system behaviour through outputs such as logs, metrics, and traces",
@@ -1720,7 +1976,7 @@
   },
   "t4f8f268a740e35b28e85": {
    "en": "“The ‘Partners and suppliers’ dimension encompasses an organization’s relationships with other organizations that are involved in the discovery, design, build, transition, operation, delivery, support, and/or continual improvement of products and services.” Ref 2.5",
-   "ar": "«يشمل بُعد ‹الشركاء والموردون› علاقات المنظمة مع المنظمات الأخرى المشاركة في اكتشاف المنتجات والخدمات وتصميمها وبنائها وانتقالها وتشغيلها وتقديمها ودعمها و/أو تحسينها المستمر.» المرجع 2.5"
+   "ar": "«يشمل بُعد ‹الشركاء والموردون› علاقات المنظمة مع المنظمات الأخرى المشاركة في استكشاف المنتجات والخدمات وتصميمها وبنائها وانتقالها وتشغيلها وتقديمها ودعمها و/أو تحسينها المستمر.» المرجع 2.5"
   },
   "t4faa103948e88880fc7f": {
    "en": "The type of coffee served in the cafeteria.",
@@ -1733,6 +1989,10 @@
   "t4ff1544498632b237521": {
    "en": "Incident management and service request management",
    "ar": "إدارة الحوادث وإدارة طلبات الخدمة"
+  },
+  "t500ab57e684a3054f3f9": {
+   "en": "The book defines a value stream as a series of steps that an organization uses to create and deliver products and services to a service consumer.",
+   "ar": "يعرّف الكتاب تدفق القيمة بأنه سلسلة من الخطوات تستخدمها المنظمة لإنشاء المنتجات والخدمات وتسليمها إلى مستهلك الخدمة."
   },
   "t500af44b67099bd27cb3": {
    "en": "A digital service is defined by its reliance on digital products.",
@@ -1749,6 +2009,14 @@
   "t50a43d35fe8b51797dae": {
    "en": "Punish the teams involved in the deviation.",
    "ar": "معاقبة الفرق المعنية بالانحراف."
+  },
+  "t50a7486b25ee65fd2564": {
+   "en": "The activities of the ITIL Product and Service Lifecycle are discover, design, acquire, build, transition, operate, deliver and support. ‘Agree’ is not one of them.",
+   "ar": "أنشطة دورة حياة المنتج والخدمة في ITIL هي: الاستكشاف، والتصميم، والاقتناء، والبناء، والانتقال، والتشغيل، والتسليم، والدعم. و«Agree» ليس منها."
+  },
+  "t50bb929dab50a1eca9dd": {
+   "en": "By eliminating external dependencies altogether",
+   "ar": "من خلال إلغاء الاعتماديات الخارجية تمامًا"
   },
   "t511239a7ba267a9d1443": {
    "en": "By providing the framework while DevOps supplies practices and techniques",
@@ -1769,6 +2037,10 @@
   "t51fc6969c0da2b8938c3": {
    "en": "What is an \"Operating Model\"?",
    "ar": "ما «النموذج التشغيلي» (Operating Model)؟"
+  },
+  "t521d1de095a5ec27954c": {
+   "en": "A system by which the current and future use of digital technology is governed",
+   "ar": "نظام تُحكَم بموجبه الاستخدامات الحالية والمستقبلية للتقنية الرقمية"
   },
   "t523fd84c89712b3a8a1e": {
    "en": "An organization’s purpose is translated into an operating model, and value chain activities are the mechanism through which value is created in line with that purpose. Ref 4.8.2",
@@ -1794,9 +2066,17 @@
    "en": "Collaborative relationships involve long-term commitment and deep integration of resources and data.",
    "ar": "تتضمن العلاقات التشاركية التزامًا طويل الأمد وتكاملًا عميقًا للموارد والبيانات."
   },
+  "t52e5aac95e0d2b87fc5a": {
+   "en": "How do ITIL Guiding Principles and continual improvement affect governance activities within the ITIL Value System (VS)?",
+   "ar": "كيف تؤثر المبادئ التوجيهية والتحسين المستمر في أنشطة الحوكمة ضمن نظام قيمة ITIL (VS)؟"
+  },
   "t5368bda9042fc295ff63": {
    "en": "Integrating ITIL and PRINCE2 ensures alignment between:",
    "ar": "يضمن دمج ITIL وPRINCE2 المواءمة بين:"
+  },
+  "t5376edff6167897e4035": {
+   "en": "They operate strictly through formal contracts with no shared responsibilities",
+   "ar": "تعمل بصرامة من خلال عقود رسمية دون مسؤوليات مشتركة"
   },
   "t539c26b75b8012d6d1b4": {
    "en": "To confirm that all stakeholder opinions are in agreement",
@@ -1822,6 +2102,10 @@
    "en": "Map the \"as-is\" stream.",
    "ar": "رسم خريطة المسار «الحالي»."
   },
+  "t54add0265dbcb235eda5": {
+   "en": "Trying to provide a solution for every exception often leads to over-complication. Designers cannot cover all exceptions, so the book advises designing rules that can be used to handle exceptions in general.",
+   "ar": "محاولة إيجاد حل لكل استثناء تؤدي غالبًا إلى تعقيد زائد. ولا يستطيع المصممون تغطية جميع الاستثناءات، لذلك ينصح الكتاب بتصميم قواعد يمكن استخدامها للتعامل مع الاستثناءات بشكل عام."
+  },
   "t54bb69b3fbc478ec2555": {
    "en": "Marketing and Sales only.",
    "ar": "التسويق والمبيعات فقط."
@@ -1846,6 +2130,10 @@
    "en": "Plan and implement improvements",
    "ar": "تخطيط التحسينات وتنفيذها"
   },
+  "t55a6e958cf5cfe212217": {
+   "en": "Product Vendor",
+   "ar": "بائع المنتجات (Product Vendor)"
+  },
   "t55fdd542cc2e20b5dd99": {
    "en": "Seeking feedback before, during, and after each iteration ensures that the work remains aligned with evolving needs, priorities, and environmental changes, enabling timely adjustments and continuous improvement.",
    "ar": "يضمن طلب التغذية الراجعة قبل كل دورة وأثناءها وبعدها بقاء العمل متوائمًا مع الاحتياجات والأولويات والتغيرات البيئية المتطورة، بما يتيح إجراء تعديلات في الوقت المناسب والتحسين المستمر."
@@ -1866,6 +2154,10 @@
    "en": "A person or group with functions, responsibilities, and authorities to achieve objectives",
    "ar": "شخص أو مجموعة لها وظائف ومسؤوليات وصلاحيات لتحقيق أهداف"
   },
+  "t568074cd9d4aead22237": {
+   "en": "A user accessing a streaming platform to watch movies",
+   "ar": "مستخدم يدخل إلى منصة بث لمشاهدة الأفلام"
+  },
   "t569eeb28151de2413d04": {
    "en": "Brainstorming new product ideas.",
    "ar": "العصف الذهني لأفكار منتجات جديدة."
@@ -1884,7 +2176,7 @@
   },
   "t57380941d0f4cbe1cb9b": {
    "en": "By using the ‘keep it simple and practical’ principle and one or two others that are relevant to the specific decision",
-   "ar": "باستخدام مبدأ «اجعله بسيطًا وعمليًا» ومبدأ أو مبدأين آخرين ذوي صلة بالقرار المحدد"
+   "ar": "باستخدام مبدأ «اجعلها بسيطة وعملية» ومبدأ أو مبدأين آخرين ذوي صلة بالقرار المحدد"
   },
   "t5756299c184f62872bd1": {
    "en": "It includes only the activities visible to the service provider",
@@ -1908,11 +2200,15 @@
   },
   "t5840aa9099ba52319971": {
    "en": "In ITIL (Guiding Principle: Optimize and Automate), the key recommendation is:\n• First analyze and improve (optimize) the process.\n• Then automate only what is efficient and valuable. Automating a broken or inefficient process will only make problems happen faster and at scale.",
-   "ar": "في ITIL (المبدأ التوجيهي: التحسين والأتمتة)، التوصية الرئيسية هي:\n• حلّل العملية وحسّنها (Optimize) أولًا.\n• ثم أتمت فقط ما هو كفء وذو قيمة. فأتمتة عملية معطوبة أو غير كفؤة لن تؤدي إلا إلى حدوث المشكلات بشكل أسرع وعلى نطاق أوسع."
+   "ar": "في ITIL (المبدأ التوجيهي: حسّن وأتمت)، التوصية الرئيسية هي:\n• حلّل العملية وحسّنها (Optimize) أولًا.\n• ثم أتمت فقط ما هو كفء وذو قيمة. فأتمتة عملية معطوبة أو غير كفؤة لن تؤدي إلا إلى حدوث المشكلات بشكل أسرع وعلى نطاق أوسع."
   },
   "t58810a13717684dfd4e8": {
    "en": "A report showing all pending service requests.",
    "ar": "تقرير يعرض جميع طلبات الخدمة المعلّقة."
+  },
+  "t58c077c7c15d997da567": {
+   "en": "They provide a framework for defining governance principles and ensure ongoing improvement aligns with stakeholder expectations",
+   "ar": "توفر إطارًا لتحديد مبادئ الحوكمة وتضمن أن يتوافق التحسين المستمر مع توقعات أصحاب المصلحة"
   },
   "t58c3939c4ce986c8214c": {
    "en": "Operate",
@@ -1932,7 +2228,7 @@
   },
   "t59482ff505ee46a8a4d6": {
    "en": "(Organizations and People) dimension focuses on the human side of service management.",
-   "ar": "يركّز بُعد (المنظمات والأفراد) على الجانب البشري لإدارة الخدمات."
+   "ar": "يركّز بُعد (المنظمة والأشخاص) على الجانب البشري لإدارة الخدمات."
   },
   "t5979697b4b651156ffba": {
    "en": "The ITIL Value System",
@@ -1946,9 +2242,21 @@
    "en": "Plans must never be changed once they start.",
    "ar": "يجب ألا تتغير الخطط أبدًا بمجرد بدئها."
   },
+  "t5aacd79e7729b9df3c03": {
+   "en": "Management practices enable and support the value chain activities. Each activity is supported by several practices, and one practice can contribute to several activities; Appendix B of the book maps them.",
+   "ar": "تمكّن الممارسات الإدارية أنشطة سلسلة القيمة وتدعمها. فكل نشاط تدعمه عدة ممارسات، ويمكن أن تسهم ممارسة واحدة في عدة أنشطة؛ ويربط الملحق B في الكتاب بينها."
+  },
+  "t5ac612720938707e919c": {
+   "en": "When considering the type of relationship required with other organizations involved in the design and delivery of services, which dimension of product and service management are you utilizing?",
+   "ar": "عند النظر في نوع العلاقة المطلوبة مع المنظمات الأخرى المشاركة في تصميم الخدمات وتقديمها، أي بُعد من أبعاد إدارة المنتجات والخدمات تستخدم؟"
+  },
   "t5ad1be760555f901edc5": {
    "en": "The operating model defines the organization’s financial strategy to achieve its purpose",
    "ar": "يحدّد النموذج التشغيلي الاستراتيجية المالية للمنظمة لتحقيق غرضها"
+  },
+  "t5adc1997733b59c07bd2": {
+   "en": "What is the MAIN purpose of collecting feedback during digital product development?",
+   "ar": "ما الغرض الرئيسي من جمع التغذية الراجعة أثناء تطوير المنتج الرقمي؟"
   },
   "t5b397e008706ff8752dc": {
    "en": "Principles should be considered together as they complement each other in different situations.",
@@ -1982,9 +2290,21 @@
    "en": "A release is a version of a product, service, or other configuration item that is made available for use, representing a controlled deployment of new or changed components into the live environment.",
    "ar": "الإصدار نسخة من منتج أو خدمة أو عنصر تهيئة آخر تُتاح للاستخدام، ويمثّل نشرًا مضبوطًا لمكونات جديدة أو معدّلة في البيئة الحية."
   },
+  "t5ca5478dff1ba78adad3": {
+   "en": "Which BEST describes the principle of 'keep it simple and practical'?",
+   "ar": "أيٌّ مما يلي يصف مبدأ «اجعلها بسيطة وعملية» على أفضل وجه؟"
+  },
+  "t5cbf384ea5a4d8b4f034": {
+   "en": "The assurance that product or service will meet agreed requirements",
+   "ar": "التأكيد على أن المنتج أو الخدمة سيلبي المتطلبات المتفق عليها"
+  },
   "t5cda63b830e742a1a606": {
    "en": "To allow the team to follow the original design without interruption",
    "ar": "للسماح للفريق باتباع التصميم الأصلي دون انقطاع"
+  },
+  "t5cdb502a9f1aeb348dbf": {
+   "en": "The ITIL Value System is a model representing how all the components and activities of an organization work together to facilitate value creation through digital products and services.",
+   "ar": "نظام قيمة ITIL نموذج يوضح كيف تعمل جميع مكونات المنظمة وأنشطتها معًا لتيسير إنشاء القيمة من خلال المنتجات والخدمات الرقمية."
   },
   "t5ce2e8f2d52bf4410d0e": {
    "en": "How does ITIL collaborate with DevOps practices to support digital product and service management?",
@@ -2058,13 +2378,17 @@
    "en": "Service level requirements",
    "ar": "متطلبات مستوى الخدمة"
   },
+  "t5e3fc02e7079bd3f373e": {
+   "en": "Which type of risk is imposed on consumers by a service?",
+   "ar": "أي نوع من المخاطر تفرضه الخدمة على المستهلكين؟"
+  },
   "t5e723cfafea416fcdd7d": {
    "en": "A customer receives advice from a helpdesk agent",
    "ar": "عميل يتلقى المشورة من موظف مكتب المساعدة"
   },
   "t5efafc4c1941d3887783": {
    "en": "What does the ITIL Guiding Principle ‘think and work holistically’ emphasize?",
-   "ar": "على ماذا يؤكد مبدأ ITIL التوجيهي «التفكير والعمل بشكل شمولي»؟"
+   "ar": "على ماذا يؤكد مبدأ ITIL التوجيهي «فكّر واعمل بشكل شمولي»؟"
   },
   "t5f2f4cf32c1d4784ec0e": {
    "en": "Service request management and deployment management",
@@ -2084,7 +2408,7 @@
   },
   "t5fec10edd13c565b56a5": {
    "en": "What is the MAIN purpose of the ‘discover’ activity?",
-   "ar": "ما الغرض الرئيسي من نشاط «الاكتشاف» (discover)؟"
+   "ar": "ما الغرض الرئيسي من نشاط «الاستكشاف» (discover)؟"
   },
   "t5fee55e6c398d9f27ebb": {
    "en": "It is designed to replace the need for management practices.",
@@ -2108,7 +2432,7 @@
   },
   "t60a8f8ddff4111d44e83": {
    "en": "Keep it simple and practical",
-   "ar": "اجعله بسيطًا وعمليًا (Keep it simple and practical)"
+   "ar": "اجعلها بسيطة وعملية (Keep it simple and practical)"
   },
   "t60ccedcd48030ff1495a": {
    "en": "Why are management practices important for value chain activities?",
@@ -2117,6 +2441,10 @@
   "t61651bd922b320a6c3bc": {
    "en": "During the \"Are we getting there?\" step, if results fall short of the established objectives, the organization should plan additional actions or a new iteration to address the gap.",
    "ar": "خلال خطوة «هل نحن في طريقنا إلى هناك؟»، إذا جاءت النتائج دون الأهداف المحددة، ينبغي للمنظمة تخطيط إجراءات إضافية أو دورة جديدة لمعالجة الفجوة."
+  },
+  "t618da45ddbe508a4e7a7": {
+   "en": "Ensuring everyone involved in the initiative agrees about it before initiating",
+   "ar": "التأكد من موافقة جميع المشاركين في المبادرة عليها قبل البدء"
   },
   "t61d5836f58be81af34d6": {
    "en": "Service level agreement",
@@ -2130,6 +2458,10 @@
    "en": "The main form of service interaction between service consumers and digital services is access to resources, as consumers typically use digital capabilities, applications, or infrastructure provided by the service provider without transferring ownership.",
    "ar": "الشكل الرئيسي لتفاعل الخدمة بين مستهلكي الخدمة والخدمات الرقمية هو الوصول إلى الموارد، إذ يستخدم المستهلكون عادةً القدرات الرقمية أو التطبيقات أو البنية التحتية التي يوفّرها مزوّد الخدمة دون نقل الملكية."
   },
+  "t624a1e18b3488e36b3e0": {
+   "en": "Which is a series of steps that an organization undertakes to enable value for consumers through management of products and services?",
+   "ar": "أيٌّ مما يلي هو سلسلة من الخطوات تنفذها المنظمة لتمكين القيمة للمستهلكين من خلال إدارة المنتجات والخدمات؟"
+  },
   "t6257d28f276f94d7a42d": {
    "en": "Utility focuses on cost control, while warranty focuses on risk avoidance",
    "ar": "تركّز المنفعة على ضبط التكاليف، بينما يركّز الضمان على تجنّب المخاطر"
@@ -2142,13 +2474,17 @@
    "en": "A set of shared values, beliefs, and practices expressed through behavior",
    "ar": "مجموعة من القيم والمعتقدات والممارسات المشتركة التي يُعبَّر عنها من خلال السلوك"
   },
+  "t626eabea6e8d237444b8": {
+   "en": "Each value chain activity is supported and enabled by several management practices",
+   "ar": "كل نشاط من أنشطة سلسلة القيمة تدعمه وتمكّنه عدة ممارسات إدارية"
+  },
   "t62b2a5566e96a1606897": {
    "en": "Monitoring support systems",
    "ar": "مراقبة أنظمة الدعم"
   },
   "t62efd69acecfd7a1b201": {
    "en": "Value streams and processes",
-   "ar": "مسارات القيمة والعمليات (Value streams and processes)"
+   "ar": "تدفقات القيمة والعمليات (Value streams and processes)"
   },
   "t630a31d6d0b09ad2af2a": {
    "en": "Analyze the stream.",
@@ -2173,6 +2509,10 @@
   "t639a70b09668b03b86b2": {
    "en": "Which value chain activity is assessed by evaluating the quality of the resources and services sourced from a third party?",
    "ar": "أي نشاط من أنشطة سلسلة القيمة يُقيَّم من خلال تقييم جودة الموارد والخدمات المورَّدة من طرف ثالث؟"
+  },
+  "t63fe896a60255d48f799": {
+   "en": "What is Site Reliability Engineering (SRE)?",
+   "ar": "ما هندسة موثوقية المواقع (SRE)؟"
   },
   "t642ed00ed65764c2a523": {
    "en": "DevOps provides the \"how-to\" for fast, agile development and stable operations.",
@@ -2202,13 +2542,21 @@
    "en": "A finished product ready for mass market.",
    "ar": "منتج نهائي جاهز للسوق الواسعة."
   },
+  "t6666ab00b81cbfeb2d21": {
+   "en": "They provide resources and capabilities to accomplish objectives",
+   "ar": "توفر الموارد والقدرات اللازمة لتحقيق الأهداف"
+  },
   "t6667b948d1ea94780841": {
    "en": "How does an enabling value stream contribute to value creation?",
-   "ar": "كيف يسهم مسار القيمة التمكيني في إنشاء القيمة؟"
+   "ar": "كيف يسهم تدفق القيمة التمكيني في إنشاء القيمة؟"
+  },
+  "t669765710b5498bfc835": {
+   "en": "Provide services and manage user onboarding/offboarding",
+   "ar": "تقديم الخدمات وإدارة إلحاق المستخدمين وإنهاء خدمتهم"
   },
   "t66aa87b5e4e066245352": {
    "en": "\"Deliver\" is the user-facing activity that ensures services are provided according to SLAs.",
-   "ar": "«التقديم» هو النشاط المواجه للمستخدم الذي يضمن تقديم الخدمات وفقًا لاتفاقيات مستوى الخدمة (SLAs)."
+   "ar": "«التسليم» هو النشاط المواجه للمستخدم الذي يضمن تقديم الخدمات وفقًا لاتفاقيات مستوى الخدمة (SLAs)."
   },
   "t66dc9d9f5819a1b281e4": {
    "en": "Value is achieved when positive outcomes and removed costs/risks outweigh negative outcomes and introduced costs/risks.",
@@ -2229,6 +2577,10 @@
   "t67629de4358b22525aa4": {
    "en": "Because there is often a discrepancy between reports and reality",
    "ar": "لأنه كثيرًا ما يوجد تباين بين التقارير والواقع"
+  },
+  "t67a013372789731b9466": {
+   "en": "Actions enabling value through digital products without transferring ownership",
+   "ar": "إجراءات تمكّن القيمة من خلال المنتجات الرقمية دون نقل الملكية"
   },
   "t67a7b2be3c96bd6b5f5a": {
    "en": "Which value chain activity ensures a shared understanding of the current status and required direction for all products and services?",
@@ -2278,6 +2630,10 @@
    "en": "To replace service management practices with product management",
    "ar": "استبدال ممارسات إدارة الخدمات بإدارة المنتجات"
   },
+  "t69a4b18adb53d6c49c74": {
+   "en": "They rely only on suppliers for technical resources without collaboration",
+   "ar": "تعتمد على الموردين فقط في الموارد التقنية دون تعاون"
+  },
   "t69ac0740508c6c692544": {
    "en": "Sustainability is defined as the assurance that a product or service meets requirements for environmental stewardship, social progress, and economic growth over time.",
    "ar": "تُعرَّف الاستدامة بأنها الضمان بأن المنتج أو الخدمة يلبي متطلبات الإشراف البيئي والتقدم الاجتماعي والنمو الاقتصادي بمرور الوقت."
@@ -2286,17 +2642,21 @@
    "en": "How well a service meets agreed requirements and expectations",
    "ar": "بمدى تلبية الخدمة للمتطلبات والتوقعات المتفق عليها"
   },
+  "t69c152c152d992ff41b4": {
+   "en": "Considering all components of the ITIL Value System when making decisions",
+   "ar": "مراعاة جميع مكونات نظام قيمة ITIL عند اتخاذ القرارات"
+  },
   "t69d468b8a304411deb1a": {
    "en": "When is a service perceived as valuable?",
    "ar": "متى تُعدّ الخدمة ذات قيمة؟"
   },
   "t69f4fd2abee2426e659e": {
    "en": "Value stream management is not a step in value stream mapping. Value stream mapping includes the following steps:\n1. value stream identification;\n2. mapping of the ‘as-is’ value stream;\n3. analysing the value stream;\n4. mapping a ‘to-be’ value stream;\n5. planning and implementing improvements. Value stream management is used to maintain high quality of services and continually optimize the flow of work, which means both ‘management of value streams’ and ‘management through value streams’.",
-   "ar": "إدارة مسار القيمة ليست خطوة من خطوات رسم خريطة مسار القيمة. يتضمن رسم خريطة مسار القيمة الخطوات التالية:\n1. تحديد مسار القيمة؛\n2. رسم خريطة مسار القيمة «الحالي»؛\n3. تحليل مسار القيمة؛\n4. رسم خريطة مسار القيمة «المستهدف»؛\n5. تخطيط التحسينات وتنفيذها. وتُستخدم إدارة مسار القيمة للحفاظ على جودة عالية للخدمات وتحسين تدفق العمل باستمرار، وهو ما يعني كلًّا من «إدارة مسارات القيمة» و«الإدارة من خلال مسارات القيمة»."
+   "ar": "إدارة تدفق القيمة ليست خطوة من خطوات رسم خريطة تدفق القيمة. يتضمن رسم خريطة تدفق القيمة الخطوات التالية:\n1. تحديد تدفق القيمة؛\n2. رسم خريطة تدفق القيمة «الحالي»؛\n3. تحليل تدفق القيمة؛\n4. رسم خريطة تدفق القيمة «المستهدف»؛\n5. تخطيط التحسينات وتنفيذها. وتُستخدم إدارة تدفق القيمة للحفاظ على جودة عالية للخدمات وتحسين تدفق العمل باستمرار، وهو ما يعني كلًّا من «إدارة تدفقات القيمة» و«الإدارة من خلال تدفقات القيمة»."
   },
   "t6a45099fabe6118677bb": {
    "en": "A good way to apply the ITIL guiding principle ‘keep it simple and practical’ is to:",
-   "ar": "من الطرق الجيدة لتطبيق مبدأ ITIL التوجيهي «اجعله بسيطًا وعمليًا» أن:"
+   "ar": "من الطرق الجيدة لتطبيق مبدأ ITIL التوجيهي «اجعلها بسيطة وعملية» أن:"
   },
   "t6a7197859963ccf24006": {
    "en": "An incident report",
@@ -2318,45 +2678,45 @@
    "en": "The final outputs of the system.",
    "ar": "المُخرَجات النهائية للنظام."
   },
+  "t6aff3df66f0ee81cb9d0": {
+   "en": "Every product should include as many features as possible to handle all exceptions",
+   "ar": "يجب أن يتضمن كل منتج أكبر عدد ممكن من الميزات للتعامل مع جميع الاستثناءات"
+  },
   "t6b19aa9f7a995164672e": {
    "en": "Services that never change for 50 years.",
    "ar": "خدمات لا تتغير لمدة 50 عامًا."
   },
   "t6b3bf18514c639dad43c": {
    "en": "In addition to being aware of the ITIL Guiding Principles, it is important to recognize that they interact with and depend upon each other. For example, if an organization is committed to progressing iteratively with feedback, it should also think and work holistically to ensure that each iteration of an improvement includes all the elements necessary to deliver real results. Similarly, making use of appropriate feedback is key to collaboration, and focusing on what will truly be valuable to the customer makes it easier to keep things simple and practical. Ref 5.2.8",
-   "ar": "بالإضافة إلى الإلمام بمبادئ ITIL التوجيهية، من المهم إدراك أنها تتفاعل فيما بينها ويعتمد بعضها على بعض. فعلى سبيل المثال، إذا كانت المنظمة ملتزمة بالتقدم بشكل تكراري مع التغذية الراجعة، فينبغي لها أيضًا أن تفكر وتعمل بشكل شمولي لضمان أن تتضمن كل دورة من دورات التحسين جميع العناصر اللازمة لتحقيق نتائج حقيقية. وبالمثل، فإن الاستفادة من التغذية الراجعة المناسبة أمر أساسي للتعاون، كما أن التركيز على ما سيكون ذا قيمة حقيقية للعميل يجعل من الأسهل إبقاء الأمور بسيطة وعملية. المرجع 5.2.8"
-  },
-  "t6b4fae60c00729288381": {
-   "en": "Governance within the ITIL Service Value System ensures that organizational activities are directed and controlled, aligning them with strategic objectives and ensuring accountability, performance, and compliance.",
-   "ar": "تضمن الحوكمة ضمن نظام قيمة الخدمة في ITIL توجيه الأنشطة التنظيمية والتحكم فيها، ومواءمتها مع الأهداف الاستراتيجية، وضمان المساءلة والأداء والامتثال."
+   "ar": "بالإضافة إلى الإلمام بمبادئ ITIL التوجيهية، من المهم إدراك أنها تتفاعل فيما بينها ويعتمد بعضها على بعض. فعلى سبيل المثال، إذا كانت المنظمة ملتزمة بالتقدم بشكل تدريجي مع التغذية الراجعة، فينبغي لها أيضًا أن تفكر وتعمل بشكل شمولي لضمان أن تتضمن كل دورة من دورات التحسين جميع العناصر اللازمة لتحقيق نتائج حقيقية. وبالمثل، فإن الاستفادة من التغذية الراجعة المناسبة أمر أساسي للتعاون، كما أن التركيز على ما سيكون ذا قيمة حقيقية للعميل يجعل من الأسهل إبقاء الأمور بسيطة وعملية. المرجع 5.2.8"
   },
   "t6b7a123b5f2f84727cad": {
    "en": "Which type of service relationship is characterized by \"High Sharing & Dependency\"?",
    "ar": "أي نوع من علاقات الخدمة يتّسم بـ«مشاركة واعتمادية عاليتين» (High Sharing & Dependency)؟"
   },
-  "t6bd42c35b0ab4b6eb21c": {
-   "en": "This dimension includes the culture of the organization. A culture that encourages learning, safety, and experimentation falls under the “People” and “Organizations” aspect.",
-   "ar": "يتضمن هذا البُعد ثقافة المنظمة. والثقافة التي تشجّع التعلم والأمان والتجريب تندرج ضمن جانب «الأفراد» و«المنظمات»."
-  },
   "t6be3b812937e02321425": {
    "en": "A means of enabling value for consumers through digital products without transferring ownership",
    "ar": "وسيلة لتمكين القيمة للمستهلكين من خلال المنتجات الرقمية دون نقل الملكية"
   },
-  "t6bebd04306eb5c12e197": {
-   "en": "Product Vend",
-   "ar": "Product Vend (كما ورد في النص الأصلي)"
-  },
   "t6bf5ff46b8d8e382b632": {
    "en": "“Service performance and user feedback records and reports” is part of the ‘Deliver’ activity. The key metrics of success of the ‘Discover’ activity are: “Strategic fit of the organization’s products and service offerings; market relevance of the products and service offerings; stakeholder satisfaction with products and service offerings; commercial success of the products (if applicable).” Ref 4.8.2, Table 4.7, 4.2.2, Table 4.1",
-   "ar": "تُعدّ «سجلات وتقارير أداء الخدمة وملاحظات المستخدمين» جزءًا من نشاط «التقديم» (Deliver). ومقاييس النجاح الرئيسية لنشاط «الاكتشاف» (Discover) هي: «الملاءمة الاستراتيجية لمنتجات المنظمة وعروض خدماتها؛ وأهمية المنتجات وعروض الخدمات في السوق؛ ورضا أصحاب المصلحة عن المنتجات وعروض الخدمات؛ والنجاح التجاري للمنتجات (إن وُجد).» المرجع 4.8.2، الجدول 4.7، 4.2.2، الجدول 4.1"
+   "ar": "تُعدّ «سجلات وتقارير أداء الخدمة وملاحظات المستخدمين» جزءًا من نشاط «التسليم» (Deliver). ومقاييس النجاح الرئيسية لنشاط «الاستكشاف» (Discover) هي: «الملاءمة الاستراتيجية لمنتجات المنظمة وعروض خدماتها؛ وأهمية المنتجات وعروض الخدمات في السوق؛ ورضا أصحاب المصلحة عن المنتجات وعروض الخدمات؛ والنجاح التجاري للمنتجات (إن وُجد).» المرجع 4.8.2، الجدول 4.7، 4.2.2، الجدول 4.1"
   },
   "t6bfd0d2a54f0957a8b70": {
    "en": "To ensure the project plan remains fixed and unchanged throughout development",
    "ar": "لضمان بقاء خطة المشروع ثابتة دون تغيير طوال التطوير"
   },
+  "t6c12c6cfb77fcc5a8556": {
+   "en": "All exceptions must be addressed with unique and detailed processes",
+   "ar": "يجب معالجة جميع الاستثناءات بعمليات فريدة ومفصلة"
+  },
   "t6c25209d1bc0b6feb503": {
    "en": "Avoid using AI at all costs.",
    "ar": "تجنّب استخدام الذكاء الاصطناعي (AI) مهما كان الثمن."
+  },
+  "t6c2a32c8ffc1208c975e": {
+   "en": "Which of the following is an example of access to resources?",
+   "ar": "أيٌّ مما يلي مثال على الوصول إلى الموارد؟"
   },
   "t6c6cd83d5eede2bb28db": {
    "en": "Automated decision-making becoming too fast",
@@ -2414,13 +2774,25 @@
    "en": "A series of steps an organization uses to create and deliver products/services",
    "ar": "سلسلة من الخطوات تستخدمها المنظمة لإنشاء المنتجات/الخدمات وتقديمها"
   },
+  "t6f268aa029a00dcb1652": {
+   "en": "In the 'partners and suppliers' dimension, what does it mean when organizations form flexible partnerships?",
+   "ar": "في بُعد «الشركاء والموردون»، ماذا يعني أن تُكوِّن المنظمات شراكات مرنة؟"
+  },
   "t6f2a05a901dea5f2bbdc": {
    "en": "Resolution of incidents in a time that meets customer expectations",
    "ar": "حل الحوادث في وقت يلبي توقعات العملاء"
   },
+  "t6f59cc3eb9f246edada1": {
+   "en": "Utility is the functionality offered by a product or service to meet a particular need. It is summarized as ‘what the service does’ and shows whether a service is ‘fit for purpose’. Assurance that a service meets agreed requirements is warranty, and the perceived interactions are user experience.",
+   "ar": "المنفعة هي الوظائف التي يقدمها المنتج أو الخدمة لتلبية حاجة معينة، وتُلخَّص بعبارة «ماذا تفعل الخدمة» وتبيّن ما إذا كانت الخدمة «ملائمة للغرض». أما التأكيد على تلبية المتطلبات المتفق عليها فهو الضمان، والتفاعلات كما يدركها صاحب المصلحة هي تجربة المستخدم."
+  },
   "t6f5a67e75b96e179517d": {
    "en": "There is no relationship between an output and an outcome.",
    "ar": "لا توجد علاقة بين المُخرَج والنتيجة."
+  },
+  "t6f61cb0ef2c9c45ba408": {
+   "en": "They share common goals and risks while collaborating to achieve desired outcomes",
+   "ar": "تتشارك الأهداف والمخاطر وتتعاون لتحقيق النتائج المرغوبة"
   },
   "t6f6c70dc70dcdc9f63fc": {
    "en": "Service providers produce outputs that help consumers achieve certain outcomes.",
@@ -2440,7 +2812,7 @@
   },
   "t700342cbf07d8529cafa": {
    "en": "By replacing the need for core value streams",
-   "ar": "بإلغاء الحاجة إلى مسارات القيمة الأساسية"
+   "ar": "بإلغاء الحاجة إلى تدفقات القيمة الأساسية"
   },
   "t7007bd25c3c5035a9e7b": {
    "en": "Identify the missing word(s): A(n) [ ? ] is the cause, or potential cause, of one or more incidents.",
@@ -2516,7 +2888,7 @@
   },
   "t741913a66a10d3349c34": {
    "en": "What is the MAIN purpose of the \"discover\" activity?",
-   "ar": "ما الغرض الرئيسي من نشاط «الاكتشاف» (discover)؟"
+   "ar": "ما الغرض الرئيسي من نشاط «الاستكشاف» (discover)؟"
   },
   "t744332d190d0fe7ac713": {
    "en": "If a process, product, or metric fails to increase value or produce a useful outcome, eliminate it.",
@@ -2541,6 +2913,10 @@
   "t753e90ae2b3928fa17ff": {
    "en": "The most expensive services possible.",
    "ar": "أغلى الخدمات الممكنة."
+  },
+  "t764bebbb761909e348f8": {
+   "en": "Making decisions about the initiative on visible data",
+   "ar": "اتخاذ القرارات بشأن المبادرة بناءً على بيانات مرئية"
   },
   "t7654ae3fa71be8e1ff24": {
    "en": "Which of the following is TRUE about value co-creation?",
@@ -2586,9 +2962,13 @@
    "en": "The extent to which the positive effects of the service outweigh the negative ones",
    "ar": "مدى تفوّق الآثار الإيجابية للخدمة على آثارها السلبية"
   },
+  "t792cdd580db2a84bed16": {
+   "en": "When applying the 'collaborate and promote visibility' principle to an organization's initiative, which is NOT a necessary action?",
+   "ar": "عند تطبيق مبدأ «التعاون وتعزيز الشفافية» على مبادرة في المنظمة، أيٌّ مما يلي ليس إجراءً ضروريًا؟"
+  },
   "t79a4cc047d9740acd4f3": {
    "en": "Value stream management",
-   "ar": "إدارة مسار القيمة (Value stream management)"
+   "ar": "إدارة تدفق القيمة (Value stream management)"
   },
   "t79a94cb2f68602bdb0bb": {
    "en": "To define processes and workflows for value creation",
@@ -2601,6 +2981,10 @@
   "t7a13333d41422c8caf60": {
    "en": "Service actions",
    "ar": "إجراءات الخدمة (Service actions)"
+  },
+  "t7a159407ff16d34cbd2c": {
+   "en": "Site Reliability Engineering",
+   "ar": "هندسة موثوقية المواقع"
   },
   "t7a8d05e0ae96af15c054": {
    "en": "What does sustainability assure in the context of a service or product?",
@@ -2658,6 +3042,10 @@
    "en": "Why is project management important in ITIL?",
    "ar": "لماذا تُعدّ إدارة المشاريع مهمة في ITIL؟"
   },
+  "t7ca26defde964f202ced": {
+   "en": "The book defines a service action as an action performed by a service provider, or jointly by a service provider and a service consumer (for example, fulfilling service requests, user training or consultations). Option D describes access to resources, and option A describes a digital service.",
+   "ar": "يعرّف الكتاب إجراء الخدمة بأنه إجراء يؤديه مزوّد الخدمة، أو يؤديه مزوّد الخدمة ومستهلكها معًا (مثل تنفيذ طلبات الخدمة، أو تدريب المستخدمين، أو الاستشارات). والخيار D يصف الوصول إلى الموارد، والخيار A يصف الخدمة الرقمية."
+  },
   "t7cdd9bdbb85649d58f52": {
    "en": "“Monitor” is the activity explicitly concerned with checking that performance and activities adhere to policies and strategic direction. “Monitor: monitoring the performance of the organization and its practices, products, and services. The governing body ensures that performance is in accordance with policies and strategic direction.” Ref 5.3.1",
    "ar": "«المراقبة» هي النشاط المعني صراحةً بالتحقق من التزام الأداء والأنشطة بالسياسات والتوجه الاستراتيجي. «المراقبة: مراقبة أداء المنظمة وممارساتها ومنتجاتها وخدماتها. وتضمن الهيئة الحاكمة أن يكون الأداء متوافقًا مع السياسات والتوجه الاستراتيجي.» المرجع 5.3.1"
@@ -2666,6 +3054,10 @@
    "en": "PRINCE2 Project Management",
    "ar": "إدارة المشاريع وفق PRINCE2 (PRINCE2 Project Management)"
   },
+  "t7e14217e7dfabf5ded95": {
+   "en": "Continuous delivery",
+   "ar": "التسليم المستمر"
+  },
   "t7e25dae240153e9743bd": {
    "en": "DevOps is synonymous with agile methodologies in a technology context.",
    "ar": "ترتبط DevOps ارتباطًا وثيقًا بالمنهجيات الرشيقة في السياق التقني."
@@ -2673,6 +3065,10 @@
   "t7eaf6b32ccd2892f9e50": {
    "en": "“The purpose of the ‘design’ activity is to create prototypes and specifications for products and services, detailing their functionality, user experience, and operational framework.” Ref 4.3.1",
    "ar": "«الغرض من نشاط ‹التصميم› هو إنشاء نماذج أولية ومواصفات للمنتجات والخدمات، تفصّل وظائفها وتجربة المستخدم والإطار التشغيلي لها.» المرجع 4.3.1"
+  },
+  "t7ecebb21941962a841c8": {
+   "en": "Access to resources means the consumer uses the provider’s resources under agreed terms without any transfer of ownership, for example a user granted permission to use a cloud application. Training and on-site installation are service actions, and delivering laptops is a transfer of goods.",
+   "ar": "الوصول إلى الموارد يعني أن المستهلك يستخدم موارد المزوّد وفق شروط متفق عليها دون أي نقل للملكية، مثل منح مستخدم صلاحية استخدام تطبيق سحابي. أما التدريب والتركيب في الموقع فهما إجراءا خدمة، وتسليم أجهزة الحاسوب المحمولة نقل سلع."
   },
   "t7ed1c3c3d92681f036f8": {
    "en": "What is \"Observability\" in the context of the \"Operate\" activity?",
@@ -2692,7 +3088,7 @@
   },
   "t7f0cf678053c87eccf9d": {
    "en": "The organizations and people dimension focuses on ensuring that culture, leadership, skills, competencies, and communication enable the organization to work effectively and create value through products and services. Ref Glossary",
-   "ar": "يركّز بُعد المنظمات والأفراد على ضمان أن تمكّن الثقافة والقيادة والمهارات والكفاءات والتواصل المنظمة من العمل بفعالية وإنشاء القيمة من خلال المنتجات والخدمات. المرجع: المسرد (Glossary)"
+   "ar": "يركّز بُعد المنظمة والأشخاص على ضمان أن تمكّن الثقافة والقيادة والمهارات والكفاءات والتواصل المنظمة من العمل بفعالية وإنشاء القيمة من خلال المنتجات والخدمات. المرجع: المسرد (Glossary)"
   },
   "t7f5af3ae01cb16f6818f": {
    "en": "Which of the following terms BEST describes a change?",
@@ -2718,9 +3114,21 @@
    "en": "Under \"Start where you are\", why is direct observation important?",
    "ar": "وفقًا لمبدأ «ابدأ من حيث أنت»، لماذا تُعدّ الملاحظة المباشرة مهمة؟"
   },
+  "t8122787f49cf74215573": {
+   "en": "The guiding principles interact and depend on each other. An organization should consider all of them and judge which are relevant in each situation, rather than applying them in a fixed order or relying on only one or two.",
+   "ar": "المبادئ التوجيهية تتفاعل ويعتمد بعضها على بعض. وينبغي للمنظمة أن تأخذها جميعًا في الحسبان وتقدّر أيها ملائم في كل موقف، بدلًا من تطبيقها بترتيب ثابت أو الاعتماد على مبدأ أو اثنين فقط."
+  },
+  "t814298d453fcc659a3ad": {
+   "en": "What is the ITIL Value System?",
+   "ar": "ما نظام قيمة ITIL؟"
+  },
   "t81541cad7790ff863026": {
    "en": "ITIL replaces the need for any technical operational practices.",
    "ar": "تُغني ITIL عن الحاجة إلى أي ممارسات تشغيلية تقنية."
+  },
+  "t816639c5d6acfb970615": {
+   "en": "A combination of digital resources that provide consumer value",
+   "ar": "مزيج من الموارد الرقمية التي تقدم قيمة للمستهلك"
   },
   "t8166d4404035bcf49975": {
    "en": "A result achieved by a stakeholder through the use of at least one output",
@@ -2760,11 +3168,15 @@
   },
   "t829ed5139c585476c199": {
    "en": "The \"Keep it simple and practical\" principle emphasizes outcome-based thinking. If a component (process, product, service, action, or metric) does not contribute to value or a useful outcome, it should be eliminated rather than maintained. It also warns that trying to provide a solution for every exception leads to over-complication.",
-   "ar": "يؤكد مبدأ «اجعله بسيطًا وعمليًا» على التفكير القائم على النتائج. فإذا لم يسهم مكوّن (عملية أو منتج أو خدمة أو إجراء أو مقياس) في القيمة أو في نتيجة مفيدة، فينبغي إزالته بدلًا من الإبقاء عليه. كما يحذّر من أن محاولة توفير حل لكل استثناء تؤدي إلى تعقيد مفرط."
+   "ar": "يؤكد مبدأ «اجعلها بسيطة وعملية» على التفكير القائم على النتائج. فإذا لم يسهم مكوّن (عملية أو منتج أو خدمة أو إجراء أو مقياس) في القيمة أو في نتيجة مفيدة، فينبغي إزالته بدلًا من الإبقاء عليه. كما يحذّر من أن محاولة توفير حل لكل استثناء تؤدي إلى تعقيد مفرط."
+  },
+  "t82b2cd094f50ef4635dc": {
+   "en": "A supplier delivers new laptops to the customer's office",
+   "ar": "مورّد يسلّم أجهزة حاسوب محمولة جديدة إلى مكتب العميل"
   },
   "t83087c543d004d1804f6": {
    "en": "An enabling value stream supports internal activities that allow core value streams to function effectively and deliver value to customers. Ref 6.2",
-   "ar": "يدعم مسار القيمة التمكيني الأنشطة الداخلية التي تتيح لمسارات القيمة الأساسية أن تعمل بفعالية وتقدّم القيمة للعملاء. المرجع 6.2"
+   "ar": "يدعم تدفق القيمة التمكيني الأنشطة الداخلية التي تتيح لتدفقات القيمة الأساسية أن تعمل بفعالية وتقدّم القيمة للعملاء. المرجع 6.2"
   },
   "t8339e12d865b1e5c6c95": {
    "en": "They enable value chain activities by providing the required capabilities",
@@ -2806,6 +3218,10 @@
    "en": "The ITIL VS is described as a \"series of steps\". What do these steps ultimately produce?",
    "ar": "يوصف نظام قيمة ITIL بأنه «سلسلة من الخطوات». ماذا تُنتج هذه الخطوات في نهاية المطاف؟"
   },
+  "t84f56230645a03fc6757": {
+   "en": "Authorizing the budget for the service",
+   "ar": "اعتماد ميزانية الخدمة"
+  },
   "t850fa637bd9584a4f2d7": {
    "en": "Product prototype",
    "ar": "النموذج الأولي للمنتج (Product prototype)"
@@ -2841,6 +3257,10 @@
   "t864539d3e940fc82ff4d": {
    "en": "The \"Monitor\" activity is specifically described as oversight by the governing body to check performance and compliance after policies and strategies have been established.",
    "ar": "يوصف نشاط «المراقبة» تحديدًا بأنه إشراف الهيئة الحاكمة للتحقق من الأداء والامتثال بعد وضع السياسات والاستراتيجيات."
+  },
+  "t8648bc0b5d181fc92e85": {
+   "en": "After the current state has been assessed (‘Where are we now?’), setting a measurable target, here reducing call time from 10 to 3 minutes within six months, is the ‘Where do we want to be?’ step of the ITIL Continual Improvement Model.",
+   "ar": "بعد تقييم الوضع الحالي («أين نحن الآن؟»)، فإن تحديد هدف قابل للقياس، وهو هنا خفض مدة المكالمة من 10 إلى 3 دقائق خلال ستة أشهر، هو خطوة «أين نريد أن نكون؟» في نموذج ITIL للتحسين المستمر."
   },
   "t86d57a5ddcc99e4b826a": {
    "en": "It does not require any resources.",
@@ -2882,9 +3302,17 @@
    "en": "Which of the following BEST describes an outcome in a service relationship?",
    "ar": "أيّ مما يلي يصف النتيجة (outcome) في علاقة الخدمة على أفضل وجه؟"
   },
+  "t8842dab4446eeed18ebb": {
+   "en": "The book gives ‘a service provider ceasing to operate or experiencing a security breach’ as an example of the risks imposed on a consumer by the service. The other options are risks that sit with the consumer organization itself.",
+   "ar": "يذكر الكتاب «توقف مزوّد الخدمة عن العمل أو تعرّضه لاختراق أمني» مثالًا على المخاطر التي تفرضها الخدمة على المستهلك. أما الخيارات الأخرى فهي مخاطر موجودة لدى منظمة المستهلك نفسها."
+  },
   "t88471041b5c9d37c2e37": {
    "en": "The \"deliver and support\" value chain activities",
    "ar": "نشاطا سلسلة القيمة «التقديم والدعم» (deliver and support)"
+  },
+  "t887dce4c1dedc2872aa8": {
+   "en": "Using the service",
+   "ar": "استخدام الخدمة"
   },
   "t88c6a572d7eaba7e6d7d": {
    "en": "After the problem has been resolved",
@@ -2942,6 +3370,10 @@
    "en": "ITIL manages projects while PRINCE2 Agile manages the daily and overall delivery of services",
    "ar": "تدير ITIL المشاريع بينما يدير PRINCE2 Agile التقديم اليومي والشامل للخدمات"
   },
+  "t8b199903a92a7c108171": {
+   "en": "Lack of staff availability in the consumer organization",
+   "ar": "نقص توفر الموظفين في منظمة المستهلك"
+  },
   "t8b5bac5481b5350492fa": {
    "en": "Governance provides the oversight and direction (Evaluate, Direct, Monitor) to ensure the organization stays aligned with its goals.",
    "ar": "توفّر الحوكمة الإشراف والتوجيه (التقييم، والتوجيه، والمراقبة) لضمان بقاء المنظمة متوائمة مع أهدافها."
@@ -2961,6 +3393,10 @@
   "t8c3cfe53fa76ed889228": {
    "en": "Capability assessment and development",
    "ar": "تقييم القدرات وتطويرها"
+  },
+  "t8c7080c7a0dd743083e5": {
+   "en": "Purpose and description of the practice",
+   "ar": "الغرض من الممارسة ووصفها"
   },
   "t8ccb28b32b854df1abd8": {
    "en": "Responsible, ethical, and aligned with organizational goals",
@@ -2998,6 +3434,10 @@
    "en": "Value",
    "ar": "القيمة"
   },
+  "t8e5e284fe175af0769c4": {
+   "en": "What is an error?",
+   "ar": "ما الخطأ (Error)؟"
+  },
   "t8ea17e1d72ec0d0c8edd": {
    "en": "One product may enable many services",
    "ar": "قد يمكّن المنتج الواحد خدمات عديدة"
@@ -3028,7 +3468,7 @@
   },
   "t8f88895cf61c4c2d6ca7": {
    "en": "DevOps principles match perfectly with ITIL guiding principles like \"Collaborate\" and \"Progress Iteratively\".",
-   "ar": "تتوافق مبادئ DevOps تمامًا مع مبادئ ITIL التوجيهية مثل «التعاون» و«التقدم بشكل تكراري»."
+   "ar": "تتوافق مبادئ DevOps تمامًا مع مبادئ ITIL التوجيهية مثل «التعاون» و«التقدم بشكل تدريجي»."
   },
   "t8fb5bbacf09646d5f346": {
    "en": "Resolve incidents and fulfil recovery procedures",
@@ -3062,9 +3502,13 @@
    "en": "One-time project",
    "ar": "مشروع لمرة واحدة"
   },
+  "t90f269f558db83b399e3": {
+   "en": "They apply only to management practices and do not influence governance activities",
+   "ar": "تنطبق على الممارسات الإدارية فقط ولا تؤثر في أنشطة الحوكمة"
+  },
   "t90fa81d1b2e094e68f25": {
    "en": "Which statement BEST describes a recommendation of the \"Keep it simple and practical\" principle?",
-   "ar": "أي عبارة تصف على أفضل وجه توصية من توصيات مبدأ «اجعله بسيطًا وعمليًا»؟"
+   "ar": "أي عبارة تصف على أفضل وجه توصية من توصيات مبدأ «اجعلها بسيطة وعملية»؟"
   },
   "t910e23d51e0858f3fa8b": {
    "en": "Acquire",
@@ -3106,13 +3550,9 @@
    "en": "Adopt a practice which is easy to follow",
    "ar": "تعتمد ممارسة يسهل اتباعها"
   },
-  "t92d9a77567c476f77a91": {
-   "en": "The principle ‘Start where you are’ emphasizes assessing the current state before making changes. Identifying who the consumer is and why they use the service helps the organization understand existing value, performance, and context, enabling informed decisions based on real conditions rather than assumptions.",
-   "ar": "يؤكد مبدأ «ابدأ من حيث أنت» على تقييم الوضع الحالي قبل إجراء التغييرات. ويساعد تحديد هوية المستهلك وسبب استخدامه للخدمة المنظمةَ على فهم القيمة والأداء والسياق القائم، بما يمكّن من اتخاذ قرارات مستنيرة مبنية على الظروف الفعلية لا على الافتراضات."
-  },
   "t9313ec43c1d4e13285e6": {
    "en": "Value streams can involve multiple practices",
-   "ar": "يمكن أن تتضمن مسارات القيمة ممارسات متعددة"
+   "ar": "يمكن أن تتضمن تدفقات القيمة ممارسات متعددة"
   },
   "t933e282b2743d24e77a5": {
    "en": "The addition, modification or removal of anything that could have an effect on product and service",
@@ -3178,9 +3618,13 @@
    "en": "Any change of state significant for management",
    "ar": "أي تغيّر في الحالة له أهمية للإدارة"
   },
+  "t94b24aee802032faa797": {
+   "en": "The functional and emotional interactions with a service and provider as perceived by a stakeholder",
+   "ar": "التفاعلات الوظيفية والعاطفية مع الخدمة ومزوّدها كما يدركها صاحب المصلحة"
+  },
   "t94ba1e158c29ecefcc87": {
    "en": "Value stream steps",
-   "ar": "خطوات مسار القيمة"
+   "ar": "خطوات تدفق القيمة"
   },
   "t94c70c6565978bd6a5f9": {
    "en": "What is the purpose of the ‘support’ activity?",
@@ -3189,6 +3633,10 @@
   "t94db4991c206fe50b201": {
    "en": "Management practices are the sets of organizational capabilities (like Incident Management or Service Desk) that perform the work within the value system.",
    "ar": "الممارسات الإدارية هي مجموعات القدرات التنظيمية (مثل Incident Management أو Service Desk) التي تؤدي العمل داخل نظام القيمة."
+  },
+  "t94f31c6b8a9d14bdd46a": {
+   "en": "What BEST describes the concept of utility?",
+   "ar": "أيٌّ مما يلي يصف مفهوم المنفعة على أفضل وجه؟"
   },
   "t95493f364f735dad758e": {
    "en": "Continual improvement applies to which parts of the ITIL Value System?",
@@ -3209,6 +3657,14 @@
   "t96e650f181bb1379d4ec": {
    "en": "Support teams investigate incidents to find the underlying \"problem\" (cause) to prevent future failures.",
    "ar": "تحقق فرق الدعم في الحوادث للعثور على «المشكلة» الكامنة (السبب) لمنع الأعطال المستقبلية."
+  },
+  "t96f6f153f443dce0c864": {
+   "en": "The book states that collaboration does not mean consensus: it is not necessary, nor even wise, to get everyone to agree before acting. Involving the right people, communicating in ways that suit each audience and deciding on visible data are part of the principle.",
+   "ar": "يذكر الكتاب أن التعاون لا يعني الإجماع: فليس من الضروري، ولا من الحكمة، الحصول على موافقة الجميع قبل التصرف. وإشراك الأشخاص المناسبين، والتواصل بأساليب تناسب كل جمهور، واتخاذ القرارات بناءً على بيانات مرئية كلها جزء من المبدأ."
+  },
+  "t97283a1001d7b5c801de": {
+   "en": "A change of state significant for management",
+   "ar": "تغيّر في الحالة له أهمية بالنسبة للإدارة"
   },
   "t975bb60007285d6ffd94": {
    "en": "A tangible or intangible deliverable created during a service activity",
@@ -3284,7 +3740,11 @@
   },
   "t9966dbd27bd608d06986": {
    "en": "What is \"Value Stream Management\"?",
-   "ar": "ما «إدارة مسار القيمة» (Value Stream Management)؟"
+   "ar": "ما «إدارة تدفق القيمة» (Value Stream Management)؟"
+  },
+  "t99681dd1e508179f58a7": {
+   "en": "What is a service request?",
+   "ar": "ما طلب الخدمة؟"
   },
   "t9973a472620ec1f89a40": {
    "en": "The total number of employees.",
@@ -3298,6 +3758,10 @@
    "en": "What happens in the \"Are we getting there?\" step?",
    "ar": "ماذا يحدث في خطوة «هل نحن في طريقنا إلى هناك؟»"
   },
+  "t9a4d0cb19a9992409f31": {
+   "en": "A user is granted permission to use a cloud-based application",
+   "ar": "منح مستخدم صلاحية استخدام تطبيق سحابي"
+  },
   "t9aed7ec7fe41ae199fc7": {
    "en": "The information and technology chapter of a practice guide provides recommendations for the successful automation of the practice, as it addresses the tools, systems, and technological considerations that enable and support automation.",
    "ar": "يقدّم فصل المعلومات والتكنولوجيا في دليل الممارسة توصيات للأتمتة الناجحة للممارسة، إذ يتناول الأدوات والأنظمة والاعتبارات التقنية التي تمكّن الأتمتة وتدعمها."
@@ -3308,7 +3772,7 @@
   },
   "t9afbd7e4650c10ef44ab": {
    "en": "By using the “keep it simple and practical” principle and one or two others that are relevant to the specific decision",
-   "ar": "باستخدام مبدأ «اجعله بسيطًا وعمليًا» ومبدأ أو مبدأين آخرين ذوي صلة بالقرار المحدد"
+   "ar": "باستخدام مبدأ «اجعلها بسيطة وعملية» ومبدأ أو مبدأين آخرين ذوي صلة بالقرار المحدد"
   },
   "t9b17156474847f220dd4": {
    "en": "Utility and warranty are two complementary aspects of service value. Utility describes what the service does (fitness for purpose), while warranty describes how the service performs (fitness for use). Utility is the functionality offered by a product or service to meet a particular need, and warranty ensures the service performs and can be used as expected. Ref 3.2.4",
@@ -3324,15 +3788,19 @@
   },
   "t9bc1702a8ce4a068d6b9": {
    "en": "The \"value stream and processes\" dimension",
-   "ar": "بُعد «مسار القيمة والعمليات»"
+   "ar": "بُعد «تدفق القيمة والعمليات»"
   },
   "t9bd41396ead03d281976": {
    "en": "The ITIL Product and Service Lifecycle Model consists of eight specific lifecycle management activities. These activities are: Discover, Design, Acquire, Build, Transition, Operate, Deliver, and Support",
-   "ar": "يتكوّن نموذج دورة حياة المنتجات والخدمات في ITIL من ثمانية أنشطة محددة لإدارة دورة الحياة. وهذه الأنشطة هي: الاكتشاف، والتصميم، والاقتناء، والبناء، والانتقال، والتشغيل، والتقديم، والدعم"
+   "ar": "يتكوّن نموذج دورة حياة المنتجات والخدمات في ITIL من ثمانية أنشطة محددة لإدارة دورة الحياة. وهذه الأنشطة هي: الاستكشاف، والتصميم، والاقتناء، والبناء، والانتقال، والتشغيل، والتسليم، والدعم"
   },
   "t9bd75a3fb14a6e1d9870": {
    "en": "Reflect",
    "ar": "التأمل والمراجعة (Reflect)"
+  },
+  "t9bde806094eddcdea774": {
+   "en": "Which of the following helps to understand the internal state of a complicated system by analyzing its external outputs?",
+   "ar": "أيٌّ مما يلي يساعد على فهم الحالة الداخلية لنظام معقد من خلال تحليل مخرجاته الخارجية؟"
   },
   "t9c06cadba190f18eea4c": {
    "en": "A law about the speed of computer processors.",
@@ -3346,6 +3814,10 @@
    "en": "Which activity ensures that new or changed products are seamlessly introduced in the live environment?",
    "ar": "أي نشاط يضمن إدخال المنتجات الجديدة أو المعدّلة إلى البيئة الحية بسلاسة؟"
   },
+  "t9cacecf0ff1f7214a8f9": {
+   "en": "Assessing the existing resources before making decisions",
+   "ar": "تقييم الموارد الموجودة قبل اتخاذ القرارات"
+  },
   "t9cbc466f9ffb54435aed": {
    "en": "Hide the results from stakeholders to maintain momentum.",
    "ar": "إخفاء النتائج عن أصحاب المصلحة للحفاظ على الزخم."
@@ -3357,6 +3829,10 @@
   "t9ced5cc77e344328b2e8": {
    "en": "Which dimension addresses culture, competencies, and leadership?",
    "ar": "أي بُعد يتناول الثقافة والكفاءات والقيادة؟"
+  },
+  "t9d11764d41ebb007457f": {
+   "en": "By relying on just one or two principles for efficiency",
+   "ar": "الاعتماد على مبدأ أو مبدأين فقط من أجل الكفاءة"
   },
   "t9d34ac6d9793d12936bf": {
    "en": "A digital service is limited to internal IT systems",
@@ -3384,7 +3860,7 @@
   },
   "t9fb459df576220d34817": {
    "en": "Organizations and people",
-   "ar": "المنظمات والأفراد (Organizations and people)"
+   "ar": "المنظمة والأشخاص (Organizations and people)"
   },
   "ta02daeee9c53989ccb80": {
    "en": "They determine the financial outcomes for consumers directly",
@@ -3434,9 +3910,17 @@
    "en": "Costs associated with training staff.",
    "ar": "التكاليف المرتبطة بتدريب الموظفين."
   },
+  "ta2f24f25d0b93cf2eda2": {
+   "en": "Governance is one of the components of the ITIL Value System. The guiding principles shape how governance is defined and applied, and continual improvement applies to every component, so governance stays aligned with stakeholder expectations over time.",
+   "ar": "الحوكمة أحد مكونات نظام قيمة ITIL. والمبادئ التوجيهية تشكّل طريقة تحديد الحوكمة وتطبيقها، والتحسين المستمر ينطبق على كل المكونات، فتبقى الحوكمة متوافقة مع توقعات أصحاب المصلحة بمرور الوقت."
+  },
   "ta315f624c2c4b5ab2625": {
    "en": "An activity performed by the provider to address a consumer need",
    "ar": "نشاط يؤديه المزوّد لتلبية حاجة المستهلك"
+  },
+  "ta37c93100e7c535c881a": {
+   "en": "Observability",
+   "ar": "قابلية الملاحظة (Observability)"
   },
   "ta38c80a037bf68a9e230": {
    "en": "To track the GPS location of delivery trucks.",
@@ -3462,6 +3946,14 @@
    "en": "PRINCE2",
    "ar": "PRINCE2 (برينس 2)"
   },
+  "ta44435acd4659e75dfdf": {
+   "en": "The assurance that helps determine whether a service is fit for use",
+   "ar": "التأكيد الذي يساعد على تحديد ما إذا كانت الخدمة ملائمة للاستخدام"
+  },
+  "ta44b324d7a608f07028c": {
+   "en": "To reduce stakeholder involvement to minimize complexity",
+   "ar": "تقليل مشاركة أصحاب المصلحة للحد من التعقيد"
+  },
   "ta451c7d6b83385861956": {
    "en": "Automatically releasing every code change into production",
    "ar": "إطلاق كل تغيير في الشيفرة إلى بيئة الإنتاج تلقائيًا"
@@ -3473,6 +3965,10 @@
   "ta49631f3da640f5c6424": {
    "en": "A combination of technology resources designed for consumers",
    "ar": "مزيج من الموارد التقنية المصممة للمستهلكين"
+  },
+  "ta49972a4642322b6e525": {
+   "en": "Requirement for consumer staff training to use the service effectively",
+   "ar": "حاجة موظفي المستهلك إلى التدريب لاستخدام الخدمة بفعالية"
   },
   "ta4a0f7a0c1b8a62a4be2": {
    "en": "They should be carried forward, unchanged, from one year to the next to enable unisilen service",
@@ -3486,9 +3982,17 @@
    "en": "A governing body for international sports.",
    "ar": "هيئة حاكمة للرياضات الدولية."
   },
+  "ta4cc1f5132a0cd8bd25c": {
+   "en": "Which statement about a basic relationship is TRUE?",
+   "ar": "أي عبارة عن العلاقة الأساسية صحيحة؟"
+  },
+  "ta4dd525ab0da5406dde1": {
+   "en": "Site Reliability Engineering (SRE) is a technology management discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems.",
+   "ar": "هندسة موثوقية المواقع (SRE) تخصص في إدارة التقنية يدمج جوانب من هندسة البرمجيات ويطبقها على مشكلات البنية التحتية والعمليات."
+  },
   "ta4e6202efeb8d0d7d718": {
    "en": "What is the purpose of \"Value Stream Mapping\"?",
-   "ar": "ما الغرض من «رسم خريطة مسار القيمة» (Value Stream Mapping)؟"
+   "ar": "ما الغرض من «رسم خريطة تدفق القيمة» (Value Stream Mapping)؟"
   },
   "ta504250b5b710d9598cf": {
    "en": "It shows the \"big picture\" of how people, processes, and technology work together to deliver value.",
@@ -3524,7 +4028,7 @@
   },
   "ta62b8fdf7f62ef72c0ba": {
    "en": "Deliver",
-   "ar": "التقديم (Deliver)"
+   "ar": "التسليم (Deliver)"
   },
   "ta64e99d3dc6747510ba4": {
    "en": "Buying the most expensive tools.",
@@ -3550,6 +4054,10 @@
    "en": "Assigning responsibility for improvements to a single team",
    "ar": "إسناد المسؤولية عن التحسينات إلى فريق واحد"
   },
+  "ta7939bb226c0ad4dab8a": {
+   "en": "Reduce complexity by focusing on doing fewer things, but doing them better",
+   "ar": "تقليل التعقيد بالتركيز على عدد أقل من الأمور، مع إتقانها أكثر"
+  },
   "ta7a65f912ceabb4e209b": {
    "en": "Utility and warranty apply only to products, not services",
    "ar": "تنطبق المنفعة والضمان على المنتجات فقط وليس على الخدمات"
@@ -3568,7 +4076,11 @@
   },
   "ta8d5adbc49118544aaad": {
    "en": "The “deliver” and “support” value chain activities",
-   "ar": "نشاطا سلسلة القيمة «التقديم» و«الدعم»"
+   "ar": "نشاطا سلسلة القيمة «التسليم» و«الدعم»"
+  },
+  "ta8e62b92b4441bfd3a35": {
+   "en": "Applying ‘think and work holistically’ includes looking for patterns in the interactions between system elements. With this information, needs can be anticipated, standards can be set and a holistic viewpoint can be achieved.",
+   "ar": "تطبيق مبدأ «فكّر واعمل بشكل شمولي» يشمل البحث عن الأنماط في التفاعلات بين عناصر النظام. وبهذه المعلومات يمكن استباق الاحتياجات ووضع المعايير وتحقيق رؤية شمولية."
   },
   "ta917f258b6244fcce6e2": {
    "en": "Information and Technology",
@@ -3580,7 +4092,11 @@
   },
   "ta93e7d7f8f64effcc088": {
    "en": "The ‘Organization and people’ dimension is most concerned with establishing a culture of trust. “Digitally enabled organizations are under pressure to continually improve their performance under changing market conditions. [...]. The challenge for these organizations is to foster an effective set of shared beliefs, perceptions, and values in relation to risks. This, in turn, should create a safety culture, and result in behaviour that is beneficial for all stakeholders, including the members of the organization.” Ref 2.2.1",
-   "ar": "يهتم بُعد «المنظمة والأفراد» في المقام الأول بترسيخ ثقافة الثقة. «تتعرض المنظمات الممكَّنة رقميًا لضغوط لتحسين أدائها باستمرار في ظل ظروف السوق المتغيرة. [...]. ويتمثل التحدي أمام هذه المنظمات في تعزيز مجموعة فعّالة من المعتقدات والتصورات والقيم المشتركة فيما يتعلق بالمخاطر. وهذا بدوره ينبغي أن يخلق ثقافة أمان، ويؤدي إلى سلوك مفيد لجميع أصحاب المصلحة، بمن فيهم أعضاء المنظمة.» المرجع 2.2.1"
+   "ar": "يهتم بُعد «المنظمة والأشخاص» في المقام الأول بترسيخ ثقافة الثقة. «تتعرض المنظمات الممكَّنة رقميًا لضغوط لتحسين أدائها باستمرار في ظل ظروف السوق المتغيرة. [...]. ويتمثل التحدي أمام هذه المنظمات في تعزيز مجموعة فعّالة من المعتقدات والتصورات والقيم المشتركة فيما يتعلق بالمخاطر. وهذا بدوره ينبغي أن يخلق ثقافة أمان، ويؤدي إلى سلوك مفيد لجميع أصحاب المصلحة، بمن فيهم أعضاء المنظمة.» المرجع 2.2.1"
+  },
+  "ta98c64f2bc9cb4e1ae65": {
+   "en": "They avoid cooperation to maintain complete independence",
+   "ar": "تتجنب التعاون للحفاظ على استقلال تام"
   },
   "taa0cb4cce15e7b552eaf": {
    "en": "An organization is planning to improve the existing service and wants to understand its current performance before making any changes. According to the principle ‘Start where you are,’ what could an organization consider when observing current performance of the service?",
@@ -3660,7 +4176,7 @@
   },
   "tacc73c49b71b89611069": {
    "en": "By automating workflows across value streams",
-   "ar": "بأتمتة سير العمل عبر مسارات القيمة"
+   "ar": "بأتمتة سير العمل عبر تدفقات القيمة"
   },
   "taccc7ddaf5eeb0167a52": {
    "en": "An unplanned interruption to a service or reduction in the quality of a service",
@@ -3682,13 +4198,21 @@
    "en": "To align product capabilities with consumer needs and strategy",
    "ar": "مواءمة قدرات المنتج مع احتياجات المستهلكين والاستراتيجية"
   },
+  "tadd9f0da01d344588dea": {
+   "en": "The maintaining and improving the effective, efficient, and convenient use of information",
+   "ar": "الحفاظ على الاستخدام الفعّال والكفء والمريح للمعلومات وتحسينه"
+  },
   "tade0004c31e9a4a13979": {
    "en": "Organizations may utilize external suppliers due to resource scarcity, which includes a lack of needed skills or resources internally. It also allows them to leverage the subject matter expertise and knowledge of the supplier.",
    "ar": "قد تستعين المنظمات بموردين خارجيين بسبب ندرة الموارد، والتي تشمل نقص المهارات أو الموارد اللازمة داخليًا. كما يتيح لها ذلك الاستفادة من خبرة المورّد ومعرفته المتخصصة."
   },
+  "tade1d3cb6929a9992904": {
+   "en": "Applying a strategy to avoid sudden unplanned events that might cause organizational damage",
+   "ar": "تطبيق استراتيجية لتجنب الأحداث المفاجئة غير المخطط لها التي قد تُلحق ضررًا بالمنظمة"
+  },
   "tae11b72589105d4ab019": {
    "en": "“The ‘Value streams and processes’ dimension address organizational and cross-organizational workflows, focusing on what activities the organization undertakes and how they are organized to enable value for stakeholders effectively and efficiently.” Ref 2.3",
-   "ar": "«يتناول بُعد ‹مسارات القيمة والعمليات› سير العمل التنظيمي والعابر للمنظمات، مع التركيز على الأنشطة التي تضطلع بها المنظمة وكيفية تنظيمها لتمكين القيمة لأصحاب المصلحة بفعالية وكفاءة.» المرجع 2.3"
+   "ar": "«يتناول بُعد ‹تدفقات القيمة والعمليات› سير العمل التنظيمي والعابر للمنظمات، مع التركيز على الأنشطة التي تضطلع بها المنظمة وكيفية تنظيمها لتمكين القيمة لأصحاب المصلحة بفعالية وكفاءة.» المرجع 2.3"
   },
   "taefcb3a420381d9c5c08": {
    "en": "Documenting the current state of the workflow as it actually exists",
@@ -3718,6 +4242,10 @@
    "en": "To write the software code.",
    "ar": "كتابة الشيفرة البرمجية."
   },
+  "tafa70cfd7f04a9d49f7f": {
+   "en": "A model representing how all the components and activities of an organization work together to facilitate value creation through digital products and services",
+   "ar": "نموذج يوضح كيف تعمل جميع مكونات المنظمة وأنشطتها معًا لتيسير إنشاء القيمة من خلال المنتجات والخدمات الرقمية"
+  },
   "tafcb2f7d9c7db5ee72c4": {
    "en": "ITIL clearly distinguishes continuous deployment from continuous delivery by stating that continuous deployment automatically deploys every change that passes automated tests to production, without additional authorization. Ref 4.6.2",
    "ar": "تميّز ITIL بوضوح النشر المستمر عن التسليم المستمر بالنص على أن النشر المستمر ينشر تلقائيًا إلى بيئة الإنتاج كل تغيير يجتاز الاختبارات المؤتمتة، دون تفويض إضافي. المرجع 4.6.2"
@@ -3729,6 +4257,10 @@
   "tb0262a016786f4fbf992": {
    "en": "Quality of the product solutions is a key metric of success for the ‘build’ activity, which focuses on developing, integrating, and testing products. Ref 4.5.2",
    "ar": "جودة حلول المنتج مقياس نجاح رئيسي لنشاط «البناء»، الذي يركّز على تطوير المنتجات ودمجها واختبارها. المرجع 4.5.2"
+  },
+  "tb029436471bb82dc8db7": {
+   "en": "Every organization depends to some extent on services provided by other organizations. Engaging suppliers gives access to resources and capabilities the organization does not have or cannot efficiently develop itself. It increases reliance on third parties and still requires oversight and governance of the relationship.",
+   "ar": "كل منظمة تعتمد بدرجة ما على خدمات تقدمها منظمات أخرى. والتعامل مع الموردين يتيح الوصول إلى موارد وقدرات لا تملكها المنظمة أو لا تستطيع تطويرها بكفاءة بنفسها. وهذا يزيد الاعتماد على الأطراف الثالثة، ويظل يتطلب الإشراف على العلاقة وحوكمتها."
   },
   "tb077f3ef2fc6e0a209b3": {
    "en": "Continuous delivery is an approach in which software is built and tested in a way that ensures it is always in a deployable state, allowing it to be released to production at any time once the team makes the decision to do so.",
@@ -3749,10 +4281,6 @@
   "tb149727085665f275bc4": {
    "en": "Change enablement and incident management",
    "ar": "تمكين التغيير وإدارة الحوادث"
-  },
-  "tb1c05c2961fd2638f36c": {
-   "en": "What are the key inputs to the Service Value System?",
-   "ar": "ما المدخلات الرئيسية لنظام قيمة الخدمة (Service Value System)؟"
   },
   "tb1c49aa864b9aa07c19c": {
    "en": "ITIL explicitly defines: “Problem is a cause, or potential cause, of one or more incidents.” Ref 4.9.1",
@@ -3780,15 +4308,15 @@
   },
   "tb2dc13d04274a80660da": {
    "en": "What is the MAIN purpose of value stream mapping in an organization?",
-   "ar": "ما الغرض الرئيسي من رسم خريطة مسار القيمة في المنظمة؟"
+   "ar": "ما الغرض الرئيسي من رسم خريطة تدفق القيمة في المنظمة؟"
   },
   "tb2e3ae35d07ae5083377": {
    "en": "Option A is incorrect. ‘Value stream’ is a term for “a series of steps that an organization uses to create and deliver products and services to a service consumer.” Ref 6.1\nOption B is incorrect. The ‘Value chain’ enables and supports the value streams, in addition, “continual improvement of value streams is achieved indirectly by improving the value chain and the management practices.” Ref 6.4\nOption C is incorrect. The operating model is a “conceptual and/or visual representation of how an organization co-creates value with its customers and other stakeholders, as well as how the organization runs itself.” Ref Glossary\nOption D is correct. An organization’s purpose is “what an organization does for its consumers and other stakeholders and why.” Ref 5.4.1",
-   "ar": "الخيار A غير صحيح. «مسار القيمة» مصطلح يعني «سلسلة من الخطوات تستخدمها المنظمة لإنشاء المنتجات والخدمات وتقديمها إلى مستهلك الخدمة.» المرجع 6.1\nالخيار B غير صحيح. «سلسلة القيمة» تمكّن مسارات القيمة وتدعمها، بالإضافة إلى ذلك «يتحقق التحسين المستمر لمسارات القيمة بشكل غير مباشر من خلال تحسين سلسلة القيمة والممارسات الإدارية.» المرجع 6.4\nالخيار C غير صحيح. النموذج التشغيلي هو «تمثيل مفاهيمي و/أو مرئي لكيفية مشاركة المنظمة في إنشاء القيمة مع عملائها وأصحاب المصلحة الآخرين، وكذلك لكيفية إدارة المنظمة لنفسها.» المرجع: المسرد (Glossary)\nالخيار D صحيح. غرض المنظمة هو «ما تفعله المنظمة لمستهلكيها وأصحاب المصلحة الآخرين ولماذا.» المرجع 5.4.1"
+   "ar": "الخيار A غير صحيح. «تدفق القيمة» مصطلح يعني «سلسلة من الخطوات تستخدمها المنظمة لإنشاء المنتجات والخدمات وتقديمها إلى مستهلك الخدمة.» المرجع 6.1\nالخيار B غير صحيح. «سلسلة القيمة» تمكّن تدفقات القيمة وتدعمها، بالإضافة إلى ذلك «يتحقق التحسين المستمر لتدفقات القيمة بشكل غير مباشر من خلال تحسين سلسلة القيمة والممارسات الإدارية.» المرجع 6.4\nالخيار C غير صحيح. النموذج التشغيلي هو «تمثيل مفاهيمي و/أو مرئي لكيفية مشاركة المنظمة في إنشاء القيمة مع عملائها وأصحاب المصلحة الآخرين، وكذلك لكيفية إدارة المنظمة لنفسها.» المرجع: المسرد (Glossary)\nالخيار D صحيح. غرض المنظمة هو «ما تفعله المنظمة لمستهلكيها وأصحاب المصلحة الآخرين ولماذا.» المرجع 5.4.1"
   },
   "tb2ea10145d8becd887ed": {
    "en": "Why are ‘value streams and processes’ important in product and service management?",
-   "ar": "لماذا تُعدّ «مسارات القيمة والعمليات» مهمة في إدارة المنتجات والخدمات؟"
+   "ar": "لماذا تُعدّ «تدفقات القيمة والعمليات» مهمة في إدارة المنتجات والخدمات؟"
   },
   "tb356108c79e83bc77513": {
    "en": "To ensure organizational activities are directed and controlled",
@@ -3850,6 +4378,10 @@
    "en": "Information and technology",
    "ar": "المعلومات والتكنولوجيا (Information and technology)"
   },
+  "tb5929c607ce0235bdd5a": {
+   "en": "Dependencies on third parties",
+   "ar": "الاعتماديات على الأطراف الثالثة"
+  },
   "tb5afd78066ccb4a9faaa": {
    "en": "A finalized product specification approved for development",
    "ar": "مواصفات منتج نهائية معتمدة للتطوير"
@@ -3910,6 +4442,10 @@
    "en": "It is always provided for free.",
    "ar": "تُقدَّم دائمًا مجانًا."
   },
+  "tb89affd719281e6d51de": {
+   "en": "Value streams have variability and cannot be managed directly. The book states that continual improvement of value streams is achieved by improving the management practices that enable and support them, as well as the organization’s products and services.",
+   "ar": "تدفقات القيمة فيها تباين ولا يمكن إدارتها مباشرة. ويذكر الكتاب أن التحسين المستمر لتدفقات القيمة يتحقق بتحسين الممارسات الإدارية التي تمكّنها وتدعمها، وكذلك منتجات المنظمة وخدماتها."
+  },
   "tb8aedce09a1cb86def92": {
    "en": "By limiting DevOps usage to software development activities",
    "ar": "بقصر استخدام DevOps على أنشطة تطوير البرمجيات"
@@ -3930,6 +4466,10 @@
    "en": "A software tool for managing bank accounts.",
    "ar": "أداة برمجية لإدارة الحسابات المصرفية."
   },
+  "tb9237bcaba98bd9a2592": {
+   "en": "Which statement regarding the relationship between management practices and value chain activities is CORRECT?",
+   "ar": "أي عبارة عن العلاقة بين الممارسات الإدارية وأنشطة سلسلة القيمة صحيحة؟"
+  },
   "tb95df360f1052c3ce0da": {
    "en": "Once direction is set, the governing body must oversee if those rules are being followed and goals are being met.",
    "ar": "بمجرد تحديد التوجه، يجب على الهيئة الحاكمة الإشراف على ما إذا كانت تلك القواعد تُتّبع والأهداف تتحقق."
@@ -3946,6 +4486,10 @@
    "en": "Which metric is MOST appropriate for assessing the success of the ‘build’ value chain activity?",
    "ar": "أي مقياس هو الأنسب لتقييم نجاح نشاط سلسلة القيمة «البناء»؟"
   },
+  "tba76a4f78aab4bfabcbe": {
+   "en": "Feedback gathered throughout iterative work keeps improvement efforts aligned with changing needs and priorities. The book notes that working iteratively with feedback loops allows faster responses to customer and business needs.",
+   "ar": "التغذية الراجعة التي تُجمع طوال العمل التدريجي تُبقي جهود التحسين متوافقة مع الاحتياجات والأولويات المتغيرة. ويذكر الكتاب أن العمل التدريجي مع حلقات التغذية الراجعة يتيح استجابات أسرع لاحتياجات العملاء والأعمال."
+  },
   "tba796291dda81741cc98": {
    "en": "An informal discussion between users and service providers about expectations",
    "ar": "نقاش غير رسمي بين المستخدمين ومزوّدي الخدمة حول التوقعات"
@@ -3961,6 +4505,10 @@
   "tbb8328ddb76120bf35cd": {
    "en": "Direct represents the governance activity where the governing body sets direction, priorities, and policies, such as approving a strategy and instructing management to focus investment on specific initiatives.",
    "ar": "يمثّل التوجيه نشاط الحوكمة الذي تحدّد فيه الهيئة الحاكمة التوجه والأولويات والسياسات، مثل الموافقة على استراتيجية وتوجيه الإدارة إلى تركيز الاستثمار على مبادرات محددة."
+  },
+  "tbb862c25f92ac9892d58": {
+   "en": "Failure of hardware owned and managed by the consumer",
+   "ar": "تعطّل أجهزة يملكها المستهلك ويديرها"
   },
   "tbba1ec5de759a9be0e82": {
    "en": "Only the software code",
@@ -3992,7 +4540,11 @@
   },
   "tbc51e8066b717f4d7bbf": {
    "en": "How does automation support value stream management?",
-   "ar": "كيف تدعم الأتمتة إدارة مسار القيمة؟"
+   "ar": "كيف تدعم الأتمتة إدارة تدفق القيمة؟"
+  },
+  "tbc842c45efa165396113": {
+   "en": "Communicating information about the initiative to other parts of the organization",
+   "ar": "إيصال المعلومات عن المبادرة إلى أجزاء أخرى من المنظمة"
   },
   "tbce18722cc6af259a0e1": {
    "en": "What is the purpose of the ITIL AI Capability Model?",
@@ -4028,7 +4580,7 @@
   },
   "tbe2755efe18cda543951": {
    "en": "The Organizations and people aspect of a practice guide describes “roles, competencies and responsibilities” as well as “organizational solutions and teams (specific to the practice)” Ref 5.5.1, Table 5.3",
-   "ar": "يصف جانب «المنظمات والأفراد» في دليل الممارسة «الأدوار والكفاءات والمسؤوليات» وكذلك «الحلول والفرق التنظيمية (الخاصة بالممارسة)» المرجع 5.5.1، الجدول 5.3"
+   "ar": "يصف جانب «المنظمة والأشخاص» في دليل الممارسة «الأدوار والكفاءات والمسؤوليات» وكذلك «الحلول والفرق التنظيمية (الخاصة بالممارسة)» المرجع 5.5.1، الجدول 5.3"
   },
   "tbe3c884434ea85afcfcd": {
    "en": "ITIL defines organization broadly, ranging from individuals to multinational corporations or even teams within them.",
@@ -4044,7 +4596,7 @@
   },
   "tbea81c11803cc25d6878": {
    "en": "Value stream mapping “allows organizations to identify, map, and analyse their value streams, as well as identify and prioritize improvement opportunities.” Ref 6.4",
-   "ar": "يتيح رسم خريطة مسار القيمة «للمنظمات تحديد مسارات القيمة الخاصة بها ورسم خرائطها وتحليلها، وكذلك تحديد فرص التحسين وترتيب أولوياتها.» المرجع 6.4"
+   "ar": "يتيح رسم خريطة تدفق القيمة «للمنظمات تحديد تدفقات القيمة الخاصة بها ورسم خرائطها وتحليلها، وكذلك تحديد فرص التحسين وترتيب أولوياتها.» المرجع 6.4"
   },
   "tbeb3abf974d910d813a1": {
    "en": "Service Consumer",
@@ -4070,6 +4622,10 @@
    "en": "How does ITIL describe the way the Guiding Principles should be applied together?",
    "ar": "كيف تصف ITIL الطريقة التي ينبغي بها تطبيق المبادئ التوجيهية معًا؟"
   },
+  "tc00edd00fb62b261fb15": {
+   "en": "How can continual improvement of value streams be achieved?",
+   "ar": "كيف يمكن تحقيق التحسين المستمر لتدفقات القيمة؟"
+  },
   "tc01214243c7af4b93dc9": {
    "en": "That all data is deleted after 24 hours.",
    "ar": "حذف جميع البيانات بعد 24 ساعة."
@@ -4081,6 +4637,10 @@
   "tc0bf75bd78bf95725967": {
    "en": "Change",
    "ar": "التغيير (Change)"
+  },
+  "tc0e086c58e8780e31d02": {
+   "en": "A digital learning platform conducting a live online training session for users",
+   "ar": "منصة تعليم رقمية تعقد جلسة تدريب مباشرة عبر الإنترنت للمستخدمين"
   },
   "tc105f734a81f7e5bdaa4": {
    "en": "In ITIL, continual improvement is an ongoing, iterative process aimed at enhancing services, practices, and all elements of the service value system. It is not a one-time effort, nor just a governance policy or a specific lifecycle stage—it happens continuously across the organization.",
@@ -4140,7 +4700,7 @@
   },
   "tc2c7c728085d5545c5ff": {
    "en": "Percentage of value streams mapped",
-   "ar": "نسبة مسارات القيمة التي رُسمت خرائطها"
+   "ar": "نسبة تدفقات القيمة التي رُسمت خرائطها"
   },
   "tc33075e7be09fa6fa562": {
    "en": "An organization’s purpose is “what an organization does for its consumers and other stakeholders and why.” Ref 5.4.1",
@@ -4162,6 +4722,10 @@
    "en": "To describe how organizations can assess and develop capabilities for effective use of AI",
    "ar": "وصف كيف يمكن للمنظمات تقييم القدرات وتطويرها من أجل الاستخدام الفعّال للذكاء الاصطناعي (AI)"
   },
+  "tc3bbb9aeeca7c0c4d67d": {
+   "en": "How should an organization apply the ITIL Guiding Principles?",
+   "ar": "كيف ينبغي للمنظمة أن تطبّق المبادئ التوجيهية في ITIL؟"
+  },
   "tc3cfe646dac74a57c931": {
    "en": "All four dimensions are critical to the effective and eficient facilitation of value because they provide a balanced and holistic view of product and service management, ensuring that no important aspect is overlooked when creating and delivering value.",
    "ar": "الأبعاد الأربعة جميعها حاسمة لتيسير القيمة بفعالية وكفاءة لأنها توفّر رؤية متوازنة وشمولية لإدارة المنتجات والخدمات، بما يضمن عدم إغفال أي جانب مهم عند إنشاء القيمة وتقديمها."
@@ -4172,7 +4736,7 @@
   },
   "tc47f617e11ba8b25ef8b": {
    "en": "Think and work holistically",
-   "ar": "التفكير والعمل بشكل شمولي (Think and work holistically)"
+   "ar": "فكّر واعمل بشكل شمولي (Think and work holistically)"
   },
   "tc49652026d12315ccc83": {
    "en": "The social responsibility of a service provider",
@@ -4192,7 +4756,7 @@
   },
   "tc5b024ab1e5ab87c3281": {
    "en": "What is an \"Enabling Value Stream\"?",
-   "ar": "ما «مسار القيمة التمكيني» (Enabling Value Stream)؟"
+   "ar": "ما «تدفق القيمة التمكيني» (Enabling Value Stream)؟"
   },
   "tc5fd87dcd19d127dcc90": {
    "en": "Customers who don't buy anything.",
@@ -4202,6 +4766,10 @@
    "en": "To document current performance metrics before changes are made",
    "ar": "لتوثيق مقاييس الأداء الحالية قبل إجراء التغييرات"
   },
+  "tc612570960fb35dc2eea": {
+   "en": "A service offering is a formal description of one or more services, designed to address the needs of a target consumer group. An enterprise package that combines internet, VoIP, security and support is such an offering; it can include goods, access to resources and service actions.",
+   "ar": "عرض الخدمة وصف رسمي لخدمة واحدة أو أكثر، مصمم لتلبية احتياجات مجموعة مستهلكين مستهدفة. والباقة المؤسسية التي تجمع الإنترنت والاتصال الصوتي عبر الإنترنت (VoIP) والأمن والدعم هي عرض خدمة، ويمكن أن تتضمن سلعًا ووصولًا إلى الموارد وإجراءات خدمة."
+  },
   "tc63d0d9217f30b2e6be9": {
    "en": "Service management",
    "ar": "إدارة الخدمات (Service management)"
@@ -4209,6 +4777,10 @@
   "tc654c8210264c0f8fa1d": {
    "en": "To develop and test digital products",
    "ar": "تطوير المنتجات الرقمية واختبارها"
+  },
+  "tc6cb5f2fce6016a8a71f": {
+   "en": "Regularly merging code into a shared repository",
+   "ar": "دمج الشيفرة بانتظام في مستودع مشترك"
   },
   "tc6e4036bf669a4f5d3ef": {
    "en": "What BEST describes an event?",
@@ -4222,9 +4794,17 @@
    "en": "The delivery of products to a stakeholder is enabled by outcomes",
    "ar": "يُمكَّن تقديم المنتجات إلى صاحب المصلحة بواسطة النتائج"
   },
+  "tc7d3a9ca9589e6ed09a0": {
+   "en": "An unplanned interruption to a service",
+   "ar": "انقطاع غير مخطط للخدمة"
+  },
+  "tc81a52dd22bde9687441": {
+   "en": "Consumer's access to a provider's resources according to agreed terms",
+   "ar": "وصول المستهلك إلى موارد المزوّد وفق شروط متفق عليها"
+  },
   "tc8243b7aed00456cacc5": {
    "en": "Value stream",
-   "ar": "مسار القيمة (Value stream)"
+   "ar": "تدفق القيمة (Value stream)"
   },
   "tc8ca72f99e1198b02c6f": {
    "en": "Which dimension covers data, analytics, and cloud computing?",
@@ -4241,6 +4821,10 @@
   "tc94fc873ae3e424f85b2": {
    "en": "Which role is responsible for the procurement and use of services?",
    "ar": "أي دور مسؤول عن شراء الخدمات واستخدامها؟"
+  },
+  "tc983766d683f7fe2da2f": {
+   "en": "The purpose of the ‘deliver’ activity is to provide services to users, manage user onboarding and offboarding, maintain service quality standards and gather consumers’ feedback.",
+   "ar": "الغرض من نشاط «التسليم» هو تقديم الخدمات للمستخدمين، وإدارة إلحاق المستخدمين وإنهاء خدمتهم، والحفاظ على معايير جودة الخدمة، وجمع التغذية الراجعة من المستهلكين."
   },
   "tc98edc995f2a585a08f4": {
    "en": "Hiring new junior employees.",
@@ -4272,7 +4856,7 @@
   },
   "tcad744174b05ad611f8f": {
    "en": "(Value streams should exclude suppliers) is incorrect because value streams are end-to-end and frequently involve external partners and suppliers.",
-   "ar": "(ينبغي أن تستبعد مسارات القيمة الموردين) عبارة غير صحيحة لأن مسارات القيمة شاملة من البداية إلى النهاية وكثيرًا ما تشمل شركاء وموردين خارجيين."
+   "ar": "(ينبغي أن تستبعد تدفقات القيمة الموردين) عبارة غير صحيحة لأن تدفقات القيمة شاملة من البداية إلى النهاية وكثيرًا ما تشمل شركاء وموردين خارجيين."
   },
   "tcada6d9e9b90a2b23504": {
    "en": "Market share dominance",
@@ -4300,11 +4884,11 @@
   },
   "tcca0e2a79fb8c2594c21": {
    "en": "What is the final step in the value stream mapping process?",
-   "ar": "ما الخطوة الأخيرة في عملية رسم خريطة مسار القيمة؟"
+   "ar": "ما الخطوة الأخيرة في عملية رسم خريطة تدفق القيمة؟"
   },
   "tccb7d456f0d01c6dda1c": {
    "en": "Which of the following is a part of purpose of ‘deliver’ activity?",
-   "ar": "أيّ مما يلي جزء من غرض نشاط «التقديم» (deliver)؟"
+   "ar": "أيّ مما يلي جزء من غرض نشاط «التسليم» (deliver)؟"
   },
   "tcce8222945f9110b4a28": {
    "en": "This activity focuses on acquiring or creating the products and services needed to deliver value to customers.",
@@ -4316,7 +4900,11 @@
   },
   "tcd38de1310fd150b0c4d": {
    "en": "The value streams and processes dimension is concerned with how workflows across activities and how those activities are organized and coordinated to enable value for stakeholders. “Value stream is a series of steps that an organization uses to create and deliver products and services to a service consumer.” Ref 2.3.1",
-   "ar": "يهتم بُعد مسارات القيمة والعمليات بكيفية سير العمل عبر الأنشطة وكيفية تنظيم تلك الأنشطة وتنسيقها لتمكين القيمة لأصحاب المصلحة. «مسار القيمة هو سلسلة من الخطوات تستخدمها المنظمة لإنشاء المنتجات والخدمات وتقديمها إلى مستهلك الخدمة.» المرجع 2.3.1"
+   "ar": "يهتم بُعد تدفقات القيمة والعمليات بكيفية سير العمل عبر الأنشطة وكيفية تنظيم تلك الأنشطة وتنسيقها لتمكين القيمة لأصحاب المصلحة. «تدفق القيمة هو سلسلة من الخطوات تستخدمها المنظمة لإنشاء المنتجات والخدمات وتقديمها إلى مستهلك الخدمة.» المرجع 2.3.1"
+  },
+  "tcd45d623303c77f7d8f2": {
+   "en": "Which lifecycle management activity is responsible for resolving incidents?",
+   "ar": "أي نشاط من أنشطة إدارة دورة الحياة مسؤول عن حل الحوادث؟"
   },
   "tcd6749fe9d3d2713305e": {
    "en": "A Known Error is specifically defined as a problem that has undergone analysis but remains unresolved. This distinguishes it from a generic Problem (the cause of incidents) or an Error (a flaw that may cause incidents).",
@@ -4337,10 +4925,6 @@
   "tcdb7fb6d04abc5e38a7a": {
    "en": "Practices",
    "ar": "الممارسات (Practices)"
-  },
-  "tcdce4e732ba35f2c5705": {
-   "en": "What is the role of governance within the ITIL Service Value System?",
-   "ar": "ما دور الحوكمة ضمن نظام قيمة الخدمة في ITIL (ITIL Service Value System)؟"
   },
   "tce06dbf3b1616907dcd6": {
    "en": "What does \"How do we get there?\" involve?",
@@ -4378,6 +4962,10 @@
    "en": "A service that fully or largely relies on digital products",
    "ar": "خدمة تعتمد كليًا أو بشكل كبير على المنتجات الرقمية"
   },
+  "td0d35845c324e8fdd499": {
+   "en": "The book defines an incident as an unplanned interruption to a service or reduction in the quality of a service. A flaw or vulnerability that may cause incidents is an error, and a cause of one or more incidents is a problem.",
+   "ar": "يعرّف الكتاب الحادث بأنه انقطاع غير مخطط للخدمة أو انخفاض في جودتها. أما العيب أو الثغرة التي قد تسبب حوادث فهو خطأ، وسبب حادث واحد أو أكثر هو مشكلة."
+  },
   "td0f7487db6dd019017b5": {
    "en": "The idea that system designs mirror the communication structure of the organization",
    "ar": "فكرة أن تصاميم الأنظمة تعكس بنية التواصل في المنظمة"
@@ -4402,6 +4990,14 @@
    "en": "Ensuring changes are approved before being deployed",
    "ar": "ضمان الموافقة على التغييرات قبل نشرها"
   },
+  "td1f14ab83a4b03b76d97": {
+   "en": "Continuous integration is a set of techniques and tools that enables developers to frequently merge their code changes into a central repository, followed by automated builds and tests. Automatically releasing every change into production is continuous deployment, not continuous integration.",
+   "ar": "التكامل المستمر مجموعة من التقنيات والأدوات تمكّن المطورين من دمج تغييرات الشيفرة بشكل متكرر في مستودع مركزي، يتبعه بناء واختبار آليان. أما الإصدار التلقائي لكل تغيير إلى بيئة الإنتاج فهو النشر المستمر وليس التكامل المستمر."
+  },
+  "td1faf0b3b96101baee1a": {
+   "en": "The book defines a service request as a request from a user, or a user’s authorized representative, that initiates a service action which has been agreed as a normal part of service delivery.",
+   "ar": "يعرّف الكتاب طلب الخدمة بأنه طلب من مستخدم، أو من ممثل مخوّل عنه، يطلق إجراء خدمة متفقًا عليه بوصفه جزءًا طبيعيًا من تقديم الخدمة."
+  },
   "td20885a0910921d7b224": {
    "en": "Supplier management",
    "ar": "إدارة الموردين (Supplier management)"
@@ -4412,15 +5008,27 @@
   },
   "td22d211296d4cd206001": {
    "en": "The main purpose of the ‘discover’ activity “is to ensure continual alignment of the product roadmaps and related service offerings with the needs of service consumers and with the organizational strategy.” Ref 4.2.1",
-   "ar": "الغرض الرئيسي من نشاط «الاكتشاف» «هو ضمان المواءمة المستمرة لخرائط طريق المنتجات وعروض الخدمات ذات الصلة مع احتياجات مستهلكي الخدمة ومع الاستراتيجية التنظيمية.» المرجع 4.2.1"
+   "ar": "الغرض الرئيسي من نشاط «الاستكشاف» «هو ضمان المواءمة المستمرة لخرائط طريق المنتجات وعروض الخدمات ذات الصلة مع احتياجات مستهلكي الخدمة ومع الاستراتيجية التنظيمية.» المرجع 4.2.1"
+  },
+  "td2410664cc33735d3bc1": {
+   "en": "The entire set of activities that create value through the provision of a product or service",
+   "ar": "مجموعة الأنشطة الكاملة التي تُنشئ القيمة من خلال تقديم منتج أو خدمة"
   },
   "td26897483e7e609399c7": {
    "en": "What does \"Utility\" define?",
    "ar": "ماذا تحدّد «المنفعة» (Utility)؟"
   },
+  "td27b642b03b9556e8cf1": {
+   "en": "In the book’s table of service relationship types, a basic relationship typically involves commercial off-the-shelf, out-of-the-box or highly standardized services. Customized services and a focus on innovation and growth are features of cooperative and partnership relationships.",
+   "ar": "في جدول أنواع علاقات الخدمة في الكتاب، تتضمن العلاقة الأساسية عادةً خدمات تجارية جاهزة أو خدمات معيارية إلى حد كبير. أما الخدمات المخصصة والتركيز على الابتكار والنمو فهي من سمات العلاقات التعاونية والتشاركية."
+  },
   "td27d76a8fa5e31fc50be": {
    "en": "Re-use nothing from the current state",
    "ar": "لا تعيد استخدام أي شيء من الوضع الحالي"
+  },
+  "td28822092bcfb1527eea": {
+   "en": "To ensure that improvement efforts stay aligned with changing priorities",
+   "ar": "ضمان بقاء جهود التحسين متوافقة مع الأولويات المتغيرة"
   },
   "td29148167c52f26121a8": {
    "en": "To ensure every project has exactly four managers.",
@@ -4441,6 +5049,10 @@
   "td2eb267d9398555bbf76": {
    "en": "Why does ITIL consider outcomes, costs, and risks together when explaining value co-creation?",
    "ar": "لماذا تنظر ITIL إلى النتائج والتكاليف والمخاطر معًا عند شرح الإنشاء المشترك للقيمة؟"
+  },
+  "td2f864e414175aacaedb": {
+   "en": "As optional suggestions, that can be ignored",
+   "ar": "على أنها اقتراحات اختيارية يمكن تجاهلها"
   },
   "td306e4ed1c567a554e73": {
    "en": "It defines the complete path of the customer’s service journey",
@@ -4472,7 +5084,7 @@
   },
   "td41713c70d64b9276074": {
    "en": "What is a value stream?",
-   "ar": "ما مسار القيمة (value stream)؟"
+   "ar": "ما تدفق القيمة (value stream)؟"
   },
   "td4461554b5d34933f531": {
    "en": "Which option is CORRECT in the context of a digital product and a digital service?",
@@ -4488,7 +5100,7 @@
   },
   "td4a33d5b78bccebe3f16": {
    "en": "Discover",
-   "ar": "الاكتشاف (Discover)"
+   "ar": "الاستكشاف (Discover)"
   },
   "td4eb56cae1b1c26e359b": {
    "en": "Speed of normal service restoration",
@@ -4512,11 +5124,15 @@
   },
   "td62f7938b463a93c16a3": {
    "en": "In a value stream, waste refers to: Any activity that does not add value to the customer Things that consume time, effort, or resources without improving the outcome Examples include delays, rework, unnecessary approvals, and excessive handoffs.",
-   "ar": "في مسار القيمة، يشير الهدر إلى: أي نشاط لا يضيف قيمة للعميل، والأمور التي تستهلك الوقت أو الجهد أو الموارد دون تحسين النتيجة. ومن الأمثلة التأخيرات، وإعادة العمل، والموافقات غير الضرورية، وعمليات التسليم المفرطة بين الأطراف."
+   "ar": "في تدفق القيمة، يشير الهدر إلى: أي نشاط لا يضيف قيمة للعميل، والأمور التي تستهلك الوقت أو الجهد أو الموارد دون تحسين النتيجة. ومن الأمثلة التأخيرات، وإعادة العمل، والموافقات غير الضرورية، وعمليات التسليم المفرطة بين الأطراف."
   },
   "td65c12491cd92095606f": {
    "en": "Services can introduce new costs and risks, and in some cases, they can negatively affect some of the intended outcomes, while supporting others. Services are valuable when the positive effects outweigh the negative ones. Ref 3.1.1",
    "ar": "قد تُدخل الخدمات تكاليف ومخاطر جديدة، وفي بعض الحالات قد تؤثر سلبًا في بعض النتائج المقصودة بينما تدعم نتائج أخرى. وتكون الخدمات ذات قيمة عندما تفوق آثارها الإيجابية آثارها السلبية. المرجع 3.1.1"
+  },
+  "td69aee573237eeb061f3": {
+   "en": "In the ITIL Official Practice Guides, the ‘partners and suppliers’ chapter describes the practice’s dependencies on third parties and the support it receives from them. Key information, automation and tooling are in the ‘information and technology’ chapter.",
+   "ar": "في الأدلة الرسمية لممارسات ITIL، يصف فصل «الشركاء والموردون» اعتماديات الممارسة على الأطراف الثالثة والدعم الذي تتلقاه منها. أما المعلومات الرئيسية والأتمتة والأدوات ففي فصل «المعلومات والتكنولوجيا»."
   },
   "td69f7e827026c31e5db0": {
    "en": "This step defines \"Point B\" so the organization knows exactly what success looks like.",
@@ -4548,7 +5164,7 @@
   },
   "td7985b0f6d224836b144": {
    "en": "The purpose of the deliver activity explicitly includes managing how users are onboarded and ofboarded, as part of providing services and maintaining service quality. “The purpose of the ‘deliver’ activity is to provide services to users, manage user onboarding/ofboarding, maintain service quality standards, and gather consumers’ feedback.” Ref 4.8.1",
-   "ar": "يتضمن غرض نشاط التقديم صراحةً إدارة كيفية إلحاق المستخدمين وإنهاء إلحاقهم، كجزء من تقديم الخدمات والحفاظ على جودة الخدمة. «الغرض من نشاط ‹التقديم› هو تقديم الخدمات للمستخدمين، وإدارة إلحاق المستخدمين/إنهاء إلحاقهم، والحفاظ على معايير جودة الخدمة، وجمع ملاحظات المستهلكين.» المرجع 4.8.1"
+   "ar": "يتضمن غرض نشاط التسليم صراحةً إدارة كيفية إلحاق المستخدمين وإنهاء إلحاقهم، كجزء من تقديم الخدمات والحفاظ على جودة الخدمة. «الغرض من نشاط ‹التسليم› هو تقديم الخدمات للمستخدمين، وإدارة إلحاق المستخدمين/إنهاء إلحاقهم، والحفاظ على معايير جودة الخدمة، وجمع ملاحظات المستهلكين.» المرجع 4.8.1"
   },
   "td7c0e9abe96bf97f1567": {
    "en": "The perceived benefits, usefulness, and importance of something",
@@ -4564,7 +5180,7 @@
   },
   "td8a9d6f55422dbdbc77f": {
    "en": "Which of the following statements about value streams is INCORRECT?",
-   "ar": "أيّ من العبارات التالية حول مسارات القيمة غير صحيحة؟"
+   "ar": "أيّ من العبارات التالية حول تدفقات القيمة غير صحيحة؟"
   },
   "td8cef17f2327d0e368c8": {
    "en": "What is a digital service?",
@@ -4598,21 +5214,33 @@
    "en": "Which practice is MOST likely to benefit from the use of chatbots?",
    "ar": "أي ممارسة هي الأكثر احتمالًا للاستفادة من استخدام روبوتات المحادثة (chatbots)؟"
   },
+  "tdb1ca85901bff00a90a0": {
+   "en": "Relationships between organizations range from formal contracts with clear separation of responsibilities to flexible partnerships, where the parties share common goals and risks and collaborate to achieve the desired outcomes.",
+   "ar": "تتراوح العلاقات بين المنظمات من عقود رسمية بفصل واضح للمسؤوليات إلى شراكات مرنة يتشارك فيها الطرفان الأهداف والمخاطر ويتعاونان لتحقيق النتائج المرغوبة."
+  },
   "tdb70b42a9a278dfb6e10": {
    "en": "Reading the newspaper to see what competitors are doing.",
    "ar": "قراءة الصحف لمعرفة ما يفعله المنافسون."
   },
   "tdb75de9f4be25113aff5": {
    "en": "Value streams are enabled and supported by the organization’s value chain",
-   "ar": "تُمكَّن مسارات القيمة وتُدعم بواسطة سلسلة القيمة في المنظمة"
+   "ar": "تُمكَّن تدفقات القيمة وتُدعم بواسطة سلسلة القيمة في المنظمة"
   },
   "tdbad2066f43f833b4a5b": {
    "en": "To ensure a balanced approach to service management, an organization must consider all four dimensions equally.",
    "ar": "لضمان نهج متوازن لإدارة الخدمات، يجب على المنظمة مراعاة الأبعاد الأربعة جميعها بالتساوي."
   },
+  "tdbb15f60971f68d376a6": {
+   "en": "It focuses on innovation and business growth",
+   "ar": "تركّز على الابتكار ونمو الأعمال"
+  },
   "tdbb3792f1d610a5986ad": {
    "en": "A stream that enables value for internal customers to support core streams",
    "ar": "مسار يمكّن القيمة للعملاء الداخليين لدعم المسارات الأساسية"
+  },
+  "tdbdd272f2bf17d833742": {
+   "en": "A technician performs on-site installation of equipment",
+   "ar": "فني يركّب المعدات في الموقع"
   },
   "tdc2d9f6f54ac7994839a": {
    "en": "Product/service specification is a detailed document that outlines the requirements and characteristics of a product or service to be built. Ref 4.3.1",
@@ -4621,6 +5249,10 @@
   "tdc3482720011c4bd589b": {
    "en": "By defining workflows and activities required for product development",
    "ar": "بتحديد سير العمل والأنشطة اللازمة لتطوير المنتجات"
+  },
+  "tdc453f37f7ac4383f0b9": {
+   "en": "Continuous integration",
+   "ar": "التكامل المستمر"
   },
   "tdc69ef537274d6e4d97c": {
    "en": "PRINCE2 is a widely used framework specifically for managing projects.",
@@ -4660,7 +5292,11 @@
   },
   "tdebb172665bd95e1499e": {
    "en": "Mapping identifies how value flows, while management ensures the value stream performs effectively over time",
-   "ar": "يحدّد رسم الخريطة كيفية تدفق القيمة، بينما تضمن الإدارة أداء مسار القيمة بفعالية بمرور الوقت"
+   "ar": "يحدّد رسم الخريطة كيفية تدفق القيمة، بينما تضمن الإدارة أداء تدفق القيمة بفعالية بمرور الوقت"
+  },
+  "tded1dcb6a841f08867f9": {
+   "en": "Value stream mapping",
+   "ar": "رسم خريطة تدفق القيمة"
   },
   "tdeeb9f6414814af6dd01": {
    "en": "Continuous deployment automatically deploys changes to production",
@@ -4669,6 +5305,10 @@
   "tdf3e7a675c9335814688": {
    "en": "The role that authorizes the budget for service consumption",
    "ar": "الدور الذي يعتمد الميزانية لاستهلاك الخدمة"
+  },
+  "tdf45ac48780863f45517": {
+   "en": "Data governance is a system of rules, policies, standards, processes and controls that organizations implement to manage their data assets effectively. The book describes it within the ‘information and technology’ dimension.",
+   "ar": "حوكمة البيانات منظومة من القواعد والسياسات والمعايير والعمليات والضوابط تطبقها المنظمات لإدارة أصول بياناتها بفعالية. ويصفها الكتاب ضمن بُعد «المعلومات والتكنولوجيا»."
   },
   "tdf4ea5c68a98283ba5a2": {
    "en": "A Service Level Agreement (SLA) is the common mechanism used to establish a shared understanding between a service provider and a customer regarding expected and achieved service quality. It formalizes what level of service is expected and how it will be measured and managed. Ref 3.2.5",
@@ -4710,6 +5350,10 @@
    "en": "\"Explore\" is the initial phase where organizations research market needs and potential partners.",
    "ar": "«الاستكشاف» هو المرحلة الأولى التي تبحث فيها المنظمات احتياجات السوق والشركاء المحتملين."
   },
+  "te0d3ad13d89bac9cf5b9": {
+   "en": "Which dimension of product and service management encourages analyzing and decision-making based on understanding different levels of complexity?",
+   "ar": "أي بُعد من أبعاد إدارة المنتجات والخدمات يشجع التحليل واتخاذ القرار بناءً على فهم مستويات التعقيد المختلفة؟"
+  },
   "te16385a9d9b5770281ed": {
    "en": "A customer who refuses to pay their bill.",
    "ar": "عميل يرفض دفع فاتورته."
@@ -4717,6 +5361,10 @@
   "te26dd3fd0ae37ef20d90": {
    "en": "To complain about the current situation.",
    "ar": "الشكوى من الوضع الحالي."
+  },
+  "te28156122759f81205b6": {
+   "en": "Develop and integrate functional solutions",
+   "ar": "تطوير الحلول الوظيفية ودمجها"
   },
   "te2984c1d2cf436e6033b": {
    "en": "The steps in a software development lifecycle.",
@@ -4745,6 +5393,10 @@
   "te36bdcee0bae05e51e1e": {
    "en": "A service offering is a formal description of one or more services designed to address the needs of a target consumer group, and it can include goods, access to resources, and service actions.",
    "ar": "عرض الخدمة وصف رسمي لخدمة واحدة أو أكثر مصممة لتلبية احتياجات مجموعة مستهلكين مستهدفة، ويمكن أن يتضمن السلع والوصول إلى الموارد وإجراءات الخدمة."
+  },
+  "te380dfdbf9b30a6f5828": {
+   "en": "Each management practice supports one value chain activity",
+   "ar": "كل ممارسة إدارية تدعم نشاطًا واحدًا فقط من أنشطة سلسلة القيمة"
   },
   "te4125bf4b63ce05edad1": {
    "en": "Which of the following is a key success metric for the ‘acquire’ activity?",
@@ -4782,6 +5434,10 @@
    "en": "By reusing existing processes wherever possible",
    "ar": "بإعادة استخدام العمليات الحالية حيثما أمكن"
   },
+  "te62702c867b5843b036a": {
+   "en": "It operates across operational, tactical, and strategic organizational levels",
+   "ar": "تعمل عبر المستويات التشغيلية والتكتيكية والاستراتيجية في المنظمة"
+  },
   "te6319702426376c4d7db": {
    "en": "All four dimensions are critical to effective and eficient facilitation of value",
    "ar": "الأبعاد الأربعة جميعها حاسمة لتيسير القيمة بفعالية وكفاءة"
@@ -4800,7 +5456,7 @@
   },
   "te755a582ddbe8be1e47a": {
    "en": "The main purpose of the \"discover\" activity \"is to ensure continual alignment of the product roadmaps and related service offerings with the needs of service consumers and with the organizational strategy.\" Ref 4.2.1",
-   "ar": "الغرض الرئيسي من نشاط «الاكتشاف» «هو ضمان المواءمة المستمرة لخرائط طريق المنتجات وعروض الخدمات ذات الصلة مع احتياجات مستهلكي الخدمة ومع الاستراتيجية التنظيمية.» المرجع 4.2.1"
+   "ar": "الغرض الرئيسي من نشاط «الاستكشاف» «هو ضمان المواءمة المستمرة لخرائط طريق المنتجات وعروض الخدمات ذات الصلة مع احتياجات مستهلكي الخدمة ومع الاستراتيجية التنظيمية.» المرجع 4.2.1"
   },
   "te7a30f9cee818305c1fc": {
    "en": "Percentage of service requests fulfilled on first contact",
@@ -4810,17 +5466,13 @@
    "en": "Only use automation if it increases the number of staff needed.",
    "ar": "عدم استخدام الأتمتة إلا إذا زادت عدد الموظفين المطلوبين."
   },
-  "te7c51dbd409e2864776e": {
-   "en": "When considering the type of relationship required with other organizations involved in the design and delivery of services, which dimension of service management are you utilizing?",
-   "ar": "عند النظر في نوع العلاقة المطلوبة مع المنظمات الأخرى المشاركة في تصميم الخدمات وتقديمها، أي بُعد من أبعاد إدارة الخدمات تستخدم؟"
-  },
   "te84af34e460f0e5bd587": {
    "en": "A one-time exercise to draw a diagram.",
    "ar": "تمرين لمرة واحدة لرسم مخطط."
   },
   "te889a59556c11c754aff": {
    "en": "What is a \"Value Stream\"?",
-   "ar": "ما «مسار القيمة» (Value Stream)؟"
+   "ar": "ما «تدفق القيمة» (Value Stream)؟"
   },
   "te8a32acdd76d652f60b5": {
    "en": "What does \"Data Governance\" ensure?",
@@ -4838,6 +5490,10 @@
    "en": "By firing the people who worked on the improvement.",
    "ar": "بفصل الأشخاص الذين عملوا على التحسين."
   },
+  "te9743a8209fe5da3a249": {
+   "en": "Sequentially, according to a fixed order of priority",
+   "ar": "بالتتابع، وفق ترتيب أولويات ثابت"
+  },
   "te9c829eec41c878781b5": {
    "en": "Governance ensures that tech investments actually drive the business goals in a legal and ethical way.",
    "ar": "تضمن الحوكمة أن تدفع الاستثمارات التقنية فعلًا أهداف الأعمال بطريقة قانونية وأخلاقية."
@@ -4853,6 +5509,10 @@
   "tea9b83a003a95e482e8e": {
    "en": "The build activity is responsible for developing, integrating, and testing digital products, transforming designs and requirements into functional solutions that are ready for deployment and use.",
    "ar": "نشاط البناء مسؤول عن تطوير المنتجات الرقمية ودمجها واختبارها، وتحويل التصاميم والمتطلبات إلى حلول وظيفية جاهزة للنشر والاستخدام."
+  },
+  "teb1a29de598cabb520d0": {
+   "en": "Observability is the ability to understand the internal state of a complicated system by analysing its external outputs, such as metrics, logs and traces.",
+   "ar": "قابلية الملاحظة هي القدرة على فهم الحالة الداخلية لنظام معقد من خلال تحليل مخرجاته الخارجية، مثل المقاييس والسجلات والتتبعات."
   },
   "teb2cfcac26f2af154748": {
    "en": "Which of the following BEST describes a release?",
@@ -4872,7 +5532,7 @@
   },
   "teb8e1a1f770c4418c5d5": {
    "en": "Which of the following is NOT a success metric of ‘discover’ activity?",
-   "ar": "أيّ مما يلي ليس مقياس نجاح لنشاط «الاكتشاف» (discover)؟"
+   "ar": "أيّ مما يلي ليس مقياس نجاح لنشاط «الاستكشاف» (discover)؟"
   },
   "tec55217e8f5febc5f49e": {
    "en": "They describe supplier agreements and help manage contracts",
@@ -4893,6 +5553,10 @@
   "ted5a85f847a2d2adb77a": {
    "en": "Prioritize complex technical features over outcome-based thinking to ensure sophistication.",
    "ar": "إعطاء الأولوية للميزات التقنية المعقدة على التفكير القائم على النتائج لضمان التطور."
+  },
+  "ted6cbfe9cd2274da9f46": {
+   "en": "Ensure that each iteration aligns with the concept of a Minimum Viable Product",
+   "ar": "ضمان توافق كل دورة تكرار مع مفهوم المنتج الأدنى القابل للتطبيق (MVP)"
   },
   "ted7c605d1c2b8061cbea": {
    "en": "What is the purpose of the ITIL Value System?",
@@ -4918,6 +5582,10 @@
    "en": "Service actions are tasks (like request fulfillment) performed by the provider or jointly with the consumer.",
    "ar": "إجراءات الخدمة مهام (مثل تنفيذ الطلبات) يؤديها المزوّد أو يؤديها بالاشتراك مع المستهلك."
   },
+  "teef74c34858d57cb10f6": {
+   "en": "The adoption and integration of digital technologies into all areas of an organization",
+   "ar": "تبنّي التقنيات الرقمية ودمجها في جميع مجالات المنظمة"
+  },
   "tef1c4b45f2ed763283f8": {
    "en": "services",
    "ar": "الخدمات (services)"
@@ -4930,13 +5598,17 @@
    "en": "It governs daily service operations",
    "ar": "تحكم عمليات الخدمة اليومية"
   },
+  "tef7cb2eab05ae6735e72": {
+   "en": "An employee attends a training session delivered by an instructor",
+   "ar": "موظف يحضر جلسة تدريب يقدمها مدرّب"
+  },
   "tef819ee9449c7fd7abdb": {
    "en": "Digital services are always based on digital products",
    "ar": "تستند الخدمات الرقمية دائمًا إلى المنتجات الرقمية"
   },
   "tefb0ed984673116d922e": {
    "en": "The “value streams and processes” dimension",
-   "ar": "بُعد «مسارات القيمة والعمليات»"
+   "ar": "بُعد «تدفقات القيمة والعمليات»"
   },
   "tefb229d02c5bf930eabd": {
    "en": "The governance activity of \"Evaluate\" is where the governing body assesses the current state of the organization, including its strategies, portfolios, and policies.",
@@ -4954,9 +5626,9 @@
    "en": "In IT service management, a change refers to any alteration to the IT environment that can affect services, including removing components that could lead to potential issues.",
    "ar": "في إدارة خدمات تقنية المعلومات، يشير التغيير إلى أي تعديل في بيئة تقنية المعلومات قد يؤثر في الخدمات، بما في ذلك إزالة مكونات قد تؤدي إلى مشكلات محتملة."
   },
-  "tf07b67b243dcdcdbe07a": {
-   "en": "Considering all components of the service value system when making decisions",
-   "ar": "مراعاة جميع مكونات نظام قيمة الخدمة (service value system) عند اتخاذ القرارات"
+  "tf134ede33ce2b1a38375": {
+   "en": "By considering the relevance of each principle in each situation",
+   "ar": "من خلال النظر في مدى ملاءمة كل مبدأ في كل موقف"
   },
   "tf159ee248af949365de8": {
    "en": "A type of cloud storage service.",
@@ -4976,11 +5648,15 @@
   },
   "tf1e39d08e74072cbc22f": {
    "en": "Value stream mapping \"allows organizations to identify, map, and analyse their value streams, as well as identify and prioritize improvement opportunities.\" Ref 6.4",
-   "ar": "يتيح رسم خريطة مسار القيمة «للمنظمات تحديد مسارات القيمة الخاصة بها ورسم خرائطها وتحليلها، وكذلك تحديد فرص التحسين وترتيب أولوياتها.» المرجع 6.4"
+   "ar": "يتيح رسم خريطة تدفق القيمة «للمنظمات تحديد تدفقات القيمة الخاصة بها ورسم خرائطها وتحليلها، وكذلك تحديد فرص التحسين وترتيب أولوياتها.» المرجع 6.4"
   },
   "tf202456252ddc5609e2b": {
    "en": "The guiding principle \"Think and work holistically\" emphasizes understanding how all parts of an organization function together as an integrated system, recognizing that services and value are created through the interaction of interconnected components rather than isolated activities.",
-   "ar": "يؤكد المبدأ التوجيهي «التفكير والعمل بشكل شمولي» على فهم كيفية عمل جميع أجزاء المنظمة معًا كنظام متكامل، مع إدراك أن الخدمات والقيمة تُنشأ من خلال تفاعل مكونات مترابطة لا من خلال أنشطة منعزلة."
+   "ar": "يؤكد المبدأ التوجيهي «فكّر واعمل بشكل شمولي» على فهم كيفية عمل جميع أجزاء المنظمة معًا كنظام متكامل، مع إدراك أن الخدمات والقيمة تُنشأ من خلال تفاعل مكونات مترابطة لا من خلال أنشطة منعزلة."
+  },
+  "tf20ae39632739fbcc819": {
+   "en": "Actions performed by a service provider or jointly with a consumer",
+   "ar": "إجراءات يؤديها مزوّد الخدمة أو يؤديها مع المستهلك معًا"
   },
   "tf22b61e3e28393c23552": {
    "en": "A specific task completed by the service provider as part of service delivery",
@@ -5054,9 +5730,13 @@
    "en": "Market relevance of the products and service offerings",
    "ar": "أهمية المنتجات وعروض الخدمات في السوق"
   },
+  "tf4ccc04477407819b41b": {
+   "en": "Add as many steps as possible to ensure every exception is fully controlled",
+   "ar": "إضافة أكبر عدد ممكن من الخطوات لضمان التحكم الكامل في كل استثناء"
+  },
   "tf4e136fecbb1a420c490": {
    "en": "“Service performance and user feedback records and reports” is part of the ‘Deliver’ activity. The key metrics of success of the ‘Discover’ activity are: Strategic fit of the organization’s products and service offerings; market relevance of the products and service offerings; stakeholder satisfaction with products and service offerings; commercial success of the products (if applicable). Ref 4.8.2, Table 4.7, 4.2.2, Table 4.1",
-   "ar": "تُعدّ «سجلات وتقارير أداء الخدمة وملاحظات المستخدمين» جزءًا من نشاط «التقديم» (Deliver). ومقاييس النجاح الرئيسية لنشاط «الاكتشاف» (Discover) هي: الملاءمة الاستراتيجية لمنتجات المنظمة وعروض خدماتها؛ وأهمية المنتجات وعروض الخدمات في السوق؛ ورضا أصحاب المصلحة عن المنتجات وعروض الخدمات؛ والنجاح التجاري للمنتجات (إن وُجد). المرجع 4.8.2، الجدول 4.7، 4.2.2، الجدول 4.1"
+   "ar": "تُعدّ «سجلات وتقارير أداء الخدمة وملاحظات المستخدمين» جزءًا من نشاط «التسليم» (Deliver). ومقاييس النجاح الرئيسية لنشاط «الاستكشاف» (Discover) هي: الملاءمة الاستراتيجية لمنتجات المنظمة وعروض خدماتها؛ وأهمية المنتجات وعروض الخدمات في السوق؛ ورضا أصحاب المصلحة عن المنتجات وعروض الخدمات؛ والنجاح التجاري للمنتجات (إن وُجد). المرجع 4.8.2، الجدول 4.7، 4.2.2، الجدول 4.1"
   },
   "tf54c3ea253632354abce": {
    "en": "What enables the digital product and service management activities of an organization?",
@@ -5069,6 +5749,10 @@
   "tf58dd77c760247a5d411": {
    "en": "Identify who the service consumers and key stakeholders are",
    "ar": "تحديد مستهلكي الخدمة وأصحاب المصلحة الرئيسيين"
+  },
+  "tf5921ab90c1ec38556f8": {
+   "en": "What is the PRIMARY focus of the 'start where you are' ITIL Guiding Principle?",
+   "ar": "ما التركيز الأساسي للمبدأ التوجيهي «ابدأ من حيث أنت»؟"
   },
   "tf5a1fae65a6f0d570987": {
    "en": "To divide the IT department into four separate buildings.",
@@ -5112,7 +5796,11 @@
   },
   "tf801787d3d1a6128589f": {
    "en": "The \"Value Streams and Processes\" dimension focuses on:",
-   "ar": "يركّز بُعد «مسارات القيمة والعمليات» على:"
+   "ar": "يركّز بُعد «تدفقات القيمة والعمليات» على:"
+  },
+  "tf83c0eee3838b9a12522": {
+   "en": "What does the 'partners and suppliers' chapter of an ITIL Official Practice Guide provide?",
+   "ar": "ماذا يقدّم فصل «الشركاء والموردون» في الدليل الرسمي لممارسة ITIL؟"
   },
   "tf8726f79502d2f2bfc7d": {
    "en": "The level of expenses regarding a technology for a service is defined by an outcome",
@@ -5162,9 +5850,17 @@
    "en": "A method of ensuring ultra-scalable systems through operations engineering",
    "ar": "طريقة لضمان أنظمة فائقة القابلية للتوسع من خلال هندسة العمليات"
   },
+  "tf9fcb1555204e9d0795a": {
+   "en": "The service provider ceasing to operate",
+   "ar": "توقف مزوّد الخدمة عن العمل"
+  },
   "tf9ffc03695d160fcda34": {
    "en": "Guessing what to do next.",
    "ar": "تخمين ما يجب فعله بعد ذلك."
+  },
+  "tfa0b62687ed43de9e168": {
+   "en": "Value chain activities and management practices operate independently of each other",
+   "ar": "أنشطة سلسلة القيمة والممارسات الإدارية تعمل باستقلال بعضها عن بعض"
   },
   "tfa0dc9da7bc0ae330e46": {
    "en": "Managed, valuable services",
@@ -5204,7 +5900,7 @@
   },
   "tfb9075aa2aa9dc326f75": {
    "en": "Value streams should exclude suppliers",
-   "ar": "ينبغي أن تستبعد مسارات القيمة الموردين"
+   "ar": "ينبغي أن تستبعد تدفقات القيمة الموردين"
   },
   "tfb9ef894175c327470f7": {
    "en": "Product",
@@ -5258,6 +5954,10 @@
    "en": "The “typical focus” of the ‘basic relationship’ is “support and eficiency”. Ref 3.2.2, Table 3.1",
    "ar": "«التركيز المعتاد» لـ«العلاقة الأساسية» هو «الدعم والكفاءة». المرجع 3.2.2، الجدول 3.1"
   },
+  "tfd6a1e25afd6613836ee": {
+   "en": "The ‘organizations and people’ dimension covers organizational structure, culture, roles, skills and competencies. It makes sure the way the organization is structured and staffed supports its strategy and the creation of value.",
+   "ar": "يشمل بُعد «المنظمة والأشخاص» الهيكل التنظيمي والثقافة والأدوار والمهارات والكفاءات، ويضمن أن طريقة هيكلة المنظمة وتوظيفها تدعم استراتيجيتها وإنشاء القيمة."
+  },
   "tfd6e874f43f847917350": {
    "en": "Sponsor",
    "ar": "الراعي (Sponsor)"
@@ -5309,6 +6009,10 @@
   "tfebc2ef5d16ff607ad60": {
    "en": "A new software version",
    "ar": "نسخة برمجية جديدة"
+  },
+  "tff011d1d55f4ebc876f7": {
+   "en": "A set of organizational capabilities designed for performing work or accomplishing an objective",
+   "ar": "مجموعة من القدرات التنظيمية المصممة لأداء العمل أو تحقيق هدف"
   },
   "tff021b130d246f556c78": {
    "en": "Monitoring and event management",

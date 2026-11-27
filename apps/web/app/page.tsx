@@ -3,7 +3,7 @@ import Link from "next/link";
 import { lb } from "@/lib/data";
 import { useStore } from "@/lib/store";
 import { L } from "@/components/Ui";
-import auditJson from "@itil5/content/import-audit.json";
+import auditJson from "@itil5/content/web/import-audit.json";
 
 export default function Home() {
   const { activeSession, attempts, ready } = useStore();
