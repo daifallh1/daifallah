@@ -17,6 +17,7 @@ History of this release:
 - Build 2 (`988321fc…e922`): tab headers sat under the status bar on notched iPhones, so the Settings gear could not be tapped.
 - Build 3 (`e5d45b4e…9dd9`): fixed that.
 - Build 4: Study "Not studied" fix and status-bar strip; superseded before delivery.
+- Build 6 (in progress): shows "Version 1.1.0 (build N)" on Home and in Settings so the installed build can be identified; top safe-area fallback to the natively measured status-bar height; Study remembers category, filter and question across restarts. The owner's screen recording from an iPhone 17 Pro Max showed tab headers under the status bar exactly as in build 2, while build 5 renders correctly in the simulator, so the installed copy appeared to be an older build.
 - Build 5: also fixes resume losing answers (found by a full QA pass), the "all mistakes fixed" message, level statistics without mistakes exams, the in-progress card bar and keyboard taps in Study.
 
 Install the new IPA over the old app (same bundle identifier) to keep your saved progress. Use Settings › Export progress first for a backup file.

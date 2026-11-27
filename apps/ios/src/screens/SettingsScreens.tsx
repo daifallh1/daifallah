@@ -7,6 +7,7 @@ import * as DocumentPicker from "expo-document-picker";
 import * as FileSystem from "expo-file-system";
 import * as Sharing from "expo-sharing";
 import { auditJson, lb } from "../data";
+import { APP_VERSION } from "../appInfo";
 import { useStore } from "../store";
 import { usePalette } from "../theme";
 import { TrText } from "../components/TrText";
@@ -90,6 +91,8 @@ export function SettingsScreen() {
       </Card>
       <Section>About</Section>
       <Card style={{ padding: 0 }}>
+        <ListRow title="App version" right={APP_VERSION} testID="app-version" />
+        <Divider />
         <ListRow title="Question bank" right={`${lb.approved.length} questions`} onPress={() => nav.navigate("About")} testID="open-about" />
         <Divider />
         <ListRow title="Corrected questions (معدّل)" right={String(lb.bank.questions.filter((q) => q.correction).length)} onPress={() => nav.navigate("Corrections")} />

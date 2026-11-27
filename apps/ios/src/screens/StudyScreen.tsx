@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Modal, Pressable, ScrollView, Text, TextInput, View } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useRoute, type RouteProp } from "@react-navigation/native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { checkStudyAnswer, latestMarks, studyQuestions, type OptionLabel, type StudyMark } from "@itil5/core";
@@ -12,6 +13,8 @@ import { Bar, Button, Card, Chips, P, Pill, Row, Screen } from "../components/Ui
 import type { TabParams } from "../nav";
 
 type Filter = "notStudied" | "saved" | "confusing" | "all" | "legacy";
+const POS_KEY = "itil5.study.position.v1";
+const FILTERS: Filter[] = ["notStudied", "saved", "confusing", "all", "legacy"];
 const norm = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9؀-ۿ ]+/g, " ");
 
 export function StudyScreen() {
@@ -26,6 +29,23 @@ export function StudyScreen() {
   const [i, setI] = useState(0);
   // The answer belongs to one question: it can never carry over to another question.
   const [picked, setPicked] = useState<{ id: string; label: OptionLabel } | null>(null);
+  // Restore where the learner left off (category, filter, question) unless a category was requested.
+  const restored = useRef(false);
+  useEffect(() => {
+    if (route.params?.category) { restored.current = true; return; }
+    void AsyncStorage.getItem(POS_KEY).then((raw) => {
+      try {
+        const v = raw ? JSON.parse(raw) : null;
+        if (v && (v.cat === "all" || lb.bank.categories.some((c) => c.id === v.cat)) && FILTERS.includes(v.filter)) {
+          setCat(v.cat); setFilter(v.filter); setQuery(""); setI(Math.max(0, Number(v.i) || 0));
+        }
+      } catch { /* ignore a corrupt value */ }
+      restored.current = true;
+    });
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    if (restored.current) void AsyncStorage.setItem(POS_KEY, JSON.stringify({ cat, filter, i }));
+  }, [cat, filter, i]);
   useEffect(() => { if (route.params?.category) { setCat(route.params.category); setFilter("all"); setI(0); setPicked(null); } }, [route.params?.category]);
   const latest = useMemo(() => latestMarks(marks), [marks]);
   const base = useMemo(() => studyQuestions(lb, filter === "legacy" ? "all" : cat, { includeLegacy: filter === "legacy" }), [cat, filter]);

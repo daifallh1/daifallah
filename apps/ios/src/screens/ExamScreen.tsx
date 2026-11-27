@@ -12,6 +12,7 @@ import { QuestionCard } from "../components/QuestionCard";
 import { Bar, Button, Card, P, Pill, Row, Screen } from "../components/Ui";
 import type { RootParams } from "../nav";
 import { confirmAsync } from "../confirm";
+import { useTopInset } from "../appInfo";
 
 export function ExamScreen() {
   const { activeSession, ready } = useStore();
@@ -35,6 +36,7 @@ function Runner({ initial }: { initial: ExamSession }) {
   const { storage, refresh, settings, saveSession } = useStore();
   const nav = useNavigation<NativeStackNavigationProp<RootParams>>();
   const insets = useSafeAreaInsets();
+  const insetTop = useTopInset();
   const p = usePalette();
   const [s, setS] = useState(initial);
   const [now, setNow] = useState(Date.now());
@@ -78,7 +80,7 @@ function Runner({ initial }: { initial: ExamSession }) {
   const leave = () => void confirmAsync("Leave the exam?", "Your answers are saved and the timer keeps running. Resume it from Home.", "Leave", { cancel: "Stay" })
     .then((ok) => { if (ok) nav.popTo("Tabs", { screen: "Home" }); });
   return (
-    <View style={{ flex: 1, backgroundColor: p.bg, paddingTop: insets.top }}>
+    <View style={{ flex: 1, backgroundColor: p.bg, paddingTop: insetTop }}>
       <View style={st.top}>
         <Pressable onPress={leave} accessibilityRole="button" accessibilityLabel="Leave exam" hitSlop={10} testID="exam-leave">
           <Ionicons name="close" size={26} color={p.muted} />

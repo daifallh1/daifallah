@@ -212,6 +212,22 @@ test("backup: export, wipe, import restores exams and saved questions", async ({
   await expect(page.getByTestId("fixed-fixed-1")).toContainText(/Failed · \d+\/43/);
 });
 
+test("study remembers category, filter and question after the app restarts; version is shown", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.getByTestId("home-version")).toHaveText(/Version 1\.1\.0 \(build \d+\)/);
+  await page.getByTestId("tab-study").tap();
+  await page.getByTestId("study-category").tap();
+  await page.getByText("5 · Value stream identification, mapping, and management").tap();
+  await page.getByTestId("study-next").tap();
+  await page.getByTestId("study-next").tap();
+  const stem = await page.getByTestId("stem-en").innerText();
+  await page.reload();
+  await page.getByTestId("tab-study").tap();
+  await expect(page.getByTestId("study-category")).toContainText("5 · Value stream identification");
+  await expect(page.getByTestId("stem-en")).toHaveText(stem);
+  await expect(page.getByText(/^3 of \d+/)).toBeVisible();
+});
+
 test("progress screen with chart and weakest area (light mode)", async ({ page }) => {
   await page.emulateMedia({ colorScheme: "light" });
   await page.goto("/");

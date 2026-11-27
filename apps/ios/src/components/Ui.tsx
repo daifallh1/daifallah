@@ -1,20 +1,20 @@
 import type { ReactNode } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from "react-native";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { useTopInset } from "../appInfo";
 import { usePalette } from "../theme";
 
 /** Screen container. `safeTop` keeps content below the status bar / Dynamic Island on header-less tab screens. */
 export function Screen({ children, scroll = true, testID, safeTop }: { children: ReactNode; scroll?: boolean; testID?: string; safeTop?: boolean }) {
   const p = usePalette();
-  const insets = useSafeAreaInsets();
-  const top = safeTop ? insets.top + 8 : 16;
+  const insetTop = useTopInset();
+  const top = safeTop ? insetTop + 8 : 16;
   // Opaque strip behind the status bar so scrolled content never shows under the clock/battery.
-  const shield = safeTop ? <View pointerEvents="none" style={{ position: "absolute", top: 0, left: 0, right: 0, height: insets.top, backgroundColor: p.bg }} /> : null;
+  const shield = safeTop ? <View pointerEvents="none" style={{ position: "absolute", top: 0, left: 0, right: 0, height: insetTop, backgroundColor: p.bg }} /> : null;
   if (!scroll) return <View style={{ flex: 1, backgroundColor: p.bg, padding: 16, paddingTop: top }} testID={testID}>{children}{shield}</View>;
   return (
     <View style={{ flex: 1, backgroundColor: p.bg }}>
       <ScrollView style={{ backgroundColor: p.bg }} contentContainerStyle={{ padding: 16, paddingTop: top, paddingBottom: 48 }} testID={testID}
-        scrollIndicatorInsets={safeTop ? { top: insets.top } : undefined} keyboardShouldPersistTaps="handled" keyboardDismissMode="on-drag">
+        scrollIndicatorInsets={safeTop ? { top: insetTop } : undefined} keyboardShouldPersistTaps="handled" keyboardDismissMode="on-drag">
         {children}
       </ScrollView>
       {shield}

@@ -5,6 +5,7 @@ import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { fixedExamStatus, mistakeQueue, summarize } from "@itil5/core";
 import { attemptTitle, lb } from "../data";
+import { APP_VERSION } from "../appInfo";
 import { useStore } from "../store";
 import { usePalette } from "../theme";
 import { Ring } from "../components/Charts";
@@ -99,6 +100,7 @@ export function HomeScreen() {
       <Text style={{ color: p.muted, fontSize: 12, marginTop: 14, lineHeight: 17 }}>
         Tap any English sentence to see its Arabic translation. Progress is saved on this iPhone only; use Settings › Export progress to back it up.
       </Text>
+      <Text style={{ color: p.muted, fontSize: 11, marginTop: 8 }} testID="home-version">Version {APP_VERSION}</Text>
     </Screen>
   );
 }
