@@ -4,55 +4,48 @@ import { t } from "../data";
 import { usePalette } from "../theme";
 
 /**
- * English text with tap-to-reveal Arabic (iOS / touch).
- *  - Tap the English text (or the "ع" button) to show Arabic below it; tap again to hide.
- *  - This control never selects an answer; selection is a separate radio control.
- *  - Arabic is rendered right-to-left and respects Dynamic Type (font scaling).
+ * English text with tap-to-translate (owner decision: tap only, no "ع" buttons, no global switch).
+ *  - Tap the English sentence to show its Arabic translation directly below; tap again to hide.
+ *  - This never selects an answer: answers are chosen only with the separate radio control.
+ *  - Arabic is right-to-left and follows Dynamic Type.
  */
-export function TrText({ k, ar, children, style, testID }: {
-  k?: string | null; ar?: string | null; children: string; style?: StyleProp<TextStyle>; testID?: string;
+export function TrText({ k, ar, children, style, testID, tone }: {
+  k?: string | null; ar?: string | null; children: string; style?: StyleProp<TextStyle>; testID?: string; tone?: "ok" | "bad";
 }) {
   const p = usePalette();
   const arabic = ar ?? t.content(k ?? null);
   const [open, setOpen] = useState(false);
-  const toggle = () => setOpen((o) => !o);
+  const edge = tone === "ok" ? p.ok : tone === "bad" ? p.bad : p.accent;
   return (
     <View style={s.wrap} testID={testID}>
-      <View style={s.row}>
-        <Pressable
-          onPress={toggle}
-          style={({ pressed }) => [s.en, { backgroundColor: open || pressed ? p.arBg : "transparent" }]}
-          accessibilityRole="button"
-          accessibilityLabel={children}
-          accessibilityHint={open ? "Hides the Arabic translation" : "Shows the Arabic translation"}
-          accessibilityState={{ expanded: open }}
-        >
-          <Text style={[{ color: p.text, fontSize: 16, lineHeight: 23 }, style]}>{children}</Text>
-        </Pressable>
-        <Pressable
-          onPress={toggle}
-          hitSlop={8}
-          accessibilityRole="button"
-          accessibilityLabel={open ? "Hide Arabic translation" : "Show Arabic translation"}
-          style={[s.btn, { borderColor: open ? p.accent : p.border, backgroundColor: open ? p.accent : p.surface }]}
-        >
-          <Text style={{ color: open ? p.accentText : p.muted, fontSize: 15 }}>ع</Text>
-        </Pressable>
-      </View>
+      <Pressable
+        onPress={() => setOpen((o) => !o)}
+        style={({ pressed }) => [s.en, { backgroundColor: open || pressed ? p.arBg : "transparent" }]}
+        accessibilityRole="button"
+        accessibilityLabel={children}
+        accessibilityHint={open ? "Hides the Arabic translation" : "Shows the Arabic translation"}
+        accessibilityState={{ expanded: open }}
+        testID={testID ? `${testID}-en` : undefined}
+      >
+        <Text style={[{ color: p.text, fontSize: 16, lineHeight: 23, textAlign: "left" }, style]}>{children}</Text>
+      </Pressable>
       {open && (
-        <View style={[s.ar, { backgroundColor: p.arBg, borderRightColor: p.accent }]} accessibilityLanguage="ar" testID={testID ? `${testID}-ar` : "ar-panel"}>
-          <Text style={[s.arText, { color: p.text }]} accessibilityLanguage="ar">{arabic ?? "الترجمة غير متوفرة · Translation not available"}</Text>
+        <View style={[s.ar, { backgroundColor: p.arBg, borderRightColor: edge }]} accessibilityLanguage="ar" testID={testID ? `${testID}-ar` : "ar-panel"}>
+          <Text style={[s.arText, { color: p.text }]} accessibilityLanguage="ar">{arabic ? isolateLatin(arabic) : "الترجمة غير متوفرة · Translation not available"}</Text>
         </View>
       )}
     </View>
   );
 }
 
+/** Keep English terms inside Arabic text in reading order, e.g. «تدفقات القيمة (Value streams)». */
+export function isolateLatin(ar: string): string {
+  return ar.replace(/[A-Za-z][A-Za-z0-9’'&/-]*(?:[ .,:+]{1,2}[A-Za-z0-9][A-Za-z0-9’'&/-]*)*/g, (m) => `\u2066${m}\u2069`);
+}
+
 const s = StyleSheet.create({
   wrap: { flexShrink: 1, flexGrow: 1 },
-  row: { flexDirection: "row", alignItems: "flex-start", gap: 6 },
-  en: { flex: 1, borderRadius: 6, paddingVertical: 2, paddingHorizontal: 2 },
-  btn: { width: 32, height: 32, borderRadius: 16, borderWidth: 1, alignItems: "center", justifyContent: "center" },
-  ar: { marginTop: 6, padding: 10, borderRadius: 8, borderRightWidth: 3 },
+  en: { borderRadius: 6, paddingVertical: 2, paddingHorizontal: 3, marginHorizontal: -3 },
+  ar: { marginTop: 6, paddingVertical: 8, paddingHorizontal: 10, borderRadius: 8, borderRightWidth: 3 },
   arText: { fontSize: 17, lineHeight: 28, writingDirection: "rtl", textAlign: "right" },
 });

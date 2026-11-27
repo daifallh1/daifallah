@@ -2,7 +2,7 @@
   "expo": {
     "name": "ITIL v5 Practice",
     "slug": "itil5-foundation-practice",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -12,14 +12,14 @@
       "web"
     ],
     "splash": {
-      "backgroundColor": "#1f5fbf",
+      "backgroundColor": "#1d47b8",
       "image": "./assets/icon.png",
       "resizeMode": "contain"
     },
     "ios": {
       "bundleIdentifier": "com.daifallah.itil5foundation",
       "supportsTablet": true,
-      "buildNumber": "1",
+      "buildNumber": "2",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "CFBundleDevelopmentRegion": "en",

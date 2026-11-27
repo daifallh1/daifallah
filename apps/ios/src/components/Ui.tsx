@@ -1,49 +1,134 @@
 import type { ReactNode } from "react";
-import { Pressable, StyleSheet, Text, View, type StyleProp, type ViewStyle } from "react-native";
+import { Pressable, ScrollView, StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from "react-native";
 import { usePalette } from "../theme";
 
-export function Button({ title, onPress, kind = "default", disabled, accessibilityHint, style }: {
-  title: string; onPress: () => void; kind?: "default" | "primary" | "danger" | "flag"; disabled?: boolean; accessibilityHint?: string; style?: StyleProp<ViewStyle>;
+export function Screen({ children, scroll = true, testID }: { children: ReactNode; scroll?: boolean; testID?: string }) {
+  const p = usePalette();
+  if (!scroll) return <View style={{ flex: 1, backgroundColor: p.bg, padding: 16 }} testID={testID}>{children}</View>;
+  return (
+    <ScrollView style={{ backgroundColor: p.bg }} contentContainerStyle={{ padding: 16, paddingBottom: 48 }} testID={testID}>
+      {children}
+    </ScrollView>
+  );
+}
+
+export function Button({ title, subtitle, onPress, kind = "default", disabled, accessibilityHint, style, testID }: {
+  title: string; subtitle?: string; onPress: () => void; kind?: "default" | "primary" | "danger" | "flag" | "ghost";
+  disabled?: boolean; accessibilityHint?: string; style?: StyleProp<ViewStyle>; testID?: string;
 }) {
   const p = usePalette();
-  const bg = kind === "primary" ? p.accent : kind === "danger" ? p.bad : p.surface;
-  const fg = kind === "primary" ? p.accentText : kind === "danger" ? "#fff" : kind === "flag" ? p.flag : p.text;
+  const bg = kind === "primary" ? p.accent : kind === "danger" ? p.bad : kind === "ghost" ? "transparent" : p.surface;
+  const fg = kind === "primary" || kind === "danger" ? "#fff" : kind === "flag" ? p.flag : p.text;
+  const border = kind === "flag" ? p.flag : kind === "primary" || kind === "danger" ? bg : p.border;
   return (
     <Pressable
-      accessibilityRole="button"
-      accessibilityState={{ disabled }}
-      accessibilityHint={accessibilityHint}
-      disabled={disabled}
-      onPress={onPress}
-      style={({ pressed }) => [s.btn, { backgroundColor: bg, borderColor: kind === "flag" ? p.flag : kind === "default" ? p.border : bg, opacity: disabled ? 0.45 : pressed ? 0.8 : 1 }, style]}
+      accessibilityRole="button" accessibilityState={{ disabled }} accessibilityHint={accessibilityHint}
+      disabled={disabled} onPress={onPress} testID={testID}
+      style={({ pressed }) => [s.btn, { backgroundColor: bg, borderColor: border, opacity: disabled ? 0.45 : pressed ? 0.8 : 1 }, style]}
     >
       <Text style={[s.btnText, { color: fg }]}>{title}</Text>
+      {subtitle ? <Text style={[s.btnSub, { color: fg }]}>{subtitle}</Text> : null}
     </Pressable>
   );
 }
 
-export function Card({ children, style }: { children: ReactNode; style?: StyleProp<ViewStyle> }) {
+export function Card({ children, style, onPress, testID, accessibilityLabel }: {
+  children: ReactNode; style?: StyleProp<ViewStyle>; onPress?: () => void; testID?: string; accessibilityLabel?: string;
+}) {
   const p = usePalette();
-  return <View style={[s.card, { backgroundColor: p.surface, borderColor: p.border }, style]}>{children}</View>;
+  const base = [s.card, { backgroundColor: p.surface, borderColor: p.border }, style];
+  if (!onPress) return <View style={base} testID={testID}>{children}</View>;
+  return (
+    <Pressable onPress={onPress} accessibilityRole="button" accessibilityLabel={accessibilityLabel} testID={testID}
+      style={({ pressed }) => [...base, { opacity: pressed ? 0.85 : 1 }]}>
+      {children}
+    </Pressable>
+  );
 }
 
 export function H1({ children }: { children: ReactNode }) {
   const p = usePalette();
   return <Text accessibilityRole="header" style={[s.h1, { color: p.text }]}>{children}</Text>;
 }
-export function H2({ children }: { children: ReactNode }) {
+export function Section({ children }: { children: ReactNode }) {
   const p = usePalette();
-  return <Text accessibilityRole="header" style={[s.h2, { color: p.text }]}>{children}</Text>;
+  return <Text accessibilityRole="header" style={[s.section, { color: p.muted }]}>{children}</Text>;
 }
-export function P({ children, muted, small }: { children: ReactNode; muted?: boolean; small?: boolean }) {
+export function P({ children, muted, small, style }: { children: ReactNode; muted?: boolean; small?: boolean; style?: StyleProp<TextStyle> }) {
   const p = usePalette();
-  return <Text style={{ color: muted ? p.muted : p.text, fontSize: small ? 13 : 16, lineHeight: small ? 18 : 23, marginVertical: 4 }}>{children}</Text>;
+  return <Text style={[{ color: muted ? p.muted : p.text, fontSize: small ? 13 : 16, lineHeight: small ? 18 : 23 }, style]}>{children}</Text>;
+}
+export function Row({ children, style }: { children: ReactNode; style?: StyleProp<ViewStyle> }) {
+  return <View style={[{ flexDirection: "row", alignItems: "center", gap: 10 }, style]}>{children}</View>;
+}
+
+export function Bar({ value, color, height = 8 }: { value: number; color: string; height?: number }) {
+  const p = usePalette();
+  const pct = Math.max(0, Math.min(1, value));
+  return (
+    <View style={{ height, backgroundColor: p.track, borderRadius: height, overflow: "hidden" }} accessibilityRole="progressbar" accessibilityValue={{ min: 0, max: 100, now: Math.round(pct * 100) }}>
+      <View style={{ width: `${pct * 100}%`, height: "100%", backgroundColor: color, borderRadius: height }} />
+    </View>
+  );
+}
+
+export function Pill({ text, color, bg, style }: { text: string; color: string; bg: string; style?: StyleProp<ViewStyle> }) {
+  return (
+    <View style={[s.pill, { backgroundColor: bg }, style]}>
+      <Text style={{ color, fontSize: 12.5, fontWeight: "700" }}>{text}</Text>
+    </View>
+  );
+}
+
+export function Chips<T extends string | number>({ items, value, onChange }: {
+  items: { key: T; label: string }[]; value: T; onChange: (k: T) => void;
+}) {
+  const p = usePalette();
+  return (
+    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 7, paddingVertical: 2 }}>
+      {items.map((it) => {
+        const on = it.key === value;
+        return (
+          <Pressable key={String(it.key)} onPress={() => onChange(it.key)} accessibilityRole="button" accessibilityState={{ selected: on }}
+            style={[s.chip, { borderColor: on ? p.accent : p.border, backgroundColor: on ? p.accent : "transparent" }]}>
+            <Text style={{ color: on ? p.accentText : p.muted, fontWeight: "600", fontSize: 13 }}>{it.label}</Text>
+          </Pressable>
+        );
+      })}
+    </ScrollView>
+  );
+}
+
+export function ListRow({ title, subtitle, right, onPress, icon, testID }: {
+  title: string; subtitle?: string; right?: string; onPress?: () => void; icon?: ReactNode; testID?: string;
+}) {
+  const p = usePalette();
+  return (
+    <Pressable onPress={onPress} disabled={!onPress} accessibilityRole={onPress ? "button" : undefined} testID={testID}
+      style={({ pressed }) => [s.listRow, { opacity: pressed ? 0.75 : 1 }]}>
+      {icon}
+      <View style={{ flex: 1 }}>
+        <Text style={{ color: p.text, fontSize: 16, fontWeight: "600" }}>{title}</Text>
+        {subtitle ? <Text style={{ color: p.muted, fontSize: 12.5, marginTop: 2 }}>{subtitle}</Text> : null}
+      </View>
+      {right ? <Text style={{ color: p.muted, fontSize: 14 }}>{right}</Text> : null}
+      {onPress ? <Text style={{ color: p.muted, fontSize: 18 }}>›</Text> : null}
+    </Pressable>
+  );
+}
+export function Divider() {
+  const p = usePalette();
+  return <View style={{ height: StyleSheet.hairlineWidth, backgroundColor: p.border }} />;
 }
 
 const s = StyleSheet.create({
-  btn: { minHeight: 44, paddingHorizontal: 14, paddingVertical: 10, borderRadius: 10, borderWidth: 1, alignItems: "center", justifyContent: "center" },
-  btnText: { fontSize: 16, fontWeight: "600", textAlign: "center" },
-  card: { borderWidth: 1, borderRadius: 12, padding: 14, marginVertical: 6 },
-  h1: { fontSize: 24, fontWeight: "700", marginVertical: 8 },
-  h2: { fontSize: 18, fontWeight: "700", marginTop: 16, marginBottom: 6 },
+  btn: { minHeight: 46, paddingHorizontal: 14, paddingVertical: 11, borderRadius: 14, borderWidth: 1, alignItems: "center", justifyContent: "center" },
+  btnText: { fontSize: 16, fontWeight: "700", textAlign: "center" },
+  btnSub: { fontSize: 12.5, fontWeight: "500", opacity: 0.88, marginTop: 2, textAlign: "center" },
+  card: { borderWidth: 1, borderRadius: 16, padding: 14, marginVertical: 6 },
+  h1: { fontSize: 28, fontWeight: "800", letterSpacing: -0.4, marginTop: 4, marginBottom: 6 },
+  section: { fontSize: 13, fontWeight: "700", letterSpacing: 0.6, textTransform: "uppercase", marginTop: 18, marginBottom: 6, marginHorizontal: 2 },
+  pill: { borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4, alignSelf: "flex-start" },
+  chip: { borderWidth: 1, borderRadius: 999, paddingHorizontal: 12, paddingVertical: 7 },
+  listRow: { flexDirection: "row", alignItems: "center", gap: 12, paddingVertical: 13, paddingHorizontal: 14 },
 });

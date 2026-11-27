@@ -1,5 +1,26 @@
 # Handoff report — ITIL Foundation (Version 5) Exam Simulator
 
+## Update 2026-11-27: iOS app 1.1.0 (build 2) — owner request list
+
+The **website is unchanged**: it now imports a frozen copy of its content (`packages/content/web-frozen/`, bank `1.0.0+32721183c4e52e10`, the same bank as the live deployment), and it was not redeployed. Everything below applies to the iOS app.
+
+| Item | Result |
+|---|---|
+| Identical duplicates | Hidden (status `duplicate`, `audit.duplicateOf`): 48 in the source plus 3 that became identical after correction (#143, #164, #190) = 51 |
+| Book corrections | 14, in `packages/content/data/corrections.json`. Each is labelled «معدّل», cites the Official Book section and keeps the original text in `question.correction.original`. Covers 105/164 → A (5.2.2), 190, 194, 195, the ITIL 4 → v5 term renames (58, 120, 143, 206, 207, dump #12), 93/153 → Value streams and processes (2.3.2), 298 → C (7.3.2) and dump #25 → Support (4.9.1). 150 was confirmed and approved. **211 stays quarantined** |
+| ITIL 4 legacy | 13 questions, study only (labelled "ITIL 4 قديم"), never in exams |
+| Second source | 34 new questions from `ITIL5_Exam_Dump_Questions_26-10_1.pdf` (SHA-256 `92e44064…a324`), extracted by `tools/extract/extract_dump.py`, with the answer key taken from the green text. The PDF itself is not committed |
+| Explanations | 45 AI-written explanations, each citing a book section (`data/supplementary-explanations.json`), shown as "AI-written from the Official Book §…". Every approved question now has an explanation |
+| Arabic | All 1,506 strings are translated. The terminology follows the instructor's notes (`translations/terminology.ar.json`, 130 replacements, e.g. تدفق القيمة, المنظمة والأشخاص, الاستكشاف, التسليم) |
+| Bank | `1.1.0+…`: 336 occurrences (302 PDF + 34 dump), **271 approved and exam-eligible, 256 distinct** |
+| Six fixed exams | 4 × 43 + 2 × 42 = 256. They cover every distinct question once with no overlap; category counts differ by at most one between exams. Each is 60 min, pass mark 28 (65%) |
+| Random exam | 40 questions, 60 min, official blueprint (unchanged) |
+| Mistakes exam | All current mistakes in one exam, 90 s per question, pass 65% rounded up. A question leaves the list after 2 correct answers in a row; questions marked "mastered" are excluded; blank answers do not count as mistakes |
+| UI | Dashboard home, tap-only translation (no «ع» buttons), red/green review with filters, progress chart and category bars with "Practise weakest", study search/filters/bookmarks, Settings with export/import backup (Files/iCloud) and timer warnings, new icon, dark-mode title bug fixed |
+| Tests | core **409/409** (adds fidelity checks for corrections and dump questions, fixed exams, mistakes rules, backup); RN app UI on react-native-web **4/4**; website e2e **17/17** against the frozen content |
+
+---
+
 Date: 2026-11-22. Everything below was run in a Linux cloud container (Node 22.23.5, Python 3, poppler 24.02, pdfplumber 0.11.10, Playwright 1.49.1 with Chromium).
 
 ## 1. Phase 1: PDF import audit (verified)
