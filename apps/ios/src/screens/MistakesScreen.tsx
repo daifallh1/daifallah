@@ -25,7 +25,7 @@ export function MistakesScreen() {
   const go = async () => { if (await startExam({ kind: "mistakes" })) nav.navigate("Exam"); };
   const total = n + q.mastered.length || 1;
   return (
-    <Screen testID="mistakes">
+    <Screen testID="mistakes" safeTop>
       <Text accessibilityRole="header" style={{ color: p.text, fontSize: 28, fontWeight: "800" }}>My mistakes</Text>
       <Card>
         <Row style={{ justifyContent: "space-around" }}>

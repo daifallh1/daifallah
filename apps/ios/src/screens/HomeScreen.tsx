@@ -26,7 +26,7 @@ export function HomeScreen() {
   const latest = sum.latest;
 
   return (
-    <Screen testID="home">
+    <Screen testID="home" safeTop>
       <Row style={{ justifyContent: "space-between", alignItems: "flex-start" }}>
         <View style={{ flex: 1 }}>
           <Text style={{ color: p.muted, fontSize: 14 }}>Welcome back</Text>

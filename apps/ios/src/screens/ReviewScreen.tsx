@@ -21,7 +21,7 @@ export function ReviewScreen() {
   useEffect(() => { if (route.params?.attemptId) { setSel(route.params.attemptId); setFilter(null); } }, [route.params?.attemptId]);
   const latest = useMemo(() => latestMarks(marks), [marks]);
   const a = attempts.find((x) => x.attemptId === sel) ?? attempts[0];
-  if (!a) return <Screen><Text style={{ color: p.text, fontSize: 22, fontWeight: "800" }}>Review</Text><View style={{ height: 8 }} /><P muted>No completed exams yet. Finish an exam to review your answers here.</P></Screen>;
+  if (!a) return <Screen safeTop><Text style={{ color: p.text, fontSize: 22, fontWeight: "800" }}>Review</Text><View style={{ height: 8 }} /><P muted>No completed exams yet. Finish an exam to review your answers here.</P></Screen>;
   const wrongItems = a.items.filter((i) => !i.correct && i.selected);
   const blank = a.items.filter((i) => !i.selected);
   const flagged = a.items.filter((i) => i.flagged);
@@ -30,7 +30,7 @@ export function ReviewScreen() {
   const list: AttemptItem[] = f === "wrong" ? wrongItems : f === "unanswered" ? blank : f === "flagged" ? flagged : a.items;
   const mark = async (questionId: string, m: StudyMark) => { await storage.addMark({ questionId, mark: m, at: Date.now() }); await refresh(); };
   return (
-    <Screen testID="review">
+    <Screen testID="review" safeTop>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 7, marginBottom: 10 }}>
         {attempts.slice(0, 15).map((x) => {
           const on = x.attemptId === a.attemptId;

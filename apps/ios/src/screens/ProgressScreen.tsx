@@ -28,7 +28,7 @@ export function ProgressScreen() {
     </Card>
   );
   return (
-    <Screen testID="progress">
+    <Screen testID="progress" safeTop>
       <Text accessibilityRole="header" style={{ color: p.text, fontSize: 28, fontWeight: "800" }}>Progress</Text>
       <Row style={{ gap: 8, marginTop: 10 }}>
         {tile(String(s.examAttempts), "Exams")}

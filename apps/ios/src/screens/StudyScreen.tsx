@@ -48,7 +48,7 @@ export function StudyScreen() {
   const choose = (l: OptionLabel) => { setSel(l); if (q && !latest.has(q.questionId) && !q.audit.legacy) void mark(q.questionId, "studied"); };
   const count = (c: number | "all") => studyQuestions(lb, c).length;
   return (
-    <Screen testID="study">
+    <Screen testID="study" safeTop>
       <Text accessibilityRole="header" style={{ color: p.text, fontSize: 28, fontWeight: "800" }}>Study</Text>
       <TextInput value={query} onChangeText={(v) => { setQuery(v); setI(0); setSel(null); }} placeholder="🔍  Search questions…" placeholderTextColor={p.muted}
         style={{ marginTop: 10, borderWidth: 1, borderColor: p.border, backgroundColor: p.surface, color: p.text, borderRadius: 14, paddingHorizontal: 12, paddingVertical: 11, fontSize: 16 }}
