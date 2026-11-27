@@ -65,6 +65,9 @@ appId: com.daifallah.itil5foundation
     id: "tab-home"
 - tapOn:
     id: "open-settings"
-- assertVisible: "Export progress"
-- assertVisible: "Import progress"
+# Rows are single accessibility elements ("title, subtitle"), so match them by id
+- assertVisible:
+    id: "export-progress"
+- assertVisible:
+    id: "import-progress"
 - takeScreenshot: 09-settings

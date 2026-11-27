@@ -1,5 +1,23 @@
 # iOS release: unsigned IPA for third-party re-signing
 
+## Current build: 1.1.0 (build 3), 2026-11-27
+
+| Item | Value |
+|---|---|
+| File | `ITILv5Practice-1.1.0-3-unsigned.ipa` (8,829,392 bytes) |
+| **SHA-256** | **`e5d45b4ed6c7ff4d7b3e6bf7df20d4e492a11a6af45ff3a305d7295494c39dd9`** |
+| Built by | GitHub Actions run #8 (`45920481923`), macOS 15, Xcode 16.4 (16F6) |
+| Source commit | `7f03474b1df382c5b05f455c71ff076f725688c4` |
+| Bank | `1.1.0+216726579ec3324b` (271 approved questions, 256 distinct, six fixed exams) |
+| Verification | `build-ipa.sh` **20/20 PASS** (adds checks for the fixed exams, the 34 dump questions, the mistakes exam/backup UI and #211 staying quarantined) |
+| Independent check | Info.plist `com.daifallah.itil5foundation` 1.1.0 (3), minimum iOS 15.1, unsigned. **271/271** approved questions have their stem, 4 options, an explanation (source or AI-written) and complete Arabic in `main.jsbundle` |
+| Simulator | Release build launched on an iPhone 17 Pro Simulator and stayed running. Maestro passed every step up to Settings (fixed exam, tap-to-translate without selecting, select, flag, navigator, submit, review, mistakes, study, open Settings). The final assertion matched the text "Export progress" literally while iOS exposes the row as "Export progress, Save a backup…"; the flow now matches by id |
+
+Build 2 (`988321fc…e922`) was superseded: on notched iPhones the tab screens' headers sat under the status bar, so the Settings gear could not be tapped. Build 3 pads those screens by the safe-area inset.
+
+Install the new IPA over the old app (same bundle identifier) to keep your saved progress. Use Settings › Export progress first for a backup file.
+
+
 The iPhone app (`apps/ios`, Expo SDK 52 / React Native 0.76.9, Hermes, New Architecture) is built as a **real native iOS application**: an Xcode Release archive for arm64 devices with the JavaScript bundle embedded. It is packaged as an **unsigned `.ipa`**. Your signing service applies its own certificate and provisioning profile when it re-signs the file. No Apple certificate, private key or provisioning profile is used, stored or requested by this project.
 
 | Property | Value |
