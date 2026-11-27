@@ -1,19 +1,23 @@
 # iOS release: unsigned IPA for third-party re-signing
 
-## Current build: 1.1.0 (build 3), 2026-11-27
+## Current build: 1.1.0 (build 5), 2026-11-27
 
 | Item | Value |
 |---|---|
-| File | `ITILv5Practice-1.1.0-3-unsigned.ipa` (8,829,392 bytes) |
-| **SHA-256** | **`e5d45b4ed6c7ff4d7b3e6bf7df20d4e492a11a6af45ff3a305d7295494c39dd9`** |
-| Built by | GitHub Actions run #8 (`45920481923`), macOS 15, Xcode 16.4 (16F6) |
-| Source commit | `7f03474b1df382c5b05f455c71ff076f725688c4` |
+| File | `ITILv5Practice-1.1.0-5-unsigned.ipa` (8,830,483 bytes) |
+| **SHA-256** | **`94a370c4a8ed125984741564cb61dbcba7ee245ab14b75065021481041f0e4e1`** |
+| Built by | GitHub Actions run #11 (`45925755185`), macOS 15, Xcode 16.4 (16F6) |
+| Source commit | `4c46516800c1266d5976f7f7877953b861738c4d` |
 | Bank | `1.1.0+216726579ec3324b` (271 approved questions, 256 distinct, six fixed exams) |
-| Verification | `build-ipa.sh` **20/20 PASS** (adds checks for the fixed exams, the 34 dump questions, the mistakes exam/backup UI and #211 staying quarantined) |
-| Independent check | Info.plist `com.daifallah.itil5foundation` 1.1.0 (3), minimum iOS 15.1, unsigned. **271/271** approved questions have their stem, 4 options, an explanation (source or AI-written) and complete Arabic in `main.jsbundle` |
-| Simulator | Release build launched on an iPhone 17 Pro Simulator and stayed running. Maestro passed every step up to Settings (fixed exam, tap-to-translate without selecting, select, flag, navigator, submit, review, mistakes, study, open Settings). The final assertion matched the text "Export progress" literally while iOS exposes the row as "Export progress, Save a backup…"; the flow now matches by id |
+| Verification | `build-ipa.sh` **20/20 PASS** |
+| Independent check | Info.plist `com.daifallah.itil5foundation` 1.1.0 (5), minimum iOS 15.1, unsigned. **271/271** approved questions have their stem, 4 options, an explanation and complete Arabic in `main.jsbundle`; the build-5 fixes are present in the bundle |
+| Simulator (run #11) | Release build launched on an iPhone 17 Pro Simulator and stayed running. Maestro passed the exam, tap-to-translate, review, mistakes, study and Settings steps, and the native leave → Home step showed "Exam 2 · 1/43 answered" (answer kept). The next assertion looked for that text, but the card is one accessibility element labelled "Resume the exam in progress"; the flow now matches the card by id |
 
-Build 2 (`988321fc…e922`) was superseded: on notched iPhones the tab screens' headers sat under the status bar, so the Settings gear could not be tapped. Build 3 pads those screens by the safe-area inset.
+History of this release:
+- Build 2 (`988321fc…e922`): tab headers sat under the status bar on notched iPhones, so the Settings gear could not be tapped.
+- Build 3 (`e5d45b4e…9dd9`): fixed that.
+- Build 4: Study "Not studied" fix and status-bar strip; superseded before delivery.
+- Build 5: also fixes resume losing answers (found by a full QA pass), the "all mistakes fixed" message, level statistics without mistakes exams, the in-progress card bar and keyboard taps in Study.
 
 Install the new IPA over the old app (same bundle identifier) to keep your saved progress. Use Settings › Export progress first for a backup file.
 

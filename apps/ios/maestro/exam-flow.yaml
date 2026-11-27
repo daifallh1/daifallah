@@ -81,10 +81,12 @@ appId: com.daifallah.itil5foundation
 - tapOn:
     id: "exam-leave"
 - tapOn: "Leave"
+# The card is one accessibility element ("Resume the exam in progress"), so match it by id;
+# the answer count is checked inside the resumed exam.
 - assertVisible:
     id: "resume-card"
-- assertVisible: ".*Exam 2 · 1/43 answered.*"
+- takeScreenshot: 10-home-resume-card
 - tapOn:
     id: "resume-card"
 - assertVisible: ".*1 answered · 0 flagged.*"
-- takeScreenshot: 10-resumed
+- takeScreenshot: 11-resumed
